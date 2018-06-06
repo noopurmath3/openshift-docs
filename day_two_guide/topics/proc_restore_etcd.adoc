@@ -60,7 +60,7 @@ In an all-in-one cluster, the etcd data directory is located in the
 `/var/lib/origin/openshift.local.etcd` directory.
 ====
 
-. Restore a healthy backup data file to each of the etcd nodes. Perform this step on all etcd hosts, including master hosts collocated with
+. Restore a healthy backup data file to each of the etcd nodes. Perform this step on all etcd hosts, including master hosts co-located with
 etcd.
 +
 ----

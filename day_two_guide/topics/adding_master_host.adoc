@@ -1,6 +1,6 @@
 === Adding Masters to *{rhocp}* Environment
 The *{rhocp}* environment can be scaled up horizontally. Masters can be scaled as well regardless if
-`etcd` is collocated on the instances or not. The addition of master instances helps to elevate the load among the OpenShift masters.
+`etcd` is co-located on the instances or not. The addition of master instances helps to elevate the load among the OpenShift masters.
 
 NOTE: The current procedures for scaling up masters doesn't scale the etcd
 database if the masters contains etcd in the current environment. For a manual

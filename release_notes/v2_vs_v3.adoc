@@ -133,7 +133,7 @@ to stay healthy over time.
 
 *Collection*
 
-Whereas cartridges in OpenShift v2 were colocated within gears,
+Whereas cartridges in OpenShift v2 were co-located within gears,
 xref:../architecture/core_concepts/containers_and_images.adoc#docker-images[images]
 in OpenShift v3 are mapped 1:1 with
 xref:../architecture/core_concepts/containers_and_images.adoc#containers[containers],

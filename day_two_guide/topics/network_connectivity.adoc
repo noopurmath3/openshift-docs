@@ -23,7 +23,7 @@ in this section.
 
 Master services keep their state synchronized using the etcd key-value store.
 Communication between master and etcd services is important, whether those
-etcd services are collocated on master hosts, or running on hosts designated
+etcd services are co-located on master hosts, or running on hosts designated
 only for the etcd service. This communication happens on TCP ports `2379` and
 `2380`. See the
 xref:../day_two_guide/environment_health_checks.adoc#day-two-guide-host-health[Host

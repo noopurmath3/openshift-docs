@@ -211,7 +211,7 @@ $ ansible-playbook [-i /path/to/file] \
 xref:../install_config/install/advanced_install.adoc#advanced-verifying-the-installation[verify the installation].
 
 [[replacing-existing-masters]]
-== Replacing Existing Masters with etcd Colocated
+== Replacing Existing Masters with etcd co-located
 
 Follow these steps when you are migrating your machines to a different data
 center and the network and IPs assigned to it will change.
@@ -229,7 +229,7 @@ and Restore] topic.
 . Provision as many new machines as there are masters to replace.
 
 . Add or expand the cluster. for example, if you want to add 3 masters with etcd
-colocated, scale up 3 master nodes or 3 etcd nodes.
+co-located, scale up 3 master nodes or 3 etcd nodes.
 
 .. Add a xref:adding-nodes-advanced[master]. In step 3 of that process, add the
 host of the new data center in `[new_masters]` and `[new_nodes]` and run the

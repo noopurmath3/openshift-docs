@@ -147,7 +147,7 @@ xref:../../architecture/infrastructure_components/kubernetes_infrastructure.adoc
 |*node2.example.com*
 |===
 
-[[multi-masters-using-native-ha-colocated]]
+[[multi-masters-using-native-ha-co-located]]
 === Multiple Masters Using Native HA with Co-located Clustered etcd
 
 The following describes an example environment for three

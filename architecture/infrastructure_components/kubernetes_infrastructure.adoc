@@ -123,7 +123,7 @@ following availability:
 |Active-active
 |Fully redundant deployment with load balancing.
 ifdef::openshift-origin,openshift-enterprise[]
-Can be installed on separate hosts or collocated on master hosts.
+Can be installed on separate hosts or co-located on master hosts.
 endif::[]
 
 |API Server
