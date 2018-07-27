@@ -288,6 +288,8 @@ Topics:
   File: index
 - Name: In-place Upgrades
   File: automated_upgrades
+- Name: Upgrading in a disconnected environment
+  File: upgrading_disconnected
 - Name: Blue-Green Deployments
   File: blue_green_deployments
 - Name: Updating Operating Systems
