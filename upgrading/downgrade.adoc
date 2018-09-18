@@ -37,12 +37,19 @@ to downgrade.
 /etc/origin/master/scheduler.json
 /var/lib/etcd/openshift-backup-xxxx
 ----
-+
-You save these files during the 
-xref:../upgrading/index.adoc#install-config-upgrading-index[upgrade process]. 
++ The Ansible playbook that you run during the
+xref:../upgrading/index.adoc#install-config-upgrading-index[upgrade process]
+creates these files. 
 
 . Locate the copies of the following files that you created when you
 xref:automated_upgrades.adoc#preparing-for-an-automated-upgrade[prepared for an upgrade].
++
+On master hosts:
++
+----
+/etc/sysconfig/atomic-openshift-master-api
+/etc/sysconfig/atomic-openshift-master-controllers
+----
 +
 On node and master hosts:
 +
@@ -50,7 +57,7 @@ On node and master hosts:
 /etc/origin/node/node-config.yaml
 ----
 +
-On etcd hosts, including masters that have etcd co-located on them:
+On etcd hosts, including masters that have etcd co-located on them,:
 +
 ----
 /etc/etcd/etcd.conf
@@ -68,16 +75,14 @@ On etcd hosts, including masters that have etcd co-located on them:
 [[downgrade-removing-rpms]]
 == Removing RPMs and static pods
 
+The **-excluder* packages add entries to the exclude directive in the host’s
+*_/etc/yum.conf_* file when installed.
+
 . On all masters, nodes, and etcd members (if using a dedicated etcd cluster),
 remove the following packages:
 +
 ----
-# yum remove atomic-openshift \
-   atomic-openshift-excluder \
-   atomic-openshift-hyperkube \
-   atomic-openshift-node \
-   atomic-openshift-docker-excluder \
-   atomic-openshift-clients 
+# yum remove atomic-openshift-node \
 ----
 
 . Verify the packages were removed successfully:
