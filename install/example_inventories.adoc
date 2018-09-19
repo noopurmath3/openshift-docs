@@ -42,8 +42,7 @@ for details.
 [[single-master]]
 == Single Master Examples
 
-You can configure an environment with a single master and multiple nodes, and
-either a single or multiple number of external etcd hosts.
+You can configure an environment with a single master and multiple nodes.
 
 [NOTE]
 ====
@@ -52,11 +51,10 @@ not supported.
 ====
 
 [[single-master-multi-node-ai]]
-=== Single Master, Single etcd, and Multiple Nodes
+=== Single Master and Multiple Nodes
 
 The following table describes an example environment for a single
-xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#master[master]
-(with a single etcd on the same host), two
+xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#master[master], two
 xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#node[nodes]
 for hosting user applications, and two nodes with the `node-role.kubernetes.io/infra=true` label for hosting
 xref:configuring-dedicated-infrastructure-nodes[dedicated infrastructure]:
@@ -67,7 +65,7 @@ xref:configuring-dedicated-infrastructure-nodes[dedicated infrastructure]:
 |Host Name |Component/Role(s) to Install
 
 |*master.example.com*
-|Master, etcd, and node
+|Master and node
 
 |*node1.example.com*
 .2+.^|Compute node
@@ -80,12 +78,12 @@ xref:configuring-dedicated-infrastructure-nodes[dedicated infrastructure]:
 |*infra-node2.example.com*
 |===
 
-You can see these example hosts present in the *[masters]*, *[etcd]*, and
+You can see these example hosts present in the *[masters]* and
 *[nodes]* sections of the following example inventory file:
 
-.Single Master, Single etcd, and Multiple Nodes Inventory File
+.Single Master and Multiple Nodes Inventory File
 ----
-# Create an OSEv3 group that contains the masters, nodes, and etcd groups
+# Create an OSEv3 group that contains the masters and nodes
 [OSEv3:children]
 masters
 nodes
@@ -120,10 +118,6 @@ endif::[]
 [masters]
 master.example.com
 
-# host group for etcd
-[etcd]
-master.example.com
-
 # host group for nodes, includes region info
 [nodes]
 master.example.com openshift_node_group_name='node-config-master'
@@ -145,103 +139,10 @@ considerations beginning in {product-title} 3.9.
 To use this example, modify the file to match your environment and
 specifications, and save it as *_/etc/ansible/hosts_*.
 
-[[single-master-multi-etcd-multi-node-ai]]
-=== Single Master, Multiple etcd, and Multiple Nodes
-
-The following table describes an example environment for a single
-xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#master[master],
-three
-xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#master[etcd]
-hosts, two
-xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#node[nodes]
-for hosting user applications, and two nodes with the `node-role.kubernetes.io/infra=true` label for hosting
-xref:configuring-dedicated-infrastructure-nodes[dedicated infrastructure]:
-
-[options="header"]
-|===
-
-|Host Name |Component/Role(s) to Install
-
-|*master.example.com*
-|Master and node
-
-|*etcd1.example.com*
-.3+.^|etcd
-
-|*etcd2.example.com*
-
-|*etcd3.example.com*
-
-|*node1.example.com*
-.2+.^|Compute node
-
-|*node2.example.com*
-
-|*infra-node1.example.com*
-.2+.^|Dedicated infrastructure node
-
-|*infra-node2.example.com*
-|===
-
-You can see these example hosts present in the *[masters]*, *[nodes]*, and
-*[etcd]* sections of the following example inventory file:
-
-.Single Master, Multiple etcd, and Multiple Nodes Inventory File
-----
-# Create an OSEv3 group that contains the masters, nodes, and etcd groups
-[OSEv3:children]
-masters
-nodes
-etcd
-
-# Set variables common for all OSEv3 hosts
-[OSEv3:vars]
-ansible_ssh_user=root
-ifdef::openshift-enterprise[]
-openshift_deployment_type=openshift-enterprise
-oreg_url=example.com/openshift3/ose-${component}:${version}
-openshift_examples_modify_imagestreams=true
-endif::[]
-ifdef::openshift-origin[]
-openshift_deployment_type=origin
-endif::[]
-
-ifdef::openshift-origin[]
-# uncomment the following to enable htpasswd authentication; defaults to AllowAllPasswordIdentityProvider
-endif::[]
-ifdef::openshift-enterprise[]
-# uncomment the following to enable htpasswd authentication; defaults to DenyAllPasswordIdentityProvider
-endif::[]
-#openshift_master_identity_providers=[{'name': 'htpasswd_auth', 'login': 'true', 'challenge': 'true', 'kind': 'HTPasswdPasswordIdentityProvider'}]
-
-# host group for masters
-[masters]
-master.example.com
-
-# host group for etcd
-[etcd]
-etcd1.example.com
-etcd2.example.com
-etcd3.example.com
-
-# host group for nodes, includes region info
-[nodes]
-master.example.com openshift_node_group_name='node-config-master'
-node1.example.com openshift_node_group_name='node-config-compute'
-node1.example.com openshift_node_group_name='node-config-compute'
-infra-node1.example.com openshift_node_group_name='node-config-infra'
-infra-node2.example.com openshift_node_group_name='node-config-infra'
-----
-
-include::install/example_inventories.adoc[tag=exampleinventorynodelabel]
-
-To use this example, modify the file to match your environment and
-specifications, and save it as *_/etc/ansible/hosts_*.
-
 [[multiple-masters]]
 == Multiple Masters Examples
 
-You can configure an environment with multiple masters, multiple etcd hosts,
+You can configure an environment with multiple masters
 and multiple nodes. Configuring
 xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#high-availability-masters[multiple
 masters for high availability] (HA) ensures that the cluster has no single point
@@ -295,16 +196,14 @@ https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Lo
 ====
 
 To configure multiple masters, refer to
-xref:multi-masters-using-native-ha-ai[Multiple Masters with Multiple etcd]
+xref:multi-masters-using-native-ha-ai[Multiple Masters Using Native HA]
 
 [[multi-masters-using-native-ha-ai]]
-=== Multiple Masters Using Native HA with External Clustered etcd
+=== Multiple Masters Using Native HA
 
 The following describes an example environment for three
 xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#master[masters]
-using the `native` HA method:, one HAProxy load balancer, three
-xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#master[etcd]
-hosts, two
+using the `native` HA method:, one HAProxy load balancer, two
 xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#node[nodes]
 for hosting user applications, and two nodes with the `node-role.kubernetes.io/infra=true` label for hosting
 xref:configuring-dedicated-infrastructure-nodes[dedicated infrastructure]:
@@ -324,13 +223,6 @@ xref:configuring-dedicated-infrastructure-nodes[dedicated infrastructure]:
 |*lb.example.com*
 |HAProxy to load balance API master endpoints
 
-|*etcd1.example.com*
-.3+.^|etcd
-
-|*etcd2.example.com*
-
-|*etcd3.example.com*
-
 |*node1.example.com*
 .2+.^|Compute node
 
@@ -342,18 +234,17 @@ xref:configuring-dedicated-infrastructure-nodes[dedicated infrastructure]:
 |*infra-node2.example.com*
 |===
 
-You can see these example hosts present in the *[masters]*, *[etcd]*, *[lb]*,
+You can see these example hosts present in the *[masters]*, *[lb]*,
 and *[nodes]* sections of the following example inventory file:
 
 .Multiple Masters Using HAProxy Inventory File
 ----
-# Create an OSEv3 group that contains the master, nodes, etcd, and lb groups.
+# Create an OSEv3 group that contains the master, nodes, and lb groups.
 # The lb group lets Ansible configure HAProxy as the load balancing solution.
 # Comment lb out if your load balancer is pre-configured.
 [OSEv3:children]
 masters
 nodes
-etcd
 lb
 
 # Set variables common for all OSEv3 hosts
@@ -398,12 +289,6 @@ master1.example.com
 master2.example.com
 master3.example.com
 
-# host group for etcd
-[etcd]
-etcd1.example.com
-etcd2.example.com
-etcd3.example.com
-
 # Specify load balancer host
 [lb]
 lb.example.com
@@ -422,8 +307,8 @@ include::install/example_inventories.adoc[tag=exampleinventorynodelabel]
 To use this example, modify the file to match your environment and
 specifications, and save it as *_/etc/ansible/hosts_*.
 
-[[multi-masters-single-etcd-using-native-ha]]
-=== Multiple Masters Using Native HA with Co-located Clustered etcd
+[[multi-masters-using-native-ha]]
+=== Multiple Masters Using Native HA
 
 The following describes an example environment for three
 xref:../architecture/infrastructure_components/kubernetes_infrastructure.adoc#master[masters]
@@ -440,7 +325,7 @@ xref:configuring-dedicated-infrastructure-nodes[dedicated infrastructure]:
 |Host Name |Component/Role(s) to Install
 
 |*master1.example.com*
-.3+.^|Master (clustered using native HA) and node with etcd on each host
+.3+.^|Master (clustered using native HA) and node
 
 |*master2.example.com*
 
@@ -460,17 +345,16 @@ xref:configuring-dedicated-infrastructure-nodes[dedicated infrastructure]:
 |*infra-node2.example.com*
 |===
 
-You can see these example hosts present in the *[masters]*, *[etcd]*, *[lb]*,
+You can see these example hosts present in the *[masters]*, *[lb]*,
 and *[nodes]* sections of the following example inventory file:
 
 ----
-# Create an OSEv3 group that contains the master, nodes, etcd, and lb groups.
+# Create an OSEv3 group that contains the master, nodes, and lb groups.
 # The lb group lets Ansible configure HAProxy as the load balancing solution.
 # Comment lb out if your load balancer is pre-configured.
 [OSEv3:children]
 masters
 nodes
-etcd
 lb
 
 # Set variables common for all OSEv3 hosts
@@ -505,12 +389,6 @@ openshift_master_cluster_public_hostname=openshift-cluster.example.com
 
 # host group for masters
 [masters]
-master1.example.com
-master2.example.com
-master3.example.com
-
-# host group for etcd
-[etcd]
 master1.example.com
 master2.example.com
 master3.example.com
