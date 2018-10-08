@@ -54,10 +54,11 @@ On master hosts:
 On node and master hosts:
 +
 ----
+/usr/lib/systemd/system/atomic-openshift-*.service
 /etc/origin/node/node-config.yaml
 ----
 +
-On etcd hosts, including masters that have etcd co-located on them,:
+On etcd hosts, including masters that have etcd co-located on them:
 +
 ----
 /etc/etcd/etcd.conf
@@ -117,21 +118,37 @@ repositories:
     --enable=rhel-7-server-ose-3.10-rpms
 ----
 
-. On each master and node host, install the following packages:
+. On each master, install the following packages:
++
+----
+# yum install atomic-openshift \
+    atomic-openshift-clients \
+    atomic-openshift-node \
+    atomic-openshift-master \
+    openvswitch \
+    atomic-openshift-sdn-ovs \
+    tuned-profiles-atomic-openshift-node \
+    atomic-openshift-excluder \
+    atomic-openshift-docker-excluder
+----
+
+. On each node, install the following packages:
 +
 ----
 # yum install atomic-openshift \
     atomic-openshift-node \
-    atomic-openshift-docker-excluder \
+    openvswitch \
+    atomic-openshift-sdn-ovs \
+    tuned-profiles-atomic-openshift-node \
     atomic-openshift-excluder \
-    atomic-openshift-clients \
-    atomic-openshift-hyperkube
+    atomic-openshift-docker-excluder
 ----
 
 . On each host, verify the packages were installed successfully:
 +
 ----
 # rpm -qa | grep atomic-openshift
+# rpm -q openvswitch
 ----
 
 :context: downgrade
