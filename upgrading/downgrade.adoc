@@ -76,7 +76,7 @@ remove the following packages:
    atomic-openshift-excluder \
    atomic-openshift-hyperkube \
    atomic-openshift-node \
-   atomic-openshift-docker-excluderh \
+   atomic-openshift-docker-excluder \
    atomic-openshift-clients 
 ----
 
