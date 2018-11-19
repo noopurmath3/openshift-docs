@@ -44,6 +44,13 @@ Topics:
 - Name: Architecture
   File: architecture
 ---
+Name: Authentication
+Dir: authentication
+Distros: openshift-*
+Topics:
+- Name: Using RBAC to define and apply permissions
+  File: using-rbac
+---
 Name: Installing clusters
 Dir: installation
 Distros: openshift-origin, openshift-enterprise

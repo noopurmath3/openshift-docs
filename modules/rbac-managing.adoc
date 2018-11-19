@@ -1,0 +1,142 @@
+// Module included in the following assemblies:
+//
+// * authentication/using-rbac.adoc
+
+[id='managing-rbac-{context}']
+= Managing RBAC
+
+You can use  the `oc adm` administrator CLI to manage the roles and bindings.
+
+ifdef::openshift-dedicated[]
+Dedicated administrators cannot manage cluster roles. They can manage
+cluster role bindings and local roles and bindings.
+endif::[]
+
+Binding, or adding, a role to users or groups gives the user or group the access
+that is granted by the role. You can add and remove roles to and from users and
+groups using `oc adm policy` commands.
+
+
+You can bind any of the default cluster roles to local users or groups in your
+project.
+
+
+
+
+For example, you can add the *admin* role to the *alice* user in *joe-project*
+by running:
+
+[options="nowrap"]
+----
+$ oc adm policy add-role-to-user admin alice -n joe-project
+----
+
+
+You can then view the local role bindings and verify the addition in the output:
+
+[options="nowrap"]
+----
+$ oc describe rolebinding.rbac -n joe-project
+Name:		admin
+Labels:		<none>
+Annotations:	<none>
+Role:
+  Kind:	ClusterRole
+  Name:	admin
+Subjects:
+  Kind	Name	Namespace
+  ----	----	---------
+  User	joe
+  User	alice <1>
+
+
+Name:		system:deployers
+Labels:		<none>
+Annotations:	<none>
+Role:
+  Kind:	ClusterRole
+  Name:	system:deployer
+Subjects:
+  Kind			Name		Namespace
+  ----			----		---------
+  ServiceAccount	deployer	joe-project
+
+
+Name:		system:image-builders
+Labels:		<none>
+Annotations:	<none>
+Role:
+  Kind:	ClusterRole
+  Name:	system:image-builder
+Subjects:
+  Kind			Name	Namespace
+  ----			----	---------
+  ServiceAccount	builder	joe-project
+
+
+Name:		system:image-pullers
+Labels:		<none>
+Annotations:	<none>
+Role:
+  Kind:	ClusterRole
+  Name:	system:image-puller
+Subjects:
+  Kind	Name					Namespace
+  ----	----					---------
+  Group	system:serviceaccounts:joe-project
+----
+<1> The *alice* user has been added to the *admins* `*RoleBinding*`.
+
+
+ifdef::openshift-enterprise,openshift-origin[]
+[[creating-local-role]]
+== Creating a local role
+
+You can create a local role for a project and then bind it to a user.
+
+. To create a local role for a project, run the following command:
++
+----
+$ oc create role <name> --verb=<verb> --resource=<resource> -n <project>
+----
++
+In this command, specify:
+* `<name>`, the local role's name
+* `<verb>`, a comma-separated list of the verbs to apply to the role
+* `<resource>`, the resources that the role applies to
+* `<project>`, the project name
++
+For example, to create a local role that allows a user to view pods in the
+`blue` project, run the following command:
++
+----
+$ oc create role podview --verb=get --resource=pod -n blue
+----
+
+. To bind the new role to a user, run the following command:
+
+----
+$ oc adm policy add-role-to-user podview user2 --role-namespace=blue -n blue
+----
+
+[[creating-cluster-role]]
+== Creating a cluster role
+
+To create a cluster role, run the following command:
+
+----
+$ oc create clusterrole <name> --verb=<verb> --resource=<resource>
+----
+
+In this command, specify:
+
+* `<name>`, the local role's name
+* `<verb>`, a comma-separated list of the verbs to apply to the role
+* `<resource>`, the resources that the role applies to
+
+For example, to create a cluster role that allows a user to view pods, run the
+following command:
+
+----
+$ oc create clusterrole podviewonly --verb=get --resource=pod
+----
