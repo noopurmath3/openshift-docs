@@ -45,6 +45,21 @@ Topics:
 - Name: OpenShift CCS modular docs conventions
   File: mod-docs-conventions-ocp
 ---
+Name: Authentication
+Dir: authentication
+Distros: openshift-*
+Topics:
+- Name: Understanding authentication
+  File: understanding-authentication  
+- Name: Using RBAC to define and apply permissions
+  File: using-rbac
+- Name: Configuring sessions and tokens
+  File: configuring-sessions-and-tokens
+- Name: Understanding and creating service accounts
+  File: understanding-and-creating-service-accounts
+- Name: Using service accounts in applications
+  File: using-service-accounts-in-applications  
+--- 
 Name: Installing clusters
 Dir: installation
 Distros: openshift-origin, openshift-enterprise

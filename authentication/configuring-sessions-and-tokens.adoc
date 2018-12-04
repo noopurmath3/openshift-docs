@@ -1,0 +1,7 @@
+[id='configuring-sessions-and-tokens']
+= Configuring sessions and tokens
+include::modules/common-attributes.adoc[]
+:context: configuring-sessions-and-tokens
+toc::[]
+ 
+include::modules/service-accounts-overview.adoc[leveloffset=+1]

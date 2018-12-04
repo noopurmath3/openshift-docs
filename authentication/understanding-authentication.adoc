@@ -1,0 +1,7 @@
+[id='understanding-authentication']
+= Understanding authentication
+include::modules/common-attributes.adoc[]
+:context: understanding-authentication
+toc::[]
+ 
+include::modules/authentication-overview.adoc[leveloffset=+1]
