@@ -2,10 +2,10 @@
 //
 // * n/a
 
-[id='applications-arch']
+[id='applications']
 = {product-title} applications
 include::modules/common-attributes.adoc[]
-:context: applications-arch
+:context: applications
 toc::[]
 
 {nbsp} +
