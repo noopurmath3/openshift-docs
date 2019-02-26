@@ -4,7 +4,7 @@ include::modules/common-attributes.adoc[]
 :context: configuring-request-header-identity-provider
 toc::[]
 
-{nbsp} +
+
 
 Configure a `request-header` identity provider to identify users from request
 header values, such as `X-Remote-User`. It is typically used in combination with

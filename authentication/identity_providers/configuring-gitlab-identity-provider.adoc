@@ -4,7 +4,7 @@ include::modules/common-attributes.adoc[]
 :context: configuring-gitlab-identity-provider
 toc::[]
 
-{nbsp} +
+
 
 Configure a `gitlab` identity provider to use
 link:https://gitlab.com/[GitLab.com] or any other GitLab instance as an identity

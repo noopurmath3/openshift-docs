@@ -5,7 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
-{nbsp} +
+
 
 include::modules/machineset-manually-scaling.adoc[leveloffset=+1]
 

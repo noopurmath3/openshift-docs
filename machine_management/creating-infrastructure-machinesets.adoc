@@ -5,7 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
-{nbsp} +
+
 
 You can create a MachineSet to host only infrastructure components.
 You apply specific Kubernetes labels to these Machines and then

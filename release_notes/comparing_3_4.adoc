@@ -4,7 +4,7 @@ include::modules/common-attributes.adoc[]
 :context: comparing_v3_v4
 toc::[]
 
-{nbsp} +
+
 
 [IMPORTANT]
 ====

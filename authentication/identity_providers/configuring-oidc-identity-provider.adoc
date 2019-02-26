@@ -4,7 +4,7 @@ include::modules/common-attributes.adoc[]
 :context: configuring-oidc-identity-provider
 toc::[]
 
-{nbsp} +
+
 
 Configure an `oidc` identity provider to integrate with an OpenID Connect
 identity provider using an
