@@ -5,4 +5,6 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+include::modules/machine-api-overview.adoc[leveloffset=+1]
+
 include::modules/machineset-manually-scaling.adoc[leveloffset=+1]
