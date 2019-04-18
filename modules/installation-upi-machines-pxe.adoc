@@ -1,0 +1,63 @@
+// Module included in the following assemblies:
+//
+// * installing/installing_bare_metal/installing-bare-metal.adoc
+
+[id="installation-upi-machines-iso-{context}"]
+= Creating {op-system-first} machines using an ISO image
+
+Before you install a user provisioned infrastructure (UPI) cluster on bare
+metal, you need to create {op-system} machines for it to use. You can use an
+PXE booting to create the machines.
+
+.Prerequisites
+
+* Obtain the Ignition config files for your cluster.
+* Have access to an HTTP server that you can access from your computer.
+
+.Procedure
+
+////
+This will work for GA.
+. Obtain the {op-system} images from the
+link:https://access.redhat.com/downloads[Product Downloads] page on the Red
+Hat customer portal.
+////
+
+. Upload the master, worker, and bootstrap Ignition config files that the
+installation program created to your HTTP server. Note the URLs of these files.
+
+. Obtain the {op-system} ISO, `kernel`, and `initramfs` images:
++
+----
+$ curl -J -L -O https://releases-art-rhcos.svc.ci.openshift.org/art/storage/releases/ootpa/410.8.20190412.1/rhcos-410.8.20190412.1-installer.iso
+$ curl -J -L -O https://releases-art-rhcos.svc.ci.openshift.org/art/storage/releases/ootpa/410.8.20190412.1/rhcos-410.8.20190412.1-installer-initramfs.img
+$ curl -J -L -O https://releases-art-rhcos.svc.ci.openshift.org/art/storage/releases/ootpa/410.8.20190412.1/rhcos-410.8.20190412.1-installer-kernel
+----
+
+. Configure the network boot infrastructure so that the machines boot from their
+local disks after {op-system} is installed on them.
+
+. Configure PXE installation for the {op-system} images. You must provide values
+for the following para
+You can mount up the ISO images and use the initramfs.img and vmlinuz for PXE boot. Here is an example pxelinux.cfg that I used to perform a PXE boot:
+
+DEFAULT pxeboot
+TIMEOUT 20
+PROMPT 0
+LABEL pxeboot
+    KERNEL fedora-coreos-29.731.iso/images/vmlinuz
+    APPEND ip=dhcp rd.neednet=1 initrd=fedora-coreos-29.731.iso/images/initramfs.img console=tty0 console=ttyS0 coreos.inst=yes coreos.inst.install_dev=sda coreos.inst.image_url=http://192.168.1.101:8000/fedora-coreos-29.731-metal-bios.raw.gz coreos.inst.ignition_url=http://192.168.1.101:8000/config.ign
+IPAPPEND 2
+
+
+1) Determine if you want to use network booting or ISO media booting (real or virtual)
+
+2) Get the appropriate media (ISO for ISO - kernel and ramdisk for PXE/network boot)
+3a) If ISO, boot the ISO and manually enter the kernel command line.
+3b) If PXE, determine whether you will set command line via the config (which involves things specific to a particular customer's network boot environment) or by network booting an interactive boot loader similar to what the ISO provides (again, customer specific).
+If it's via config, put the command line arguments wherever the config is specified
+If interactive, it's identical to ISO
+There's one other thing with PXE, which is that once the system is installed, the net boot environment should be turned off, or configured to boot from the local disk, not re-run the installer.  This is also a common feature of customer's existing machine provisioning environments.
+Sorry - Streaming here.
+
+
