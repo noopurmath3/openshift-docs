@@ -1,0 +1,16 @@
+[id="cnv-openshift-cluster-monitoring"]
+= {product-title} cluster monitoring
+include::modules/cnv-document-attributes.adoc[]
+:context: cnv-openshift-cluster-monitoring
+toc::[]
+
+See the {product-title} documentation for more information on cluster-wide monitoring:
+
+* xref:../../monitoring/cluster-monitoring/about-cluster-monitoring.adoc#about-cluster-monitoring[{product-title} cluster monitoring]
+
+* xref:../../logging/efk-logging.adoc#efk-logging[{product-title} cluster logging]
+
+* xref:../../telemetry/about-telemetry.adoc#about-telemetry[{product-title} Telemetry]
+
+* xref:../../cli_reference/developer-cli-commands.adoc#cli-troubleshooting-commands_developer-cli-commands[{product-title} client troubleshooting and debugging commands]
+

@@ -1,0 +1,14 @@
+// Module included in the following assemblies:
+//
+// * cnv_users_guide/cnv-logs-events.adoc
+
+[id="cnv-viewing-virtual-machine-logs-cli_{context}"]
+= Viewing virtual machine logs in the CLI
+
+Get virtual machine logs from the virtual machine launcher pod.
+
+.Procedure
+
+----
+$ oc logs <virt-launcher-name>
+----

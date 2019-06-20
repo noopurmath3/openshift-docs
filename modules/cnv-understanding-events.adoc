@@ -1,0 +1,11 @@
+// Module included in the following assemblies:
+//
+// * cnv_users_guide/cnv-logs-events.adoc
+
+[id="cnv-understanding-events_{context}"]
+= Understanding events
+
+{product-title} events are records of important life-cycle information in a
+namespace and are useful for monitoring and troubleshooting resource
+scheduling, creation, and deletion issues.
+
