@@ -23,22 +23,12 @@ ifdef::restricted[]
 the bastion host.
 endif::restricted[]
 ifndef::restricted[]
-ifeval::["{context}" == "installing-ibm-z"]
 your provisioning machine.
-endif::[]
-ifeval::["{context}" != "installing-ibm-z"]
-a local computer.
-endif::[]
 endif::restricted[]
 
 .Prerequisites
 
-ifeval::["{context}" == "installing-ibm-z"]
 * You must install the cluster from a machine that runs Linux, for example Red Hat Enterprise Linux 8.
-endif::[]
-ifeval::["{context}" != "installing-ibm-z"]
-* You must install the cluster from a computer that uses Linux or macOS.
-endif::[]
 * You need 500 MB of local disk space to download the installation program.
 
 .Procedure
