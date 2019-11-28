@@ -19,14 +19,8 @@ page before you create the supporting infrastructure for your cluster.
 
 .Procedure
 
-ifeval::["{context}" == "installing-ibm-z"]
 . Set up static IP addresses.
-
 . Set up an FTP server.
-endif::[]
-ifeval::["{context}" != "installing-ibm-z"]
-. Configure DHCP.
-endif::[]
 
 . Provision the required load balancers.
 
