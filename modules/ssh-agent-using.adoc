@@ -55,7 +55,7 @@ endif::[]
 If you want to perform installation debugging or disaster recovery on your cluster, you must provide an SSH key to both your `ssh-agent` and to the installation program.
 [NOTE]
 ====
-In a production environment, you require need disaster recovery and debugging.
+In a production environment, you require disaster recovery and debugging.
 ====
 
 ifdef::ibm-z[]
