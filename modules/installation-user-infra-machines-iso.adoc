@@ -42,7 +42,7 @@ Download the following files:
 ** The operating system image for the install medium you want to use, `rhcos-<version>-
 dasd.raw.gz` for DASD.
 
-. Create a parameter file, or use one created by the OpenShift installer. The following parameters need special attention:
+. Create a parameter file. The following parameters need special attention:
 ** rd.dasd=
 is the DASD for the different z/VM virtual machines.
 ** ip=
