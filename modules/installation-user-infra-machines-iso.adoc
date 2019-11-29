@@ -5,33 +5,19 @@
 // * installing/installing_ibm_z/installing-ibm-z.adoc
 
 [id="installation-user-infra-machines-iso_{context}"]
-ifeval::["{context}" == "installing-ibm-z"]
 = Creating {op-system-first} machines
-endif::[]
-
-ifeval::["{context}" != "installing-ibm-z"]
-= Creating {op-system-first} machines using an ISO image
-endif::[]
-
-ifeval::["{context}" == "installing-ibm-z"]
-Before you install a cluster on IBM Z infrastructure that you provision, you must install {op-system} on z/VM guest virtual machines for the cluster to use. Complete the following steps to create the machines.
-endif::[]
 
 Before you install a cluster on z/VM guest virtual machines,
-you must create {op-system} machines for it to use. You can use an
-ISO image to create the machines.
-endif::[]
+you must install Red Hat Enterprise Linux CoreOS on those virtual machines.
 
 .Prerequisites
 ifeval::["{context}" == "installing-ibm-z"]
 * An FTP server running on your provisioning machine that is accessible to the machines you create.
 endif::[]
 
-ifeval::["{context}" != "installing-ibm-z"]
-* Obtain the Ignition config files for your cluster.
 * Have access to an FTP server that you can access from your computer and that
 the machines that you create can access.
-endif::[]
+* Parameter files for your machines
 
 .Procedure
 ifeval::["{context}" == "installing-ibm-z"]
@@ -39,17 +25,7 @@ ifeval::["{context}" == "installing-ibm-z"]
 . Download the Red Hat Enterprise Linux CoreOS installation files from the link:https://mirror.openshift.com/pub/openshift-v4/s390x/dependencies/rhcos/4.2/latest/[{op-system} image mirror].
 endif::[]
 
-ifeval::["{context}" != "installing-ibm-z"]
-. Upload the control plane, compute, and bootstrap Ignition config files that the
-installation program created to your FTP server.
-
-. Obtain the {op-system} images that are required for your preferred method
-of installing operating system instances from the
-link:https://access.redhat.com/downloads/content/290[Product Downloads] page on the Red
-Hat customer portal or the
-link:https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/4.2/[{op-system} image mirror]
-page.
-endif::[]
+. Download the Red Hat Enterprise Linux CoreOS installation files from https://mirror.openshift.com/pub/openshift-v4/s390x/dependencies/rhcos/4.2/latest/
 +
 [IMPORTANT]
 ====
@@ -59,95 +35,31 @@ to the {product-title} version that you install. Use the image versions
 that match your {product-title} version if they are available.
 ====
 +
-ifeval::["{context}" == "installing-ibm-z"]
 Download the following files:
 
-* The initramfs: `rhcos-<version>-installer-initramfs.img`
-* The kernel: `rhcos-<version>-installer-kernel`
-* The operating system image for the disk on which you want to install {op-system}. This type can differ by virtual machine:
-+
-`rhcos-<version>-dasd.raw.gz` for DASD
-+
-`rhcos-<version>-metal-bios.raw.gz` for FCP
+** The initramfs: `rhcos-<version>-installer-initramfs.img`
+** The kernel: `rhcos-<version>-installer-kernel`
+** The operating system image for the install medium you want to use, `rhcos-<version>-
+dasd.raw.gz` for DASD.
 
-. Create parameter files. The following parameters are specific for a particular virtual machine:
-** For `coreos.inst.install_dev=`, specify `dasda` for a DASD installation, or `sda` for FCP. Note that FCP requires `zfcp.allow_lun_scan=0`.
-** For `rd.dasd=`, specifys the DASD where {op-system} is to be installed.
-** `rd.zfcp=<adapter>,<wwpn>,<lun>` specifies the FCP disk to install {op-system} on.
-** For `ip=`, specify the following seven entries:
-... The IP address for the machine.
-... An empty string.
-... The gateway.
-... The netmask.
-... The machine host and domain name in the form `hostname.domainname`. Omit this value to let {op-system} decide set it.
-... The network interface name. Omit this value to let {op-system} decide set it.
-... If you use static IP addresses, an empty string.
-** For `coreos.inst.ignition_url=`, specify the Ignition file for the machine role. The bootstrap machine ignition file is called `bootstrap-0`, the master ignition files are numbered 0 through 2, the worker ignition files from 0 upwards. All other parameters can stay as they are.
-+
-Example parameter file, `bootstrap-0.parm`, for the bootstrap machine:
-+
-----
-rd.neednet=1 coreos.inst=yes coreos.inst.install_dev=dasda coreos.inst.image_url=ftp://
-cl1.provide.example.com:8080/assets/rhcos-42.80.20191105.0-metal-dasd.raw.gz
-coreos.inst.ignition_url=ftp://cl1.provide.example.com:8080/ignition-bootstrap-0
-ip=172.18.78.2::172.18.78.1:255.255.255.0:::none nameserver=172.18.78.1
-rd.znet=qeth,0.0.bdf0,0.0.bdf1,0.0.bdf2,layer2=1,portno=0 zfcp.allow_lun_scan=0 cio_ignore=all,
-!condev rd.dasd=0.0.3490
-----
+. Create a parameter file, or use one created by the OpenShift installer. The following parameters need special attention:
+** rd.dasd=
+is the DASD for the different z/VM virtual machines.
+** ip=
+** is the IP address for the different z/VM virtual machines.
+** coreos.inst.ignition_url=
+gets the specific ignition file according to the machine role. The bootstrap machine ignition file is
+called bootstrap-0, the master ignition files are numbered 0 through 2, the worker ignition files from 0
+upwards. All other parameters can stay as they are.
 
-. Transfer the initramfs, kernel, parameter files, and {op-system} images to z/VM, for example with FTP. For details about how to transfer the files with FTP and boot from the virtual reader, see link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/installation_guide/sect-installing-zvm-s390[Installing under Z/VM].
-. Punch the files to the virtual reader of the z/VM guest virtual machine that is to become your bootstrap node.
-+
-For details about the PUNCH command, see https://www.ibm.com/support/knowledgecenter/en/SSB27U_7.1.0/com.ibm.zvm.v710.dmsb4/pun.htm
+. Transfer the initramfs, kernel, and parameter file  to the virtual reader of your bootstrap machine
 +
 [TIP]
 ====
-You can use the CP PUNCH command or, if you use Linux, the **vmur** command to transfer files between two z/VM guest virtual machines.
+You can use either CMS or, if you use Linux, the vmur cmd.
 ====
 +
-. Log in to CMS on the bootstrap machine.
-. IPL the bootstrap machine from the reader:
-+
-----
-$ ipl c
-----
-+
-See link:https://www.ibm.com/support/knowledgecenter/en/SSB27U_7.1.0/com.ibm.zvm.v710.hcpb7/iplcommd.htm[IPL] in the IBM Knowledge Center.
-+
-. Repeat this procedure for the other machines in the cluster.
-endif::[]
-
-ifeval::["{context}" != "installing-ibm-z"]
-You must download the ISO file and the RAW disk file.
-Those file names resemble the following examples:
-
-** ISO: `rhcos-<version>-installer.<architecture>.iso`
-** Compressed metal RAW: `rhcos-<version>-metal.<architecture>.raw.gz`
-
-. Upload either the RAW {op-system} image file to your HTTP server and
-note its URL.
-
-. Use the ISO to start the {op-system} installation. Use one of the following
-installation options:
-** Burn the ISO image to a disk and boot it directly.
-** Use ISO redirection via a LOM interface.
-
-. After the instance boots, press the `TAB` or `E` key to edit the kernel command line.
-. Add the parameters to the kernel command line:
-+
-----
-coreos.inst=yes
-coreos.inst.install_dev=sda <1>
-coreos.inst.image_url=<bare_metal_image_URL> <2>
-coreos.inst.ignition_url=http://example.com/config.ign <3>
-----
-<1> Specify the block device of the system to install to.
-<2> Specify the URL of the RAW image that you uploaded to your server.
-<3> Specify the URL of the Ignition config file for this machine type.
-
-. Press Enter to complete the installation. After {op-system} installs, the system
-reboots. After the system reboots, it applies the Ignition config file that you
-specified.
+. IPL the bootstrap machine from the reader, i.e. from the default "c" device
 
 . Continue to create the machines for your cluster.
 +
