@@ -42,12 +42,16 @@ Download the following files:
 
 . Create a parameter file. The following parameters are specific for a particular virtual machine:
 ** coreos.inst.install_dev=
-specify `dasda` for a DASD installation, or `sda` for FCP. 
+specify `dasda` for a DASD installation, or `sda` for FCP. Note that FCP requires zfcp.allow_lun_scan=0. 
 ** rd.dasd=
 specifies the DASD where RHCOS is to be installed.
+** rd.zfcp=<adapter>,<wwpn>,<lun>
+specifies the FCP disk where RHCOS is to be installed.   
 ** ip=
++
 has 7 entries; the first is the IP address for the machine, the second can be empty, the third is the gateway, the fourth is the netmask, the fifth is in the form hostname.domainname; leave this blank to let RHCOS decide, the sixth is the network interface name; leave blank to let RHCOS decide, and the seventh can be left blank if no DHCP is used.
 ** coreos.inst.ignition_url=
++
 gets the specific ignition file according to the machine role. The bootstrap machine ignition file is
 called bootstrap-0, the master ignition files are numbered 0 through 2, the worker ignition files from 0
 upwards. All other parameters can stay as they are.
