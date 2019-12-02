@@ -39,15 +39,17 @@ Download the following files:
 
 * The initramfs: `rhcos-<version>-installer-initramfs.img`
 * The kernel: `rhcos-<version>-installer-kernel`
-* The operating system image for the install medium you want to use:
-`rhcos-<version>-dasd.raw.gz` for DASD, or
+* The operating system image for the disk on which you want to install RHCOS. This type can differ by virtual machine:
++
+`rhcos-<version>-dasd.raw.gz` for DASD
++
 `rhcos-<version>-metal-bios.raw.gz` for FCP
 
-. Create a parameter file. The following parameters need special attention:
+. Create a parameter file. The following parameters are specific for a perticular virtual machine:
 ** rd.dasd=
-is the DASD for the different z/VM virtual machines.
+specifies the DASD where RHCOS is to be installed.
 ** ip=
-is the IP address for the different z/VM virtual machines.
+is the IP address for the machine.
 ** coreos.inst.ignition_url=
 gets the specific ignition file according to the machine role. The bootstrap machine ignition file is
 called bootstrap-0, the master ignition files are numbered 0 through 2, the worker ignition files from 0
@@ -66,11 +68,11 @@ condev rd.dasd=0.0.3490`
 +
 [TIP]
 ====
-You can use either CMS or, if you use Linux, the vmur cmd.
+You can use either CMS or, if you use Linux, the **vmur** command.
 ====
 +
-. IPL the bootstrap machine from the reader, i.e. from the default "c" device
-
+. Log in to CMS on the bootstrap machine.
+. IPL the bootstrap machine from the reader: `ipl c`
 . Continue to create the machines for your cluster.
 +
 [IMPORTANT]
