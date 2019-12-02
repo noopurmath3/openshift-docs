@@ -40,7 +40,7 @@ Download the following files:
 +
 `rhcos-<version>-metal-bios.raw.gz` for FCP
 
-. Create a parameter file. The following parameters are specific for a particular virtual machine:
+. Create parameter files. The following parameters are specific for a particular virtual machine:
 ** coreos.inst.install_dev=
 specify `dasda` for a DASD installation, or `sda` for FCP. Note that FCP requires zfcp.allow_lun_scan=0. 
 ** rd.dasd=
@@ -65,11 +65,12 @@ ip=172.18.78.2::172.18.78.1:255.255.255.0:::none nameserver=172.18.78.1
 rd.znet=qeth,0.0.bdf0,0.0.bdf1,0.0.bdf2,layer2=1,portno=0 zfcp.allow_lun_scan=0 cio_ignore=all,
 !condev rd.dasd=0.0.3490`
 
-. Transfer the initramfs, kernel, and parameter file  to the virtual reader of your bootstrap machine
+. Transfer the initramfs, kernel, parameter files, and RHCOS images to z/VM, for example with FTP.
+. Punch the files to the virtual reader of your bootstrap machine
 +
 [TIP]
 ====
-You can use either CMS or, if you use Linux, the **vmur** command.
+You can use the CP PUNCH command or, if you use Linux, the **vmur** command to transfer files between two z/VM gust virtual machines.
 ====
 +
 . Log in to CMS on the bootstrap machine.
