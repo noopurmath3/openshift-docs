@@ -1,4 +1,4 @@
-// Module included in the following assemblies:
+have// Module included in the following assemblies:
 //
 // * installing/installing_bare_metal/installing-bare-metal.adoc
 // * installing/installing_restricted_networks/installing-restricted-networks-bare-metal.adoc
@@ -15,16 +15,11 @@ ifeval::["{context}" == "installing-ibm-z"]
 * An FTP server running on your provisioning machine that is accessible to the machines you create.
 endif::[]
 
-* Have access to an FTP server that you can access from your computer and that
+* An FTP server on your provisioning machine that
 the machines that you create can access.
-* Parameter files for your machines
 
 .Procedure
-ifeval::["{context}" == "installing-ibm-z"]
 . Log in to Linux on your provisioning machine.
-. Download the Red Hat Enterprise Linux CoreOS installation files from the link:https://mirror.openshift.com/pub/openshift-v4/s390x/dependencies/rhcos/4.2/latest/[{op-system} image mirror].
-endif::[]
-
 . Download the Red Hat Enterprise Linux CoreOS installation files from https://mirror.openshift.com/pub/openshift-v4/s390x/dependencies/rhcos/4.2/latest/
 +
 [IMPORTANT]
@@ -45,7 +40,7 @@ Download the following files:
 +
 `rhcos-<version>-metal-bios.raw.gz` for FCP
 
-. Create a parameter file. The following parameters are specific for a perticular virtual machine:
+. Create a parameter file. The following parameters are specific for a particular virtual machine:
 ** rd.dasd=
 specifies the DASD where RHCOS is to be installed.
 ** ip=
@@ -55,14 +50,14 @@ gets the specific ignition file according to the machine role. The bootstrap mac
 called bootstrap-0, the master ignition files are numbered 0 through 2, the worker ignition files from 0
 upwards. All other parameters can stay as they are.
 +
-Example parameter file:
-`# cat bootstrap-0.parm
-rd.neednet=1 coreos.inst=yes coreos.inst.install_dev=dasda coreos.inst.image_url=http://
+Example parameter file, bootstrap-0.parm, for the bootstrap machine:
++
+`rd.neednet=1 coreos.inst=yes coreos.inst.install_dev=dasda coreos.inst.image_url=http://
 cl1.provide.example.com:8080/assets/rhcos-42.80.20191105.0-metal-dasd.raw.gz
 coreos.inst.ignition_url=http://cl1.provide.example.com:8080/ignition-bootstrap-0
 ip=172.18.78.2::172.18.78.1:255.255.255.0:::none nameserver=172.18.78.1
-rd.znet=qeth,0.0.bdf0,0.0.bdf1,0.0.bdf2,layer2=1,portno=0 zfcp.allow_lun_scan=0 cio_ignore=all,!
-condev rd.dasd=0.0.3490`
+rd.znet=qeth,0.0.bdf0,0.0.bdf1,0.0.bdf2,layer2=1,portno=0 zfcp.allow_lun_scan=0 cio_ignore=all,
+!condev rd.dasd=0.0.3490`
 
 . Transfer the initramfs, kernel, and parameter file  to the virtual reader of your bootstrap machine
 +
@@ -73,12 +68,4 @@ You can use either CMS or, if you use Linux, the **vmur** command.
 +
 . Log in to CMS on the bootstrap machine.
 . IPL the bootstrap machine from the reader: `ipl c`
-. Continue to create the machines for your cluster.
-+
-[IMPORTANT]
-====
-You must create the bootstrap and control plane machines at this time. Because
-some pods are deployed on compute machines by default, also create at least two
-compute machines before you install the cluster.
-====
-endif::[]
+. Repeat this procedure for the other machines in the cluster.
