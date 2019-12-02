@@ -66,13 +66,15 @@ rd.znet=qeth,0.0.bdf0,0.0.bdf1,0.0.bdf2,layer2=1,portno=0 zfcp.allow_lun_scan=0 
 !condev rd.dasd=0.0.3490`
 
 . Transfer the initramfs, kernel, parameter files, and RHCOS images to z/VM, for example with FTP.
-. Punch the files to the virtual reader of your bootstrap machine
+. Punch the files to the virtual reader of the z/VM guest virtual machine that is to become your bootstrap node.
++
+For details about the PUNCH command, see https://www.ibm.com/support/knowledgecenter/en/SSB27U_6.4.0/com.ibm.zvm.v640.dmsb4/pun.htm 
 +
 [TIP]
 ====
-You can use the CP PUNCH command or, if you use Linux, the **vmur** command to transfer files between two z/VM gust virtual machines.
+You can use the CP PUNCH command or, if you use Linux, the **vmur** command to transfer files between two z/VM guest virtual machines.
 ====
 +
-. Log in to CMS on the bootstrap machine.
-. IPL the bootstrap machine from the reader: `ipl c`
+. Log in to CMS on the bootstrap node.
+. IPL the bootstrap node from the reader: `ipl c`
 . Repeat this procedure for the other machines in the cluster.
