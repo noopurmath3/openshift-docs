@@ -50,8 +50,7 @@ program.
 * Download the AWS CLI and install it on your computer. See
 link:https://docs.aws.amazon.com/cli/latest/userguide/install-bundle.html[Install the AWS CLI Using the Bundled Installer (Linux, macOS, or Unix)]
 in the AWS documentation.
-* If you use a firewall and plan to use telemetry, you must
-xref:../../installing/install_config/configuring-firewall.adoc#configuring-firewall[configure it to allow the sites] that your cluster requires access to.
+* If you use a firewall, you must xref:../../installing/install_config/configuring-firewall.adoc#configuring-firewall[configure it to allow the sites] that your cluster requires access to. While you might need to grant access to more sites, you must grant access to `*.amazonaws.com`
 +
 [NOTE]
 ====
