@@ -35,6 +35,7 @@ To configure a PXE or iPXE installation, use one of the following options:
 
 * See the "Advanced RHCOS installation reference" tables.
 * Use a machine config to copy networking files to the installed system.
+//Needs a reference to installation-user-infra-machines-static-network.adoc
 
 To configure an ISO installation, use the following procedure.
 
