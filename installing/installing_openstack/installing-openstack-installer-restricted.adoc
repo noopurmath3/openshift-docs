@@ -15,8 +15,7 @@ In {product-title} {product-version}, you can install a cluster on
 +
 [IMPORTANT]
 ====
-Because the installation media is on the bastion host, use that computer
-to complete all installation steps.
+Because the installation media is on the mirror host, you can use that computer to complete all installation steps.
 ====
 
 * Review details about the
