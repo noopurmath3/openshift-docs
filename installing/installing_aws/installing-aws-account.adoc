@@ -1,4 +1,6 @@
-[id="installing-aws-account"]
+ifdef::context[:parent-context: {context}]
+
+[id="installing-aws-account_{context}"]
 = Configuring an AWS account
 include::modules/common-attributes.adoc[]
 :context: installing-aws-account
@@ -33,3 +35,6 @@ include::modules/installation-aws-regions.adoc[leveloffset=+1]
 ** xref:../../installing/installing_aws/installing-aws-customizations.adoc#installing-aws-customizations[Install a cluster with cloud customizations on installer-provisioned infrastructure]
 ** xref:../../installing/installing_aws/installing-aws-network-customizations.adoc#installing-aws-network-customizations[Install a cluster with network customizations on installer-provisioned infrastructure]
 ** xref:../../installing/installing_aws/installing-aws-user-infra.adoc#installing-aws-user-infra[Installing a cluster on user-provisioned infrastructure in AWS by using CloudFormation templates]
+
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]

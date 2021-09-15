@@ -123,6 +123,8 @@ Name: Installing
 Dir: installing
 Distros: openshift-origin,openshift-enterprise,openshift-webscale
 Topics:
+- Name: Installing
+  File: installing
 - Name: Installation overview
   File: index
   Distros: openshift-origin,openshift-enterprise
