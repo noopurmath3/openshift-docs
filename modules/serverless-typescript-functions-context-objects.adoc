@@ -1,6 +1,7 @@
 [id="serverless-typescript-functions-context-objects_{context}"]
 = TypeScript context objects
 
+[role="_abstract"]
 Functions are invoked with a `context` object as the first parameter.
 
 .Example context object

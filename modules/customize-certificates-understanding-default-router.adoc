@@ -5,6 +5,7 @@
 [id="understanding-default-ingress_{context}"]
 = Understanding the default ingress certificate
 
+[role="_abstract"]
 By default, {product-title} uses the Ingress Operator to
 create an internal CA and issue a wildcard certificate that is valid for
 applications under the `.apps` sub-domain. Both the web console and CLI

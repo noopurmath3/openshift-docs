@@ -5,6 +5,7 @@
 
 :name: network
 :role: admin
+[role="_abstract"]
 ifeval::[{product-version} >= 4.6]
 :ovn:
 endif::[]

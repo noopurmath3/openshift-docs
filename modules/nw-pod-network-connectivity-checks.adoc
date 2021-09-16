@@ -5,6 +5,7 @@
 [id="nw-pod-network-connectivity-checks_{context}"]
 = Connection health checks performed
 
+[role="_abstract"]
 To verify that cluster resources are reachable, a TCP connection is made to each of the following cluster API services:
 
 * Kubernetes API server service

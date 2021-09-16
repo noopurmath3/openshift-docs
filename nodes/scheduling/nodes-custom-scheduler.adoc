@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can run multiple custom schedulers alongside the default scheduler and configure which scheduler to use for each pod.
 
 [IMPORTANT]
@@ -23,6 +24,7 @@ include::modules/nodes-custom-scheduler-deploying.adoc[leveloffset=+1]
 include::modules/nodes-custom-scheduler-pods.adoc[leveloffset=+1]
 
 [id="additional-resources_nodes-custom-scheduler"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../openshift_images/create-images.adoc#images-create-guidelines_create-images[Learning container best practices]

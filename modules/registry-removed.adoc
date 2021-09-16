@@ -25,6 +25,7 @@
 [id="registry-removed_{context}"]
 = Image registry removed during installation
 
+[role="_abstract"]
 On platforms that do not provide shareable object storage, the OpenShift Image
 Registry Operator bootstraps itself as `Removed`. This allows
 `openshift-installer` to complete installations on these platform types.

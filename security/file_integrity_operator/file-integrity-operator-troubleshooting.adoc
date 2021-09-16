@@ -7,6 +7,7 @@ toc::[]
 
 == General troubleshooting
 
+[role="_abstract"]
 Issue::
 You want to generally troubleshoot issues with the File Integrity Operator.
 

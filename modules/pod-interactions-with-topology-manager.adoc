@@ -5,6 +5,7 @@
 [id="pod-interactions-with-topology-manager_{context}"]
 = Pod interactions with Topology Manager policies
 
+[role="_abstract"]
 The example `Pod` specs below help illustrate pod interactions with Topology Manager.
 
 The following pod runs in the `BestEffort` QoS class because no resource requests or

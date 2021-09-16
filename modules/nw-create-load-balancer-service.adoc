@@ -5,6 +5,7 @@
 [id="nw-create-load-balancer-service_{context}"]
 = Creating a load balancer service
 
+[role="_abstract"]
 Use the following procedure to create a load balancer service.
 
 .Prerequisites

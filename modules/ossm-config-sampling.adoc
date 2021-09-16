@@ -5,6 +5,7 @@
 [id="ossm-config-sampling_{context}"]
 = Adjusting the sampling rate
 
+[role="_abstract"]
 The distributed tracing sampling rate is set to sample 100% of traces in your service mesh by default. A high sampling rate consumes cluster resources and performance but is useful when debugging issues. Before you deploy {ProductName} in production, set the value to a smaller proportion of traces.
 
 A trace is an execution path between services in the service mesh. A trace is comprised of one or more spans. A span is a logical unit of work that has a name, start time, and duration.

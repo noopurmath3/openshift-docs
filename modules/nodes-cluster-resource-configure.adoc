@@ -7,6 +7,7 @@
 = Configuring cluster-level overcommit
 
 
+[role="_abstract"]
 The Cluster Resource Override Operator requires a `ClusterResourceOverride` custom resource (CR)
 and a label for each project where you want the Operator to control overcommit.
 

@@ -5,6 +5,7 @@
 [id="builds-docker-source-build-output_{context}"]
 = Build output
 
+[role="_abstract"]
 Builds that use the
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated[]
 docker or

@@ -9,6 +9,7 @@
 [id="private-clusters-default_{context}"]
 = Private clusters
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-aws-government-region"]
 :aws-gov:
 endif::[]

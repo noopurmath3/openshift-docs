@@ -5,6 +5,7 @@
 [id="hostpath-static-provisioning_{context}"]
 = Statically provisioning hostPath volumes
 
+[role="_abstract"]
 A pod that uses a hostPath volume must be referenced by manual (static) provisioning.
 
 .Procedure

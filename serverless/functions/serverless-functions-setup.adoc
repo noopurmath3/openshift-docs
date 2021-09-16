@@ -9,6 +9,7 @@ toc::[]
 :FeatureName: {FunctionsProductName}
 include::modules/technology-preview.adoc[leveloffset=+2]
 
+[role="_abstract"]
 Before you can develop functions on {ServerlessProductName}, you must complete the set up steps.
 
 [id="prerequisites_serverless-functions-setup"]

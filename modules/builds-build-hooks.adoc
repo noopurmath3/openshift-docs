@@ -5,6 +5,7 @@
 [id="builds-build-hooks_{context}"]
 = Build hooks
 
+[role="_abstract"]
 Build hooks allow behavior to be injected into the build process.
 
 The `postCommit` field of a `BuildConfig` object runs commands inside a temporary container that is running the build output image. The hook is run immediately after the last layer of the image has been committed and before the image is pushed to a registry.

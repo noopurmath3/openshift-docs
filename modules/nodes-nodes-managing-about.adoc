@@ -5,6 +5,7 @@
 [id="nodes-nodes-managing-about_{context}"]
 = Modifying nodes
 
+[role="_abstract"]
 To make configuration changes to a cluster, or machine pool, you must create a custom resource definition (CRD), or `KubeletConfig` object. {product-title} uses the Machine Config Controller to watch for changes introduced through the CRD to apply the changes to the cluster.
 
 .Procedure

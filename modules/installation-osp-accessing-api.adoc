@@ -11,6 +11,7 @@
 [id="installation-osp-accessing-api_{context}"]
 = Enabling access to the environment
 
+[role="_abstract"]
 At deployment, all {product-title} machines are created in a {rh-openstack-first}-tenant network. Therefore, they are not accessible directly in most {rh-openstack} deployments.
 
 You can configure {product-title} API and application access by using floating IP addresses (FIPs) during installation. You can also complete an installation without configuring FIPs, but the installer will not configure a way to reach the API or applications externally. 

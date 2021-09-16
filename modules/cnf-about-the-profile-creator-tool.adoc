@@ -5,6 +5,7 @@
 [id="cnf-about-the-profile-creator-tool_{context}"]
 = About the Performance Profile Creator
 
+[role="_abstract"]
 The Performance Profile Creator (PPC) is a command-line tool, delivered with the Performance Addon Operator, used to create the performance profile.
 The tool consumes `must-gather` data from the cluster and several user-supplied profile arguments. The PPC generates a performance profile that is appropriate for your hardware and topology.
 

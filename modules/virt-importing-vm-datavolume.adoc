@@ -5,6 +5,7 @@
 [id="virt-importing-vm-datavolume_{context}"]
 = Importing a virtual machine image into a persistent volume claim by using a data volume
 
+[role="_abstract"]
 You can import a virtual machine image into a persistent volume claim (PVC) by using a data volume.
 
 The virtual machine image can be hosted at an HTTP or HTTPS endpoint, or the image can be built into a container disk and stored in a container registry.

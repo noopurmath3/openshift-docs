@@ -2,6 +2,7 @@
 //
 // * networking/ovn_kubernetes_network_provider/deploying-egress-router-ovn-redirection.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "deploying-egress-router-ovn-redirection"]
 :redirect:
 :router-type: redirect

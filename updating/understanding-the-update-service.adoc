@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 For clusters with internet accessibility, Red Hat provides over-the-air updates through an {product-title} update service as a hosted service located behind public APIs.
 
 [NOTE]

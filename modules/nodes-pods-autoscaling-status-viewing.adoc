@@ -6,6 +6,7 @@
 
 = Viewing horizontal pod autoscaler status conditions by using the CLI
 
+[role="_abstract"]
 You can view the status conditions set on a pod by the horizontal pod autoscaler (HPA).
 
 [NOTE]

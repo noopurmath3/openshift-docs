@@ -5,6 +5,7 @@
 [id="cluster-logging-deploy-cli_{context}"]
 = Installing OpenShift Logging using the CLI
 
+[role="_abstract"]
 You can use the {product-title} CLI to install the OpenShift Elasticsearch and Red Hat OpenShift Logging Operators.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="efs-provisioner_{context}"]
 = Create the EFS provisioner
 
+[role="_abstract"]
 The EFS provisioner is an {product-title} pod that mounts the EFS volume
 as an NFS share.
 

@@ -6,4 +6,5 @@
 [id="images-using-images-s2i-nodejs_{context}"]
 = Node.js overview
 
+[role="_abstract"]
 {product-title} provides source-to-image (S2I) enabled Node.js images for building and running Node.js applications. The Node.js S2I builder image assembles your application source with any required dependencies to create a new image containing your Node.js application. This resulting image can be run either by {product-title} or by a container runtime.

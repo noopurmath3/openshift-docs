@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This guide outlines the packaging format for Operators supported by Operator Lifecycle Manager (OLM) in {product-title}.
 
 [NOTE]
@@ -14,6 +15,7 @@ Support for the legacy _package manifest format_ for Operators is removed in {pr
 
 include::modules/olm-bundle-format.adoc[leveloffset=+1]
 include::modules/olm-bundle-format-dependencies-file.adoc[leveloffset=+2]
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../../operators/understanding/olm/olm-understanding-dependency-resolution.adoc#olm-understanding-dependency-resolution[Operator Lifecycle Manager dependency resolution]
@@ -23,6 +25,7 @@ include::modules/olm-about-opm.adoc[leveloffset=+2]
 
 ifdef::openshift-origin[]
 [id="olm-packaging-format-addtl-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 See the upstream `operator-framework/operator-registry` project repository for more information on the Operator bundle format:

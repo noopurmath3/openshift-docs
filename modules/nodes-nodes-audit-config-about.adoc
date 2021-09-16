@@ -5,6 +5,7 @@
 [id="about-audit-log-profiles_{context}"]
 = About audit log policy profiles
 
+[role="_abstract"]
 Audit log profiles define how to log requests that come to the OpenShift API server, the Kubernetes API server, and the OAuth API server.
 
 {product-title} provides the following predefined audit policy profiles:

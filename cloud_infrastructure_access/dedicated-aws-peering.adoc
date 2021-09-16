@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This sample process configures an Amazon Web Services (AWS) VPC containing an
 {product-title} cluster to peer with another AWS VPC network. For more
 information about creating an AWS VPC Peering connection or for other possible
@@ -14,6 +15,7 @@ guide.
 
 include::modules/dedicated-aws-vpc-peering-terms.adoc[leveloffset=+1]
 include::modules/dedicated-aws-vpc-initiating-peering.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../cloud_infrastructure_access/dedicated-aws-access.adoc#dedicated-aws-ocm-iam-role[Logging into the Web Console for the OSD AWS Account]

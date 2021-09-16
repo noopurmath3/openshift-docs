@@ -4,6 +4,7 @@
 [id="templates-rails-setting-up-database_{context}"]
 = Setting up the database
 
+[role="_abstract"]
 Rails applications are almost always used with a database. For local development use the PostgreSQL database.
 
 .Procedure

@@ -5,6 +5,7 @@
 [id='op-deleting-the-pipelines-component-and-custom-resources_{context}']
 = Deleting the {pipelines-title} components and Custom Resources
 
+[role="_abstract"]
 Delete the Custom Resources (CRs) created by default during installation of the {pipelines-title} Operator.
 
 [discrete]

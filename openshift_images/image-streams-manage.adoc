@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Image streams provide a means of creating and updating container images in an on-going way. As improvements are made to an image, tags can be used to assign new version numbers and keep track of changes. This document describes how image streams are managed.
 
 include::modules/images-imagestream-use.adoc[leveloffset=+1]

@@ -5,6 +5,7 @@
 [id="olm-enabling-operator-for-restricted-network_{context}"]
 = Enabling your Operator for restricted network environments
 
+[role="_abstract"]
 As an Operator author, your Operator must meet additional requirements to run properly in a restricted network, or disconnected, environment.
 
 .Operator requirements for supporting disconnected mode

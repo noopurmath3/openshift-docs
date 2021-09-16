@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Users can review their own OAuth access tokens and delete any that are no longer needed.
 
 // Listing user-owned OAuth access tokens

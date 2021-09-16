@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 There are times when you need to make changes to the operating systems running on {product-title} nodes. This can include changing settings for network time service, adding kernel arguments, or configuring journaling in a specific way.
 
 Aside from a few specialized features, most changes to operating systems on {product-title} nodes can be done by creating what are referred to as `MachineConfig` objects that are managed by the Machine Config Operator.
@@ -30,6 +31,7 @@ include::modules/installation-special-config-chrony.adoc[leveloffset=+2]
 include::modules/nodes-nodes-kernel-arguments.adoc[leveloffset=+2]
 include::modules/rhcos-enabling-multipath-day-2.adoc[leveloffset=+2]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../installing/installing_bare_metal/installing-bare-metal.adoc#rhcos-enabling-multipath_installing-bare-metal[Enabling multipathing with kernel arguments on RHCOS] for more information about enabling multipathing during installation time.

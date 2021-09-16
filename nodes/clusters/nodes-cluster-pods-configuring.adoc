@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As an administrator, you can create and maintain an efficient cluster for pods.
 
 By keeping your cluster efficient, you can provide a better environment for your developers using

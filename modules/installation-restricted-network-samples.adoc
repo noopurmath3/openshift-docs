@@ -3,6 +3,7 @@
 // * post_installation_configuration/cluster-tasks.adoc
 // * openshift_images/samples-operator-alt-registry.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "post-install-cluster-tasks"]
 :restrictednetwork:
 endif::[]

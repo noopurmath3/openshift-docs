@@ -5,6 +5,7 @@
 [id="virt-checking_status_of_node_maintenance_cr_tasks_{context}"]
 = Checking status of current NodeMaintenance CR tasks
 
+[role="_abstract"]
 You can check the status of current `NodeMaintenance` CR tasks.
 
 .Prerequisites

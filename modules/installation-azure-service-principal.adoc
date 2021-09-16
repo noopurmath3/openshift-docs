@@ -6,6 +6,7 @@
 [id="installation-azure-service-principal_{context}"]
 = Creating a service principal
 
+[role="_abstract"]
 Because {product-title} and its installation program must create Microsoft Azure
 resources through Azure Resource Manager, you must create a service principal
 to represent it.

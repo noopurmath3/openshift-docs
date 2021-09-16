@@ -5,6 +5,7 @@ include::modules/ossm-document-attributes-1x.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Installing the {ProductShortName} involves installing the OpenShift Elasticsearch, Jaeger, Kiali and {ProductShortName} Operators, creating and managing a `ServiceMeshControlPlane` resource to deploy the control plane, and creating a `ServiceMeshMemberRoll` resource to specify the namespaces associated with the {ProductShortName}.
 
 [NOTE]

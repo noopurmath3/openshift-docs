@@ -6,6 +6,7 @@
 [id="nodes-nodes-managing-max-pods-about_{context}"]
 = Configuring the maximum number of pods per node
 
+[role="_abstract"]
 Two parameters control the maximum number of pods that can be scheduled to a node: `podsPerCore` and `maxPods`. If you use both options, the lower of the two limits the number of pods on a node.
 
 For example, if `podsPerCore` is set to `10` on a node with 4 processor cores, the maximum number of pods allowed on the node will be 40.

@@ -6,6 +6,7 @@ include::modules/gitops-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 With Red Hat OpenShift GitOps, you can configure Argo CD to recursively sync the content of a Git directory with an application that contains custom configurations for your cluster.
 
 .Prerequisites

@@ -6,6 +6,7 @@
 // * installing/installing_openstack/installing-openstack-user.adoc
 //
 // DNS resolution KI
+[role="_abstract"]
 ifeval::["{context}" == "installing-openstack-installer-custom"]
 :osp-custom:
 endif::[]

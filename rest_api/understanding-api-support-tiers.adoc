@@ -7,6 +7,7 @@ toc::[]
 
 [IMPORTANT]
 ====
+[role="_abstract"]
 This guidance does not cover layered {product-title} offerings.
 ====
 

@@ -5,6 +5,7 @@
 [id="certificate-injection-using-operators_{context}"]
 = Certificate injection using Operators
 
+[role="_abstract"]
 Once your custom CA certificate is added to the cluster via ConfigMap, the
 Cluster Network Operator merges the user-provided and system CA certificates
 into a single bundle and injects the merged bundle into the Operator requesting

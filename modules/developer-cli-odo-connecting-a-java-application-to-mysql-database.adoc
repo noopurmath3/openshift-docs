@@ -5,6 +5,7 @@
 [id="connecting-a-java-application-to-a-database_{context}"]
 = Connecting a Java application to a database
 
+[role="_abstract"]
 To connect your Java application to the database, use the `odo link` command.
 
 .Procedure

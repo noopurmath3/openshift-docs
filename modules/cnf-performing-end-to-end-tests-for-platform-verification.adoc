@@ -5,6 +5,7 @@
 [id="cnf-performing-end-to-end-tests-for-platform-verification_{context}"]
 = Performing end-to-end tests for platform verification
 
+[role="_abstract"]
 The Cloud-native Network Functions link:https://quay.io/repository/openshift-kni/cnf-tests?tag=latest&tab=tags[(CNF)] tests image is a containerized test suite that validates features required to run CNF payloads. You can use this image to validate a CNF-enabled OpenShift cluster where all the components required for running CNF workloads are installed.
 
 The tests run by the image are split into three different phases:

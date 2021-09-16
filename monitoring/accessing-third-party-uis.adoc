@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Integrated Metrics, Alerting, and Dashboard UIs are provided in the {product-title} web console. See the following for details on using these integrated UIs:
 
 * xref:../monitoring/managing-metrics.adoc#managing-metrics[Managing metrics]

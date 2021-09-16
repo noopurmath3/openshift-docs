@@ -5,6 +5,7 @@
 [id="oauth-default-clients_{context}"]
 = Default OAuth clients
 
+[role="_abstract"]
 The following OAuth clients are automatically created when starting the {product-title} API:
 
 [cols="2,3",options="header"]

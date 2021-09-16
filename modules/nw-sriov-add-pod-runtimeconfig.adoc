@@ -9,6 +9,7 @@
 [id="nw-sriov-add-pod-runtimeconfig_{context}"]
 = Configuring static MAC and IP addresses on additional SR-IOV networks
 
+[role="_abstract"]
 You can configure static MAC and IP addresses on an SR-IOV network by specifying Container Network Interface (CNI) `runtimeConfig` data in a pod annotation.
 
 .Prerequisites

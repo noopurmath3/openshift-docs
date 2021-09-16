@@ -6,6 +6,7 @@
 // Establishing conditionals so content can be re-used for editing VMs
 // and VM templates.
 
+[role="_abstract"]
 ifeval::["{context}" == "virt-dedicated-resources-vm-template"]
 :virt-vm-template:
 :object: virtual machine template

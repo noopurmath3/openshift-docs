@@ -5,6 +5,7 @@
 [id="nw-ipfailover-configuring-keepalived-multicast_{context}"]
 = Configuring Keepalived multicast
 
+[role="_abstract"]
 {product-title} IP failover internally uses Keepalived.
 
 [IMPORTANT]

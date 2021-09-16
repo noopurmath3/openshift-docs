@@ -6,6 +6,7 @@
 [id="installation-creating-aws-security_{context}"]
 = Creating security group and roles in AWS
 
+[role="_abstract"]
 You must create security groups and roles in Amazon Web Services (AWS) for your {product-title} cluster to use.
 
 You can use the provided CloudFormation template and a custom parameter file to create a stack of AWS resources. The stack represents the security groups and roles that your {product-title} cluster requires.

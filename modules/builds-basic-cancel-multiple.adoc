@@ -4,6 +4,7 @@
 [id="builds-basic-cancel-multiple_{context}"]
 = Canceling multiple builds
 
+[role="_abstract"]
 You can cancel multiple builds with the following CLI command.
 
 .Procedure

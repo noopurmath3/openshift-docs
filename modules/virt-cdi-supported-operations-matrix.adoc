@@ -13,6 +13,7 @@
 [id="virt-cdi-supported-operations-matrix_{context}"]
 = CDI supported operations matrix
 
+[role="_abstract"]
 This matrix shows the supported CDI operations for content types against endpoints, and which of these operations requires scratch space.
 
 |===

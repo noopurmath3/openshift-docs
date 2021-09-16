@@ -7,6 +7,7 @@
 
 == Addressing the `runtime network not ready` error
 
+[role="_abstract"]
 After the deployment of a cluster you might receive the following error:
 
 ----

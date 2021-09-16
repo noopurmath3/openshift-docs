@@ -6,6 +6,7 @@
 [id="registry-accessing-directly_{context}"]
 = Accessing registry directly from the cluster
 
+[role="_abstract"]
 You can access the registry from inside the cluster.
 
 .Procedure

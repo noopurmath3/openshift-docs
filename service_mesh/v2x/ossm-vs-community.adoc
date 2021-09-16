@@ -5,6 +5,7 @@ include::modules/ossm-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {ProductName} differs from an installation of Istio to provide additional features or to handle differences when deploying on {product-title}.
 
 // The following include statements pull in the module files that comprise the assembly.

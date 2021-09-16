@@ -5,6 +5,7 @@
 [id="virt-accessing-rdp-console_{context}"]
 = Connecting to a Windows virtual machine with an RDP console
 
+[role="_abstract"]
 The Remote Desktop Protocol (RDP) provides a better console experience for
 connecting to Windows virtual machines.
 

@@ -5,6 +5,7 @@
 [id="knative-serving-concurrent-autoscaling-requests_{context}"]
 = Configuring concurrent requests for Knative Serving autoscaling
 
+[role="_abstract"]
 You can specify the number of concurrent requests that should be handled by each instance of a revision container, or application, by adding the `target` annotation or the `containerConcurrency` field in the revision template.
 
 .Example revision template YAML using target annotation

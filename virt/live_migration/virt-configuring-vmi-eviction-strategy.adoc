@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The `LiveMigrate` eviction strategy ensures that a virtual machine instance is
 not interrupted if the node is placed into maintenance or drained. 
 Virtual machines instances with this eviction strategy will be live migrated to 

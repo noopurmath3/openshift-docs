@@ -8,6 +8,7 @@
 [id="osdk-upgrading-v130-to-v180_{context}"]
 = Upgrading projects for Operator SDK {osdk_ver}
 
+[role="_abstract"]
 The following upgrade steps must be performed to upgrade an existing Operator project for compatibility with {osdk_ver}.
 
 .Prerequisites

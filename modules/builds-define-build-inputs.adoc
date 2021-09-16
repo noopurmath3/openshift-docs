@@ -5,6 +5,7 @@
 [id="builds-define-build-inputs_{context}"]
 = Build inputs
 
+[role="_abstract"]
 A build input provides source content for builds to operate on. You can use the following build inputs to provide sources in {product-title}, listed in order of precedence:
 
 ifndef::openshift-online[]

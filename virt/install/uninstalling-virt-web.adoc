@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can uninstall {VirtProductName} by using the {product-title}
 xref:../../web_console/web-console.adoc#web-console-overview_web-console[web console].
 

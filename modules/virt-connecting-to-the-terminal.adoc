@@ -5,6 +5,7 @@
 [id="virt-connecting-to-the-terminal_{context}"]
 
 = Connecting to the terminal
+[role="_abstract"]
 You can connect to a virtual machine by using the web console.
 
 .Procedure

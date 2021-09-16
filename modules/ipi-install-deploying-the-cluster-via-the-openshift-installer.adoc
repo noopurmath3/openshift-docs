@@ -5,6 +5,7 @@
 [id='deploying-the-cluster-via-the-openshift-installer_{context}']
 = Deploying the cluster via the {product-title} installer
 
+[role="_abstract"]
 Run the {product-title} installer:
 
 [source,terminal]

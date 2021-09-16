@@ -3,6 +3,7 @@
 // * installing/installing_gcp/installing-gcp-user-infra.adoc
 // * installing/installing_gcp/installing-gcp-user-infra-vpc.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-gcp-user-infra-vpc"]
 :shared-vpc:
 endif::[]

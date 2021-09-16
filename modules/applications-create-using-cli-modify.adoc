@@ -1,6 +1,7 @@
 [id="applications-create-using-cli-modify_{context}"]
 = Modifying application creation
 
+[role="_abstract"]
 The `new-app` command generates {product-title} objects that build, deploy, and run the application that is created. Normally, these objects are created in the current project and assigned names that are derived from the input source repositories or the input images. However, with `new-app` you can modify this behavior.
 
 .`new-app` output objects

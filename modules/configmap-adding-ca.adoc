@@ -7,6 +7,7 @@
 = Adding certificate authorities to the cluster
 
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
+[role="_abstract"]
 You can add certificate authorities (CA) to the cluster for use when pushing and pulling images with the following procedure.
 
 .Prerequisites

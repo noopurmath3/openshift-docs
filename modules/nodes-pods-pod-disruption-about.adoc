@@ -7,6 +7,7 @@
 [id="nodes-pods-configuring-pod-distruption-about_{context}"]
 = Understanding how to use pod disruption budgets to specify the number of pods that must be up
 
+[role="_abstract"]
 A _pod disruption budget_ is part of the
 link:http://kubernetes.io/docs/admin/disruptions/[Kubernetes] API, which can be
 managed with `oc` commands like other object types. They

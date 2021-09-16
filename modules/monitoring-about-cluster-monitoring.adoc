@@ -8,6 +8,7 @@
 // included in the existing OpenShift assembly.
 
 [id="about-openshift-monitoring_{context}"]
+[role="_abstract"]
 ifeval::["{context}" == "understanding-the-monitoring-stack"]
 :ocp-monitoring:
 endif::[]

@@ -5,6 +5,7 @@
 [id="creating-a-role-for-setting-up-metrics-collection_{context}"]
 = Creating a role for setting up metrics collection
 
+[role="_abstract"]
 This procedure shows how to create a role that allows a user to set up metrics collection for a service as described in "Setting up metrics collection".
 
 .Procedure

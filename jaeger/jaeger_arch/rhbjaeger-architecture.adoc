@@ -5,6 +5,7 @@ include::modules/jaeger-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Every time a user takes an action in an application, a request is executed by the architecture that may require dozens of different services to participate to produce a response.
 Jaeger lets you perform distributed tracing, which records the path of a request through various microservices that make up an application.
 

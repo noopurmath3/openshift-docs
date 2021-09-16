@@ -5,6 +5,7 @@
 [id="osdk-golang-project-layout_{context}"]
 = Go-based project layout
 
+[role="_abstract"]
 Go-based Operator projects, the default type, generated using the `operator-sdk init` command contain the following files and directories:
 
 [options="header",cols="1,4"]

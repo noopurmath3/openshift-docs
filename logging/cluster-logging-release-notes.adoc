@@ -8,6 +8,7 @@ toc::[]
 [id="openshift-logging-about-this-release"]
 == About this release
 
+[role="_abstract"]
 The following advisories are available for OpenShift Logging 5.1.x:
 
 * link:https://access.redhat.com/errata/RHBA-2021:2885[RHBA-2021:2885 - Bug Fix Advisory. Openshift Logging Bug Fix Release 5.1.1]

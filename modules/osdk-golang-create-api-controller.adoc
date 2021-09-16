@@ -5,6 +5,7 @@
 [id="osdk-golang-create-api-controller_{context}"]
 = Creating an API and controller
 
+[role="_abstract"]
 Use the Operator SDK CLI to create a custom resource definition (CRD) API and controller.
 
 .Procedure

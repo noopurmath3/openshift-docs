@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-manila-install-driver_{context}"]
 = Installing the OpenStack Manila CSI driver
 
+[role="_abstract"]
 The OpenStack Manila Container Storage Interface (CSI) driver is a custom resource (CR) that enables you to create and mount OpenStack Manila shares. It also supports creating snapshots, and recovering shares from snapshots.
 
 The driver is not installed in {product-title} by default, and must be installed after the Manila CSI Driver Operator has been installed.

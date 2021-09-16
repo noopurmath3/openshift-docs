@@ -5,6 +5,7 @@
 [id="virt-deleting-virt-cli_{context}"]
 = Deleting {VirtProductName}
 
+[role="_abstract"]
 You can delete {VirtProductName} by using the CLI.
 
 .Prerequisites

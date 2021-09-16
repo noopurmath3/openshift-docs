@@ -1,6 +1,7 @@
 [id="odc-connecting-components_{context}"]
 = Connecting components within an application and across applications
 
+[role="_abstract"]
 In addition to grouping multiple components within an application, you can also use the *Topology* view to connect components with each other. You can either use a binding connector or a visual one to connect components.
 
 A binding connection between the components can be established only if the target node is an Operator-backed service. This is indicated by the *Create a binding connector* tool-tip which appears when you drag an arrow to such a target node. When an application is connected to a service using a binding connector a service binding request is created. Then, the Service Binding Operator controller uses an intermediate secret to inject the necessary binding data into the application deployment as environment variables. After the request is successful, the application is redeployed establishing an interaction between the connected components.

@@ -5,6 +5,7 @@
 [id="preparing-the-provisioner-node-for-openshift-install_{context}"]
 = Preparing the provisioner node for {product-title} installation
 
+[role="_abstract"]
 Perform the following steps to prepare the environment.
 
 .Procedure

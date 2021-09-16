@@ -9,6 +9,7 @@
 
 = Using the must-gather tool
 
+[role="_abstract"]
 You can collect logs, metrics, and information about {MTC-short} custom resources by using the `must-gather` tool.
 
 The `must-gather` data must be attached to all customer cases.

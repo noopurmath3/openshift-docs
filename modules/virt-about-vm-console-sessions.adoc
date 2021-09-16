@@ -5,6 +5,7 @@
 [id="virt-about-vm-console-sessions_{context}"]
 = About virtual machine console sessions
 
+[role="_abstract"]
 You can connect to the VNC and serial consoles of a running virtual machine from
 the *Console* tab on the *Virtual Machine Details* page of the web console.
 

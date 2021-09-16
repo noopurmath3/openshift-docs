@@ -6,6 +6,7 @@
 
 = Configuring the `install-config.yaml` file
 
+[role="_abstract"]
 The `install-config.yaml` file requires some additional details.
 Most of the information is teaching the installer and the resulting cluster enough about the available hardware so that it is able to fully manage it.
 

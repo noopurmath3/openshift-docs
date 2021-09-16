@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Topology Manager collects hints from the CPU Manager, Device Manager, and other Hint Providers to align pod resources, such as CPU, SR-IOV VFs,
 and other device resources, for all Quality of Service (QoS) classes on the same non-uniform memory access (NUMA) node.
 
@@ -23,6 +24,7 @@ To use Topology Manager you must use the CPU Manager with the `static` policy. F
 include::modules/topology-manager-policies.adoc[leveloffset=+1]
 include::modules/setting-up-topology-manager.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 For more information on CPU Manager, see xref:../scalability_and_performance/using-cpu-manager.adoc#using-cpu-manager[Using CPU Manager].
 

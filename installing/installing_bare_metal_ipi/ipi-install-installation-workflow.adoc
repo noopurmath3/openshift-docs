@@ -17,6 +17,7 @@ include::modules/ipi-install-creating-an-rhcos-images-cache.adoc[leveloffset=+1]
 
 ifdef::upstream[]
 include::ipi-install-configuration-files.adoc[leveloffset=+1]
+[role="_abstract"]
 endif::[]
 
 ifndef::upstream[]
@@ -35,6 +36,7 @@ include::modules/ipi-install-following-the-installation.adoc[leveloffset=+1]
 
 include::modules/ipi-install-verifying-static-ip-address-configuration.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../../updating/updating-cluster-between-minor.adoc#understanding-upgrade-channels_updating-cluster-between-minor[{product-title} upgrade channels and releases] for an explanation of the different release channels.

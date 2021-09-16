@@ -13,6 +13,7 @@
 [id="architecture-rhcos-updating-bootloader.adoc_{context}"]
 = Updating the bootloader using bootupd
 
+[role="_abstract"]
 To update the bootloader by using `bootupd`, you must either install `bootupd` on {op-system} machines manually or provide a machine config with the enabled `systemd` unit. Unlike `grubby` or other bootloader tools, `bootupd` does not manage kernel space configuration such as passing kernel arguments.
 
 After you have installed `bootupd`, you can manage it remotely from the {product-title} cluster.

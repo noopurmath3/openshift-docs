@@ -8,6 +8,7 @@ toc::[]
 :FeatureName: Metering
 include::modules/deprecated-feature.adoc[leveloffset=+1]
 
+[role="_abstract"]
 You can upgrade metering to {product-version} by updating the Metering Operator subscription.
 
 == Prerequisites

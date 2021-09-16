@@ -5,6 +5,7 @@
 [id="nw-egress-ips-automatic_{context}"]
 = Configuring automatically assigned egress IP addresses for a namespace
 
+[role="_abstract"]
 In {product-title} you can enable automatic assignment of an egress IP address
 for a specific namespace across one or more nodes.
 

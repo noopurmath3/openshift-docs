@@ -5,6 +5,7 @@
 [id="jt-extending-tekton-capabilities-using-custom-tasks-and-scripts_{context}"]
 = Extending Tekton capabilities using custom tasks and scripts
 
+[role="_abstract"]
 toc::[]
 
 

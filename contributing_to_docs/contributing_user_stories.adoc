@@ -6,6 +6,7 @@
 :toclevels: 1
 :description: Basic information about how to create user stories for OpenShift GitHub repository
 
+[role="_abstract"]
 toc::[]
 
 == Modularization backstory

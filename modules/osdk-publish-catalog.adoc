@@ -5,6 +5,7 @@
 [id="osdk-publish-catalog_{context}"]
 = Publishing a catalog containing a bundled Operator
 
+[role="_abstract"]
 To install and manage Operators, Operator Lifecycle Manager (OLM) requires that Operator bundles are listed in an index image, which is referenced by a catalog on the cluster. As an Operator author, you can use the Operator SDK to create an index containing the bundle for your Operator and all of its dependencies. This is useful for testing on remote clusters and publishing to container registries.
 
 [NOTE]

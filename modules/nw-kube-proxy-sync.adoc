@@ -5,6 +5,7 @@
 [id="nw-kube-proxy-sync_{context}"]
 = About iptables rules synchronization
 
+[role="_abstract"]
 The synchronization period determines how frequently the Kubernetes network
 proxy (kube-proxy) syncs the iptables rules on a node.
 

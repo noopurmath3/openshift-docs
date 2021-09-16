@@ -6,6 +6,7 @@
 [id="virt-about-container-disks_{context}"]
 = About container disks
 
+[role="_abstract"]
 A container disk is a virtual machine image that is stored as a container image in a container image registry. You can use container disks to deliver the same disk images to multiple virtual machines and to create large numbers of virtual machine clones.
 
 A container disk can either be imported into a persistent volume claim (PVC) by using a data volume that is attached to a virtual machine, or attached directly to a virtual machine as an ephemeral `containerDisk` volume.

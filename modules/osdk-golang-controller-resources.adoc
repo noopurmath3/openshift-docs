@@ -5,6 +5,7 @@
 [id="osdk-golang-controller-resources_{context}"]
 = Resources watched by the controller
 
+[role="_abstract"]
 The `SetupWithManager()` function in `controllers/memcached_controller.go` specifies how the controller is built to watch a CR and other resources that are owned and managed by that controller.
 
 [source,go]

@@ -5,6 +5,7 @@
 [id=persistent-storage-overview_{context}]
 = Persistent storage overview
 
+[role="_abstract"]
 Managing storage is a distinct problem from managing compute resources.
 {product-title} uses the Kubernetes persistent volume (PV) framework to
 allow cluster administrators to provision persistent storage for a cluster.

@@ -5,6 +5,7 @@
 [id="nodes-containers-sysctls-unsafe_{context}"]
 = Enabling unsafe sysctls
 
+[role="_abstract"]
 A cluster administrator can allow certain unsafe sysctls for very special
 situations such as high performance or real-time application tuning.
 

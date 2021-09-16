@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} provides various resources for monitoring at the cluster level.
 
 // Cluster monitoring

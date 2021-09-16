@@ -5,6 +5,7 @@
 [id="efs-creating-configmap_{context}"]
 = Store the EFS variables in a config map
 
+[role="_abstract"]
 It is recommended to use a config map to contain all the environment
 variables that are required for the EFS provisioner.
 

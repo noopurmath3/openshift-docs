@@ -5,6 +5,7 @@
 [id="verifying-static-ip-address-configuration_{context}"]
 = Verifying static IP address configuration
 
+[role="_abstract"]
 If the DHCP reservation for a cluster node specifies an infinite lease, after the installer successfully provisions the node, the dispatcher script checks the node's network configuration. If the script determines that the network configuration contains an infinite DHCP lease, it creates a new connection using the IP address of the DHCP lease as a static IP address.
 
 [NOTE]

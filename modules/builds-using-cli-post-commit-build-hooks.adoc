@@ -5,6 +5,7 @@
 [id="builds-using-cli-post-commit-build-hooks_{context}"]
 = Using the CLI to set post commit build hooks
 
+[role="_abstract"]
 The `oc set build-hook` command can be used to set the build hook for a build configuration.
 
 .Procedure

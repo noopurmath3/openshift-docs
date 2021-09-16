@@ -6,6 +6,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 When opening a support case, it is helpful to provide debugging
 information about your cluster to Red Hat Support.
 

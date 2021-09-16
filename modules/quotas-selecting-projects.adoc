@@ -5,6 +5,7 @@
 [id="quotas-setting-projects_{context}"]
 = Selecting multiple projects during quota creation
 
+[role="_abstract"]
 When creating quotas, you can select multiple projects based on annotation selection, label selection, or both.
 
 .Procedure

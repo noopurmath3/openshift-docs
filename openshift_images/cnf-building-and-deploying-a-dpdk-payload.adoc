@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The Data Plane Development Kit (DPDK) base image is a base image for DPDK
 applications. It uses the Source-to-Image (S2I) build tool to automate the
 building of application images.

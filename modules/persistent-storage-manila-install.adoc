@@ -5,6 +5,7 @@
 [id="persistent-storage-manila-install_{context}"]
 = Installing the external provisioner
 
+[role="_abstract"]
 To use {rh-openstack-first} Manila persistent storage you must install
 and configure an external provisioner in the {product-title}
 cluster.

@@ -5,6 +5,7 @@
 // * networking/openshift_sdn/deploying-egress-router-dns-redirection.adoc
 
 // Conditional per flavor of Pod
+[role="_abstract"]
 ifeval::["{context}" == "deploying-egress-router-layer3-redirection"]
 :redirect:
 :router-type: redirect

@@ -5,6 +5,7 @@
 [id="odc-creating-projects-using-developer-perspective_{context}"]
 = Creating a project using the Developer perspective in the web console
 
+[role="_abstract"]
 You can use the *Developer* perspective in the {product-title} web console to create a project in your cluster.
 
 [NOTE]

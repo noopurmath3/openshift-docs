@@ -5,6 +5,7 @@
 [id="metering-install-operator_{context}"]
 = Installing the Metering Operator
 
+[role="_abstract"]
 You can install metering by deploying the Metering Operator. The Metering Operator creates and manages the components of the metering stack.
 
 [NOTE]

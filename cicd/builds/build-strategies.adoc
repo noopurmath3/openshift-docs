@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The following sections define the primary supported build strategies, and how to
 use them.
 

@@ -7,6 +7,7 @@
 [id="nw-networkpolicy-project-defaults_{context}"]
 = Adding network policies to the new project template
 
+[role="_abstract"]
 As a cluster administrator, you can add network policies to the default template for new projects.
 {product-title} will automatically create all the `NetworkPolicy` objects specified in the template in the project.
 

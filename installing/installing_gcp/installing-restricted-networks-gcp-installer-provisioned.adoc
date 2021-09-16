@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 In {product-title} {product-version}, you can install a cluster on Google Cloud Platform (GCP) in a restricted network by creating an internal mirror of the installation release content on an existing Google Virtual Private Cloud (VPC).
 
 [IMPORTANT]
@@ -55,6 +56,7 @@ include::modules/olm-restricted-networks-configuring-operatorhub.adoc[leveloffse
 
 include::modules/cluster-telemetry.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../../support/remote_health_monitoring/about-remote-health-monitoring.adoc#about-remote-health-monitoring[About remote health monitoring] for more information about the Telemetry service

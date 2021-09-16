@@ -6,6 +6,7 @@
 [id="nodes-cluster-overcommit-qos-about_{context}"]
 = Understanding overcomitment and quality of service classes
 
+[role="_abstract"]
 A node is _overcommitted_ when it has a pod scheduled that makes no request, or
 when the sum of limits across all pods on that node exceeds available machine
 capacity.

@@ -6,6 +6,7 @@
 [id="virt-edit-boot-order-yaml-web_{context}"]
 = Editing a boot order list in the YAML configuration file
 
+[role="_abstract"]
 Edit the boot order list in a YAML configuration file by using the CLI.
 
 .Procedure

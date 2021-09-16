@@ -5,6 +5,7 @@
 [id="serverless-kafka-source-yaml_{context}"]
 = Creating a Kafka event source by using YAML
 
+[role="_abstract"]
 You can create a Kafka event source by using YAML.
 
 .Prerequisites

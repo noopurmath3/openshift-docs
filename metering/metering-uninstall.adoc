@@ -8,6 +8,7 @@ toc::[]
 :FeatureName: Metering
 include::modules/deprecated-feature.adoc[leveloffset=+1]
 
+[role="_abstract"]
 You can remove metering from your {product-title} cluster.
 
 [NOTE]

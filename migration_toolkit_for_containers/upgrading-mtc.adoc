@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can upgrade the {mtc-full} ({mtc-short}) on {product-title} {product-version} by using the Operator Lifecycle Manager.
 
 You can upgrade {mtc-short} on {product-title} versions 4.2 to 4.5 by installing the legacy {mtc-full} Operator.

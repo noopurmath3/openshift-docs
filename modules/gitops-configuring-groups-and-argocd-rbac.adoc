@@ -5,6 +5,7 @@
 [id="configuring-groups-and-argocd-rbac_{context}"]
 = Configure groups and Argo CD RBAC
 
+[role="_abstract"]
 Role-based access control (RBAC) allows you to provide relevant permissions to users.
 
 .Prerequisites 

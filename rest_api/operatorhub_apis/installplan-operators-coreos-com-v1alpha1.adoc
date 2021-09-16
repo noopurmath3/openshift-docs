@@ -2,6 +2,7 @@
 = InstallPlan [operators.coreos.com/v1alpha1]
 ifdef::product-title[]
 include::modules/common-attributes.adoc[]
+[role="_abstract"]
 endif::[]
 
 toc::[]

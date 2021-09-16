@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-manila-dynamic-provisioning_{context}"]
 = Dynamically provisioning Manila CSI volumes
 
+[role="_abstract"]
 {product-title} installs a storage class for each available Manila share type.
 
 The YAML files that are created are completely decoupled from Manila and from its Container Storage Interface (CSI) plug-in. As an application developer, you can dynamically provision ReadWriteMany (RWX) storage and deploy pods with applications that safely consume the storage using YAML manifests.

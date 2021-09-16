@@ -5,6 +5,7 @@
 [id="serverless-install-kafka-odc_{context}"]
 = Installing Knative Kafka components by using the web console
 
+[role="_abstract"]
 Cluster administrators can enable the use of Knative Kafka functionality in an {ServerlessProductName} deployment by instantiating the `KnativeKafka` custom resource definition provided by the *Knative Kafka* {ServerlessOperatorName} API.
 
 .Prerequisites

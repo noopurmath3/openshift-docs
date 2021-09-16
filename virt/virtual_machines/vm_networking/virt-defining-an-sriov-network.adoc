@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can create a network attachment for a Single Root I/O Virtualization (SR-IOV) device for virtual machines.
 
 After the network is defined, you can attach virtual machines to the SR-IOV network.

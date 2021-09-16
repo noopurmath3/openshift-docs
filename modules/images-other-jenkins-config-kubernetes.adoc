@@ -5,6 +5,7 @@
 [id="images-other-jenkins-config-kubernetes_{context}"]
 = Configuring the Jenkins Kubernetes plug-in
 
+[role="_abstract"]
 The {product-title} Jenkins image includes the pre-installed link:https://wiki.jenkins-ci.org/display/JENKINS/Kubernetes+Plugin[Kubernetes plug-in] that allows Jenkins agents to be dynamically provisioned on multiple container hosts using Kubernetes and {product-title}.
 
 To use the Kubernetes plug-in, {product-title} provides images that are suitable for use as Jenkins agents including the Base, Maven, and Node.js images.

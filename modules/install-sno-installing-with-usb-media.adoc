@@ -5,6 +5,7 @@
 [id="installing-with-usb-media_{context}"]
 = Installing with USB media
 
+[role="_abstract"]
 Installing with USB media involves creating a bootable USB drive with the discovery ISO on the administration node. Booting the server with the USB drive prepares the node for a single node installation.
 
 .Procedure

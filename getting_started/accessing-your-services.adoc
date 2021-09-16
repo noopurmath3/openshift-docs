@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Once you have an {product-title} subscription, you can access your services.
 
 include::modules/dedicated-creating-your-cluster.adoc[leveloffset=+1]

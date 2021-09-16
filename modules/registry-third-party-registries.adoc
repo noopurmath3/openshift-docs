@@ -5,6 +5,7 @@
 [id="registry-third-party-registries_{context}"]
 = Third-party registries
 
+[role="_abstract"]
 {product-title} can create containers using images from third-party registries,
 but it is unlikely that these registries offer the same image notification
 support as the integrated {product-title} registry. In this situation,

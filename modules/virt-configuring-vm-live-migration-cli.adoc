@@ -5,6 +5,7 @@
 [id="virt-configuring-vm-live-migration-cli_{context}"]
 = Configuring custom virtual machines with the LiveMigration eviction strategy
 
+[role="_abstract"]
 You only need to configure the `LiveMigration` eviction strategy on custom
 virtual machines. Common templates have this eviction strategy
 configured by default.

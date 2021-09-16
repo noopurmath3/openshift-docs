@@ -6,6 +6,7 @@
 
 ifdef::openshift-origin[]
 :image: fedora:31
+[role="_abstract"]
 endif::[]
 
 [id="nw-sctp-verifying_{context}"]

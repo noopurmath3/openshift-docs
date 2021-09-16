@@ -5,6 +5,7 @@
 [id="cnf-understanding-low-latency_{context}"]
 = Understanding low latency
 
+[role="_abstract"]
 The emergence of Edge computing in the area of Telco / 5G plays a key role in
 reducing latency and congestion problems and improving application performance.
 

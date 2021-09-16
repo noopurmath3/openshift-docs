@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can customize and install an {product-title} cluster on {rh-virtualization-first}, similar to the one shown in the following diagram.
 
 image::92_OpenShift_Cluster_Install_RHV_0520.png[Diagram of an {product-title} cluster on a {rh-virtualization} cluster]
@@ -78,6 +79,7 @@ include::modules/installing-rhv-accessing-ocp-web-console.adoc[leveloffset=+1]
 
 include::modules/cluster-telemetry.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../../support/remote_health_monitoring/about-remote-health-monitoring.adoc#about-remote-health-monitoring[About remote health monitoring] for more information about the Telemetry service

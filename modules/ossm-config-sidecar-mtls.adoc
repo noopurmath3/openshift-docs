@@ -5,6 +5,7 @@
 [id="ossm-security-mtls-sidecars-incoming-services_{context}"]
 = Configuring sidecars for incoming connections for specific services
 
+[role="_abstract"]
 You can also configure mTLS for individual services by creating a policy.
 
 .Procedure

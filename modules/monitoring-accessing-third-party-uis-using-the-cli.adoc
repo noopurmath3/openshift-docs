@@ -5,6 +5,7 @@
 [id="accessing-third-party-uis-using-the-cli_{context}"]
 = Accessing third-party monitoring UIs by using the CLI
 
+[role="_abstract"]
 You can obtain URLs for the Prometheus, Alertmanager, and Grafana web UIs by using the OpenShift CLI (`oc`) tool.
 
 .Prerequisites

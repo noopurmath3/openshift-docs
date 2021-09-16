@@ -5,6 +5,7 @@
 [id="application-health-configuring_{context}"]
 = Configuring health checks using the CLI
 
+[role="_abstract"]
 To configure readiness, liveness, and startup probes, add one or more probes to the specification for the pod that contains the container which you want to perform the health checks
 
 [NOTE]

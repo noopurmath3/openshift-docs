@@ -5,6 +5,7 @@ include::modules/ossm-document-attributes-1x.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 To remove {ProductName} from an existing {product-title} instance, remove the control plane before removing the operators.
 
 include::modules/ossm-control-plane-remove.adoc[leveloffset=+1]

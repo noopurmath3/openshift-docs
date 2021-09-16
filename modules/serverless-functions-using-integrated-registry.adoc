@@ -5,6 +5,7 @@
 [id="serverless-functions-using-integrated-registry_{context}"]
 = Building and deploying functions with OpenShift Container Registry
 
+[role="_abstract"]
 When building and deploying functions, the resulting container image is stored in an image registry. Usually this will be a public registry, such as Quay. However, you can use the integrated OpenShift Container Registry instead if it has been exposed by a cluster administrator.
 
 .Procedure

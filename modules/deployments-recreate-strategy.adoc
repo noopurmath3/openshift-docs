@@ -5,6 +5,7 @@
 [id="deployments-recreate-strategy_{context}"]
 = Recreate strategy
 
+[role="_abstract"]
 The recreate strategy has basic rollout behavior and supports lifecycle hooks for injecting code into the deployment process.
 
 .Example recreate strategy definition

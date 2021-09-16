@@ -5,6 +5,7 @@
 [id="serverless-create-default-channel-yaml_{context}"]
 = Creating a default implementation channel by using YAML
 
+[role="_abstract"]
 You can create a channel by using YAML with the cluster default configuration.
 
 .Prerequisites

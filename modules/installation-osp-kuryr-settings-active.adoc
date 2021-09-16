@@ -5,6 +5,7 @@
 [id="installation-osp-kuryr-settings-active_{context}"]
 = Adjusting Kuryr ports pool settings in active deployments on {rh-openstack}
 
+[role="_abstract"]
 You can use a custom resource (CR) to configure how Kuryr manages {rh-openstack-first} Neutron ports to control the speed and efficiency of pod creation on a deployed cluster.
 
 .Procedure

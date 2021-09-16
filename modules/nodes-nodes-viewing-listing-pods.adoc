@@ -5,6 +5,7 @@
 [id="nodes-nodes-viewing-listing-pods_{context}"]
 = Listing pods on a node in your cluster
 
+[role="_abstract"]
 You can list all the pods on a specific node.
 
 .Procedure

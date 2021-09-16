@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 In a container environment, the software build process is the stage in the life
 cycle where application code is integrated with the required runtime libraries.
 Managing this build process is key to securing the software stack.
@@ -25,6 +26,7 @@ include::modules/security-build-designing.adoc[leveloffset=+1]
 include::modules/security-build-knative.adoc[leveloffset=+1]
 
 [id="additional-resources_security-build"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../cicd/builds/understanding-image-builds.adoc#understanding-image-builds[Understanding image builds]

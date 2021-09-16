@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Learn about the Node Tuning Operator and how you can use it to manage node-level
 tuning by orchestrating the tuned daemon.
 

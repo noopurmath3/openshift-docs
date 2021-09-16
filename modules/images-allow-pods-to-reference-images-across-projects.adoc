@@ -4,6 +4,7 @@
 [id="images-allow-pods-to-reference-images-across-projects_{context}"]
 = Allowing pods to reference images across projects
 
+[role="_abstract"]
 When using the internal registry, to allow pods in `project-a` to reference images in `project-b`, a service account in `project-a` must be bound to the `system:image-puller` role in `project-b`.
 
 .Procedure

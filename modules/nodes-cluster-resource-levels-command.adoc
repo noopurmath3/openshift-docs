@@ -5,6 +5,7 @@
 [id="nodes-cluster-resource-levels-command_{context}"]
 = Running the cluster capacity tool on the command line
 
+[role="_abstract"]
 You can run the {product-title} cluster capacity tool from the command line
 to estimate the number of pods that can be scheduled onto your cluster.
 

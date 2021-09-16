@@ -5,6 +5,7 @@
 [id="virt-disabling-guest-memory-overhead-accounting_{context}"]
 = Disabling guest memory overhead accounting
 
+[role="_abstract"]
 A small amount of memory is requested by each virtual machine instance in addition to the amount that you request. This additional memory is used for the infrastructure that wraps each `VirtualMachineInstance` process.
 
 Though it is not usually advisable, it is possible to increase the virtual machine instance density on the node by disabling guest memory overhead accounting.

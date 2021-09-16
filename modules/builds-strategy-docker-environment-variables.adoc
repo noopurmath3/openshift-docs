@@ -4,6 +4,7 @@
 [id="builds-strategy-docker-environment-variables_{context}"]
 = Using docker environment variables
 
+[role="_abstract"]
 To make environment variables available to the docker build process and resulting image, you can add environment variables to the `dockerStrategy` definition of the build configuration.
 
 The environment variables defined there are inserted as a single `ENV` Dockerfile instruction right after the `FROM` instruction, so that it can be referenced later on within the Dockerfile.

@@ -5,6 +5,7 @@
 [id="osdk-ansible-cr-status-about_{context}"]
 = About custom resource status in Ansible-based Operators
 
+[role="_abstract"]
 Ansible-based Operators automatically update custom resource (CR) link:https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#status-subresource[`status` subresources] with generic information about the previous Ansible run. This includes the number of successful and failed tasks and relevant error messages as shown:
 
 [source,yaml]

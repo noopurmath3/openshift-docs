@@ -8,6 +8,7 @@
 
 [IMPORTANT]
 ====
+[role="_abstract"]
 The Pipeline build strategy is deprecated in {product-title} 4. Equivalent and improved functionality is present in the {product-title} Pipelines based on Tekton.
 
 Jenkins images on {product-title} are fully supported and users should follow Jenkins user documentation for defining their `jenkinsfile` in a job or store it in a Source Control Management system.

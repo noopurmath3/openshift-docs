@@ -7,6 +7,7 @@ toc::[]
 
 == Overview
 
+[role="_abstract"]
 {product-title} is capable of provisioning persistent volumes (PVs) using the Container Storage Interface (CSI) driver for the link:https://wiki.openstack.org/wiki/Manila[OpenStack Manila] shared file system service.
 
 Familiarity with xref:../../storage/understanding-persistent-storage.adoc#understanding-persistent-storage[persistent storage] and xref:../../storage/container_storage_interface/persistent-storage-csi.adoc#persistent-storage-csi[configuring CSI volumes] is recommended when working with a Container Storage Interface (CSI) Operator and driver.
@@ -21,5 +22,6 @@ include::modules/persistent-storage-csi-about.adoc[leveloffset=+1]
 
 include::modules/persistent-storage-csi-manila-dynamic-provisioning.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 * xref:../../storage/container_storage_interface/persistent-storage-csi.adoc#persistent-storage-csi[Configuring CSI volumes]

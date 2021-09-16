@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 If you have installed a previous version of {ServerlessProductName}, follow the instructions in this guide to upgrade to the latest version.
 
 [IMPORTANT]

@@ -8,6 +8,7 @@
 == Logs
 
 ifdef::virt-importing-vmware-vm[]
+[role="_abstract"]
 You can check the V2V Conversion pod log for errors.
 
 .Procedure

@@ -1,4 +1,5 @@
 ////
+[role="_abstract"]
 This PROCEDURE module included in the following assemblies:
 - ossm-tutorial-grafana.adoc
 ////

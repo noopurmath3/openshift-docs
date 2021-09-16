@@ -5,6 +5,7 @@
 [id="nodes-containers-projected-volumes-about_{context}"]
 = Expose Pod information to Containers using the Downward API
 
+[role="_abstract"]
 The Downward API contains such information as the pod's name, project, and resource values. Containers can consume
 information from the downward API using environment variables or a volume
 plug-in.

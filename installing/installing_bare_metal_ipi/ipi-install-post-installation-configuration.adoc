@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 After successfully deploying an installer-provisioned cluster, consider the following post-installation procedures.
 
 include::modules/ipi-install-configuring-ntp-for-disconnected-clusters.adoc[leveloffset=+1]

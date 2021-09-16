@@ -1,6 +1,7 @@
 [id="odc-interacting-with-applications-and-components_{context}"]
 = Interacting with applications and components
 
+[role="_abstract"]
 The *Topology* view in the *Developer* perspective of the web console provides the following options to interact with applications and components:
 
 * Click *Open URL* (image:odc_open_url.png[title="Application Link"]) to see your application exposed by the route on a public URL.

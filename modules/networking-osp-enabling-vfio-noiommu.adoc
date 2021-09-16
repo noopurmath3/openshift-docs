@@ -6,6 +6,7 @@
 [id="networking-osp-enabling-vfio-noiommu_{context}"]
 = Enabling the No-IOMMU feature for the {rh-openstack} VFIO driver
 
+[role="_abstract"]
 You can apply a machine config to your machine pool that enables the No-IOMMU feature for the {rh-openstack-first} virtual function I/O (VFIO) driver. The {rh-openstack} vfio-pci driver requires this feature.
 
 .Procedure

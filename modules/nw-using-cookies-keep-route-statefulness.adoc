@@ -8,6 +8,7 @@
 [id="nw-using-cookies-keep-route-statefulness_{context}"]
 = Using cookies to keep route statefulness
 
+[role="_abstract"]
 {product-title} provides sticky sessions, which enables stateful application
 traffic by ensuring all traffic hits the same endpoint. However, if the endpoint
 pod terminates, whether through restart, scaling, or a change in configuration,

@@ -5,6 +5,7 @@
 [id="templates-waiting-for-readiness_{context}"]
 = Waiting for template readiness
 
+[role="_abstract"]
 Template authors can indicate that certain objects within a template should be waited for before a template instantiation by the service catalog, {tsb-name}, or `TemplateInstance` API is considered complete.
 
 To use this feature, mark one or more objects of kind `Build`, `BuildConfig`, `Deployment`, `DeploymentConfig`, `Job`, or `StatefulSet` in a template with the following annotation:

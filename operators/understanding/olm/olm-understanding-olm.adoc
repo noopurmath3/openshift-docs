@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This guide provides an overview of the concepts that drive Operator Lifecycle Manager (OLM) in {product-title}.
 
 include::modules/olm-overview.adoc[leveloffset=+1]

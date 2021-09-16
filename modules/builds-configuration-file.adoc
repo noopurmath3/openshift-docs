@@ -5,6 +5,7 @@
 [id="builds-configuration-file_{context}"]
 = Configuring build settings
 
+[role="_abstract"]
 You can configure build settings by editing the `build.config.openshift.io/cluster` resource.
 
 .Procedure

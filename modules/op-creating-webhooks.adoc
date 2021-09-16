@@ -5,6 +5,7 @@
 [id="creating-webhooks_{context}"]
 = Creating webhooks
 
+[role="_abstract"]
 _Webhooks_ are HTTP POST messages that are received by the event listeners whenever a configured event occurs in your repository. The event payload is then mapped to trigger bindings, and processed by trigger templates. The trigger templates eventually start one or more pipeline runs, leading to the creation and deployment of Kubernetes resources.
 
 In this section, you will configure a webhook URL on your forked Git repositories `pipelines-vote-ui` and `pipelines-vote-api`. This URL points to the publicly accessible `EventListener` service route.

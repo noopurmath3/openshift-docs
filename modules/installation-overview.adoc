@@ -6,6 +6,7 @@
 [id="installation-overview_{context}"]
 = {product-title} installation overview
 
+[role="_abstract"]
 The {product-title} installation program offers you flexibility. You can use the installation program to deploy a cluster on infrastructure that the installation program provisions and the cluster maintains or deploy a cluster on infrastructure that you prepare and maintain.
 
 These two basic types of {product-title} clusters are frequently called installer-provisioned infrastructure clusters and user-provisioned infrastructure clusters.

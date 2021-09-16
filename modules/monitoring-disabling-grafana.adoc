@@ -5,6 +5,7 @@
 [id="disabling_grafana_{context}"]
 = Disabling the default Grafana deployment
 
+[role="_abstract"]
 By default, a read-only Grafana instance is deployed with a collection of dashboards displaying cluster metrics. The Grafana instance is not user-configurable.
 
 You can disable the Grafana deployment, causing the associated resources to be deleted from the cluster. You might do this if you do not need these dashboards and want to conserve resources in your cluster. You will still be able to view metrics and dashboards included in the web console. Grafana can be safely enabled again at any time.

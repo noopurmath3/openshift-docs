@@ -4,6 +4,7 @@
 // * operators/operator-reference.adoc
 
 [id="olm-architecture_{context}"]
+[role="_abstract"]
 ifeval::["{context}" != "red-hat-operators"]
 = Component responsibilities
 endif::[]

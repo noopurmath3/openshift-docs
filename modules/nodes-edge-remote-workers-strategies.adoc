@@ -5,6 +5,7 @@
 [id="nodes-edge-remote-workers-strategies_{context}"]
 = Remote worker node strategies
 
+[role="_abstract"]
 If you use remote worker nodes, consider which objects to use to run your applications.
 
 It is recommend to use daemon sets or static pods based on the behavior you want in the event of network issues or power loss. In addition, you can use Kubernetes zones and tolerations to control or avoid pod evictions if the control plane cannot reach remote worker nodes.

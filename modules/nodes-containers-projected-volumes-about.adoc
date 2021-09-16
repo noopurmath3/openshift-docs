@@ -5,6 +5,7 @@
 [id="nodes-containers-projected-volumes-about_{context}"]
 = Understanding projected volumes
 
+[role="_abstract"]
 Projected volumes can map any combination of these volume sources into a single directory, allowing the user to:
 
 * automatically populate a single volume with the keys from multiple secrets, config maps, and with downward API information,

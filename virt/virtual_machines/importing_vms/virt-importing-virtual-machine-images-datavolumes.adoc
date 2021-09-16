@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Use the Containerized Data Importer (CDI) to import a virtual machine image into a persistent volume claim (PVC) by using a data volume. You can attach a data volume to a virtual machine for persistent storage.
 
 The virtual machine image can be hosted at an HTTP or HTTPS endpoint, or built into a container disk and stored in a container registry.
@@ -46,6 +47,7 @@ include::modules/virt-importing-vm-datavolume.adoc[leveloffset=+1]
 // include::modules/virt-template-datavolume-import.adoc[leveloffset=+1]
 
 [id="{context}_additional-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../../virt/virtual_machines/virtual_disks/virt-using-preallocation-for-datavolumes.adoc#virt-using-preallocation-for-datavolumes[Configure preallocation mode] to improve write performance for data volume operations.

@@ -5,6 +5,7 @@
 [id="efs-pvc_{context}"]
 = Create the EFS persistent volume claim
 
+[role="_abstract"]
 EFS persistent volume claims are created to allow pods
 to mount the underlying EFS storage.
 

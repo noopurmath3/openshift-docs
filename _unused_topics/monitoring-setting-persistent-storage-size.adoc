@@ -5,6 +5,7 @@
 [id="setting-persistent-storage-size_{context}"]
 = Setting persistent storage size
 
+[role="_abstract"]
 You can specify the size of the persistent volume claim for Prometheus and Alertmanager.
 
 .Procedure

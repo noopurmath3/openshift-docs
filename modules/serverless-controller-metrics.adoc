@@ -1,6 +1,7 @@
 [id="serverless-controller-metrics_{context}"]
 = Controller metrics
 
+[role="_abstract"]
 The following metrics are emitted by any component that implements a controller logic. These metrics show details about reconciliation operations and the work queue behavior upon which reconciliation requests are added to the work queue.
 
 [cols=5*,options="header"]

@@ -7,6 +7,7 @@
 [id="installation-mirror-repository_{context}"]
 = Mirroring the {product-title} image repository
 
+[role="_abstract"]
 Mirror the {product-title} image repository to your registry to use during cluster installation or upgrade.
 
 .Prerequisites

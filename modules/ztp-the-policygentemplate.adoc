@@ -5,6 +5,7 @@
 [id="ztp-the-policygentemplate_{context}"]
 = The PolicyGenTemplate
 
+[role="_abstract"]
 The `PolicyGenTemplate.yaml` file is a Custom Resource Definition (CRD) that tells PolicyGen where to locate the generated policies on the cluster and the items that need to be defined. The following example shows the `PolicyGenTemplate.yaml` file:
 
 [source,yaml]

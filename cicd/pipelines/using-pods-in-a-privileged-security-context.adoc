@@ -6,6 +6,7 @@ include::modules/pipelines-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The default configuration of OpenShift Pipelines 1.3.x and later versions does not allow you to run pods with privileged security context, if the pods result from pipeline run or task run.
 For such pods, the default service account is `pipeline`, and the security context constraint (SCC) associated with the `pipelines` service account is `pipelines-scc`. The `pipelines-scc` SCC is similar to the `anyuid` SCC, but with a minor difference as defined in the YAML file for the SCC of pipelines:
 
@@ -25,6 +26,7 @@ In addition, the `Buildah` cluster task, shipped as part of the OpenShift Pipeli
 include::modules/op-running-pipeline-and-task-run-pods-with-privileged-security-context.adoc[leveloffset=+1]
 
 
+[role="_additional-resources"]
 == Additional resources
 
 * For information on managing SCCs, refer to xref:../../authentication/managing-security-context-constraints.adoc[Managing security context constraints].

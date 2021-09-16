@@ -6,6 +6,7 @@
 [id="out-of-band-management_{context}"]
 = Out-of-band management
 
+[role="_abstract"]
 Nodes will typically have an additional NIC used by the Baseboard Management Controllers (BMCs). These BMCs must be accessible from the `provisioner` node.
 
 Each node must be accessible via out-of-band management. When using an out-of-band management network, the `provisioner` node requires access to the out-of-band management network for a successful {product-title} 4 installation.

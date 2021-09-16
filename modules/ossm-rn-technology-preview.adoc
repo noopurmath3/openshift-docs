@@ -1,4 +1,5 @@
 ////
+[role="_abstract"]
 Module included in the following assemblies:
 - v2x\servicemesh-release-notes.adoc
 ////

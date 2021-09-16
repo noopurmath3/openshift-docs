@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Applying autoscaling to an {product-title} cluster involves deploying a cluster autoscaler and then deploying machine autoscalers for each machine type in your cluster.
 
 [IMPORTANT]
@@ -57,6 +58,7 @@ include::modules/machine-autoscaler-cr.adoc[leveloffset=+2]
 :FeatureResourceName: MachineAutoscaler
 include::modules/deploying-resource.adoc[leveloffset=+2]
 
+[role="_additional-resources"]
 == Additional resources
 
 * For more information about pod priority, see xref:../nodes/pods/nodes-pods-priority.adoc#nodes-pods-priority[Including pod priority in pod scheduling decisions in {product-title}].

@@ -8,6 +8,7 @@
 // * post_installation_configuration/machine-configuration-tasks.adoc
 
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-restricted-networks-bare-metal"]
 :restricted:
 endif::[]

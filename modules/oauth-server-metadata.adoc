@@ -5,6 +5,7 @@
 [id="oauth-server-metadata_{context}"]
 = OAuth server metadata
 
+[role="_abstract"]
 Applications running in {product-title} might have to discover information
 about the built-in OAuth server. For example, they might have to discover
 what the address of the `<namespace_route>` is without manual

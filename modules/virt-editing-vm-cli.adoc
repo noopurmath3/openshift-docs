@@ -5,6 +5,7 @@
 [id="virt-editing-vm-cli_{context}"]
 = Editing a virtual machine YAML configuration using the CLI
 
+[role="_abstract"]
 Use this procedure to edit a virtual machine YAML configuration using the CLI.
 
 .Prerequisites

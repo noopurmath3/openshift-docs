@@ -5,6 +5,7 @@
 [id="cluster-logging-about-collector_{context}"]
 = About the logging collector
 
+[role="_abstract"]
 {product-title} uses Fluentd to collect container and node logs.
 
 By default, the log collector uses the following sources:

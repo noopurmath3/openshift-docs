@@ -5,6 +5,7 @@
 [id="nw-dns-operator-status_{context}"]
 = DNS Operator status
 
+[role="_abstract"]
 You can inspect the status and view the details of the DNS Operator
 using the `oc describe` command.
 

@@ -6,6 +6,7 @@
 [id="cnf-tuning-nodes-for-low-latency-via-performanceprofile_{context}"]
 = Tuning nodes for low latency with the performance profile
 
+[role="_abstract"]
 The performance profile lets you control latency tuning aspects of nodes that belong to a certain machine config pool. After you specify your settings, the `PerformanceProfile` object is compiled into multiple objects that perform the actual node level tuning:
 
 * A `MachineConfig` file that manipulates the nodes.

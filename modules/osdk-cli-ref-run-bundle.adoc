@@ -6,6 +6,7 @@
 [id="osdk-cli-ref-run-bundle_{context}"]
 = bundle
 
+[role="_abstract"]
 The `run bundle` subcommand deploys an Operator in the bundle format with Operator Lifecycle Manager (OLM).
 
 .`run bundle` flags

@@ -6,6 +6,7 @@
 = OpenShift cluster objects
 
 == Init Containers
+[role="_abstract"]
 Init containers are specialized containers that run before the application container starts and configure the necessary environment for the application containers to run. Init containers can have files that application images do not have, for example setup scripts. Init containers always run to completion and the application container does not start if any of the init containers fails.
 
 The pod created by {odo-title} executes two Init Containers:

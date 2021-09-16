@@ -5,6 +5,7 @@
 [id="nodes-cluster-resource-configure-oom_{context}"]
 = Understanding OOM kill policy
 
+[role="_abstract"]
 {product-title} can kill a process in a container if the total memory usage of
 all the processes in the container exceeds the memory limit, or in serious cases
 of node memory exhaustion.

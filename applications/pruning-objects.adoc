@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Over time, API objects created in {product-title} can accumulate in the
 cluster's etcd data store through normal user operations, such as when building
 and deploying applications.
@@ -18,11 +19,13 @@ include::modules/pruning-basic-operations.adoc[leveloffset=+1]
 include::modules/pruning-groups.adoc[leveloffset=+1]
 include::modules/pruning-deployments.adoc[leveloffset=+1]
 include::modules/pruning-builds.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 - xref:../cicd/builds/advanced-build-operations.adoc#builds-build-pruning-advanced-build-operations[Performing advanced builds -> Pruning builds]
 
 include::modules/pruning-images.adoc[leveloffset=+1]
 include::modules/pruning-images-manual.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 - xref:../registry/accessing-the-registry.adoc#accessing-the-registry[Accessing the registry]
 - xref:../registry/securing-exposing-registry.adoc#securing-exposing-registry[Exposing the registry]
@@ -33,6 +36,7 @@ registry route.
 
 include::modules/pruning-hard-pruning-registry.adoc[leveloffset=+1]
 include::modules/pruning-cronjobs.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 - xref:../nodes/jobs/nodes-nodes-jobs.adoc#nodes-nodes-jobs_nodes-nodes-jobs[Running tasks in pods using jobs]
 - xref:../applications/quotas/quotas-setting-across-multiple-projects.adoc#setting-quotas-across-multiple-projects[Resource quotas across multiple projects]

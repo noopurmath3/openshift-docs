@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-php_{context}"]
 = PHP overview
 
+[role="_abstract"]
 {product-title} provides source-to-image (S2I) enabled PHP images for building and running PHP applications.The PHP S2I builder image assembles your application source with any required dependencies to create a new image containing your PHP application. This resulting image can be run either by {product-title} or by a container runtime.
 
 [id="images-using-images-s2i-php-accessing-logs_{context}"]

@@ -7,6 +7,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 You can list all the nodes in your cluster to obtain information such as status, age, memory usage, and details about the nodes.
 
 When you perform node management operations, the CLI interacts with node objects that are representations of actual node hosts. 

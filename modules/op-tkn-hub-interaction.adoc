@@ -5,6 +5,7 @@
 [id="op-tkn-hub-interaction_{context}"]
 = Hub interaction commands
 
+[role="_abstract"]
 Interact with Tekton Hub for resources such as tasks and pipelines.
 
 == hub

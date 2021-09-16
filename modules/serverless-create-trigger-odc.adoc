@@ -5,6 +5,7 @@
 [id="serverless-create-trigger-odc_{context}"]
 = Creating a trigger using the Developer perspective
 
+[role="_abstract"]
 After you have created a broker, you can create a trigger in the web console *Developer* perspective.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="builds-gitconfig-file_{context}"]
 = Creating a secret from a .gitconfig file
 
+[role="_abstract"]
 If the cloning of your application is dependent on a `.gitconfig` file, then you can create a secret that contains it. Add it to the builder service account and then your `BuildConfig`.
 
 .Procedure

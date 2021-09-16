@@ -5,6 +5,7 @@
 [id="reviewing-cluster-status-from-the-openshift-web-console_{context}"]
 = Reviewing the cluster status from the {product-title} web console
 
+[role="_abstract"]
 You can review the following information in the *Overview* page in the {product-title} web console:
 
 * The general status of your cluster

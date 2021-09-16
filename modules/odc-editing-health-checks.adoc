@@ -5,6 +5,7 @@
 [id="odc-editing-health-checks"]
 = Editing health checks using the Developer perspective
 
+[role="_abstract"]
 You can use the *Topology* view to edit health checks added to your application, modify them, or add more health checks.
 
 .Prerequisites:

@@ -1,4 +1,5 @@
 ////
+[role="_abstract"]
 This CONCEPT module included in the following assemblies:
 -service_mesh/v1x/ossm-architecture.adoc
 -service_mesh/v2x/ossm-architecture.adoc

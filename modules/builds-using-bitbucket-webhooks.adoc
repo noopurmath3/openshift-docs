@@ -5,6 +5,7 @@
 [id="builds-using-bitbucket-webhooks_{context}"]
 = Using Bitbucket webhooks
 
+[role="_abstract"]
 link:https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html[Bitbucket webhooks] handle the call made by Bitbucket when a repository is updated. Similar to the previous triggers, you must specify a secret. The following example is a trigger definition YAML within the `BuildConfig`:
 
 [source,yaml]

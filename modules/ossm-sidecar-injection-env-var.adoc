@@ -6,6 +6,7 @@
 [id="ossm-sidecar-injection-env-var_{context}"]
 = Setting environment variables on the proxy in applications through annotations
 
+[role="_abstract"]
 You can set environment variables on the sidecar proxy for applications by adding pod annotations in the deployment in the `injection-template.yaml` file. The environment variables are injected to the sidecar.
 
 .Example injection-template.yaml

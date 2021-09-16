@@ -5,6 +5,7 @@
 [id="granting-user-permissions-using-the-web-console_{context}"]
 = Granting user permissions by using the web console
 
+[role="_abstract"]
 You can grant users permissions to monitor their own projects, by using the {product-title} web console.
 
 .Prerequisites

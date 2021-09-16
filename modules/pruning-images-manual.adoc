@@ -5,6 +5,7 @@
 [id="pruning-images-manual_{context}"]
 = Manually pruning images
 
+[role="_abstract"]
 The pruning custom resource enables automatic image pruning. However, administrators can manually prune images that are no longer required by the system due to age, status, or exceed limits. There are two methods to manually prune images:
 
 * Running image pruning as a `Job` or `CronJob` on the cluster.

@@ -5,6 +5,7 @@
 [id="restore-replace-crashlooping-etcd-member_{context}"]
 = Replacing an unhealthy etcd member whose etcd pod is crashlooping
 
+[role="_abstract"]
 This procedure details the steps to replace an etcd member that is unhealthy because the etcd pod is crashlooping.
 
 .Prerequisites

@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 To fully leverage the capability of containers when developing and running
 enterprise-quality applications, ensure your environment is supported by tools
 that allow containers to be:

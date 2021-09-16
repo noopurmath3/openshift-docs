@@ -5,6 +5,7 @@
 [id="virt-monitoring-vm-migration-web_{context}"]
 = Monitoring live migration of a virtual machine instance in the web console
 
+[role="_abstract"]
 For the duration of the migration, the virtual machine has a status of
 *Migrating*. This status is displayed in the *Virtual Machines* tab or in the
 *Virtual Machine Overview* screen for the migrating virtual machine.

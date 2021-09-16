@@ -7,6 +7,7 @@ toc::[]
 
 == Location
 
+[role="_abstract"]
 Control plane certificates are included in these namespaces:
 
 * openshift-config-managed

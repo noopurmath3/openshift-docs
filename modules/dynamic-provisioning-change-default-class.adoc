@@ -8,6 +8,7 @@
 [id="change-default-storage-class_{context}"]
 = Changing the default storage class
 
+[role="_abstract"]
 If you are using AWS, use the following process to change the default
 storage class. This process assumes you have two storage classes
 defined, `gp2` and `standard`, and you want to change the default

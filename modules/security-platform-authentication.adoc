@@ -8,6 +8,7 @@
 [id="security-platform-auth-controlling-access_{context}"]
 == Controlling access using OAuth
 
+[role="_abstract"]
 You can use API access control via authentication and authorization for securing
 your container platform. The {product-title} master includes a built-in OAuth
 server. Users can obtain OAuth access tokens to authenticate themselves to the

@@ -7,6 +7,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Knative services are automatically assigned a default domain name based on your cluster configuration. For example, `<service_name>.<namespace>.example.com`.
 
 You can customize the domain for your Knative service by using one of the following methods:
@@ -47,6 +48,7 @@ include::modules/serverless-service-mesh-resources.adoc[leveloffset=+2]
 include::modules/serverless-access-custom-domain.adoc[leveloffset=+2]
 
 [id="additional-resources_serverless-ossm-custom-domains"]
+[role="_additional-resources"]
 == Additional resources
 
 * For more information about {ProductName}, see xref:../../service_mesh/v1x/ossm-architecture.adoc#ossm-architecture-v1x[Understanding {ProductName}].

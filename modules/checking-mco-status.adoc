@@ -5,6 +5,7 @@
 [id="checking-mco-status_{context}"]
 = Checking machine config pool status
 
+[role="_abstract"]
 To see the status of the Machine Config Operator, its sub-components, and the resources it manages, use the following `oc` commands:
 
 .Procedure

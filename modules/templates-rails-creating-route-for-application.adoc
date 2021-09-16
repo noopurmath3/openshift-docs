@@ -4,6 +4,7 @@
 [id="templates-rails-creating-route-for-application_{context}"]
 = Creating a route for your application
 
+[role="_abstract"]
 You can expose a service to create a route for your application.
 
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated[]

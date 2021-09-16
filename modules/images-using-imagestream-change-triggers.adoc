@@ -4,6 +4,7 @@
 [id="images-using-imagestream-change-triggers_{context}"]
 = Image stream change triggers
 
+[role="_abstract"]
 Image stream triggers allow your builds and deployments to be automatically
 invoked when a new version of an upstream image is available.
 

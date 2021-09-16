@@ -7,6 +7,7 @@
 [id="installing-rhv-insecure-mode_{context}"]
 = Installing {product-title} on {rh-virtualization} in insecure mode
 
+[role="_abstract"]
 By default, the installer creates a CA certificate, prompts you for confirmation, and stores the certificate to use during installation. You do not need to create or install one manually.
 
 Although it is not recommended, you can override this functionality and install {product-title} without verifying a certificate by installing {product-title} on {rh-virtualization} in *insecure* mode.

@@ -8,6 +8,7 @@
 [id="block-volume-support_{context}"]
 = Block volume support
 
+[role="_abstract"]
 {product-title} can statically provision raw block volumes. These volumes
 do not have a file system, and can provide performance benefits for
 applications that either write to the disk directly or implement their own

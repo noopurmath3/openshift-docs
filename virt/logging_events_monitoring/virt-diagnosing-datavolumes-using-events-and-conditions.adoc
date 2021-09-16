@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Use the `oc describe` command to analyze and help resolve issues with data volumes.
 
 include::modules/virt-about-conditions-and-events.adoc[leveloffset=+1]

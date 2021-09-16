@@ -6,6 +6,7 @@
 [id="migration-rolling-back-migration-manually_{context}"]
 = Rolling back a migration manually
 
+[role="_abstract"]
 You can roll back a failed migration manually by deleting the `stage` pods and unquiescing the application.
 
 If you run the same migration plan successfully, the resources from the failed migration are deleted automatically.

@@ -9,6 +9,7 @@
 [id="installation-osp-creating-sr-iov-compute-machines_{context}"]
 = Creating compute machines that run on SR-IOV networks
 
+[role="_abstract"]
 After standing up the control plane, create compute machines that run on the SR-IOV networks that you created in "Creating SR-IOV networks for compute machines".
 
 

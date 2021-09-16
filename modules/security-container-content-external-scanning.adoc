@@ -5,6 +5,7 @@
 [id="security-container-content-external-scanning_{context}"]
 = Integrating external scanning
 
+[role="_abstract"]
 {product-title} makes use of link:https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/[object annotations]
 to extend functionality. External tools, such as vulnerability scanners, can
 annotate image objects with metadata to summarize results and control pod

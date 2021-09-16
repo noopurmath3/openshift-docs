@@ -5,6 +5,7 @@
 [id="nodes-custom-scheduler-deploying_{context}"]
 = Deploying a custom scheduler
 
+[role="_abstract"]
 To include a custom scheduler in your cluster, include the image for a custom scheduler in a deployment.
 
 .Prerequisites

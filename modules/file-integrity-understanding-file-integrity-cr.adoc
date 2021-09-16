@@ -5,6 +5,7 @@
 [id="understanding-file-integrity-custom-resource_{context}"]
 =  Understanding the FileIntegrity custom resource
 
+[role="_abstract"]
 An instance of a `FileIntegrity` custom resource (CR) represents a set of continuous file integrity scans for one or more nodes.
 
 Each `FileIntegrity` CR is backed by a daemon set running AIDE on the nodes matching the `FileIntegrity` CR specification.

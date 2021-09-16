@@ -8,6 +8,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The Cluster Storage Operator sets {product-title} cluster-wide storage defaults. It ensures a default storage class exists for {product-title} clusters.
 
 [discrete]

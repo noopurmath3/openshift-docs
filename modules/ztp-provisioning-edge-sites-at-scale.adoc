@@ -5,6 +5,7 @@
 [id="provisioning-edge-sites-at-scale_{context}"]
 = Provisioning edge sites at scale
 
+[role="_abstract"]
 Telco edge computing presents extraordinary challenges with managing hundreds to tens of thousands of clusters in hundreds of thousands of locations. These challenges require fully-automated management solutions with, as closely as possible, zero human interaction.
 
 Zero touch provisioning (ZTP) allows you to provision new edge sites with declarative configurations of bare-metal equipment at remote sites. Template or overlay configurations install {product-title} features that are required for CNF workloads. End-to-end functional test suites are used to verify CNF related features. All configurations are declarative in nature.

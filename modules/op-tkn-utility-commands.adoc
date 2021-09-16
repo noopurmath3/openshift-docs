@@ -6,6 +6,7 @@
 = Utility commands
 
 == tkn
+[role="_abstract"]
 Parent command for `tkn` CLI.
 
 .Example: Display all options

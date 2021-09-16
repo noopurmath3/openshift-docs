@@ -5,6 +5,7 @@
 [id="osdk-ansible-project-layout_{context}"]
 = Ansible-based project layout
 
+[role="_abstract"]
 Ansible-based Operator projects generated using the `operator-sdk init --plugins ansible` command contain the following directories and files:
 
 [options="header",cols="1,4"]

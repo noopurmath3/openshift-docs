@@ -5,6 +5,7 @@
 [id="quota-enforcement_{context}"]
 = Quota enforcement
 
+[role="_abstract"]
 After a resource quota for a project is first created, the project restricts the
 ability to create any new resources that may violate a quota constraint until it
 has calculated updated usage statistics.

@@ -5,6 +5,7 @@
 [id="nw-ingress-controller-status_{context}"]
 = View Ingress Controller status
 
+[role="_abstract"]
 Your can view the status of a particular Ingress Controller.
 
 .Procedure

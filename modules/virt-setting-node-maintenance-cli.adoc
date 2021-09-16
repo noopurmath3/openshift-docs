@@ -5,6 +5,7 @@
 [id="virt-setting-node-maintenance-cli_{context}"]
 = Setting a node to maintenance mode in the CLI
 
+[role="_abstract"]
 Set a node to maintenance mode by marking it as unschedulable and using the `oc adm drain` command to evict or delete pods from the node.
 
 .Procedure

@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Before you migrate your application workloads with the {mtc-full} ({mtc-short}), review the following checklists.
 
 [id="source-cluster-checklist_{context}"]

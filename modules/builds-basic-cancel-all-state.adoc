@@ -4,6 +4,7 @@
 [id="builds-basic-cancel-all-state_{context}"]
 = Canceling all builds in a given state
 
+[role="_abstract"]
 You can cancel all builds in a given state, such as `new` or `pending`, while ignoring the builds in other states.
 
 .Procedure

@@ -6,6 +6,7 @@
 [id="installation-requirements-user-infra_{context}"]
 = Machine requirements for a cluster with user-provisioned infrastructure
 
+[role="_abstract"]
 For a cluster that contains user-provisioned infrastructure, you must deploy all
 of the required machines.
 

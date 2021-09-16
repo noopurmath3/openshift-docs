@@ -6,6 +6,7 @@
 [id="etcd-defrag_{context}"]
 = Defragmenting etcd data
 
+[role="_abstract"]
 Manual defragmentation must be performed periodically to reclaim disk space after etcd history compaction and other events cause disk fragmentation.
 
 History compaction is performed automatically every five minutes and leaves gaps in the back-end database. This fragmented space is available for use by etcd, but is not available to the host file system. You must defragment etcd to make this space available to the host file system.

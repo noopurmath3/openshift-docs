@@ -5,6 +5,7 @@
 [id="installing-ptp-operator_{context}"]
 = Installing the PTP Operator
 
+[role="_abstract"]
 As a cluster administrator, you can install the PTP Operator using the {product-title} CLI or the web console.
 
 [id="install-ptp-operator-cli_{context}"]

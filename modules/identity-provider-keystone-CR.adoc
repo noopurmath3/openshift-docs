@@ -5,6 +5,7 @@
 [id="identity-provider-keystone-CR_{context}"]
 = Sample Keystone CR
 
+[role="_abstract"]
 The following custom resource (CR) shows the parameters and acceptable values for a
 Keystone identity provider.
 

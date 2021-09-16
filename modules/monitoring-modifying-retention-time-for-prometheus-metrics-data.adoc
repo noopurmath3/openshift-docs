@@ -5,6 +5,7 @@
 [id="modifying-retention-time-for-prometheus-metrics-data_{context}"]
 = Modifying the retention time for Prometheus metrics data
 
+[role="_abstract"]
 By default, the {product-title} monitoring stack configures the retention time for Prometheus data to be 15 days. You can modify the retention time to change how soon the data is deleted.
 
 .Prerequisites

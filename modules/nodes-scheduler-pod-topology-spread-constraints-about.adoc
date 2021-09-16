@@ -5,6 +5,7 @@
 [id="nodes-scheduler-pod-topology-spread-constraints-about_{context}"]
 = About pod topology spread constraints
 
+[role="_abstract"]
 By using a _pod topology spread constraint_, you provide fine-grained control over the distribution of pods across failure domains to help achieve high availability and more efficient resource utilization.
 
 {product-title} administrators can label nodes to provide topology information, such as regions, zones, nodes, or other user-defined domains. After these labels are set on nodes, users can then define pod topology spread constraints to control the placement of pods across these topology domains.

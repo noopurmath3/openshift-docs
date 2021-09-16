@@ -5,6 +5,7 @@
 [id="osdk-golang-implement-controller_{context}"]
 = Implementing the controller
 
+[role="_abstract"]
 After creating a new API and controller, you can implement the controller logic.
 
 .Procedure

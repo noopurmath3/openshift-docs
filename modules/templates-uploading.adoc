@@ -5,6 +5,7 @@
 [id="templates-uploading_{context}"]
 = Uploading a template
 
+[role="_abstract"]
 If you have a JSON or YAML file that defines a template, for example as seen in this example, you can upload the template to projects using the CLI. This saves the template to the project for repeated use by any user with appropriate access to that project. Instructions on writing your own templates are provided later in this topic.
 
 .Procedure

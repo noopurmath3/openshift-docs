@@ -5,6 +5,7 @@
 [id="creating-serverless-apps-yaml_{context}"]
 = Creating serverless applications using YAML
 
+[role="_abstract"]
 To create a serverless application by using YAML, you must create a YAML file that defines a `Service` object, then apply it by using `oc apply`.
 
 .Procedure

@@ -6,6 +6,7 @@
 [id="serverless-create-kafka-channel-yaml_{context}"]
 = Creating a Kafka channel by using YAML
 
+[role="_abstract"]
 You can create a Kafka channel by using YAML to create the `KafkaChannel` object.
 
 .Prerequisites

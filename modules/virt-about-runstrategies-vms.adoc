@@ -5,6 +5,7 @@
 [id="virt-about-runstrategies-vms_{context}"]
 = About RunStrategies for virtual machines
 
+[role="_abstract"]
 A `RunStrategy` for virtual machines determines a virtual machine instance's (VMI) behavior, depending on a series of conditions. The `spec.runStrategy` setting exists in the virtual machine configuration process as an alternative to the `spec.running` setting.
 The `spec.runStrategy` setting allows greater flexibility for how VMIs are created and managed, in contrast to the `spec.running` setting with only `true` or `false` responses. However, the two settings are mutually exclusive. Only either `spec.running` or `spec.runStrategy` can be used. An error occurs if both are used.
 

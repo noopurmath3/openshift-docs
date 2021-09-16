@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Place a node into maintenance from the web console, CLI, or using a `NodeMaintenance` custom resource.
 
 include::modules/virt-setting-node-maintenance-web.adoc[leveloffset=+1]
@@ -13,6 +14,7 @@ include::modules/virt-setting-node-maintenance-cli.adoc[leveloffset=+1]
 include::modules/virt-setting-node-to-maintenance-mode-with-cr.adoc[leveloffset=+1]
 include::modules/virt-checking_status_of_node_maintenance_cr_tasks.adoc[leveloffset=+2]
 
+[role="_additional-resources"]
 .Additional resources:
 
 * xref:../../virt/node_maintenance/virt-resuming-node.adoc#virt-resuming-node[Resuming a node from maintenance mode]

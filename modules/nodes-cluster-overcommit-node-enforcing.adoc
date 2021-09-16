@@ -7,6 +7,7 @@
 
 = Disabling or enforcing CPU limits using CPU CFS quotas
 
+[role="_abstract"]
 Nodes by default enforce specified CPU limits using the Completely Fair Scheduler (CFS) quota support in the Linux kernel.
 
 If you disable CPU limit enforcement, it is important to understand the impact on your node:

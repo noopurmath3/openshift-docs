@@ -5,6 +5,7 @@
 [id="authentication-configmap-creating-from-files_{context}"]
 = Creating a ConfigMap from a file
 
+[role="_abstract"]
 You can create a config map from a file.
 
 .Procedure

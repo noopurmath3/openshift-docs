@@ -7,6 +7,7 @@
 [id="osdk-scorecard-parallel_{context}"]
 = Enabling parallel testing
 
+[role="_abstract"]
 As an Operator author, you can define separate stages for your tests using the scorecard configuration file. Stages run sequentially in the order they are defined in the configuration file. A stage contains a list of tests and a configurable `parallel` setting.
 
 By default, or when a stage explicitly sets `parallel` to `false`, tests in a stage are run sequentially in the order they are defined in the configuration file. Running tests one at a time is helpful to guarantee that no two tests interact and conflict with each other.

@@ -5,6 +5,7 @@
 [id="cluster-logging-troubleshooting-unknown_{context}"]
 = Troubleshooting a Kubernetes unknown error while connecting to Elasticsearch
 
+[role="_abstract"]
 If you are attempting to use a F-5 load balancer in front of Kibana with
 `X-Forwarded-For` enabled, this can cause an issue in which the Elasticsearch
 `Searchguard` plug-in is unable to correctly accept connections from Kibana.

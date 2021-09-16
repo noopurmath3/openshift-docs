@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 If your {product-title} cluster already includes Red Hat Enterprise Linux (RHEL) compute machines, which are also known as worker machines, you can add more RHEL compute machines to it.
 
 include::modules/rhel-compute-overview.adoc[leveloffset=+1]
@@ -12,6 +13,7 @@ include::modules/rhel-compute-overview.adoc[leveloffset=+1]
 include::modules/rhel-compute-requirements.adoc[leveloffset=+1]
 
 [id="additional-resources_more-rhel-compute"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../nodes/nodes/nodes-nodes-working.adoc#deleting-nodes_nodes-nodes-working[Deleting nodes]
@@ -23,6 +25,7 @@ Amazon Machine Images (AMI) are required since various image formats cannot be u
 
 include::modules/rhel-images-aws.adoc[leveloffset=+2]
 
+[role="_additional-resources"]
 .Additional resources
 * You may also manually link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/image_builder_guide/sect-documentation-image_builder-chapter5-section_2[import {op-system-base} images to AWS].
 
@@ -30,6 +33,7 @@ include::modules/rhel-preparing-node.adoc[leveloffset=+1]
 
 include::modules/rhel-attaching-instance-aws.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 * See xref:../installing/installing_aws/installing-aws-account.adoc#installation-aws-permissions-iam-roles_installing-aws-account[Required AWS permissions for IAM roles].
 

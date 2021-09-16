@@ -8,6 +8,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The etcd cluster Operator automates etcd cluster scaling, enables etcd monitoring and metrics, and simplifies disaster recovery procedures.
 [discrete]
 == Project

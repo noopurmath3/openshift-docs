@@ -5,6 +5,7 @@
 [id="nodes-descheduler-installing_{context}"]
 = Installing the descheduler
 
+[role="_abstract"]
 The descheduler is not available by default. To enable the descheduler, you must install the Kube Descheduler Operator from OperatorHub and enable one or more descheduler profiles.
 
 .Prerequisites

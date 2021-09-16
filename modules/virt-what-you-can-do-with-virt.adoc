@@ -6,6 +6,7 @@
 [id="virt-what-you-can-do-with-virt_{context}"]
 = What you can do with {VirtProductName}
 
+[role="_abstract"]
 {VirtProductName} is an add-on to {product-title} that allows you to run and manage
  virtual machine workloads alongside container workloads.
 

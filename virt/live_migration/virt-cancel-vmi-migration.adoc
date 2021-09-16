@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Cancel the live migration so that the virtual machine instance remains 
 on the original node. 
 

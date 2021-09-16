@@ -5,6 +5,7 @@
 [id="nodes-descheduler-configuring-profiles_{context}"]
 = Configuring descheduler profiles
 
+[role="_abstract"]
 You can configure which profiles the descheduler uses to evict pods.
 
 .Prerequisites

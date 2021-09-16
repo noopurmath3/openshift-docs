@@ -6,6 +6,7 @@
 
 = Preparing the bare metal node
 
+[role="_abstract"]
 Expanding the cluster requires a DHCP server. Each node must have a DHCP reservation.
 
 ifeval::[{product-version}>4.6]

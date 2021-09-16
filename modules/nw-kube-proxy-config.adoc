@@ -5,6 +5,7 @@
 [id="nw-kube-proxy-config_{context}"]
 = kube-proxy configuration parameters
 
+[role="_abstract"]
 You can modify the following `kubeProxyConfig` parameters.
 
 IMPORTANT: Because of performance improvements introduced in {product-title} 4.3 and greater, adjusting the `iptablesSyncPeriod` parameter is no longer necessary.

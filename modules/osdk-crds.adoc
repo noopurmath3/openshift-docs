@@ -5,4 +5,5 @@
 [id="osdk-crds_{context}"]
 = Understanding your custom resource definitions (CRDs)
 
+[role="_abstract"]
 There are two types of custom resource definitions (CRDs) that your Operator can use: ones that are _owned_ by it and ones that it depends on, which are _required_.

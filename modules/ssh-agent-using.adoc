@@ -46,6 +46,7 @@
 // * installing/installing-rhv-restricted-network.adoc
 
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-restricted-networks-vsphere"]
 :user-infra:
 endif::[]

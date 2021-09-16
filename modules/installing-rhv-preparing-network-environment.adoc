@@ -6,6 +6,7 @@
 [id="installing-rhv-preparing-network-environment_{context}"]
 = Preparing the network environment on {rh-virtualization}
 
+[role="_abstract"]
 Configure two static IP addresses for the {product-title} cluster and create DNS entries using these addresses.
 
 .Procedure

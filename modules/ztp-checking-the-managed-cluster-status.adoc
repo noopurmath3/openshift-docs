@@ -5,6 +5,7 @@
 [id="ztp-checking-the-managed-cluster-status_{context}"]
 = Checking the managed cluster status
 
+[role="_abstract"]
 Ensure that cluster provisioning was successful by checking the cluster status.
 
 .Prerequisites

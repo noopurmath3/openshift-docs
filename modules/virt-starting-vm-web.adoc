@@ -5,6 +5,7 @@
 [id="virt-starting-vm-web_{context}"]
 = Starting a virtual machine
 
+[role="_abstract"]
 You can start a virtual machine from the web console.
 
 .Procedure

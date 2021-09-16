@@ -5,6 +5,7 @@
 [id="file-integrity-operator-reinitializing-database_{context}"]
 = Reinitializing the database
 
+[role="_abstract"]
 If the File Integrity Operator detects a change that was planned, it might be required to reinitialize the database.
 
 .Procedure

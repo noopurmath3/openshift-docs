@@ -7,6 +7,7 @@
 [id="vsphere-problem-detector-about_{context}"]
 = About the {operator-name}
 
+[role="_abstract"]
 The {operator-name} checks clusters that are deployed on vSphere for common installation and misconfiguration issues that are related to storage.
 
 The Operator runs in the `openshift-cluster-storage-operator` namespace and is started by the Cluster Storage Operator when the Cluster Storage Operator detects that the cluster is deployed on vSphere. The {operator-name} communicates with the vSphere vCenter Server to determine the virtual machines in the cluster, the default datastore, and other information about the vSphere vCenter Server configuration. The Operator uses the credentials from the Cloud Credential Operator to connect to vSphere.

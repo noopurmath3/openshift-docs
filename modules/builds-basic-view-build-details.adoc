@@ -4,6 +4,7 @@
 [id="builds-basic-view-build-details_{context}"]
 = Viewing build details
 
+[role="_abstract"]
 You can view build details with the web console or by using the `oc describe` CLI command.
 
 This displays information including:

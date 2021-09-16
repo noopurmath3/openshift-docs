@@ -5,6 +5,7 @@
 [id="machine-adding-aws-compute-cloudformation_{context}"]
 = Adding more compute machines to your AWS cluster by using CloudFormation templates
 
+[role="_abstract"]
 You can add more compute machines to your {product-title} cluster on Amazon Web Services (AWS) that you created by using the sample CloudFormation templates.
 
 [IMPORTANT]

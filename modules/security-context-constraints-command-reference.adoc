@@ -5,6 +5,7 @@
 [id="security-context-constraints-command-reference_{context}"]
 = Security context constraints reference commands
 
+[role="_abstract"]
 You can manage SCCs in your instance as normal API objects using the CLI.
 
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]

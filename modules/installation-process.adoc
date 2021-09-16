@@ -6,6 +6,7 @@
 [id="installation-process_{context}"]
 = Installation process
 
+[role="_abstract"]
 When you install an {product-title} cluster, you download the installation program from
 ifndef::openshift-origin[]
 the appropriate link:https://console.redhat.com/openshift/install[Infrastructure Provider] page on the {cloud-redhat-com} site. This site manages:

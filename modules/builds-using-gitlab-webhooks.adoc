@@ -5,6 +5,7 @@
 [id="builds-using-gitlab-webhooks_{context}"]
 = Using GitLab webhooks
 
+[role="_abstract"]
 GitLab webhooks handle the call made by GitLab when a repository is updated. As with the GitHub triggers, you must specify a secret. The following example is a trigger definition YAML within the `BuildConfig`:
 
 [source,yaml]
@@ -50,6 +51,7 @@ $ curl -H "X-GitLab-Event: Push Hook" -H "Content-Type: application/json" -k -X 
 The `-k` argument is only necessary if your API server does not have a properly
 signed certificate.
 
+[role="_additional-resources"]
 .Additional resources
 
 //* link:https://docs.gitlab.com/ce/user/project/integrations/webhooks.html[GitLab]

@@ -5,6 +5,7 @@
 [id="virt-editing-vmis-web_{context}"]
 = Editing a standalone virtual machine instance using the web console
 
+[role="_abstract"]
 You can edit annotations and labels for a standalone virtual machine instance (VMI) using the web console. Other items displayed in the *Details* page for a standalone VMI are not editable.
 
 .Procedure

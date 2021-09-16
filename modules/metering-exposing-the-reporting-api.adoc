@@ -5,6 +5,7 @@
 [id="metering-exposing-the-reporting-api_{context}"]
 = Exposing the reporting API
 
+[role="_abstract"]
 On {product-title} the default metering installation automatically exposes a route, making the reporting API available. This provides the following features:
 
 * Automatic DNS

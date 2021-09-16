@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This guide walks cluster administrators through installing the {ServerlessOperatorName} to an {product-title} cluster.
 
 [NOTE]

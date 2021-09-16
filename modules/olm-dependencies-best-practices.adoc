@@ -5,6 +5,7 @@
 [id="olm-dependency-best-practices_{context}"]
 = Dependency best practices
 
+[role="_abstract"]
 When specifying dependencies, there are best practices you should consider.
 
 Depend on APIs or a specific version range of Operators::

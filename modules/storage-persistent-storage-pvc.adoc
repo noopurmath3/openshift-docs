@@ -5,6 +5,7 @@
 [id="persistent-volume-claims_{context}"]
 = Persistent volume claims
 
+[role="_abstract"]
 Each `PersistentVolumeClaim` object contains a `spec` and `status`, which
 is the specification and status of the persistent volume claim (PVC), for example:
 

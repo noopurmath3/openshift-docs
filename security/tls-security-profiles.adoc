@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 TLS security profiles provide a way for servers to regulate which ciphers a client can use when connecting to the server. This ensures that {product-title} components use cryptographic libraries that do not allow known insecure protocols, ciphers, or algorithms.
 
 Cluster administrators can choose which TLS security profile to use for each of the following components:

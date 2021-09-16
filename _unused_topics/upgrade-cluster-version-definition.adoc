@@ -5,6 +5,7 @@
 [id="upgrade-cluster-version-definition_{context}"]
 = ClusterVersion definition
 
+[role="_abstract"]
 You can review the `ClusterVersion` definition to see the update history
 for your cluster. You can also apply overrides to this definition if your
 cluster is not for production or during debugging.

@@ -5,6 +5,7 @@
 [id="persistent-storage-cinder-pv-format_{context}"]
 = Persistent volume formatting
 
+[role="_abstract"]
 You can use unformatted Cinder volumes as PVs because
 {product-title} formats them before the first use.
 

@@ -6,6 +6,7 @@ include::modules/ossm-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 After installing {product-title}, you can further expand and customize your
 network to your requirements.
 

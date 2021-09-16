@@ -5,6 +5,7 @@
 [id="nw-ipfailover-environment-variables_{context}"]
 = IP failover environment variables
 
+[role="_abstract"]
 The following table contains the variables used to configure IP failover.
 
 .IP failover environment variables

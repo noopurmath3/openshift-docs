@@ -5,6 +5,7 @@
 [id="virt-openshift-client-commands_{context}"]
 = {product-title} client commands
 
+[role="_abstract"]
 The {product-title} `oc` client is a command-line utility for managing
 {product-title} resources, including the `VirtualMachine` (`vm`) and `VirtualMachineInstance` (`vmi`) object types. +
 [NOTE]

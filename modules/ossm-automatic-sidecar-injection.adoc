@@ -6,6 +6,7 @@
 [id="ossm-automatic-sidecar-injection_{context}"]
 = Enabling automatic sidecar injection
 
+[role="_abstract"]
 When deploying an application, you must opt-in to injection by setting the `sidecar.istio.io/inject` annotation to `"true"`. Opting in ensures that the sidecar injection does not interfere with other {product-title} features such as builder pods used by numerous frameworks within the {product-title} ecosystem.
 
 .Prerequisites

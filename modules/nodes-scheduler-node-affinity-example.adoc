@@ -5,6 +5,7 @@
 [id="nodes-scheduler-node-affinity-examples_{context}"]
 = Sample node affinity rules
 
+[role="_abstract"]
 The following examples demonstrate node affinity.
 
 [id="admin-guide-sched-affinity-examples1_{context}"]

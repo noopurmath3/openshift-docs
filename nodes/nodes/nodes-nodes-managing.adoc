@@ -7,6 +7,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 {product-title} uses a KubeletConfig custom resource (CR) to manage the
 configuration of nodes. By creating an instance of a `KubeletConfig` object, a managed machine config is created to override setting on the node. 
 

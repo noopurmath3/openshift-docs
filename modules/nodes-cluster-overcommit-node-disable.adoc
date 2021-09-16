@@ -6,6 +6,7 @@
 [id="nodes-cluster-overcommit-node-disable_{context}"]
 = Disabling overcommitment for a node
 
+[role="_abstract"]
 When enabled, overcommitment can be disabled on each node.
 
 .Procedure

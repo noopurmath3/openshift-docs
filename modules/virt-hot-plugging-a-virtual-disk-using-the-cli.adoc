@@ -5,6 +5,7 @@
 [id="virt-hot-plugging-a-virtual-disk-using-the-cli_{context}"]
 = Hot-plugging a virtual disk using the CLI
 
+[role="_abstract"]
 Hot-plug virtual disks that you want to attach to a virtual machine instance (VMI) while a virtual machine is running.
 
 .Prerequisites

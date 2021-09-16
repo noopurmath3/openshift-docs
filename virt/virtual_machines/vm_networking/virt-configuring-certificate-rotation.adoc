@@ -3,6 +3,7 @@
 include::modules/virt-document-attributes.adoc[]
 :context: virt-configuring-certificate-rotation
 
+[role="_abstract"]
 Configure certificate rotation parameters to replace existing certificates.
 
 toc::[]

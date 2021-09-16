@@ -6,6 +6,7 @@
 [id="migration-writing-ansible-playbook-hook_{context}"]
 = Writing an Ansible playbook for a migration hook
 
+[role="_abstract"]
 You can write an Ansible playbook to use as a migration hook. The hook is added to a migration plan by using the {mtc-short} web console or by specifying values for the `spec.hooks` parameters in the `MigPlan` custom resource (CR) manifest.
 
 The Ansible playbook is mounted onto a hook container as a config map. The hook container runs as a job, using the cluster, service account, and namespace specified in the `MigPlan` CR. The hook container uses a specified service account token so that the tasks do not require authentication before they run in the cluster.

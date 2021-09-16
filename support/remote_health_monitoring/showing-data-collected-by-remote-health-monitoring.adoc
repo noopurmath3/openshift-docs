@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As an administrator, you can review the metrics collected by Telemetry and the Insights Operator.
 
 include::modules/telemetry-showing-data-collected-from-the-cluster.adoc[leveloffset=+1]

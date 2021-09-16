@@ -10,6 +10,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The {operator-name} checks the cluster for common installation and misconfiguration issues.
 
 [discrete]

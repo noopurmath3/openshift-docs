@@ -7,6 +7,7 @@
 [id="mint-mode_{context}"]
 = Mint mode
 
+[role="_abstract"]
 Mint mode is the default and recommended Cloud Credential Operator (CCO) credentials mode for {product-title}. In this mode, the CCO uses the provided administrator-level cloud credential to run the cluster. Mint mode is supported for AWS, GCP, and Azure.
 
 In mint mode, the `admin` credential is stored in the `kube-system` namespace and then used by the CCO to process the `CredentialsRequest` objects in the cluster and create users for each with specific permissions.

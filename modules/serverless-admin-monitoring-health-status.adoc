@@ -5,6 +5,7 @@
 [id="serverless-admin-monitoring-health-status_{context}"]
 = Monitoring the overall health status of Knative components
 
+[role="_abstract"]
 You can use the {product-title} monitoring dashboards to view the overall health status of Knative.
 
 .Prerequisites

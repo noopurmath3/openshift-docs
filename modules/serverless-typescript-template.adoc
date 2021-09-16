@@ -1,6 +1,7 @@
 [id="serverless-typescript-template_{context}"]
 = TypeScript function template structure
 
+[role="_abstract"]
 When you create a TypeScript function using the `kn` CLI, the project directory looks like a typical TypeScript project with the exception of an additional `func.yaml` configuration file.
 
 Both `http` and `event` trigger functions have the same template structure:

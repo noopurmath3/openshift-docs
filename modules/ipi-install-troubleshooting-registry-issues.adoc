@@ -5,6 +5,7 @@
 
 = Issues with creating the registry
 
+[role="_abstract"]
 When creating a disconnected registry, you might encounter a "User Not Authorized" error when attempting to mirror the registry. This error might occur if you fail to append the new authentication to the existing `pull-secret.txt` file.
 
 .Procedure

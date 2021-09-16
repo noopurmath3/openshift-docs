@@ -5,6 +5,7 @@
 [id="adding-bare-metal-host-to-cluster-using-web-console_{context}"]
 = Adding a bare metal host to the cluster using the web console
 
+[role="_abstract"]
 You can add bare metal hosts to the cluster in the web console.
 
 .Prerequisites

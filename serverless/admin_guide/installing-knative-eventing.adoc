@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 After you install the {ServerlessOperatorName}, you can install Knative Eventing by following the procedures described in this guide.
 
 This guide provides information about installing Knative Eventing using the default settings.

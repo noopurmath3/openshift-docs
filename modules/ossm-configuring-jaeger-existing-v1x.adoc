@@ -5,6 +5,7 @@
 [id="ossm-configuring-jaeger-existing-v1x_{context}"]
 = Connecting to an existing Jaeger instance
 
+[role="_abstract"]
 In order for the SMCP to connect to an existing Jaeger instance, the following must be true:
 
 * The Jaeger instance is deployed in the same namespace as the control plane, for example, into the `istio-system` namespace.

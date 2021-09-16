@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-perl-hot-deploying_{context}"]
 = Hot deploying for Perl
 
+[role="_abstract"]
 Hot deployment allows you to quickly make and deploy changes to your application
 without having to generate a new S2I build. To enable hot deployment in this
 image, you must set the `PERL_APACHE2_RELOAD` environment variable to `true`. You can use the `oc set env` command to update environment variables of existing objects.

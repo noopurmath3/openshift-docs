@@ -5,6 +5,7 @@
 [id="nw-ipfailover-vrrp-ip-offset_{context}"]
 = About VRRP ID offset
 
+[role="_abstract"]
 Each IP failover pod managed by the IP failover deployment configuration, `1` pod per node or replica, runs a Keepalived daemon. As more IP failover deployment configurations are configured, more pods are created and more daemons join into the common Virtual Router Redundancy Protocol (VRRP) negotiation. This negotiation is done by all the Keepalived daemons and it determines which nodes service which virtual IPs (VIP).
 
 Internally, Keepalived assigns a unique `vrrp-id` to each VIP. The negotiation uses this set of `vrrp-ids`, when a decision is made, the VIP corresponding to the winning `vrrp-id` is serviced on the winning node.

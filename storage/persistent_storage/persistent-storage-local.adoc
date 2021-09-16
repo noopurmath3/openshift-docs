@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} can be provisioned with persistent storage by using
 local volumes. Local persistent volumes allow you to access local storage
 devices, such as a disk or partition, by using the standard

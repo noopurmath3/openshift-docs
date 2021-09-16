@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 In {product-title} version {product-version}, you can install a cluster on your VMware vSphere instance using infrastructure you provision with customized network configuration options by deploying it to link:https://cloud.vmware.com/vmc-aws[VMware Cloud (VMC) on AWS].
 
 Once you configure your VMC environment for {product-title} deployment, you use the {product-title} installation program from the bastion management host, co-located in the VMC environment. The installation program and control plane automates the process of deploying and managing the resources needed for the {product-title} cluster.
@@ -86,6 +87,7 @@ include::modules/persistent-storage-vsphere-backup.adoc[leveloffset=+1]
 
 include::modules/cluster-telemetry.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../../support/remote_health_monitoring/about-remote-health-monitoring.adoc#about-remote-health-monitoring[About remote health monitoring] for more information about the Telemetry service

@@ -5,6 +5,7 @@
 [id="gathering-bootstrap-diagnostic-data_{context}"]
 = Gathering bootstrap node diagnostic data
 
+[role="_abstract"]
 When experiencing bootstrap-related issues, you can gather `bootkube.service` `journald` unit logs and container logs from the bootstrap node.
 
 .Prerequisites

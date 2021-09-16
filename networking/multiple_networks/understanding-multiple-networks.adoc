@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 In Kubernetes, container networking is delegated to networking plug-ins that
 implement the Container Network Interface (CNI).
 

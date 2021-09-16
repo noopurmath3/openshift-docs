@@ -1,5 +1,6 @@
 = Creating a Java MicroServices JPA application
 
+[role="_abstract"]
 With `odo`, you can create and manage a sample Java MicroServices JPA application.
 
 .Procedure

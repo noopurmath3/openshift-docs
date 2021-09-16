@@ -5,6 +5,7 @@
 [id="about-redhat-openshift-gitops_{context}"]
 = About {gitops-title}
 
+[role="_abstract"]
 {gitops-title} ensures consistency in applications when you deploy them to different clusters in different environments, such as: development, staging, and production. {gitops-title} organizes the deployment process around the configuration repositories and makes them the central element. It always has at least two repositories:
 
   . Application repository with the source code

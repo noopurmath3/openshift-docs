@@ -5,6 +5,7 @@
 [id="support_gathering_data_{context}"]
 = Gathering data about your cluster for Red Hat Support
 
+[role="_abstract"]
 You can gather debugging information about your cluster by using the `oc adm must-gather` CLI command.
 
 .Prerequisites

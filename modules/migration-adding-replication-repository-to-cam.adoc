@@ -6,6 +6,7 @@
 [id="migration-adding-replication-repository-to-cam_{context}"]
 = Adding a replication repository to the {mtc-short} web console
 
+[role="_abstract"]
 You can add an object storage as a replication repository to the {mtc-full} ({mtc-short}) web console.
 
 {mtc-short} supports the following storage providers:

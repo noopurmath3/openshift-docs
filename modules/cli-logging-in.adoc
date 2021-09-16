@@ -5,6 +5,7 @@
 [id="cli-logging-in_{context}"]
 = Logging in to the OpenShift CLI
 
+[role="_abstract"]
 You can log in to the OpenShift CLI (`oc`) to access and manage your cluster.
 
 .Prerequisites

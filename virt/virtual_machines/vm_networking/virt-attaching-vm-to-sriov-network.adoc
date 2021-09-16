@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can attach a virtual machine to use a Single Root I/O Virtualization (SR-IOV) network as a secondary network.
 
 == Prerequisites

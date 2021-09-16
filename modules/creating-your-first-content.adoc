@@ -10,6 +10,7 @@
 [id="creating-your-first-content_{context}"]
 = Creating your first content
 
+[role="_abstract"]
 In this procedure, you will create your first example content using modular
 docs for the OpenShift docs repository.
 

@@ -5,6 +5,7 @@
 [id="migration-mtc-release-notes-1-4_{context}"]
 = {mtc-full} 1.4 release notes
 
+[role="_abstract"]
 The release notes for {mtc-full} ({mtc-short}) version 1.4 describe new features, enhancements, and known issues.
 
 [id="known-issues-1-4_{context}"]

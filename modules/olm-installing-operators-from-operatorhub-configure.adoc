@@ -11,6 +11,7 @@
 [id="olm-installing-operators-from-operatorhub-configure_{context}"]
 = Configuring {product-title} to use Red Hat Operators
 
+[role="_abstract"]
 In {product-title}, Red Hat Operators are not available by default. You can access and install these Operators if you have a pull secret from the Red Hat OpenShift Cluster Manager site by editing the `OperatorHub` custom resource (CR). 
 
 .Prerequisites

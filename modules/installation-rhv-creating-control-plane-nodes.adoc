@@ -6,6 +6,7 @@
 [id="installation-rhv-creating-control-plane-nodes_{context}"]
 = Creating the control plane nodes
 
+[role="_abstract"]
 You create the control plane nodes by running the `masters.yml` playbook. This playbook passes the `master.ign` Ignition file to each of the virtual machines. The Ignition file contains a directive for the control plane node to get the Ignition from a URL such as `https://api-int.ocp4.example.org:22623/config/master`. The port number in this URL is managed by the load balancer, and is accessible only inside the cluster.
 
 .Procedure

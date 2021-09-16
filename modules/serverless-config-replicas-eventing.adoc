@@ -5,6 +5,7 @@
 [id="serverless-config-replicas-eventing_{context}"]
 = Configuring high availability replicas for Eventing
 
+[role="_abstract"]
 You can scale Knative Eventing components by modifying the `spec.high-availability.replicas` value in the KnativeEventing custom resource.
 
 .Prerequisites

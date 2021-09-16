@@ -1,6 +1,7 @@
 [id="installing-cli-macosx_{context}"]
 = Installing the Knative CLI for macOS
 
+[role="_abstract"]
 The Knative CLI (`kn`) for macOS is provided as a `tar.gz` archive.
 
 .Procedure

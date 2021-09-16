@@ -5,6 +5,7 @@
 [id="ldap-syncing-about_{context}"]
 = About configuring LDAP sync
 
+[role="_abstract"]
 Before you can run LDAP sync, you need a sync
 configuration file. This file contains the following LDAP client configuration details:
 

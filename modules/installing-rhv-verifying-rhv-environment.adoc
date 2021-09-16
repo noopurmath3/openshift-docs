@@ -8,6 +8,7 @@
 [id="installing-rhv-verifying-rhv-environment_{context}"]
 = Verifying the requirements for the {rh-virtualization} environment
 
+[role="_abstract"]
 Verify that the {rh-virtualization} environment meets the requirements to install and run an {product-title} cluster. Not meeting these requirements can cause failures.
 
 [IMPORTANT]

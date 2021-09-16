@@ -6,6 +6,7 @@
 [id="nw-aws-nlb-new-cluster_{context}"]
 = Configuring an Ingress Controller Network Load Balancer on a new AWS cluster
 
+[role="_abstract"]
 You can create an Ingress Controller backed by an AWS Network Load Balancer (NLB) on a new cluster.
 
 .Prerequisites

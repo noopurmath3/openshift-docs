@@ -6,6 +6,7 @@ include::modules/serverless-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {ServerlessProductName} provides capabilities for automatic pod scaling, including scaling inactive pods to zero.
 To enable autoscaling for Knative Serving, you must configure concurrency and scale bounds in the revision template.
 

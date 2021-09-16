@@ -5,6 +5,7 @@
 [id="configuration-resource-overview_{context}"]
 = About Configuration Resources in {product-title}
 
+[role="_abstract"]
 You perform many customization and configuration tasks after you deploy your
 cluster, including configuring networking and setting your identity provider.
 

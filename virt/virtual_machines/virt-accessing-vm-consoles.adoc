@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {VirtProductName} provides different virtual machine consoles that you can
 use to accomplish different product tasks. You can access these consoles through
 the web console and by using CLI commands.

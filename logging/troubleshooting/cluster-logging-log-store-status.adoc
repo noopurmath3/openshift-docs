@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can view the status of the OpenShift Elasticsearch Operator and for a number of Elasticsearch components.
 
 // The following include statements pull in the module files that comprise

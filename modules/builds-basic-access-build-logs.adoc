@@ -4,6 +4,7 @@
 [id="builds-basic-access-build-logs_{context}"]
 = Accessing build logs
 
+[role="_abstract"]
 You can access build logs using the web console or the CLI.
 
 .Procedure

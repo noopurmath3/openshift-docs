@@ -5,6 +5,7 @@ include::modules/ossm-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Upgrading from version 1.1 to 2.0 requires manual steps that migrate your workloads and application to a new instance of {ProductName} running the new version.
 
 .Prerequisites

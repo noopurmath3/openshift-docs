@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can view the logs for various resources, such as builds, deployments, and pods by using the OpenShift CLI (oc) and the web console. 
 
 [NOTE]

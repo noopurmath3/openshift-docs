@@ -6,6 +6,7 @@
 
 = Configuring debugging parameters
 
+[role="_abstract"]
 You can specify a remote port with `odo config` command and a local port with the `odo debug` command.
 
 .Procedure

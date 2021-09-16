@@ -1,6 +1,7 @@
 [id="about-the-devfile-in-odo"]
 = About the devfile in {odo-title}
 
+[role="_abstract"]
 The devfile is a portable file that describes your development environment.
 With the devfile, you can define a portable developmental environment without the need for reconfiguration.
 

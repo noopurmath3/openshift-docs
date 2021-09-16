@@ -5,6 +5,7 @@
 [id="olm-dependency-resolution-preferences_{context}"]
 = Dependency preferences
 
+[role="_abstract"]
 There can be many options that equally satisfy a dependency of an Operator. The dependency resolver in Operator Lifecycle Manager (OLM) determines which option best fits the requirements of the requested Operator. As an Operator author or user, it can be important to understand how these choices are made so that dependency resolution is clear.
 
 [id="olm-dependency-catalog-priority_{context}"]

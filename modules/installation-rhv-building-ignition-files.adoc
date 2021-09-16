@@ -6,6 +6,7 @@
 [id="installation-rhv-building-ignition-files_{context}"]
 = Building the Ignition files
 
+[role="_abstract"]
 To build the Ignition files from the manifest files you just generated and modified, you run the installation program. This action creates a {op-system-first} machine, `initramfs`, which fetches the Ignition files and performs the configurations needed to create a node.
 
 In addition to the Ignition files, the installation program generates the following:

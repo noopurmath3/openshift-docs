@@ -5,6 +5,7 @@
 [id="nodes-scheduler-node-affinity-configuring-required_{context}"]
 =  Configuring a required node affinity rule
 
+[role="_abstract"]
 Required rules *must* be met before a pod can be scheduled on a node.
 
 .Procedure

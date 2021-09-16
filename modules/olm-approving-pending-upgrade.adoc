@@ -5,6 +5,7 @@
 [id="olm-approving-pending-upgrade_{context}"]
 = Manually approving a pending Operator upgrade
 
+[role="_abstract"]
 If an installed Operator has the approval strategy in its subscription set to *Manual*, when new updates are released in its current update channel, the update must be manually approved before installation can begin.
 
 .Prerequisites

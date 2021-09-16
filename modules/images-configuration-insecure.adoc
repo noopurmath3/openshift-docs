@@ -6,6 +6,7 @@
 [id="images-configuration-insecure_{context}"]
 = Allowing insecure registries
 
+[role="_abstract"]
 You can add insecure registries, and optionally an individual repository within a registry, by editing the `image.config.openshift.io/cluster` custom resource (CR). {product-title} applies the changes to this CR to all nodes in the cluster.
 
 Registries that do not use valid SSL certificates or do not require HTTPS connections are considered insecure.

@@ -5,6 +5,7 @@
 [id="serverless-subscription-event-delivery-config_{context}"]
 = Configuring event delivery failure parameters using subscriptions
 
+[role="_abstract"]
 Developers can configure event delivery parameters for individual subscriptions by modifying the `delivery` settings for a `Subscription` object.
 
 .Example subscription YAML

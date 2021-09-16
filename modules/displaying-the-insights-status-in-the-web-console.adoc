@@ -5,6 +5,7 @@
 [id="displaying-the-insights-status-in-the-web-console_{context}"]
 = Displaying the Insights status in the web console
 
+[role="_abstract"]
 Insights repeatedly analyzes your cluster and you can display the status of identified potential issues of your cluster in the {product-title} web console. This status shows the number of issues in the different categories and, for further details, links to the reports in the {cloud-redhat-com}.
 
 .Prerequisites

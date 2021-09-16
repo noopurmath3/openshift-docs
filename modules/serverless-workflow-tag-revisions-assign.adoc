@@ -5,6 +5,7 @@
 [id="assigning-tag-revisions_{context}"]
 = Assigning tag revisions
 
+[role="_abstract"]
 A tag in a traffic block of service creates a custom URL, which points to a referenced revision. A user can define a unique tag for an available revision of a service which creates a custom URL by using the format `http(s)://TAG-SERVICE.DOMAIN`.
 
 A given tag must be unique to its traffic block of the service. `kn` supports assigning and unassigning custom tags for revisions of services as part of the `kn service update` command.

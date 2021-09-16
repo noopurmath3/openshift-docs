@@ -5,6 +5,7 @@
 [id="nw-sriov-nic-partitioning_{context}"]
 = Virtual function (VF) partitioning for SR-IOV devices
 
+[role="_abstract"]
 In some cases, you might want to split virtual functions (VFs) from the same physical function (PF) into multiple resource pools.
 For example, you might want some of the VFs to load with the default driver and the remaining VFs load with the `vfio-pci` driver.
 In such a deployment, the `pfNames` selector in your SriovNetworkNodePolicy custom resource (CR) can be used to specify a range of VFs for a pool using the following format: `<pfname>#<first_vf>-<last_vf>`.

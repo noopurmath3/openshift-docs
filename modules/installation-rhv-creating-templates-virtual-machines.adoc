@@ -6,6 +6,7 @@
 [id="installation-rhv-creating-templates-virtual-machines_{context}"]
 = Creating templates and virtual machines
 
+[role="_abstract"]
 After confirming the variables in the `inventory.yml`, you run the first Ansible provisioning playbook, `create-templates-and-vms.yml`.
 
 This playbook uses the connection parameters for the {rh-virtualization} {rh-virtualization-engine-name} from `$HOME/.ovirt/ovirt-config.yaml` and reads `metadata.json` in the assets directory.

@@ -5,6 +5,7 @@
 [id="nodes-scheduler-default-sample_{context}"]
 = Sample Policy Configurations
 
+[role="_abstract"]
 The configuration below specifies the default scheduler configuration, if it
 were to be specified using the scheduler policy file.
 

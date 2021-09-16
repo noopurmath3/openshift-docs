@@ -5,6 +5,7 @@
 [id="serverless-create-func-kn_{context}"]
 = Creating functions
 
+[role="_abstract"]
 You can create a basic serverless function using the `kn` CLI.
 
 You can specify the runtime, trigger, image, and namespace as flags on the command line, or use the `-c` flag to start the interactive experience using the CLI prompt.

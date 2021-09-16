@@ -5,6 +5,7 @@
 [id="nodes-cluster-limit-ranges-about_{context}"]
 = About limit ranges
 
+[role="_abstract"]
 A limit range, defined by a `LimitRange` object, restricts resource
 consumption in a project. In the project you can set specific resource
 limits for a pod, container, image, image stream, or

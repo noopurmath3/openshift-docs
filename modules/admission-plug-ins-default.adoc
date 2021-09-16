@@ -6,6 +6,7 @@
 = Default admission plug-ins
 
 //Future xref - A set of default admission plug-ins is enabled in {product-title} {product-version}. These default plug-ins contribute to fundamental control plane functionality, such as ingress policy, xref:../nodes/clusters/nodes-cluster-overcommit.adoc#nodes-cluster-resource-override_nodes-cluster-overcommit[cluster resource limit override] and quota policy.
+[role="_abstract"]
 Default validating and admission plug-ins are enabled in {product-title} {product-version}. These default plug-ins contribute to fundamental control plane functionality, such as ingress policy, cluster resource limit override and quota policy. The following lists contain the default admission plug-ins:
 
 .Validating admission plug-ins

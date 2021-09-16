@@ -8,6 +8,7 @@
 [id="cnf-debugging-low-latency-cnf-tuning-status_{context}"]
 = Debugging low latency CNF tuning status
 
+[role="_abstract"]
 The `PerformanceProfile` custom resource (CR) contains status fields for reporting tuning status and debugging latency degradation issues. These fields report on conditions that describe the state of the operator's reconciliation functionality.
 
 A typical issue can arise when the status of machine config pools that are attached to the performance profile are in a degraded state, causing the `PerformanceProfile` status to degrade. In this case, the machine config pool issues a failure message.

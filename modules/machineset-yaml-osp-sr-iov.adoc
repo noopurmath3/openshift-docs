@@ -5,6 +5,7 @@
 [id="machineset-yaml-osp-sr-iov_{context}"]
 =  Sample YAML for a machine set custom resource that uses SR-IOV on {rh-openstack}
 
+[role="_abstract"]
 If you configured your cluster for single-root I/O virtualization (SR-IOV), you can create machine sets that use that technology.
 
 This sample YAML defines a machine set that uses SR-IOV networks. The nodes that it creates are labeled with `node-role.openshift.io/<node_role>: ""`

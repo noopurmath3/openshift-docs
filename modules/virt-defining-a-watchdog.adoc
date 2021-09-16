@@ -5,6 +5,7 @@
 [id="virt-defining-a-watchdog"]
 = Defining a watchdog device
 
+[role="_abstract"]
 Define how the watchdog proceeds when the operating system (OS) no longer responds.
 
 .Available actions

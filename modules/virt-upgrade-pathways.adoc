@@ -5,6 +5,7 @@
 [id="virt-upgrade-pathways_{context}"]
 = Upgrade pathways for minor releases
 
+[role="_abstract"]
 The upgrade pathway is different depending on the 2.4.z version of {VirtProductName} that you have installed.
 
 [IMPORTANT]

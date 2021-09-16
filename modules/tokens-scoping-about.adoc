@@ -5,6 +5,7 @@
 [id="tokens-scoping-about_{context}"]
 = About scoping tokens
 
+[role="_abstract"]
 You can created scoped tokens to delegate some of your permissions to another
 user or service account.
 For example, a project administrator might want to delegate the

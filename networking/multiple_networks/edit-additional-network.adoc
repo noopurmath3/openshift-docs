@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster administrator you can modify the configuration for an existing
 additional network.
 

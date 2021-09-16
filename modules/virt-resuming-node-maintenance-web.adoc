@@ -5,6 +5,7 @@
 [id="virt-resuming-node-maintenance-web_{context}"]
 = Resuming a node from maintenance mode in the web console
 
+[role="_abstract"]
 Resume a node from maintenance mode using the Options menu {kebab} found 
 on each node in the *Compute* -> *Nodes* list, or using the *Actions* control 
 of the *Node Details* screen.

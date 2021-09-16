@@ -5,6 +5,7 @@
 [id="flexvolume-driver-consuming_{context}"]
 = Consuming storage using FlexVolume drivers
 
+[role="_abstract"]
 Each `PersistentVolume` object in {product-title} represents one storage asset in the storage back-end, such as a volume.
 
 .Procedure

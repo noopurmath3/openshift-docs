@@ -5,6 +5,7 @@
 [id="upgrading-performance-addon-operator_{context}"]
 = Upgrading Performance Addon Operator
 
+[role="_abstract"]
 You can manually upgrade to the next minor version of Performance Addon Operator and monitor the status of an update by using the web console.
 
 [id="about-upgrading-performance-addon-operator_{context}"]

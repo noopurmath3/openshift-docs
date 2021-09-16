@@ -5,6 +5,7 @@ include::modules/ossm-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 To install {ProductName}, first install the required Operators on {product-title} and then create a `ServiceMeshControlPlane` resource to deploy the control plane.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-snapshots-create_{context}"]
 = Creating a volume snapshot
 
+[role="_abstract"]
 When you create a `VolumeSnapshot` object, {product-title} creates a volume snapshot.
 
 

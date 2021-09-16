@@ -4,6 +4,7 @@
 [id="virt-understanding-node-maintenance_{context}"]
 = Understanding node maintenance mode
 
+[role="_abstract"]
 Nodes can be placed into maintenance mode using the `oc adm` utility, or using `NodeMaintenance` custom resources (CRs).
 
 Placing a node into maintenance marks the node as unschedulable and drains all the virtual machines and pods from it. Virtual machine instances that have a `LiveMigrate` eviction strategy are live migrated to another node without loss of service. This eviction strategy is configured by default in virtual machine created from common templates but must be configured manually for custom virtual machines.

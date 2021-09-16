@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Before you install a cluster on infrastructure that you provision in a restricted network, you must mirror the required container images into that environment. You can also use this procedure in unrestricted networks to ensure your clusters only use container images that have satisfied your organizational controls on external content.
 
 [IMPORTANT]
@@ -84,6 +85,7 @@ xref:../installing/installing_vsphere/installing-restricted-networks-vsphere.ado
 xref:../installing/installing_bare_metal/installing-restricted-networks-bare-metal.adoc#installing-restricted-networks-bare-metal[bare metal], or xref:../installing/installing_aws/installing-restricted-networks-aws.adoc#installing-restricted-networks-aws[Amazon Web Services].
 
 [id="restricted-networks-additional-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * See xref:../support/gathering-cluster-data.adoc#gathering-data-specific-features_gathering-cluster-data[Gathering data about specific features] for more information about using must-gather.

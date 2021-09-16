@@ -5,6 +5,7 @@
 [id="ldap-syncing-activedir_{context}"]
 = Syncing groups using the Active Directory schema
 
+[role="_abstract"]
 In the Active Directory schema, both users (Jane and Jim) exist in the LDAP
 server as first-class entries, and group membership is stored in attributes on
 the user. The following snippet of `ldif` defines the users and group for this

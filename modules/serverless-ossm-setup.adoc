@@ -1,6 +1,7 @@
 [id="serverless-ossm-setup_{context}"]
 = Integrating {ProductShortName} with {ServerlessProductName}
 
+[role="_abstract"]
 You can integrate {ProductShortName} with {ServerlessProductName} without using Kourier by completing the following procedure.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="create-azure-file-secret_{context}"]
 = Create the Azure File share persistent volume claim
 
+[role="_abstract"]
 To create the persistent volume claim, you must first define a `Secret` object that contains the Azure account and key. This secret is used in the `PersistentVolume` definition, and will be referenced by the persistent volume claim for use in applications.
 
 .Prerequisites

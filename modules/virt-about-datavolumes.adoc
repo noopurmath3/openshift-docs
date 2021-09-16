@@ -13,6 +13,7 @@
 [id="virt-about-datavolumes_{context}"]
 = About data volumes
 
+[role="_abstract"]
 `DataVolume` objects are custom resources that are provided by the Containerized
 Data Importer (CDI) project. Data volumes orchestrate import, clone, and upload
 operations that are associated with an underlying persistent volume claim (PVC).

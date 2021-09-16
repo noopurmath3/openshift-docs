@@ -5,6 +5,7 @@
 [id="oauth-token-requests_{context}"]
 == OAuth token requests
 
+[role="_abstract"]
 Every request for an OAuth token must specify the OAuth client that will
 receive and use the token. The following OAuth clients are automatically
 created when starting the {product-title} API:

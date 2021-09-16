@@ -6,6 +6,7 @@
 [id="nodes-cluster-project-overcommit_{context}"]
 = Project-level limits
 
+[role="_abstract"]
 To help control overcommit, you can set per-project resource limit ranges,
 specifying memory and CPU limits and defaults for a project that overcommit
 cannot exceed.

@@ -5,6 +5,7 @@
 [id="osdk-ansible-modify-manager_{context}"]
 = Modifying the manager
 
+[role="_abstract"]
 Update your Operator project to provide the reconcile logic, in the form of an Ansible role, which runs every time a `Memcached` resource is created, updated, or deleted.
 
 .Procedure

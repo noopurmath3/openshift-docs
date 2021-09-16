@@ -6,6 +6,7 @@
 = Understanding compliance and risk management
 
 ifndef::openshift-origin[]
+[role="_abstract"]
 FIPS compliance is one of the most critical components required in
 highly secure environments, to ensure that only supported cryptographic
 technologies are allowed on nodes.

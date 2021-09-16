@@ -5,6 +5,7 @@
 [id="olm-defining-csv-webhook_{context}"]
 = Defining webhooks
 
+[role="_abstract"]
 Webhooks allow Operator authors to intercept, modify, and accept or reject resources before they are saved to the object store and handled by the Operator controller. Operator Lifecycle Manager (OLM) can manage the lifecycle of these webhooks when they are shipped alongside your Operator.
 
 The cluster service version (CSV) resource of an Operator can include a `webhookdefinitions` section to define the following types of webhooks:

@@ -5,6 +5,7 @@
 [id="sandboxed-containers-deleting-namespace-web-console_{context}"]
 = Deleting a namespace using the web console
 
+[role="_abstract"]
 You can delete a namespace by using the {product-title} web console.
 
 .Prerequisites

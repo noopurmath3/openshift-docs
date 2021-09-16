@@ -6,6 +6,7 @@
 
 = Configuring workload partitioning
 
+[role="_abstract"]
 The following procedure outlines a high level, end to end workflow that installs a cluster with workload partitioning enabled and pods that
 are correctly scheduled to run on the management CPU partition.
 

@@ -5,6 +5,7 @@
 [id="listing-alerting-rules-for-all-projects-in-a-single-view_{context}"]
 = Listing alerting rules for all projects in a single view
 
+[role="_abstract"]
 As a cluster administrator, you can list alerting rules for core {product-title} and user-defined projects together in a single view.
 
 .Prerequisites

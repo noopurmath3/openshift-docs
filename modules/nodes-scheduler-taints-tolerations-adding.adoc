@@ -6,6 +6,7 @@
 [id="nodes-scheduler-taints-tolerations-adding_{context}"]
 = Adding taints and tolerations
 
+[role="_abstract"]
 You add tolerations to pods and taints to nodes to allow the node to control which pods should or should not be scheduled on them. For existing pods and nodes, you should add the toleration to the pod first, then add the taint to the node to avoid pods being removed from the node before you can add the toleration.
 
 .Procedure

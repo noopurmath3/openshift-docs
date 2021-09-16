@@ -5,6 +5,7 @@
 [id="cluster-logging-eventrouter-deploy_{context}"]
 = Deploying and configuring the Event Router
 
+[role="_abstract"]
 Use the following steps to deploy the Event Router into your cluster. You should always deploy the Event Router to the `openshift-logging` project to ensure it collects events from across the cluster.
 
 The following Template object creates the service account, cluster role, and cluster role binding required for the Event Router. The template also configures and deploys the Event Router pod. You can use this template without making changes, or change the deployment object CPU and memory requests.

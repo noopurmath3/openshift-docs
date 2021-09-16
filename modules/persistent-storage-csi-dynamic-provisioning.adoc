@@ -5,6 +5,7 @@
 [id="csi-dynamic-provisioning_{context}"]
 = Dynamic provisioning
 
+[role="_abstract"]
 Dynamic provisioning of persistent storage depends on the capabilities of
 the CSI driver and underlying storage back end. The provider of the CSI
 driver should document how to create a storage class in {product-title} and

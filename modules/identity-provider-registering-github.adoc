@@ -5,6 +5,7 @@
 [id="identity-provider-registering-github_{context}"]
 = Registering a GitHub application
 
+[role="_abstract"]
 To use GitHub or GitHub Enterprise as an identity provider, you must register
 an application to use.
 

@@ -6,6 +6,7 @@
 [id="migration-partial-failure-velero_{context}"]
 = Debugging a partial migration failure
 
+[role="_abstract"]
 You can debug a partial migration failure warning message by using the Velero CLI to examine the `Restore` custom resource (CR) logs.
 
 A partial failure occurs when Velero encounters an issue that does not cause a migration to fail. For example, if a custom resource definition (CRD) is missing or if there is a discrepancy between CRD versions on the source and target clusters, the migration completes but the CR is not created on the target cluster.

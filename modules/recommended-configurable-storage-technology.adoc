@@ -6,6 +6,7 @@
 [id="recommended-configurable-storage-technology_{context}"]
 = Recommended configurable storage technology
 
+[role="_abstract"]
 The following table summarizes the recommended and configurable storage technologies for the given {product-title} cluster application.
 
 .Recommended and configurable storage technology

@@ -5,6 +5,7 @@
 [id="vsphere-static-provisioning_{context}"]
 = Statically provisioning VMware vSphere volumes
 
+[role="_abstract"]
 To statically provision VMware vSphere volumes you must create the virtual machine disks for reference by the persistent volume framework.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="cluster-logging-must-gather-collecting_{context}"]
 = Collecting OpenShift Logging data
 
+[role="_abstract"]
 You can use the `oc adm must-gather` CLI command to collect information about your OpenShift Logging environment. 
 
 .Procedure

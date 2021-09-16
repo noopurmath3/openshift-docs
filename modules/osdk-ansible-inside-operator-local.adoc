@@ -5,6 +5,7 @@
 [id="osdk-ansible-inside-operator-local_{context}"]
 = Testing an Ansible-based Operator locally
 
+[role="_abstract"]
 You can test the logic inside of an Ansible-based Operator running locally by using the `make run` command from the top-level directory of your Operator project. The `make run` Makefile target runs the `ansible-operator` binary locally, which reads from the `watches.yaml` file and uses your `~/.kube/config` file to communicate with a Kubernetes cluster just as the `k8s` modules do.
 
 [NOTE]

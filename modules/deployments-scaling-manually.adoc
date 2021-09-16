@@ -5,6 +5,7 @@
 [id="deployments-scaling-manually_{context}"]
 = Scaling manually
 
+[role="_abstract"]
 In addition to rollbacks, you can exercise fine-grained control over the number of replicas by manually scaling them.
 
 [NOTE]

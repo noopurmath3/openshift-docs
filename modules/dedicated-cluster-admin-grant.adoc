@@ -5,6 +5,7 @@
 [id="dedicated-cluster-admin-grant"]
 = Granting the cluster-admin role to users
 
+[role="_abstract"]
 After enabling cluster-admin rights on your cluster, you can assign the role to users.
 
 .Prerequisites

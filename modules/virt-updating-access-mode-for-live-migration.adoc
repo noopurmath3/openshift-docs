@@ -5,6 +5,7 @@
 [id="virt-updating-access-mode-for-live-migration_{context}"]
 = Updating access mode for live migration
 
+[role="_abstract"]
 For live migration to function properly, you must use the
 ReadWriteMany (RWX) access mode. Use this
 procedure to update the access mode, if needed.

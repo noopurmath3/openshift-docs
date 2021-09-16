@@ -5,6 +5,7 @@
 [id="specifying-how-a-service-is-monitored_{context}"]
 = Specifying how a service is monitored
 
+[role="_abstract"]
 To use the metrics exposed by your service, you must configure {product-title} monitoring to scrape metrics from the `/metrics` endpoint. You can do this using a `ServiceMonitor` custom resource definition (CRD) that specifies how a service should be monitored, or a `PodMonitor` CRD that specifies how a pod should be monitored. The former requires a `Service` object, while the latter does not, allowing Prometheus to directly scrape metrics from the metrics endpoint exposed by a pod.
 
 [NOTE]
@@ -75,6 +76,7 @@ NAME                         AGE
 prometheus-example-monitor   81m
 ----
 
+[role="_additional-resources"]
 .Additional resources
 
 * See the link:https://github.com/openshift/prometheus-operator/blob/release-4.5/Documentation/api.md[Prometheus Operator API documentation] for more information on `ServiceMonitor` and `PodMonitor` resources.

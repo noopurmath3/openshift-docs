@@ -5,6 +5,7 @@
 [id="templates-cli-labels_{context}"]
 = Adding labels
 
+[role="_abstract"]
 Labels are used to manage and organize generated objects, such as pods. The labels specified in the template are applied to every object that is generated from the template.
 
 .Procedure

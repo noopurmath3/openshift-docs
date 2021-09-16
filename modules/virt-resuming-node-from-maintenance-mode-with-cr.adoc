@@ -5,6 +5,7 @@
 [id="virt-resuming-node-from-maintenance-mode-with-cr_{context}"]
 = Resuming a node from maintenance mode that was initiated with a NodeMaintenance CR
 
+[role="_abstract"]
 You can resume a node by deleting the `NodeMaintenance` CR.
 
 .Prerequisites

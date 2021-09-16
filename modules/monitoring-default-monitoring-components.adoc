@@ -5,6 +5,7 @@
 [id="default-monitoring-components_{context}"]
 = Default monitoring components
 
+[role="_abstract"]
 By default, the {product-title} {product-version} monitoring stack includes these components:
 
 .Default monitoring stack components

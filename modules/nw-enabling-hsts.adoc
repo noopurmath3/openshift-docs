@@ -5,6 +5,7 @@
 [id="nw-enabling-hsts_{context}"]
 = Enabling HTTP strict transport security
 
+[role="_abstract"]
 HTTP Strict Transport Security (HSTS) policy is a security enhancement, which
 ensures that only HTTPS traffic is allowed on the host. Any HTTP requests are
 dropped by default. This is useful for ensuring secure interactions with

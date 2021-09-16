@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} allows use of VMware vSphere's Virtual Machine Disk (VMDK) volumes. You can provision your {product-title} cluster with persistent storage using VMware vSphere. Some familiarity with Kubernetes and VMware vSphere is assumed.
 
 VMware vSphere volumes can be provisioned dynamically. {product-title} creates the disk in vSphere and attaches this disk to the correct image.
@@ -32,6 +33,7 @@ In future {product-title} versions, volumes provisioned using existing in-tree p
 After full migration, in-tree plug-ins will eventually be removed in future versions of {product-title}.
 ====
 
+[role="_additional-resources"]
 .Additional resources
 
 * link:https://www.vmware.com/au/products/vsphere.html[VMware vSphere]

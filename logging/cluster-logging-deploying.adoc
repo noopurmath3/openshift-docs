@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 You can install OpenShift Logging by deploying
 the OpenShift Elasticsearch and Red Hat OpenShift Logging Operators. The OpenShift Elasticsearch Operator
 creates and manages the Elasticsearch cluster used by OpenShift Logging.
@@ -24,6 +25,7 @@ The process for deploying OpenShift Logging to {product-title} involves:
 
 include::modules/cluster-logging-deploy-console.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../operators/admin/olm-adding-operators-to-cluster.adoc#olm-installing-operators-from-operatorhub_olm-adding-operators-to-a-cluster[Installing Operators from the OperatorHub]
@@ -47,6 +49,7 @@ include::modules/cluster-logging-visualizer-indices.adoc[leveloffset=+2]
 
 include::modules/cluster-logging-deploy-multitenant.adoc[leveloffset=+2]
 
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../networking/network_policy/about-network-policy.adoc[About network policy]

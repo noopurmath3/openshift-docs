@@ -7,6 +7,7 @@
 
 [IMPORTANT]
 ====
+[role="_abstract"]
 Kubernetes periodically deprecates certain APIs that are removed in subsequent releases. If your Operator is using a deprecated API, it might no longer work after the {product-title} cluster is upgraded to the Kubernetes version where the API has been removed.
 
 As an Operator author, it is strongly recommended that you review the link:https://kubernetes.io/docs/reference/using-api/deprecation-guide/[Deprecated API Migration Guide] in Kubernetes documentation and keep your Operator projects up to date to avoid using deprecated and removed APIs. Ideally, you should update your Operator before the release of a future version of {product-title} that would make the Operator incompatible.

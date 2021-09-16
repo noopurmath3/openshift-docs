@@ -5,6 +5,7 @@
 [id="registry-operator-configuration-resource-overview-aws-s3_{context}"]
 = Image Registry Operator configuration parameters for AWS S3
 
+[role="_abstract"]
 The following configuration parameters are available for AWS S3 registry storage.
 
 `ImageRegistryConfigStorageS3` holds the information to configure the registry to use the AWS S3 service for back-end storage. See the link:https://docs.docker.com/registry/storage-drivers/s3/[S3 storage driver documentation] for more information.

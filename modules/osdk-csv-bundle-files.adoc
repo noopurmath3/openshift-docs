@@ -5,6 +5,7 @@
 [id="osdk-csv-bundle-files_{context}"]
 = Generated files and resources
 
+[role="_abstract"]
 The `make bundle` command creates the following files and directories in your Operator project:
 
 * A bundle manifests directory named `bundle/manifests` that contains a `ClusterServiceVersion` (CSV) object

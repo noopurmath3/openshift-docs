@@ -1,6 +1,7 @@
 [id='op-providing-secure-connection_{context}']
 = Providing secure connection with OpenShift routes
 
+[role="_abstract"]
 To create a route with the re-encrypted TLS termination, run:
 
 [source,terminal,subs="attributes+"]

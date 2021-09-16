@@ -5,6 +5,7 @@
 [id="identity-provider-oidc-CR_{context}"]
 = Sample OpenID Connect CRs
 
+[role="_abstract"]
 The following custom resources (CRs) show the parameters and acceptable values for an
 OpenID Connect identity provider.
 

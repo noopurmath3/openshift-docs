@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 In {product-title} version {product-version}, you can install a cluster into a shared Virtual Private Cloud (VPC) on Google Cloud Platform (GCP) that uses infrastructure that you provide. In this context, a cluster installed into a shared VPC is a cluster that is configured to use a VPC from a project different from where the cluster is being deployed.
 
 A shared VPC enables an organization to connect resources from multiple projects to a common VPC network. You can communicate within the organization securely and efficiently by using internal IPs from that network. For more information about shared VPC, see link:https://cloud.google.com/vpc/docs/shared-vpc[Shared VPC overview] in the GCP documentation.
@@ -76,6 +77,7 @@ include::modules/installation-configure-proxy.adoc[leveloffset=+2]
 //include::modules/installation-three-node-cluster.adoc[leveloffset=+2]
 
 include::modules/installation-user-infra-generate-k8s-manifest-ignition.adoc[leveloffset=+2]
+[role="_additional-resources"]
 .Additional resources
 
 [id="installation-gcp-user-infra-exporting-common-variables-vpc"]
@@ -147,6 +149,7 @@ include::modules/installation-gcp-user-infra-completing.adoc[leveloffset=+1]
 
 include::modules/cluster-telemetry.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../../support/remote_health_monitoring/about-remote-health-monitoring.adoc#about-remote-health-monitoring[About remote health monitoring] for more information about the Telemetry service

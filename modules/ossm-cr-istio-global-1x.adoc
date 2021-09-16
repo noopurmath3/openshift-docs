@@ -6,6 +6,7 @@
 [id="ossm-cr-istio-global_{context}"]
 = Istio global example
 
+[role="_abstract"]
 Here is an example that illustrates the Istio global parameters for the `ServiceMeshControlPlane` and a description of the available parameters with appropriate values.
 
 [NOTE]

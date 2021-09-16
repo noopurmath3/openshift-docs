@@ -5,6 +5,7 @@
 [id="serverless-creating-subscriptions-yaml_{context}"]
 = Creating subscriptions by using YAML
 
+[role="_abstract"]
 You can create a subscription to connect a channel to a sink by using YAML.
 
 .Procedure

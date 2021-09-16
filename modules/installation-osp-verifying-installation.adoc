@@ -5,6 +5,7 @@
 [id="installation-osp-verifying-installation_{context}"]
 = Verifying a successful installation
 
+[role="_abstract"]
 Verify that the {product-title} installation is complete.
 
 .Prerequisites

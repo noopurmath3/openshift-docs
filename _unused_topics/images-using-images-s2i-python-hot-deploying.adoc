@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-python-hot-deploying_{context}"]
 = Hot deploying
 
+[role="_abstract"]
 Hot deployment allows you to quickly make and deploy changes to your application without having to generate a new source-to-image (S2I) build. If you are using Django, hot deployment works out of the box.
 
 To enable hot deployment while using Gunicorn, ensure you have a Gunicorn

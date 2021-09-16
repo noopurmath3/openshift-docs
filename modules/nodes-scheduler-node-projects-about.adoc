@@ -5,6 +5,7 @@
 [id="nodes-scheduler-node-projects-about_{context}"]
 = Understanding how to constrain pods by project name
 
+[role="_abstract"]
 The Pod Node Selector admission controller determines where a pod can be placed using labels on projects and node selectors specified in pods. A new pod will be placed on a node associated with a project only if the node selectors in the pod match the labels in the project.
 
 After the pod is created, the node selectors are merged into the pod so that the `Pod` spec includes the labels originally included in the specification and any new labels from the node selectors. The example below illustrates the merging effect.

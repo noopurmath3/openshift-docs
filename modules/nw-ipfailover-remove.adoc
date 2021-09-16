@@ -5,6 +5,7 @@
 [id="nw-ipfailover-remove_{context}"]
 = Removing IP failover
 
+[role="_abstract"]
 When IP failover is initially configured, the worker nodes in the cluster are modified with an `iptables` rule that explicitly allows multicast packets on `224.0.0.18` for Keepalived. Because of the change to the nodes, removing IP failover requires running a job to remove the `iptables` rule and removing the virtual IP addresses used by Keepalived.
 
 .Procedure

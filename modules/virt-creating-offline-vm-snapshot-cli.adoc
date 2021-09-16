@@ -5,6 +5,7 @@
 [id="virt-creating-offline-vm-snapshot-cli_{context}"]
 = Creating an offline virtual machine snapshot in the CLI
 
+[role="_abstract"]
 You can create a virtual machine (VM) snapshot for an offline VM by creating a `VirtualMachineSnapshot` object.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="olm-operatorgroups-membership_{context}"]
 = Operator group membership
 
+[role="_abstract"]
 An Operator is considered a _member_ of an Operator group if the following conditions are true:
 
 * The CSV of the Operator exists in the same namespace as the Operator group.

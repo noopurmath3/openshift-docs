@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-ruby-hot-deploying_{context}"]
 == Hot deploying for Ruby
 
+[role="_abstract"]
 Hot deployment allows you to quickly make and deploy changes to your application without having to generate a new source-to-image (S2I) build. The method for enabling hot deployment in this image differs based on the application type.
 
 *Ruby on Rails applications*

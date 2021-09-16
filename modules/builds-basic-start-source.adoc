@@ -4,6 +4,7 @@
 [id="builds-basic-start-source_{context}"]
 = Starting a build with source
 
+[role="_abstract"]
 Rather than relying on a Git source pull
 ifdef::openshift-origin,openshift-enterprise,openshift-dedicated[]
 or a Dockerfile

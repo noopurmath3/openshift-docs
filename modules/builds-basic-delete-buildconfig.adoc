@@ -4,6 +4,7 @@
 [id="builds-basic-delete-buildconfig_{context}"]
 = Deleting a BuildConfig
 
+[role="_abstract"]
 You can delete a `BuildConfig` using the following command.
 
 .Procedure

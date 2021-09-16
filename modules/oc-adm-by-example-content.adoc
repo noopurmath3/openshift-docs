@@ -8,6 +8,7 @@
 
 
 == oc adm build-chain
+[role="_abstract"]
 Output the inputs and dependencies of your builds
 
 .Example usage

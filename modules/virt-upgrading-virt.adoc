@@ -5,6 +5,7 @@
 [id="virt-upgrading-virt_{context}"]
 = Upgrading {VirtProductName} to the next minor version
 
+[role="_abstract"]
 You can manually upgrade {VirtProductName} to the next minor version by using the
 {product-title} web console to change the channel of your Operator subscription.
 

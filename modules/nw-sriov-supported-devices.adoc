@@ -5,6 +5,7 @@
 [id="supported-devices_{context}"]
 = Supported devices
 
+[role="_abstract"]
 {product-title} supports the following network interface controllers:
 
 .Supported network interface controllers

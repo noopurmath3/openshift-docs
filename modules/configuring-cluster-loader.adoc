@@ -5,6 +5,7 @@
 [id="configuring_cluster_loader_{context}"]
 = Configuring Cluster Loader
 
+[role="_abstract"]
 The tool creates multiple namespaces (projects), which contain multiple templates or pods.
 
 == Example Cluster Loader configuration file

@@ -6,6 +6,7 @@
 [id="osdk-cli-ref-run-bundle-upgrade_{context}"]
 = bundle-upgrade
 
+[role="_abstract"]
 The `run bundle-upgrade` subcommand upgrades an Operator that was previously installed in the bundle format with Operator Lifecycle Manager (OLM).
 
 .`run bundle-upgrade` flags

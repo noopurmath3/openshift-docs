@@ -4,6 +4,7 @@
 
 [id="nw-throughput-troubleshoot_{context}"]
 = Troubleshooting throughput issues
+[role="_abstract"]
 Sometimes applications deployed through {product-title} can cause
 network throughput issues such as unusually high latency between
 specific services.

@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
+[role="_abstract"]
 As an administrator, 
 endif::[]
 ifdef::openshift-dedicated[]

@@ -6,6 +6,7 @@
 [id="osdk-cli-ref-create_{context}"]
 = create
 
+[role="_abstract"]
 The `operator-sdk create` command is used to create, or _scaffold_, a Kubernetes API.
 
 [id="osdk-cli-ref-create-api_{context}"]

@@ -8,6 +8,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The Cluster Monitoring Operator manages and updates the Prometheus-based cluster monitoring stack deployed on top of {product-title}.
 
 [discrete]

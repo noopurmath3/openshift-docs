@@ -5,6 +5,7 @@
 [id="cco-ccoctl-deleting-sts-resources_{context}"]
 = Deleting AWS resources with the Cloud Credential Operator utility
 
+[role="_abstract"]
 To clean up resources after uninstalling an {product-title} cluster with the Cloud Credential Operator (CCO) in manual mode with STS, you can use the CCO utility (`ccoctl`) to remove the AWS resources that `ccoctl` created during installation.
 
 .Prerequisites

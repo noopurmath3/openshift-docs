@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can upgrade a restricted network {product-title} cluster by using the `oc` command-line interface (CLI).
 
 A restricted network environment is the one in which your cluster nodes cannot access the internet. For this reason, you must populate a registry with the installation images. If your registry host cannot access both the internet and the cluster, you can mirror the images to a file system that disconnected from that environment and then bring that host or removable media across that gap. If the local container registry and the cluster are connected to the mirror registry's host, you can directly push the release images to the local registry.
@@ -59,6 +60,7 @@ include::modules/images-configuration-registry-mirror.adoc[leveloffset=+1]
 include::modules/generating-icsp-object-scoped-to-a-registry.adoc[leveloffset=+1]
 
 [id="additional-resources_security-container-signature"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../operators/admin/olm-restricted-networks.adoc#olm-restricted-networks[Using Operator Lifecycle Manager on restricted networks]

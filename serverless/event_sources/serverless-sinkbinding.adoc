@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Sink binding is used to connect event producers, or _event sources_, to an event consumer, or _event sink_, for example, a Knative service or application.
 
 [IMPORTANT]

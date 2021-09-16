@@ -5,6 +5,7 @@
 [id="installation-osp-kuryr-octavia-configuration_{context}"]
 = Configuring Octavia
 
+[role="_abstract"]
 Kuryr SDN uses {rh-openstack-first}'s Octavia LBaaS to implement {product-title} services. Thus,
 you must install and configure Octavia components in {rh-openstack}
 to use Kuryr SDN.

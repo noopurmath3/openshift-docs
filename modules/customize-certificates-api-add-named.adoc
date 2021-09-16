@@ -5,6 +5,7 @@
 [id="customize-certificates-api-add-named_{context}"]
 = Add an API server named certificate
 
+[role="_abstract"]
 The default API server certificate is issued by an internal {product-title}
 cluster CA. You can add one or more alternative certificates that the API
 server will return based on the fully qualified domain name (FQDN) requested by

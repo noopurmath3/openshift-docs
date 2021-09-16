@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Red Hat OpenShift Container Storage is a provider of agnostic persistent storage for {product-title} supporting file, block, and object storage, either in-house or in hybrid clouds. As a Red Hat storage solution, Red Hat OpenShift Container Storage is completely integrated with {product-title} for deployment, management, and monitoring.
 
 Red Hat OpenShift Container Storage provides its own documentation library. The complete set of Red Hat OpenShift Container Storage documentation identified below is available at https://access.redhat.com/documentation/en-us/red_hat_openshift_container_storage/4.7/

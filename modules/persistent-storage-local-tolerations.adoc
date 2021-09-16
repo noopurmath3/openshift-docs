@@ -5,6 +5,7 @@
 [id="local-tolerations_{context}"]
 = Using tolerations with Local Storage Operator pods
 
+[role="_abstract"]
 Taints can be applied to nodes to prevent them from running general workloads. To allow the Local Storage Operator to use tainted nodes, you must add tolerations to the `Pod` or `DaemonSet` definition. This allows the created resources to run on these tainted nodes.
 
 You apply tolerations to the Local Storage Operator pod through the `LocalVolume` resource

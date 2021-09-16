@@ -5,6 +5,7 @@
 [id="expanding-pvc-filesystem_{context}"]
 = Expanding persistent volume claims (PVCs) with a file system
 
+[role="_abstract"]
 Expanding PVCs based on volume types that need file system resizing,
 such as GCE PD, EBS, and Cinder, is a two-step process.
 This process involves expanding volume objects in the cloud provider, and

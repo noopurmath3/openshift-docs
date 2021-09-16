@@ -5,6 +5,7 @@
 [id="crd-creating-aggregated-cluster-role_{context}"]
 = Creating cluster roles for custom resource definitions
 
+[role="_abstract"]
 Cluster administrators can grant permissions to existing cluster-scoped custom resource definitions (CRDs). If you use the `admin`, `edit`, and `view` default cluster roles, you can take advantage of cluster role aggregation for their rules.
 
 [IMPORTANT]

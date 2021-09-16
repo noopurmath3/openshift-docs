@@ -5,6 +5,7 @@
 [id="serverless-functions-podman_{context}"]
 = Using podman
 
+[role="_abstract"]
 If you are using podman, you must run the following commands before getting started with {FunctionsProductName}:
 
 . Start the podman service that serves the Docker API on a UNIX socket at `${XDG_RUNTIME_DIR}/podman/podman.sock`:

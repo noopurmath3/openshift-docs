@@ -4,6 +4,7 @@
 [id="ossm-deploy-multitenant_{context}"]
 = Multitenant deployment model
 
+[role="_abstract"]
 {ProductName} installs a `ServiceMeshControlPlane` that is configured for multitenancy by default. {ProductName} uses a multitenant Operator to manage the control plane lifecycle. Within a mesh, namespaces are used for tenancy.
 
 {ProductName} uses `ServiceMeshControlPlane` resources to manage mesh installations, whose scope is limited by default to namespace that contains the resource. You use `ServiceMeshMemberRoll` and `ServiceMeshMember` resources to include additional namespaces into the mesh. A namespace can only be included in a single mesh, and multiple meshes can be installed in a single OpenShift cluster.

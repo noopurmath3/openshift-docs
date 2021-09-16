@@ -5,6 +5,7 @@
 [id="images-other-jenkins-cross-project_{context}"]
 = Providing Jenkins cross project access
 
+[role="_abstract"]
 If you are going to run Jenkins somewhere other than your same project, you must provide an access token to Jenkins to access your project.
 
 .Procedure

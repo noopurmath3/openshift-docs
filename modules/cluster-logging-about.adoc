@@ -12,6 +12,7 @@
 = About deploying OpenShift Logging
 
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
+[role="_abstract"]
 {product-title} cluster administrators can deploy OpenShift Logging using
 the {product-title}  web console or CLI to install the OpenShift Elasticsearch
 Operator and Red Hat OpenShift Logging Operator. When the operators are installed, you create

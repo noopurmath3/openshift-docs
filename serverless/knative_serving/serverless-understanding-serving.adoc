@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Knative Serving on {product-title} enables developers to write link:https://www.redhat.com/en/topics/cloud-native-apps[cloud-native applications] using link:https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless[serverless architecture].
 
 Knative Serving supports deploying and managing cloud-native applications by providing a set of objects as Kubernetes custom resource definitions (CRDs) that define and control the behavior of serverless workloads on an {product-title} cluster. For more information about CRDs, see xref:../../operators/understanding/crds/crd-extending-api-with-crds.adoc#crd-extending-api-with-crds[Extending the Kubernetes API with custom resource definitions].

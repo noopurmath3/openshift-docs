@@ -8,6 +8,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The Console Operator installs and maintains the {product-title} web console on a cluster.
 
 [discrete]

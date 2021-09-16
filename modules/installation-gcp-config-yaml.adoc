@@ -6,6 +6,7 @@
 // * installing/installing_gcp/installing-gcp-private.adoc
 // * installing/installing_gcp/installing-restricted-networks-gcp-installer-provisioned.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-gcp-network-customizations"]
 :with-networking:
 endif::[]

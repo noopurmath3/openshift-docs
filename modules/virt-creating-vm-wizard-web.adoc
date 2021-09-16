@@ -5,6 +5,7 @@
 [id="virt-creating-vm-wizard-web_{context}"]
 = Running the virtual machine wizard to create a virtual machine
 
+[role="_abstract"]
 The web console features a wizard that guides you through the process of selecting a virtual machine template and creating a virtual machine. Red Hat virtual machine templates are preconfigured with an operating system image, default settings for the operating system, flavor (CPU and memory), and workload type (server). When templates are configured with a boot source, they are labeled with a customized label text or the default label text *Available boot source*. These templates are then ready to be used for creating virtual machines.
 
 You can select a template from the list of preconfigured templates, review the settings, and create a virtual machine in the *Create virtual machine from template* wizard. If you choose to customize your virtual machine, the wizard guides you through the *General*, *Networking*, *Storage*, *Advanced*, and *Review* steps. All required fields displayed by the wizard are marked by a ++*++.

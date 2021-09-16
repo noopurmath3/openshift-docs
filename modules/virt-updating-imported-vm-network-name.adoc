@@ -5,6 +5,7 @@
 [id="virt-updating-imported-vmware-vm-network-name_{context}"]
 = Updating the NIC name of an imported virtual machine
 
+[role="_abstract"]
 You must update the NIC name of a virtual machine that you imported from VMware to conform to {VirtProductName} naming conventions.
 
 .Procedure

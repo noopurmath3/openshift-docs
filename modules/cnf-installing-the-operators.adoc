@@ -9,6 +9,7 @@
 [id="cnf-installing-the-performnce-addon-operator_{context}"]
 == Installing the Performance Addon Operator
 
+[role="_abstract"]
 Install the Performance Addon Operator using the {product-title} CLI.
 
 .Procedure

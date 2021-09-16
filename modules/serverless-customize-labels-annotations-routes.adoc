@@ -1,6 +1,7 @@
 [id="serverless-customize-labels-annotations-routes_{context}"]
 = Customizing labels and annotations for {product-title} routes
 
+[role="_abstract"]
 {product-title} routes support the use of custom labels and annotations, which you can configure by modifying the `metadata` spec of a Knative service. Custom labels and annotations are propagated from the service to the Knative route, then to the Knative ingress, and finally to the {product-title} route.
 
 .Prerequisites

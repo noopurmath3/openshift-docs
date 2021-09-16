@@ -1,6 +1,7 @@
 [id="modifying-kubelet-one-time_{context}"]
 = Modifying the kubelet as a one-time scenario
 
+[role="_abstract"]
 To modify the kubelet in a one-time scenario without rebooting the node due to the change of `machine-config(spec":{"paused":false}})`, allowing you to modify the kubelet without affecting the service, follow this procedure.
 
 .Procedure

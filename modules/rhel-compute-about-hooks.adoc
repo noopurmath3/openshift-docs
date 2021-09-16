@@ -5,6 +5,7 @@
 [id="rhel-compute-about-hooks_{context}"]
 = About Ansible hooks for upgrades
 
+[role="_abstract"]
 When you update {product-title}, you can run custom tasks on your Red Hat
 Enterprise Linux (RHEL) nodes during specific operations by using _hooks_. Hooks
 allow you to provide files that define tasks to run before or after specific

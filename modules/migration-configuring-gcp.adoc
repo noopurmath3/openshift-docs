@@ -7,6 +7,7 @@
 [id="migration-configuring-gcp_{context}"]
 = Configuring Google Cloud Platform
 
+[role="_abstract"]
 You can configure a Google Cloud Platform (GCP) storage bucket as a replication repository for the {mtc-full} ({mtc-short}).
 
 .Prerequisites

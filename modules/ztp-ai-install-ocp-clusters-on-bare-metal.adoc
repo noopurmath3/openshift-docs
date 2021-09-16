@@ -5,6 +5,7 @@
 [id="enabling-assisted-installer-service-on-bare-metal_{context}"]
 = Enabling assisted installer service on bare metal
 
+[role="_abstract"]
 The Assisted Installer Service (AIS) deploys {product-title} clusters. {rh-rhacm-first} ships with AIS, which is deployed when the MultiClusterHub Operator is enabled on the {rh-rhacm} hub cluster.
 
 For distributed units (DUs), {rh-rhacm} supports {product-title} deployments, which run on a single bare metal host. The single node cluster acts as both a control plane and a worker node. {rh-rhacm} supports single node deployments for {product-title} on top of a single bare-metal host.

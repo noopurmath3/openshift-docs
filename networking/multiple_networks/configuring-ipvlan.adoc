@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster administrator, you can configure an additional network for your
 cluster by using the ipvlan Container Network Interface (CNI) plug-in. The virtual
 network created by this plug-in is associated with a physical interface that you

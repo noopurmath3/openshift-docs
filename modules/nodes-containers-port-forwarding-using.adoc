@@ -5,6 +5,7 @@
 [id="nodes-containers-port-forwarding-using_{context}"]
 = Using port forwarding
 
+[role="_abstract"]
 You can use the CLI to port-forward one or more local ports to a pod.
 
 .Procedure

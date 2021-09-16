@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can view the IP address for a network interface card (NIC) by using the web console or the `oc` client. The xref:../../../virt/virtual_machines/virt-installing-qemu-guest-agent.adoc#virt-installing-qemu-guest-agent[QEMU guest agent] displays additional information about the virtual machine's secondary networks.
 
 include::modules/virt-viewing-vmi-ip-cli.adoc[leveloffset=+1]

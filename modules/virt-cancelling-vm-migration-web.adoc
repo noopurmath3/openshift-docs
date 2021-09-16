@@ -5,6 +5,7 @@
 [id="virt-cancelling-vm-migration-web_{context}"]
 = Cancelling live migration of a virtual machine instance in the web console
 
+[role="_abstract"]
 You can cancel a live migration of the virtual machine instance using the
 Options menu {kebab} found on each virtual machine in the
 *Virtualization* -> *Virtual Machines* tab, or from the *Actions* menu

@@ -5,6 +5,7 @@
 [id="reviewing-the-installation-log_{context}"]
 = Reviewing the installation log
 
+[role="_abstract"]
 You can review a summary of an installation in the {product-title} installation log. If an installation succeeds, the information required to access the cluster is included in the log.
 
 .Prerequisites

@@ -1,6 +1,7 @@
 [id="serverless-sinkbinding-kn_{context}"]
 = Creating a sink binding by using the Knative CLI
 
+[role="_abstract"]
 This guide describes the steps required to create a sink binding instance using `kn` commands.
 
 .Prerequisites

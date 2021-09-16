@@ -1,6 +1,7 @@
 [id="serverless-typescript-context-object-reference_{context}"]
 = TypeScript context object reference
 
+[role="_abstract"]
 The `context` object has several properties that can be accessed by the function developer.
 
 [id="serverless-typescript-context-object-reference-log_{context}"]

@@ -5,6 +5,7 @@
 [id="nw-ingress-creating-a-route-via-an-ingress_{context}"]
 = Creating a route through an Ingress object
 
+[role="_abstract"]
 Some ecosystem components have an integration with Ingress resources but not with
 route resources. To cover this case, {product-title} automatically creates
 managed route objects when an Ingress object is created. These route objects are deleted

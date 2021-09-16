@@ -5,6 +5,7 @@
 [id="olm-enabling-operator-for-multi-arch_{context}"]
 = Enabling your Operator for multiple architectures and operating systems
 
+[role="_abstract"]
 Operator Lifecycle Manager (OLM) assumes that all Operators run on Linux hosts. However, as an Operator author, you can specify whether your Operator supports managing workloads on other architectures, if worker nodes are available in the {product-title} cluster.
 
 If your Operator supports variants other than AMD64 and Linux, you can add labels to the cluster service version (CSV) that provides the Operator to list the supported variants. Labels indicating supported architectures and operating systems are defined by the following:

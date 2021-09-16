@@ -5,6 +5,7 @@
 [id="osdk-monitoring-prometheus-metrics-helper_{context}"]
 = Metrics helper
 
+[role="_abstract"]
 In Go-based Operators generated using the Operator SDK, the following function exposes general metrics about the running program:
 
 [source,go]

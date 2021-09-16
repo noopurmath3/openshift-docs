@@ -3,6 +3,7 @@
 // * operators/user/olm-installing-operators-in-namespace.adoc
 // * operators/admin/olm-adding-operators-to-cluster.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "olm-installing-operators-in-namespace"]
 :olm-user:
 endif::[]

@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The Containerized Data Importer can preallocate disk space to improve write performance when creating data volumes.
 
 You can enable preallocation for specific data volumes.

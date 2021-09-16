@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can install Helm charts on an {product-title} cluster using the following methods:
 
 * The CLI.

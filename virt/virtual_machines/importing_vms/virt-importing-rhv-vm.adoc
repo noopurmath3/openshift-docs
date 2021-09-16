@@ -6,6 +6,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can import a single Red Hat Virtualization (RHV) virtual machine into {VirtProductName} by using the VM Import wizard or the CLI.
 
 :FeatureName: Importing a RHV VM

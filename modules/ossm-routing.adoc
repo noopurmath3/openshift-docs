@@ -6,6 +6,7 @@
 [id="ossm-routing_{context}"]
 = Routing and managing traffic
 
+[role="_abstract"]
 Configure your service mesh by adding your own traffic configuration to {ProductName} with a custom resource definitions in a YAML file.
 
 [id="ossm-routing-traffic-management-vs_{context}"]

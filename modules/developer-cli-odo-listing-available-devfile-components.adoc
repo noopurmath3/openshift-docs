@@ -5,6 +5,7 @@
 [id="listing-available-devfile-components_{context}"]
 = Listing available devfile components
 
+[role="_abstract"]
 With `{odo-title}`, you can display all the components that are available for you on the cluster. Components that are available depend on the configuration of your cluster.
 
 .Procedure

@@ -5,6 +5,7 @@
 [id="deployments-ab-testing-lb_{context}"]
 = Load balancing for A/B testing
 
+[role="_abstract"]
 The user sets up a route with multiple services. Each service handles a version of the application.
 
 Each service is assigned a `weight` and the portion of requests to each service is the `service_weight` divided by the `sum_of_weights`. The `weight` for each service is distributed to the service's endpoints so that the sum of the endpoint `weights` is the service `weight`.

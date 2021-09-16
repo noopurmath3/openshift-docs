@@ -5,6 +5,7 @@
 [id="virt-accessing-vm-yaml-ssh_{context}"]
 = Accessing a virtual machine via SSH with YAML configurations
 
+[role="_abstract"]
 You can enable an SSH connection to a virtual machine (VM) without the need to run the `virtctl expose` command. When the YAML file for the VM and the YAML file for the service are configured and applied, the service forwards the SSH traffic to the VM.
 
 The following examples show the configurations for the VM's YAML file and the service YAML file.

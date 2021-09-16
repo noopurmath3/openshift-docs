@@ -5,6 +5,7 @@
 [id="cluster-maximums-major-releases_{context}"]
 = {product-title} tested cluster maximums for major releases
 
+[role="_abstract"]
 Tested Cloud Platforms for {product-title} 3.x: {rh-openstack-first}, Amazon Web Services and Microsoft Azure.
 Tested Cloud Platforms for {product-title} 4.x: Amazon Web Services, Microsoft Azure and Google Cloud Platform.
 

@@ -1,6 +1,7 @@
 [id="nw-multi-network-policy-differences_{context}"]
 = Differences between multi-network policy and network policy
 
+[role="_abstract"]
 Although the `MultiNetworkPolicy` API implements the `NetworkPolicy` API, there are several important differences:
 
 * You must use the `MultiNetworkPolicy` API:

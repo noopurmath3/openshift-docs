@@ -6,6 +6,7 @@
 [id="installing-the-performance-addon-operator_{context}"]
 = Installing the Performance Addon Operator
 
+[role="_abstract"]
 Performance Addon Operator provides the ability to enable advanced node performance tunings on a set of nodes.
 As a cluster administrator, you can install Performance Addon Operator using the {product-title} CLI or the web console.
 

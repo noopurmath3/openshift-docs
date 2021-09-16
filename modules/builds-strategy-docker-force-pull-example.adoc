@@ -4,6 +4,7 @@
 [id="builds-strategy-docker-force-pull-example_{context}"]
 = Docker force pull flag example
 
+[role="_abstract"]
 Set the following to use the `forcePull` flag with Docker:
 
 [source,yaml]

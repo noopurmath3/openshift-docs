@@ -5,6 +5,7 @@
 [id="cluster-logging-collector-limits_{context}"]
 = Configure log collector CPU and memory limits
 
+[role="_abstract"]
 The log collector allows for adjustments to both the CPU and memory limits.
 
 .Procedure

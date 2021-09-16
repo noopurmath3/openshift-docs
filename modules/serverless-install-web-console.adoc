@@ -5,6 +5,7 @@
 [id="serverless-install-web-console_{context}"]
 = Installing the {ServerlessOperatorName}
 
+[role="_abstract"]
 This procedure describes how to install and subscribe to the {ServerlessOperatorName} from the OperatorHub using the {product-title} web console.
 
 [IMPORTANT]

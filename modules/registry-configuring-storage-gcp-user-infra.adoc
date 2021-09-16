@@ -5,6 +5,7 @@
 [id="registry-configuring-storage-gcp-user-infra_{context}"]
 = Registry storage for GCP with user-provisioned infrastructure
 
+[role="_abstract"]
 You must set up the storage medium manually and configure the settings in the
 registry custom resource (CR).
 

@@ -5,6 +5,7 @@
 [id="deleting-a-project-using-the-CLI_{context}"]
 = Deleting a project using the CLI
 
+[role="_abstract"]
 When you delete a project, the server updates the project status to
 *Terminating* from *Active*. Then, the server clears all content from a project
 that is in the *Terminating* state before finally removing the project. While a

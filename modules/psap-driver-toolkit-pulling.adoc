@@ -5,6 +5,7 @@
 [id="pulling-the-driver-toolkit"]
 = Pulling the Driver Toolkit container image
 
+[role="_abstract"]
 The `driver-toolkit` image is available from the link:https://registry.redhat.io/[Container images section of the Red Hat Ecosystem Catalog] and in the {product-title} release payload. The image corresponding to the most recent minor release of {product-title} will be tagged with the version number in the catalog. The image URL for a specific release can be found using the `oc adm` CLI command.
 
 [id="pulling-the-driver-toolkit-from-registry"]

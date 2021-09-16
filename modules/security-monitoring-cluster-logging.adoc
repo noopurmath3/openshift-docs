@@ -5,6 +5,7 @@
 [id="security-monitoring-cluster-logging_{context}"]
 = Logging
 
+[role="_abstract"]
 Using the `oc log` command, you can view container logs, build configs and
 deployments in real time. Different can users have access different
 access to logs:

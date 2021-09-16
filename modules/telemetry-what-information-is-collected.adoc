@@ -3,6 +3,7 @@
 // * virt/logging_events_monitoring/virt-openshift-cluster-monitoring.adoc
 // * support/remote_health_monitoring/about-remote-health-monitoring.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "virt-openshift-cluster-monitoring"]
 :virt-cluster:
 endif::[]

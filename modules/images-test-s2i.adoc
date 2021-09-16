@@ -4,6 +4,7 @@
 [id="images-test-s2i_{context}"]
 = About testing source-to-image images
 
+[role="_abstract"]
 As an Source-to-Image (S2I) builder image author, you can test your S2I image
 locally and use the {product-title} build system for automated testing and
 continuous integration.

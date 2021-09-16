@@ -5,6 +5,7 @@
 [id="nw-using-nodeport_{context}"]
 = Using a NodePort to get traffic into the cluster
 
+[role="_abstract"]
 Use a `NodePort`-type `Service` resource to expose a service on a specific port
 on all nodes in the cluster. The port is specified in the `Service` resource's
 `.spec.ports[*].nodePort` field.

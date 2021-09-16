@@ -5,6 +5,7 @@
 [id="osdk-ansible-custom-resource-files_{context}"]
 = Custom resource files
 
+[role="_abstract"]
 Operators use the Kubernetes extension mechanism, custom resource definitions (CRDs), so your custom resource (CR) looks and acts just like the built-in, native Kubernetes objects.
 
 The CR file format is a Kubernetes resource file. The object has mandatory and optional fields:

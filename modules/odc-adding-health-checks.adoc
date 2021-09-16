@@ -5,6 +5,7 @@
 [id="odc-adding-health-checks"]
 = Adding health checks using the Developer perspective
 
+[role="_abstract"]
 You can use the *Topology* view to add health checks to your deployed application.
 
 .Prerequisites:

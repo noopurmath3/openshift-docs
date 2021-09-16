@@ -7,6 +7,7 @@
 
 [IMPORTANT]
 ====
+[role="_abstract"]
 The following features are in Developer Preview and not currently supported or intended for production use. They are highlighted here to notify users of the important upcoming addition of Gateway API. Limited documentation is available at this time.
 ====
 

@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can remove a Windows node by deleting its host Windows machine. 
 
 include::modules/machine-delete.adoc[leveloffset=+1]

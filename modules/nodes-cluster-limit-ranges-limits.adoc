@@ -5,6 +5,7 @@
 [id="nodes-cluster-limit-ranges-limits_{context}"]
 = About component limits
 
+[role="_abstract"]
 The following examples show limit range parameters for each component. The
 examples are broken out for clarity. You can create a single `LimitRange` object
 for any or all components as necessary.

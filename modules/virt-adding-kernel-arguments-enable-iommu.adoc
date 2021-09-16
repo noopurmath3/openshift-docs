@@ -5,6 +5,7 @@
 [id="virt-adding-kernel-arguments-enable-IOMMU_{context}"]
 = Adding kernel arguments to enable the IOMMU driver
 
+[role="_abstract"]
 To enable the IOMMU (Input-Output Memory Management Unit)  driver in the kernel, create the `MachineConfig` object and add the kernel arguments.
 
 .Prerequisites

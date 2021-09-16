@@ -8,6 +8,7 @@
 
 //OpenShift Dedicated or Amazon RH OpenShift cluster administrator
 
+[role="_abstract"]
 As a cluster administrator, you can specify an alternative default domain for user-created routes by configuring `appsDomain` field. If you specify an alternative domain, it overrides the default cluster domain for the purpose of determining the default host for a new route.
 
 For example, you can use the DNS domain for your company as the default domain for routes and ingresses for applications running on your cluster.

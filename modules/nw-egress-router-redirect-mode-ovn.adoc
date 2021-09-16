@@ -5,6 +5,7 @@
 [id="nw-egress-router-redirect-mode-ovn_{context}"]
 = Deploying an egress router in redirect mode
 
+[role="_abstract"]
 You can deploy an egress router to redirect traffic from its own reserved source IP address to one or more destination IP addresses.
 
 After you add an egress router, the client pods that need to use the reserved source IP address must be modified to connect to the egress router rather than connecting directly to the destination IP.

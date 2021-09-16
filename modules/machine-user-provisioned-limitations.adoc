@@ -13,5 +13,6 @@
 
 [IMPORTANT]
 ====
+[role="_abstract"]
 This process is not applicable for clusters with manually provisioned machines. You can use the advanced machine management and scaling capabilities only in clusters where the Machine API is operational.
 ====

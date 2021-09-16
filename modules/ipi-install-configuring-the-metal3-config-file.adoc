@@ -6,6 +6,7 @@
 
 = Configuring the `metal3-config.yaml` file
 
+[role="_abstract"]
 You must create and configure a ConfigMap `metal3-config.yaml` file.
 
 .Procedure

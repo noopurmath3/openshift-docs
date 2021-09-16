@@ -4,6 +4,7 @@
 // * operators/operator_sdk/ansible/osdk-ansible-tutorial.adoc
 // * operators/operator_sdk/helm/osdk-helm-tutorial.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "osdk-golang-tutorial"]
 :golang:
 :app-proper: Memcached

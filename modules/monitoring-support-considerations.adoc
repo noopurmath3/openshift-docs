@@ -5,6 +5,7 @@
 [id="support-considerations_{context}"]
 = Support considerations for monitoring
 
+[role="_abstract"]
 The following modifications are explicitly not supported:
 
 * *Creating additional `ServiceMonitor`, `PodMonitor`, and `PrometheusRule` objects in the `openshift-&#42;`, and `kube-&#42;` projects.*

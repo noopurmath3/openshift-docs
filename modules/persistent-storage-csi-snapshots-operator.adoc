@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-snapshots-operator_{context}"]
 = About the CSI Snapshot Controller Operator
 
+[role="_abstract"]
 The CSI Snapshot Controller Operator runs in the `openshift-cluster-storage-operator` namespace. It is installed by the Cluster Version Operator (CVO) in all clusters by default.
 
 The CSI Snapshot Controller Operator installs the CSI snapshot controller, which runs in the `openshift-cluster-storage-operator` namespace.

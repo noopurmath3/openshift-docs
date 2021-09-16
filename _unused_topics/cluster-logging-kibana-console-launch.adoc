@@ -6,6 +6,7 @@
 [id="cluster-logging-kibana-visualize_{context}"]
 = Launching the Kibana interface
 
+[role="_abstract"]
 The Kibana interface is a browser-based console
 to query, discover, and visualize your Elasticsearch data through histograms, line graphs,
 pie charts, heat maps, built-in geospatial support, and other visualizations.

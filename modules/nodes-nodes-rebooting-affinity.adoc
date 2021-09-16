@@ -5,6 +5,7 @@
 [id="nodes-nodes-rebooting-affinity_{context}"]
 = Rebooting a node using pod anti-affinity
 
+[role="_abstract"]
 Pod anti-affinity is slightly different than node anti-affinity. Node anti-affinity can be
 violated if there are no other suitable locations to deploy a pod. Pod
 anti-affinity can be set to either required or preferred.

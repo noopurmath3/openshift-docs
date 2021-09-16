@@ -6,6 +6,7 @@
 = Pipelines management commands
 
 == pipeline
+[role="_abstract"]
 Manage Pipelines.
 
 .Example: Display help

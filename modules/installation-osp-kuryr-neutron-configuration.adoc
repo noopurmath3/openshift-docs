@@ -5,6 +5,7 @@
 [id="installation-osp-kuryr-neutron-configuration_{context}"]
 = Configuring Neutron
 
+[role="_abstract"]
 Kuryr CNI leverages the Neutron Trunks extension to plug containers into the
 {rh-openstack-first} SDN, so you must use the `trunks` extension for Kuryr to properly work.
 

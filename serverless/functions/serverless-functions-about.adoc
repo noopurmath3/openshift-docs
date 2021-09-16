@@ -9,6 +9,7 @@ toc::[]
 :FeatureName: {FunctionsProductName}
 include::modules/technology-preview.adoc[leveloffset=+2]
 
+[role="_abstract"]
 {FunctionsProductName} enables developers to create and deploy stateless, event-driven functions as a Knative service on {product-title}.
 
 The `kn func` CLI is provided as a plug-in for the Knative `kn` CLI. {FunctionsProductName} uses the link:https://buildpacks.io/[CNCF Buildpack API] to create container images. After a container image has been created, you can use the `kn func` CLI to deploy the container image as a Knative service on the cluster.

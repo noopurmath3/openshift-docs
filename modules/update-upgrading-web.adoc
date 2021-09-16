@@ -3,6 +3,7 @@
 // * updating/updating-cluster.adoc
 // * updating/updating-cluster-between-minor.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "updating-cluster"]
 :within:
 endif::[]

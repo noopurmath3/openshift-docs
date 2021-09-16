@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} provides automatic migration for supported in-tree volume plug-ins to their equivalent Container Storage Interface (CSI) drivers.
 
 :FeatureName: CSI automatic migration

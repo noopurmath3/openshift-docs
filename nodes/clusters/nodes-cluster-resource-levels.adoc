@@ -7,6 +7,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 As a cluster administrator, you can use the cluster capacity tool to view the
 number of pods that can be scheduled to increase the current resources before
 they become exhausted, and to ensure any future pods can be scheduled. This

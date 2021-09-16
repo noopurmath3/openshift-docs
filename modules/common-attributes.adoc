@@ -18,6 +18,7 @@ ifdef::openshift-origin[]
 :op-system: FCOS
 :op-system-base: Fedora
 :op-system-base-full: Fedora
+[role="_abstract"]
 endif::[]
 :tsb-name: Template Service Broker
 :kebab: image:kebab.png[title="Options menu"]

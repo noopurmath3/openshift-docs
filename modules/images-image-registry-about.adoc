@@ -4,6 +4,7 @@
 [id="images-image-registry-about_{context}"]
 = Image registry
 
+[role="_abstract"]
 An image registry is a content server that can store and serve container images. For example:
 
 ----

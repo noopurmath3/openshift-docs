@@ -5,6 +5,7 @@
 [id="nw-dns-view_{context}"]
 = View the default DNS
 
+[role="_abstract"]
 Every new {product-title} installation has a `dns.operator` named `default`.
 
 .Procedure

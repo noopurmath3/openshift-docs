@@ -3,6 +3,7 @@
 // * cli_reference/developer_cli_odo/creating-a-multicomponent-application-with-odo.adoc
 // * cli_reference/developer_cli_odo/creating_and_deploying_applications_with_odo/creating-an-application-with-a-database.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "creating-a-multicomponent-application-with-odo"]
 :multi:
 endif::[]

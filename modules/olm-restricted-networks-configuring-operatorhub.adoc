@@ -18,6 +18,7 @@
 // * operators/admin/olm-restricted-networks.adoc
 // * operators/admin/olm-managing-custom-catalogs.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "olm-restricted-networks"]
 :olm-restricted-networks:
 endif::[]

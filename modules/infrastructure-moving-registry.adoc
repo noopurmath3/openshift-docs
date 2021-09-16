@@ -5,6 +5,7 @@
 [id="infrastructure-moving-registry_{context}"]
 = Moving the default registry
 
+[role="_abstract"]
 You configure the registry Operator to deploy its pods to different nodes.
 
 .Prerequisites

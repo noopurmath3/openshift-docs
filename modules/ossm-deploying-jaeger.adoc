@@ -5,6 +5,7 @@
 [id="ossm-deploying-jaeger_{context}"]
 = Deploying Jaeger
 
+[role="_abstract"]
 Jaeger has predefined deployment strategies. You specify a deployment strategy in the Jaeger custom resource (CR) file. When you create a Jaeger instance, the Operator uses this configuration file to create the objects necessary for the deployment.
 
 The Jaeger Operator currently supports the following deployment strategies:

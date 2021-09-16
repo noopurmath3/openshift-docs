@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Project keeps your source code, tests, and libraries organized in a separate single unit.
 
 include::modules/developer-cli-odo-creating-a-project.adoc[leveloffset=+1]

@@ -5,6 +5,7 @@
 [id="builds-configuration-parameters_{context}"]
 = Build controller configuration parameters
 
+[role="_abstract"]
 The `build.config.openshift.io/cluster` resource offers the following configuration parameters.
 
 [cols="3a,8a",options="header"]

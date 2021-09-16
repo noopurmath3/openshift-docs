@@ -6,6 +6,7 @@
 [id="machine-delete_{context}"]
 = Deleting a specific machine
 
+[role="_abstract"]
 You can delete a specific machine.
 
 .Prerequisites

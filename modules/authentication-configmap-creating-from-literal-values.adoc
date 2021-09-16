@@ -5,6 +5,7 @@
 [id="authentication-configmap-creating-from-literal-values_{context}"]
 = Creating a config map from literal values
 
+[role="_abstract"]
 You can supply literal values for a config map.
 
 .Procedure

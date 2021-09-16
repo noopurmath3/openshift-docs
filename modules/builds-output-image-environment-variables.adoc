@@ -6,6 +6,7 @@
 = Output image environment variables
 
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated[]
+[role="_abstract"]
 docker and
 endif::[]
 source-to-image (S2I) strategy builds set the following environment variables on output images:

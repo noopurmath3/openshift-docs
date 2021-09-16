@@ -5,6 +5,7 @@
 [id="nodes-nodes-viewing-listing_{context}"]
 = About listing all the nodes in a cluster
 
+[role="_abstract"]
 You can get detailed information on the nodes in the cluster.
 
 * The following command lists all nodes:

@@ -5,6 +5,7 @@
 [id="installation-osp-configuring-api-floating-ip_{context}"]
 = Configuring application access with floating IP addresses
 
+[role="_abstract"]
 After you install {product-title}, configure {rh-openstack-first} to allow application network traffic.
 
 [NOTE]

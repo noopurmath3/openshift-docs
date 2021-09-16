@@ -6,6 +6,7 @@ include::modules/pipelines-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Uninstalling the {pipelines-title} Operator is a two-step process:
 
 . Delete the Custom Resources (CRs) that were added by default when you installed the {pipelines-title} Operator.

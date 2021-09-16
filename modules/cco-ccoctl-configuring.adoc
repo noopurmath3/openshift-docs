@@ -5,6 +5,7 @@
 [id="cco-ccoctl-configuring_{context}"]
 = Configuring the Cloud Credential Operator utility
 
+[role="_abstract"]
 To create and manage cloud credentials from outside of the cluster when the Cloud Credential Operator (CCO) is operating in manual mode with STS, extract and prepare the CCO utility (`ccoctl`) binary.
 
 [NOTE]

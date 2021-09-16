@@ -5,6 +5,7 @@
 [id="osdk-monitoring-prometheus-metrics-helper-modifying-port_{context}"]
 = Modifying the metrics port
 
+[role="_abstract"]
 Operator authors can modify the port that metrics are exposed on.
 
 .Prerequisites

@@ -6,6 +6,7 @@
 [id="installation-aws-regions-with-no-ami_{context}"]
 = AWS regions without a published {op-system} AMI
 
+[role="_abstract"]
 You can deploy an {product-title} cluster to Amazon Web Services (AWS) regions
 without native support for a {op-system-first} Amazon Machine Image (AMI) or the
 AWS software development kit (SDK). If a

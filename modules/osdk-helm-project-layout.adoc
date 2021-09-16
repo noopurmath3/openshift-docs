@@ -5,6 +5,7 @@
 [id="osdk-helm-project-layout_{context}"]
 = Helm-based project layout
 
+[role="_abstract"]
 Helm-based Operator projects generated using the `operator-sdk init --plugins helm` command contain the following directories and files:
 
 [options="header",cols="1,4"]

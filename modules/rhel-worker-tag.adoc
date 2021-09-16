@@ -7,6 +7,7 @@
 [id="rhel-worker-tag_{context}"]
 = Tagging a {op-system-base} worker node as owned or shared
 
+[role="_abstract"]
 A cluster uses the value of the `kubernetes.io/cluster/<clusterid>,Value=(owned|shared)` tag to determine the lifetime of the resources related to the AWS cluster.
 
 * The `owned` tag value should be added if the resource should be destroyed as part of destroying the cluster.

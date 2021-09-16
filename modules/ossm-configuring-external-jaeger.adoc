@@ -6,6 +6,7 @@
 [id="ossm-specifying-external-jaeger_{context}"]
 = Specifying Jaeger configuration in a Jaeger custom resource
 
+[role="_abstract"]
 You can fully customize your Jaeger deployment by configuring Jaeger in the Jaeger custom resource (CR) rather than in the `ServiceMeshControlPlane` (SMCP) resource. This configuration is sometimes referred to as an "external Jaeger" since the configuration is specified outside of the SMCP.
 
 [NOTE]

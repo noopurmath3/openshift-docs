@@ -5,6 +5,7 @@
 [id="virt-reenabling-mac-address-pool-for-namespace-cli_{context}"]
 = Re-enabling a MAC address pool for a namespace in the CLI
 
+[role="_abstract"]
 If you disabled KubeMacPool for a namespace and want to re-enable it, remove the `mutatevirtualmachines.kubemacpool.io=ignore` label from the namespace.
 
 [NOTE]

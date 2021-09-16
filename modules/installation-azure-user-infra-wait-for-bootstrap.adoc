@@ -5,6 +5,7 @@
 [id="installation-azure-user-infra-wait-for-bootstrap_{context}"]
 = Wait for bootstrap completion and remove bootstrap resources in Azure
 
+[role="_abstract"]
 After you create all of the required infrastructure in Microsoft Azure, wait for
 the bootstrap process to complete on the machines that you provisioned by using
 the Ignition config files that you generated with the installation program.

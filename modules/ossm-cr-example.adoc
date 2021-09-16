@@ -5,6 +5,7 @@
 [id="ossm-cr-example_{context}"]
 = Control plane parameters
 
+[role="_abstract"]
 The following table lists the top-level parameters for the `ServiceMeshControlPlane` resource.
 
 .`ServiceMeshControlPlane` resource parameters

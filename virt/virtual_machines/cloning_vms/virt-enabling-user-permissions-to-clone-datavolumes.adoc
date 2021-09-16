@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The isolating nature of namespaces means that users cannot by default 
 clone resources between namespaces. 
 

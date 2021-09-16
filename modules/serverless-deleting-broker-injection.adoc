@@ -5,6 +5,7 @@
 [id="serverless-deleting-broker-injection_{context}"]
 = Deleting a broker that was created by injection
 
+[role="_abstract"]
 Brokers created by injection, by using a namespace label or trigger annotation, are not deleted permanently if a developer removes the label or annotation. You must manually delete these brokers.
 
 .Procedure

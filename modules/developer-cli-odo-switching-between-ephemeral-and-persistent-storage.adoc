@@ -5,6 +5,7 @@
 [id="switching-between-ephemeral-and-persistent-storage_{context}"]
 = Switching between ephemeral and persistent storage
 
+[role="_abstract"]
 You can switch between ephemeral and persistent storage in your project by using the `odo preference` command. `odo preference` modifies the global preference in your cluster.
 
 When persistent storage is enabled, the cluster stores the information between the restarts. 

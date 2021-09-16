@@ -5,6 +5,7 @@
 [id="serverless-go-function-return-values_{context}"]
 = Golang function return values
 
+[role="_abstract"]
 HTTP triggered functions can set the response directly by using the Golang link:https://golang.org/pkg/net/http/#ResponseWriter[http.ResponseWriter].
 
 .Example HTTP response

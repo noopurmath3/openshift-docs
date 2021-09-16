@@ -5,6 +5,7 @@
 [id="api-compatibility-guidelines_{context}"]
 = API compatibility guidelines
 
+[role="_abstract"]
 Red Hat recommends that application developers adopt the following principles in order to improve compatibility with {product-title}:
 
 * Use APIs and components with support tiers that match the application's need.

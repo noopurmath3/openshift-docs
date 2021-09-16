@@ -6,6 +6,7 @@
 [id="installation-gcp-install-cli_{context}"]
 = Installing and configuring CLI tools for GCP
 
+[role="_abstract"]
 To install {product-title} on Google Cloud Platform (GCP) using user-provisioned
 infrastructure, you must install and configure the CLI tools for GCP.
 

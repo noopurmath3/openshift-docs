@@ -5,6 +5,7 @@
 [id="add-service-certificate-configmap_{context}"]
 = Add the service CA bundle to a config map
 
+[role="_abstract"]
 A Pod can access the service CA certificate by mounting a `ConfigMap` object that
 is annotated with `service.beta.openshift.io/inject-cabundle=true`.
 Once annotated, the cluster automatically injects the service CA

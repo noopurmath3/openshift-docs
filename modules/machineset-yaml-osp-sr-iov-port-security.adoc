@@ -5,6 +5,7 @@
 [id="machineset-yaml-osp-sr-iov-port-security_{context}"]
 =  Sample YAML for SR-IOV deployments where port security is disabled
 
+[role="_abstract"]
 To create single-root I/O virtualization (SR-IOV) ports on a network that has port security disabled, define a machine set that includes the ports as items in the `spec.template.spec.providerSpec.value.ports` list. This difference from the standard SR-IOV machine set is due to the automatic security group and allowed address pair configuration that occurs for ports that are created by using the network and subnet interfaces.
 
 Ports that you define for machines subnets require:

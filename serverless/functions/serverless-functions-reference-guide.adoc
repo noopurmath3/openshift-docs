@@ -9,6 +9,7 @@ toc::[]
 :FeatureName: {FunctionsProductName}
 include::modules/technology-preview.adoc[leveloffset=+2]
 
+[role="_abstract"]
 {FunctionsProductName} provides templates that can be used to create basic functions for the following runtimes:
 
 // add xref links to docs once added

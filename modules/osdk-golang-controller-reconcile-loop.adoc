@@ -5,6 +5,7 @@
 [id="osdk-golang-controller-reconcile-loop_{context}"]
 = Reconcile loop
 
+[role="_abstract"]
 Every controller has a reconciler object with a `Reconcile()` method that implements the reconcile loop. The reconcile loop is passed the `Request` argument, which is a namespace and name key used to find the primary resource object, `Memcached`, from the cache:
 
 [source,go]

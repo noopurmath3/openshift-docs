@@ -5,6 +5,7 @@
 [id="cli-using-cli_{context}"]
 = Using the OpenShift CLI
 
+[role="_abstract"]
 Review the following sections to learn how to complete common tasks using the CLI.
 
 == Creating a project

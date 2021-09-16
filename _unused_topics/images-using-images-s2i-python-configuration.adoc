@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-python-configuration_{context}"]
 = Configuring source-to-image for Python
 
+[role="_abstract"]
 The Python image supports a number of environment variables which can be set to control the configuration and behavior of the Python runtime.
 
 To set these environment variables as part of your image, you can place them into a `.s2i/environment` file inside your source code repository, or define them in the environment section of the build configuration's `sourceStrategy` definition.

@@ -5,6 +5,7 @@
 [id="virt-tested-cluster-maximums_{context}"]
 = Tested cluster maximums for {VirtProductName}
 
+[role="_abstract"]
 {VirtProductName} {VirtVersion} was tested with bare metal Installer Provisioned Infrastructure (IPI). The following table shows the tested cluster maximums for the {VirtProductName} {VirtVersion} release.
 
 |===

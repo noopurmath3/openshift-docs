@@ -1,5 +1,6 @@
 [[nodes-configuring-nodes]]
 = Understanding Pod restart policy
+[role="_abstract"]
 {product-author}
 {product-version}
 :data-uri:

@@ -5,6 +5,7 @@
 [id="identity-provider-about-request-header_{context}"]
 = About request header authentication
 
+[role="_abstract"]
 A request header identity provider identifies users from request
 header values, such as `X-Remote-User`. It is typically used in combination with
 an authenticating proxy, which sets the request header value. The

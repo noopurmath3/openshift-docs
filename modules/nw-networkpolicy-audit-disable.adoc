@@ -1,6 +1,7 @@
 [id="nw-networkpolicy-audit-disable_{context}"]
 = Disabling network policy audit logging for a namespace
 
+[role="_abstract"]
 As a cluster administrator, you can disable network policy audit logging for a namespace.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="templates-rails-storing-application-in-git_{context}"]
 = Storing your application in Git
 
+[role="_abstract"]
 Building an application in {product-title} usually requires that the source code be stored in a git repository, so you must install `git` if you do not already have it.
 
 .Prerequisites

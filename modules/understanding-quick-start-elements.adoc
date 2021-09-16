@@ -5,6 +5,7 @@
 [id="understanding-quick-start-elements_{context}"]
 = Mapping the elements in the quick start to the quick start CR
 
+[role="_abstract"]
 This section helps you visually map parts of the quick start custom resource (CR) with where they appear in the quick start within the web console.
 
 [id="conclusion-quick-start-element_{context}"]

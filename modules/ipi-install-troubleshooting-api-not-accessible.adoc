@@ -5,6 +5,7 @@
 
 = The API is not accessible
 
+[role="_abstract"]
 When the cluster is running and clients cannot access the API, domain name resolution issues might impede access to the API.
 
 .Procedure

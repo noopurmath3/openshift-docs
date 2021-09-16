@@ -9,6 +9,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 Events in {product-title} are modeled based on events that happen to API objects
 in an {product-title} cluster.
 

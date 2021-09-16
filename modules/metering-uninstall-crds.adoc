@@ -5,6 +5,7 @@
 [id="metering-uninstall-crds_{context}"]
 = Uninstalling metering custom resource definitions
 
+[role="_abstract"]
 The metering custom resource definitions (CRDs) remain in the cluster after the Metering Operator is uninstalled and the `openshift-metering` namespace is deleted.
 
 [IMPORTANT]

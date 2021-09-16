@@ -5,12 +5,14 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster administrator, you can manage Operator conditions by using Operator Lifecycle Manager (OLM).
 
 include::modules/olm-overriding-operatorconditions.adoc[leveloffset=+1]
 include::modules/olm-updating-use-operatorconditions.adoc[leveloffset=+1]
 
 [id="olm-managing-operatorconditions-addtl-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../operators/understanding/olm/olm-operatorconditions.adoc#olm-operatorconditions[Operator conditions]

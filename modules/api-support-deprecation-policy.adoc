@@ -5,6 +5,7 @@
 [id="api-deprecation-policy_{context}"]
 = API deprecation policy
 
+[role="_abstract"]
 {product-title} is composed of many components sourced from many upstream communities. It is anticipated that the set of components, the associated API interfaces, and correlated features will evolve over time and might require formal deprecation in order to remove the capability.
 
 [id="deprecating-parts-of-the-api_{context}"]

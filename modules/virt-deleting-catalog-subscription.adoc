@@ -5,6 +5,7 @@
 [id="virt-deleting-catalog-subscription_{context}"]
 = Deleting the {VirtProductName} catalog subscription
 
+[role="_abstract"]
 To finish uninstalling {VirtProductName}, delete the
 *{VirtProductName}* catalog subscription.
 

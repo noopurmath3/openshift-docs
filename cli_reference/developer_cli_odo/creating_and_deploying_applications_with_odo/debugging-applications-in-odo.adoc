@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 With `{odo-title}`, you can attach a debugger to remotely debug your application. This feature is only supported for NodeJS and Java components.
 
 Components created with `{odo-title}` run in the debug mode by default.  A debugger agent runs on the component, on a specific port. To start debugging your application, you must start port forwarding and attach the local debugger bundled in your Integrated development environment (IDE).

@@ -5,6 +5,7 @@
 [id="virt-querying-metrics_{context}"]
 = Virtualization metrics
 
+[role="_abstract"]
 The following metric descriptions include example Prometheus Query Language (PromQL) queries. These metrics are not an API and might change between versions.
 
 [NOTE]

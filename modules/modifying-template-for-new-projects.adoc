@@ -6,6 +6,7 @@
 [id="modifying-template-for-new-projects_{context}"]
 = Modifying the template for new projects
 
+[role="_abstract"]
 As a cluster administrator, you can modify the default project template so that
 new projects are created using your custom requirements.
 

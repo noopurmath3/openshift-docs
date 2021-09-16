@@ -5,6 +5,7 @@
 [id="using-the-driver-toolkit"]
 = Using the Driver Toolkit
 
+[role="_abstract"]
 As an example, the Driver Toolkit can be used as the base image for building a very simple kernel module called simple-kmod.
 
 [id="create-simple-kmod-image"]

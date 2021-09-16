@@ -5,6 +5,7 @@
 [id="virt-marking-vm-templates-favorites_{context}"]
 = Marking virtual machine templates as favorites
 
+[role="_abstract"]
 For easier access to virtual machine templates that are used frequently, you can mark those templates as favorites.
 
 .Procedure

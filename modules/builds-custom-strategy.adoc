@@ -5,6 +5,7 @@
 [id="builds-custom-strategy_{context}"]
 = Custom strategy
 
+[role="_abstract"]
 When using a Custom strategy, all the defined input secrets and config maps are available in the builder container in the `/var/run/secrets/openshift.io/build` directory. The custom build image must use these secrets and config maps appropriately. With the Custom strategy, you can define secrets as described in Custom strategy options.
 
 There is no technical difference between existing strategy secrets and the input secrets. However, your builder image can distinguish between them and use them differently, based on your build use case.

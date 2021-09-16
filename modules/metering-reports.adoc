@@ -4,6 +4,7 @@
 [id="metering-reports_{context}"]
 = Reports
 
+[role="_abstract"]
 The `Report` custom resource is used to manage the execution and status of reports. Metering produces reports derived from usage data sources, which can be used in further analysis and filtering. A single `Report` resource represents a job that manages a database table and updates it with new information according to a schedule. The report exposes the data in that table via the Reporting Operator HTTP API.
 
 Reports with a `spec.schedule` field set are always running and track what time periods it has collected data for. This ensures that if metering is shutdown or unavailable for an extended period of time, it backfills the data starting where it left off. If the schedule is unset, then the report runs once for the time specified by the `reportingStart` and `reportingEnd`. By default, reports wait for `ReportDataSource` resources to have fully imported any data covered in the reporting period. If the report has a schedule, it waits to run until the data in the period currently being processed has finished importing.

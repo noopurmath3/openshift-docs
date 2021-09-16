@@ -8,6 +8,7 @@
 [id="installing-rhv-requirements_{context}"]
 = Requirements for the {rh-virtualization} environment
 
+[role="_abstract"]
 To install and run an {product-title} version {product-version} cluster, the {rh-virtualization} environment must meet the following requirements.
 
 Not meeting these requirements can cause the installation or process to fail. Additionally, not meeting these requirements can cause the {product-title} cluster to fail days or weeks after installation.

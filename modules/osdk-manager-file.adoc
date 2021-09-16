@@ -5,6 +5,7 @@
 [id="osdk-manager-file_{context}"]
 = Manager file
 
+[role="_abstract"]
 The main program for the Operator is the manager file at `cmd/manager/main.go`. The manager automatically registers the scheme for all custom resources (CRs) defined under `pkg/apis/` and runs all controllers under `pkg/controller/`.
 
 The manager can restrict the namespace that all controllers watch for resources:

@@ -4,6 +4,7 @@
 // * installing/installing_azure/installing-azure-private.adoc
 // * installing/installing_azure/installing-azure-vnet.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-azure-government-region"]
 :azure:
 endif::[]

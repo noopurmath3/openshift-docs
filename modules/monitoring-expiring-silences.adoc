@@ -5,6 +5,7 @@
 [id="expiring-silences_{context}"]
 = Expiring silences
 
+[role="_abstract"]
 You can expire a silence. Expiring a silence deactivates it forever.
 
 .Procedure

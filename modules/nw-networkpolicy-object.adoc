@@ -9,6 +9,7 @@
 
 = Example NetworkPolicy object
 
+[role="_abstract"]
 The following annotates an example NetworkPolicy object:
 
 [source,yaml]

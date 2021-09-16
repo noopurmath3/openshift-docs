@@ -4,6 +4,7 @@
 [id="builds-source-code_{context}"]
 = Git source
 
+[role="_abstract"]
 When specified, source code is fetched from the supplied location.
 
 ifndef::openshift-online[]

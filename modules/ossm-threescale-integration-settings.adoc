@@ -6,6 +6,7 @@
 [id="ossm-threescale-integration-settings_{context}"]
 = Configure the integration settings in 3scale
 
+[role="_abstract"]
 Follow this procedure to configure the 3scale integration settings.
 
 [NOTE]

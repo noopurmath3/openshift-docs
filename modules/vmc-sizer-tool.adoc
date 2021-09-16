@@ -11,6 +11,7 @@
 [id="vmc-sizer-tool_{context}"]
 = VMC Sizer tool
 
+[role="_abstract"]
 VMware Cloud on AWS is built on top of AWS bare metal infrastructure; this is the same bare metal infrastructure which runs AWS native services. When a VMware cloud on AWS software-defined data center (SDDC) is deployed, you consume these physical server nodes and run the VMware ESXi hypervisor in a single tenant fashion. This means the physical infrastructure is not accessible to anyone else using VMC. It is important to consider how many physical hosts you will need to host your virtual infrastructure.
 
 To determine this, VMware provides the link:https://vmc.vmware.com/sizer/quick-sizing[VMC on AWS Sizer]. With this tool, you can define the resources you intend to host on VMC:

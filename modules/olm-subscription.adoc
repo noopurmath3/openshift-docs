@@ -5,6 +5,7 @@
 [id="olm-subscription_{context}"]
 = Subscription
 
+[role="_abstract"]
 A subscription, defined by a `Subscription` object, represents an intention to install an Operator. It is the custom resource that relates an Operator to a catalog source.
 
 Subscriptions describe which channel of an Operator package to subscribe to, and whether to perform updates automatically or manually. If set to automatic, the subscription ensures Operator Lifecycle Manager (OLM) manages and upgrades the Operator to ensure that the latest version is always running in the cluster.

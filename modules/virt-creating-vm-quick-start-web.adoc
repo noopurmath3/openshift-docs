@@ -5,6 +5,7 @@
 [id="virt-creating-vm-quick-start-web_{context}"]
 = Using a Quick Start to create a virtual machine
 
+[role="_abstract"]
 The web console provides Quick Starts with instructional guided tours for creating virtual machines. You can access the Quick Starts catalog by selecting the Help menu in the *Administrator* perspective to view the Quick Starts catalog. When you click on a Quick Start tile and begin the tour, the system guides you through the process.
 
 Tasks in a Quick Start begin with selecting a Red Hat template. Then, you can add a boot source and import the operating system image. Finally, you can save the custom template and use it to create a virtual machine.

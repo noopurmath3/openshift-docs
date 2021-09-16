@@ -5,6 +5,7 @@
 [id="virt-creating-bridge-nad-cli_{context}"]
 = Creating a Linux bridge network attachment definition in the CLI
 
+[role="_abstract"]
 As a network administrator, you can configure a network attachment definition of type `cnv-bridge` to provide Layer-2 networking to pods and virtual machines.
 
 [NOTE]

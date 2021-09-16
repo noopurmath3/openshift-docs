@@ -3,6 +3,7 @@
 // * networking/openshift_sdn/editing-egress-firewall.adoc
 // * networking/ovn_kubernetes_network_provider/editing-egress-firewall-ovn.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "openshift-sdn-egress-firewall"]
 :kind: EgressNetworkPolicy
 :res: egressnetworkpolicy

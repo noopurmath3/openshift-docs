@@ -5,6 +5,7 @@
 [id="running-the-performance-profile-profile-cluster-using-podman_{context}"]
 = Running the Performance Profile Creator using `podman`
 
+[role="_abstract"]
 As a cluster administrator, you can run `podman` and the Performance Profile Creator to create a performance profile.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="virt-viewing-qemu-guest-agent-information-web_{context}"]
 = Viewing the QEMU guest agent information in the web console
 
+[role="_abstract"]
 You can use the web console to view information for virtual machines that is passed by the QEMU guest agent to the host.
 
 .Procedure

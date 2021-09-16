@@ -5,6 +5,7 @@
 [id="nw-multus-delete-network_{context}"]
 = Removing an additional network attachment definition
 
+[role="_abstract"]
 As a cluster administrator, you can remove an additional network from your
 {product-title} cluster. The additional network is not removed from any pods it
 is attached to.

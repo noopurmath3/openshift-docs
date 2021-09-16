@@ -11,6 +11,7 @@ ifdef::openshift-origin[]
 :package1: couchdb-operator
 :package2: eclipse-che
 :package3: etcd
+[role="_abstract"]
 endif::[]
 ifndef::openshift-origin[]
 :catalog-name: redhat-operators

@@ -5,6 +5,7 @@
 [id="identity-provider-google-CR_{context}"]
 = Sample Google CR
 
+[role="_abstract"]
 The following custom resource (CR) shows the parameters and acceptable
 values for a Google identity provider.
 

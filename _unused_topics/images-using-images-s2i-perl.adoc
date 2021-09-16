@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-perl_{context}"]
 = Perl overview
 
+[role="_abstract"]
 {product-title} provides source-to-image (S2I) enabled Perl images for building and running Perl applications. The Perl S2I builder image assembles your application source with any required dependencies to create a new image containing your Perl application. This resulting image can be run either by {product-title} or by a container runtime.
 
 [id="images-using-images-s2i-perl-accessing-logs_{context}"]

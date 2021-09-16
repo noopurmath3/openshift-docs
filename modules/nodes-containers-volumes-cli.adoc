@@ -5,6 +5,7 @@
 [id="nodes-containers-volumes-cli_{context}"]
 = Working with volumes using the {product-title} CLI
 
+[role="_abstract"]
 You can use the CLI command `oc set volume` to add and remove volumes and
 volume mounts for any object that has a pod template like replication controllers or
 deployment configs. You can also list volumes in pods or any

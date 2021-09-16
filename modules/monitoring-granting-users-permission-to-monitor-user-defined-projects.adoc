@@ -5,6 +5,7 @@
 [id="granting-users-permission-to-monitor-user-defined-projects_{context}"]
 = Granting users permission to monitor user-defined projects
 
+[role="_abstract"]
 Cluster administrators can monitor all core {product-title} and user-defined projects.
 
 Cluster administrators can grant developers and other users permission to monitor their own projects. Privileges are granted by assigning one of the following monitoring roles:

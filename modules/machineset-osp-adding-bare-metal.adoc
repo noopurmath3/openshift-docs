@@ -3,6 +3,7 @@
 // TODO
 // Mothballed
 // Reintroduce when feature is available. 
+[role="_abstract"]
 You can add bare-metal compute machines to an {product-title} cluster after you deploy it
 on {rh-openstack-first}. In this configuration, all machines are attached to an
 existing, installer-provisioned network, and traffic between control plane and

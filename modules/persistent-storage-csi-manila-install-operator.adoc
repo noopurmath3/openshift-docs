@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-manila-install-operator_{context}"]
 = Installing the Manila CSI Driver Operator
 
+[role="_abstract"]
 The Manila Container Storage Interface (CSI) Driver Operator is not installed in {product-title} by default. Use the following procedure to install and configure this Operator to enable the OpenStack Manila CSI driver in your cluster.
 
 .Prerequisites

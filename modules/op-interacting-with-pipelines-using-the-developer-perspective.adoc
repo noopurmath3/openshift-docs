@@ -5,6 +5,7 @@
 [id="op-interacting-with-pipelines-using-the-developer-perspective_{context}"]
 = Interacting with pipelines using the Developer perspective
 
+[role="_abstract"]
 The *Pipelines* view in the *Developer* perspective lists all the pipelines in a project, along with the following details:
 
 * The namespace in which the pipeline was created

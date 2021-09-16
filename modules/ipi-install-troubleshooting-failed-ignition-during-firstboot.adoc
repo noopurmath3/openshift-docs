@@ -5,6 +5,7 @@
 
 = Failed Ignition during Firstboot
 
+[role="_abstract"]
 During the Firstboot, the Ignition configuration may fail.
 
 .Procedure

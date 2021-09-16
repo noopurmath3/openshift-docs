@@ -4,6 +4,7 @@
 [id="nw-multitenant-global_{context}"]
 = Disabling network isolation for a project
 
+[role="_abstract"]
 You can disable network isolation for a project.
 
 .Prerequisites

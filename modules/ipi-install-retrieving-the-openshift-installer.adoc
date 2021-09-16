@@ -6,6 +6,7 @@
 [id="retrieving-the-openshift-installer_{context}"]
 = Retrieving the {product-title} installer
 
+[role="_abstract"]
 Use the `latest-4.x` version of the installer to deploy the latest generally
 available version of {product-title}:
 

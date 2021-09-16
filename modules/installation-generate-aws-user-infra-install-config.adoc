@@ -3,6 +3,7 @@
 // * installing/installing_aws/installing-aws-user-infra.adoc
 // * installing/installing_aws/installing-restricted-networks-aws.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-restricted-networks-aws"]
 :restricted:
 endif::[]

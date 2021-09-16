@@ -5,6 +5,7 @@
 [id="restore-replace-stopped-etcd-member_{context}"]
 = Replacing an unhealthy etcd member whose machine is not running or whose node is not ready
 
+[role="_abstract"]
 This procedure details the steps to replace an etcd member that is unhealthy either because the machine is not running or because the node is not ready.
 
 .Prerequisites

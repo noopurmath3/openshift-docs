@@ -5,6 +5,7 @@
 [id="wmco-prerequisites_{context}"]
 = Windows Machine Config Operator prerequisites
 
+[role="_abstract"]
 The following information details the supported cloud provider versions, Windows Server versions, and networking configurations for the Windows Machine Config Operator. See the vSphere documentation for any information that is relevant to only that platform.
 
 == Supported cloud providers based on {product-title} and WMCO versions

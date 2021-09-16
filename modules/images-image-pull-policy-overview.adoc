@@ -4,6 +4,7 @@
 [id="images-image-pull-policy-overview_{context}"]
 = Image pull policy overview
 
+[role="_abstract"]
 When {product-title} creates containers, it uses the container `imagePullPolicy` to determine if the image should be pulled prior to starting the container. There are three possible values for `imagePullPolicy`:
 
 .`imagePullPolicy` values

@@ -5,6 +5,7 @@
 [id="quotas-scopes_{context}"]
 = Quota scopes
 
+[role="_abstract"]
 Each quota can have an associated set of _scopes_. A quota only measures usage
 for a resource if it matches the intersection of enumerated scopes.
 

@@ -5,6 +5,7 @@
 [id="external-csi-contollers_{context}"]
 = External CSI controllers
 
+[role="_abstract"]
 External CSI Controllers is a deployment that deploys one or more pods
 with three containers:
 

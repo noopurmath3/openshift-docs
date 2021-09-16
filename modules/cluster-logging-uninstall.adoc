@@ -5,6 +5,7 @@
 [id="cluster-logging-uninstall_{context}"]
 = Uninstalling OpenShift Logging from {product-title}
 
+[role="_abstract"]
 You can stop log aggregation by deleting the `ClusterLogging` custom resource (CR). After deleting the CR, there are other OpenShift Logging components that remain, which you can optionally remove.
 
 

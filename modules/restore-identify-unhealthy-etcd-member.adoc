@@ -5,6 +5,7 @@
 [id="restore-identify-unhealthy-etcd-member_{context}"]
 = Identifying an unhealthy etcd member
 
+[role="_abstract"]
 You can identify if your cluster has an unhealthy etcd member.
 
 .Prerequisites

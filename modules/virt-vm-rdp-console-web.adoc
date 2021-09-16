@@ -5,6 +5,7 @@
 [id="virt-vm-rdp-console-web_{context}"]
 = Connecting to the RDP console
 
+[role="_abstract"]
 The desktop viewer console, which utilizes the Remote Desktop Protocol (RDP),
 provides a better console experience for connecting to Windows virtual machines.
 

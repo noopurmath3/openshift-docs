@@ -4,6 +4,7 @@
 [id="images-imagestream-adding-tags_{context}"]
 = Adding tags to an image stream
 
+[role="_abstract"]
 You can add additional tags to image streams.
 
 .Procedure

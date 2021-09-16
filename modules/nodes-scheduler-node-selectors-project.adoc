@@ -5,6 +5,7 @@
 [id="nodes-scheduler-node-selectors-project_{context}"]
 = Creating project-wide node selectors
 
+[role="_abstract"]
 You can use node selectors in a project together with labels on nodes to constrain all pods created in that project to the labeled nodes.
 
 When you create a pod in this project, {product-title} adds the node selectors to the pods in the project and schedules the pods on a node with matching labels in the project. If there is a cluster-wide default node selector, a project node selector takes preference.

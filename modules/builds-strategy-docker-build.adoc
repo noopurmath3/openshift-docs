@@ -6,6 +6,7 @@
 [id="builds-strategy-docker-build_{context}"]
 = Docker build
 
+[role="_abstract"]
 {product-title} uses Buildah to build a container image from a Dockerfile. For more information on building container images with Dockerfiles, see link:https://docs.docker.com/engine/reference/builder/[the Dockerfile reference documentation].
 
 [TIP]

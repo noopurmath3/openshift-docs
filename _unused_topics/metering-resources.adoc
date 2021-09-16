@@ -5,6 +5,7 @@
 [id="metering-resources_{context}"]
 = Metering resources
 
+[role="_abstract"]
 Metering has many resources, which can be used to manage the deployment and installation of Metering, as well as the reporting functionality Metering provides.
 
 Metering is managed using the following CustomResourceDefinitions (CRDs):

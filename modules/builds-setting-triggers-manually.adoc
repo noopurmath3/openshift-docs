@@ -5,6 +5,7 @@
 [id="builds-setting-triggers-manually_{context}"]
 = Setting triggers manually
 
+[role="_abstract"]
 Triggers can be added to and removed from build configurations with `oc set triggers`.
 
 .Procedure

@@ -9,6 +9,7 @@
 // Structure as needed in the end. This is very much a WIP.
 // A few more troubleshooting and/or known issues blurbs incoming
 
+[role="_abstract"]
 Unfortunately, there will always be some cases where {product-title} fails to install properly. In these events, it is helpful to understand the likely failure modes as well as how to troubleshoot the failure.
 
 This document discusses some troubleshooting options for {rh-openstack}-based

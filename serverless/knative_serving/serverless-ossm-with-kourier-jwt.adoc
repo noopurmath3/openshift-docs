@@ -7,6 +7,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 After the {ProductShortName} integration with {ServerlessProductName} and Kourier has been configured on your cluster, you can enable JSON Web Token (JWT) authentication for your Knative services.
 
 [IMPORTANT]

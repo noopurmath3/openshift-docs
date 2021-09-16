@@ -5,6 +5,7 @@
 [id="about-finally_tasks_{context}"]
 = Finally tasks
 
+[role="_abstract"]
 The `finally` tasks are the final set of tasks specified using the `finally` field in the pipeline YAML file. A `finally` task always executes the tasks within the pipeline, irrespective of whether the pipeline runs are executed successfully. The `finally` tasks are executed in parallel after all the pipeline tasks are run, before the corresponding pipeline exits.
 
 You can configure a `finally` task to consume the results of any task within the same pipeline. This approach does not change the order in which this final task is run. It is executed in parallel with other final tasks after all the non-final tasks are executed.

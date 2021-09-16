@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can create a Windows `MachineSet` object to serve a specific purpose in your {product-title} cluster on VMware vSphere. For example, you might create infrastructure Windows machine sets and related machines so that you can move supporting Windows workloads to the new Windows machines.
 
 [discrete]
@@ -31,6 +32,7 @@ include::modules/enabling-internal-api-server-vsphere.adoc[leveloffset=+2]
 include::modules/windows-machineset-vsphere.adoc[leveloffset=+1]
 include::modules/machineset-creating.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 == Additional resources
 
 * For more information on managing machine sets, see the _Machine management_ section.

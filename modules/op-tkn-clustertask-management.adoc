@@ -6,6 +6,7 @@
 = ClusterTask management commands
 
 == clustertask
+[role="_abstract"]
 Manage ClusterTasks.
 
 .Example: Display help

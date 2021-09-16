@@ -8,6 +8,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 To reboot a node without causing an outage for applications running on the
 platform, it is important to first evacuate the pods. For pods that are 
 made highly available by the routing tier, nothing

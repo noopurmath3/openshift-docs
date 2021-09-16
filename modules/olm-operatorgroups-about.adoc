@@ -4,6 +4,7 @@
 // * operators/understanding/olm/olm-understanding-operatorgroups.adoc
 
 [id="olm-operatorgroups-about_{context}"]
+[role="_abstract"]
 ifeval::["{context}" == "olm-understanding-olm"]
 = Operator groups
 endif::[]

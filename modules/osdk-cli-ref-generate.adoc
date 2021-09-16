@@ -6,4 +6,5 @@
 [id="osdk-cli-ref-generate_{context}"]
 = generate
 
+[role="_abstract"]
 The `operator-sdk generate` command invokes a specific generator to generate code or manifests.

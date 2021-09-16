@@ -5,6 +5,7 @@
 [id="serverless-creating-event-source-admin-web-console_{context}"]
 = Creating an event source by using the Administrator perspective
 
+[role="_abstract"]
 If you have cluster administrator permissions, you can create an event source by using the Administrator perspective in the web console.
 
 .Prerequisites

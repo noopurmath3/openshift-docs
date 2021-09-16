@@ -5,6 +5,7 @@
 [id="authentication-prometheus-system-metrics_{context}"]
 = Authentication metrics for Prometheus
 
+[role="_abstract"]
 {product-title} captures the following Prometheus system metrics during authentication attempts:
 
 * `openshift_auth_basic_password_count` counts the number of `oc login` user name and password attempts.

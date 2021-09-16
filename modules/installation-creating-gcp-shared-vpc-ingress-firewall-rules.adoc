@@ -5,6 +5,7 @@
 [id="installation-creating-gcp-shared-vpc-ingress-firewall-rules_{context}"]
 = Creating ingress firewall rules for a shared VPC in GCP
 
+[role="_abstract"]
 You must create ingress firewall rules to allow the access that the {product-title} cluster requires.
 
 .Prerequisites

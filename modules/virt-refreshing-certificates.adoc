@@ -5,6 +5,7 @@
 [id="virt-refreshing-certificates_{context}"]
 = Refreshing TLS certificates
 
+[role="_abstract"]
 To refresh the TLS certificates for {VirtProductName}, download and run the `rotate-certs` script. This script is available from the `kubevirt/hyperconverged-cluster-operator` repository on GitHub.
 
 [IMPORTANT]

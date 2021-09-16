@@ -5,6 +5,7 @@
 [id="metering-store-data-in-s3-compatible_{context}"]
 = Storing data in S3-compatible storage
 
+[role="_abstract"]
 You can use S3-compatible storage such as Noobaa.
 
 .Procedure

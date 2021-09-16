@@ -7,6 +7,7 @@
 [id="nw-proxy-configure-object_{context}"]
 = Enabling the cluster-wide proxy
 
+[role="_abstract"]
 The Proxy object is used to manage the cluster-wide egress proxy. When a cluster is
 installed or upgraded without the proxy configured, a Proxy object is still
 generated but it will have a nil `spec`. For example:

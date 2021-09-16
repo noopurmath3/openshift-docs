@@ -5,6 +5,7 @@
 [id="application-health-about_{context}"]
 = Understanding health checks
 
+[role="_abstract"]
 A health check periodically performs diagnostics on a
 running container using any combination of the readiness, liveness, and startup health checks.
 

@@ -5,6 +5,7 @@
 [id="identity-provider-provisioning-user-lookup-mapping_{context}"]
 = Manually provisioning a user when using the lookup mapping method
 
+[role="_abstract"]
 When using the `lookup` mapping method, user provisioning is done by an external system, via the API.
 Typically, identities are automatically mapped to users during login. The 'lookup' mapping method automatically
 disables this automatic mapping, which requires you to provision users manually.

@@ -1,6 +1,7 @@
 [id="ossm-extensions-support_{context}"]
 = Enabling WebAssembly extension support
 
+[role="_abstract"]
 Support for WebAssembly extensions to {ProductName} is currently in link:https://access.redhat.com/support/offerings/techpreview[Technology Preview], so it must be explicitly enabled for your `ServiceMeshControlPlane`. In this example, `istio-system` is the name of the control plane project.
 
 .Procedure

@@ -5,6 +5,7 @@
 [id="identity-provider-gitlab-CR_{context}"]
 = Sample GitLab CR
 
+[role="_abstract"]
 The following custom resource (CR) shows the parameters and acceptable values for a
 GitLab identity provider.
 

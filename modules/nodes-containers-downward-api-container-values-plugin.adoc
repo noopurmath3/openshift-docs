@@ -5,6 +5,7 @@
 [id="nodes-containers-downward-api-container-values-plugin_{context}"]
 = Consuming container values using a volume plug-in
 
+[role="_abstract"]
 You containers can consume API values using a volume plug-in.
 
 Containers can consume:

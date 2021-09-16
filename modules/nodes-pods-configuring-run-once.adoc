@@ -6,6 +6,7 @@
 [id="nodes-pods-configuring-run-once_{context}"]
 = Limiting the duration of run-once pods
 
+[role="_abstract"]
 {product-title} relies on run-once pods to perform tasks such as deploying a pod
 or performing a build. Run-once pods are pods that have a `RestartPolicy` of
 `Never` or `OnFailure`.

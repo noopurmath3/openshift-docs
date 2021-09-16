@@ -5,6 +5,7 @@
 [id="configuring-cluster-for-application-monitoring_{context}"]
 = Configuring cluster for application monitoring
 
+[role="_abstract"]
 Before application developers can monitor their applications, the human operator of the cluster needs to configure the cluster accordingly. This procedure shows how to.
 
 .Prerequisites

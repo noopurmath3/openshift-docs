@@ -7,6 +7,7 @@
 [id="azure-file-definition_{context}"]
 = Azure File object definition
 
+[role="_abstract"]
 The Azure File storage class uses secrets to store the Azure storage account name
 and the storage account key that are required to create an Azure Files share. These
 permissions are created as part of the following procedure.

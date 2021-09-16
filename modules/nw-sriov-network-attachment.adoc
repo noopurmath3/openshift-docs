@@ -5,6 +5,7 @@
 
 // Note: IB does not support ipam with `type=dhcp`.
 
+[role="_abstract"]
 ifeval::["{context}" == "configuring-sriov-net-attach"]
 :rs: SriovNetwork
 :ocp-sriov-net:

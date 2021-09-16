@@ -5,6 +5,7 @@
 [id="nodes-descheduler-uninstalling_{context}"]
 = Uninstalling the descheduler
 
+[role="_abstract"]
 You can remove the descheduler from your cluster by removing the descheduler instance and uninstalling the Kube Descheduler Operator. This procedure also cleans up the `KubeDescheduler` CRD and `openshift-kube-descheduler-operator` namespace.
 
 .Prerequisites

@@ -2,6 +2,7 @@
 = Schedule and quota APIs
 ifdef::product-title[]
 include::modules/common-attributes.adoc[]
+[role="_abstract"]
 endif::[]
 
 toc::[]

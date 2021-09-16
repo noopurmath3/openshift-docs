@@ -5,6 +5,7 @@
 [id="restore-determine-state-etcd-member_{context}"]
 = Determining the state of the unhealthy etcd member
 
+[role="_abstract"]
 The steps to replace an unhealthy etcd member depend on which of the following states your etcd member is in:
 
 * The machine is not running or the node is not ready

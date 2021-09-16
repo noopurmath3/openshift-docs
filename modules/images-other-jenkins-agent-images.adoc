@@ -5,6 +5,7 @@
 [id="images-other-jenkins-agent-images_{context}"]
 = Jenkins agent images
 
+[role="_abstract"]
 The {product-title} Jenkins agent images are available on link:quay.io[Quay.io] or link:registry.redhat.io[registry.redhat.io].
 
 Jenkins images are available through the Red Hat Registry:

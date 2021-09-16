@@ -5,6 +5,7 @@
 [id="images-other-jenkins-permissions_{context}"]
 = Jenkins permissions
 
+[role="_abstract"]
 If in the config map the `<serviceAccount>` element of the pod template XML is the {product-title} service account used for the resulting pod, the service account credentials are mounted into the pod. The permissions are associated with the service account and control which operations against the {product-title} master are allowed from the pod.
 
 Consider the following scenario with service accounts used for the pod, which is launched by the Kubernetes Plug-in that runs in the {product-title} Jenkins image.

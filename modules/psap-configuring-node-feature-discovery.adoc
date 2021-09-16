@@ -8,6 +8,7 @@
 [id="configuring-node-feature-discovery-operator-core_{context}"]
 == core
 
+[role="_abstract"]
 The `core` section contains common configuration settings that are not specific to any particular feature source.
 
 [discrete]

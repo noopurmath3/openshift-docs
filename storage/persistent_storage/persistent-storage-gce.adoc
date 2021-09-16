@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} supports GCE Persistent Disk volumes (gcePD).
 You can provision your {product-title} cluster with persistent storage
 using GCE.
@@ -37,6 +38,7 @@ High availability of storage in the infrastructure is left to the underlying
 storage provider.
 ====
 
+[role="_additional-resources"]
 .Additional resources
 
 * link:https://cloud.google.com/compute/docs/disks/[GCE Persistent Disk]

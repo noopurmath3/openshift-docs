@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 When using the xref:../../scalability_and_performance/using-cpu-manager.adoc[static CPU Manager policy], you can reserve specific CPUs for use by specific nodes in your cluster. For example, on a system with 24 CPUs, you could reserve CPUs numbered 0 - 3 for the control plane allowing the compute nodes to use CPUs 4 - 23.
 
 // The following include statements pull in the module files that comprise
@@ -15,6 +16,7 @@ When using the xref:../../scalability_and_performance/using-cpu-manager.adoc[sta
 
 include::modules/nodes-nodes-resources-cpus-reserve.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * For more information on the `systemReserved` and `kubeReserved` parameters, see xref:../../nodes/nodes/nodes-nodes-resources-configuring.html#nodes-nodes-resources-configuring-about_nodes-nodes-resources-configuring[Allocating resources for nodes in an {product-title} cluster].

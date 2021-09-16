@@ -5,6 +5,7 @@
 [id="ztp-configuring-the-cluster-for-a-disconnected-environment_{context}"]
 = Configuring a managed cluster for a disconnected environment
 
+[role="_abstract"]
 After you have completed the preceding procedure, follow these steps to configure the managed cluster for a disconnected environment.
 
 .Prerequisites

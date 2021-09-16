@@ -6,6 +6,7 @@
 
 = Connecting your application to multiple services using OpenShift Service Catalog
 
+[role="_abstract"]
 The OpenShift service catalog is an implementation of the Open Service Broker API (OSB API) for Kubernetes. You can use it to connect applications deployed in {product-title} to a variety of services.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="virt-monitoring-upgrade-status_{context}"]
 = Monitoring upgrade status
 
+[role="_abstract"]
 The best way to monitor {VirtProductName} upgrade status is to watch the
 cluster service version (CSV) `PHASE`. You can also monitor the CSV conditions
 in the web console or by running the command provided here.

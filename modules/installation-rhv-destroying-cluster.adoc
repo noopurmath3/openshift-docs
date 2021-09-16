@@ -5,6 +5,7 @@
 [id="installation-rhv-destroying-cluster_{context}"]
 = Destroying the cluster
 
+[role="_abstract"]
 When you are finished using the cluster, you can destroy it and remove related configurations from your infrastructure.
 
 .Prerequisites

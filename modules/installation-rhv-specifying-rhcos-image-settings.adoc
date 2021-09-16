@@ -6,6 +6,7 @@
 [id="installation-rhv-specifying-rhcos-image-settings_{context}"]
 = Specifying the {op-system} image settings
 
+[role="_abstract"]
 Update the {op-system-first} image settings of the `inventory.yml` file. Later, when you run this file one of the playbooks, it downloads a compressed {op-system-first} image from the `image_url` URL to the `local_cmp_image_path` directory. The playbook then uncompresses the image to the `local_image_path` directory and uses it to create oVirt/{rh-virtualization} templates.
 
 // TBD - https://issues.redhat.com/browse/OCPRHV-414

@@ -5,6 +5,7 @@
 [id="deployments-graceful-termination_{context}"]
 = Graceful termination
 
+[role="_abstract"]
 {product-title} and Kubernetes give application instances time to shut down before removing them from load balancing rotations. However, applications must ensure they cleanly terminate user connections as well before they exit.
 
 On shutdown, {product-title} sends a `TERM` signal to the processes in the container. Application code, on receiving `SIGTERM`, stop accepting new connections. This ensures that load balancers route traffic to other active instances. The application code then waits until all open connections are closed, or gracefully terminate individual connections at the next opportunity, before exiting.

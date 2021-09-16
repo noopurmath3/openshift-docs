@@ -7,6 +7,7 @@
 
 [IMPORTANT]
 ====
+[role="_abstract"]
 See Creating infrastructure machine sets for installer-provisioned infrastructure environments or for any cluster where the control plane nodes (also known as the master nodes) are managed by the machine API.
 ====
 

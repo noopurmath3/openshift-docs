@@ -6,6 +6,7 @@
 [id="installation-osp-deleting-bootstrap-resources_{context}"]
 = Deleting bootstrap resources from {rh-openstack}
 
+[role="_abstract"]
 Delete the bootstrap resources that you no longer need.
 
 .Prerequisites

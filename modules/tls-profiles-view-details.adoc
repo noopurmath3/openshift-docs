@@ -5,6 +5,7 @@
 [id="tls-profiles-view-details_{context}"]
 = Viewing TLS security profile details
 
+[role="_abstract"]
 You can view the minimum TLS version and ciphers for the predefined TLS security profiles for each of the following components: Ingress Controller, control plane, and kubelet.
 
 [IMPORTANT]

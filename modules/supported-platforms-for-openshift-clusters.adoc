@@ -6,6 +6,7 @@
 [id="supported-platforms-for-openshift-clusters_{context}"]
 = Supported platforms for {product-title} clusters
 
+[role="_abstract"]
 In {product-title} {product-version}, you can install a cluster that uses installer-provisioned infrastructure on the following platforms:
 
 * Amazon Web Services (AWS)

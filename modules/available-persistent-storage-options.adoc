@@ -6,6 +6,7 @@
 [id="available-persistent-storage-options_{context}"]
 = Available persistent storage options
 
+[role="_abstract"]
 Understand your persistent storage options so that you can optimize your
 {product-title} environment.
 

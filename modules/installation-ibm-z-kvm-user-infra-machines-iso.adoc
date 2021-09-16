@@ -6,6 +6,7 @@
 [id="installation-user-infra-machines-iso-ibm-z_kvm_{context}"]
 = Fast-track installation by using a prepackaged QCOW2 disk image
 
+[role="_abstract"]
 Complete the following steps to create the machines in a fast-track installation of {op-system-first}, importing a prepackaged {op-system-first} QEMU copy-on-write (QCOW2) disk image.
 
 .Prerequisites

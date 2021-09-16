@@ -2,6 +2,7 @@
 = ClusterResourceQuota [quota.openshift.io/v1]
 ifdef::product-title[]
 include::modules/common-attributes.adoc[]
+[role="_abstract"]
 endif::[]
 
 toc::[]

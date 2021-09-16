@@ -5,6 +5,7 @@
 [id="dedicated-admin-granting-permissions_{context}"]
 = Granting permissions to users or groups
 
+[role="_abstract"]
 To grant permissions to other users or groups, you can add, or _bind_, a role to
 them using the following commands:
 

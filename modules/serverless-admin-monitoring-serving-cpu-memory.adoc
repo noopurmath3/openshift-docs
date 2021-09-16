@@ -5,6 +5,7 @@
 [id="serverless-admin-monitoring-serving-cpu-memory_{context}"]
 = Monitoring Knative Serving revision CPU and memory usage
 
+[role="_abstract"]
 You can use the {product-title} monitoring dashboards to view revision CPU and memory usage metrics for Knative Serving components.
 
 .Prerequisites

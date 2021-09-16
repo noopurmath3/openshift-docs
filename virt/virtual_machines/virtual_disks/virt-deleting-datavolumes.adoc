@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can manually delete a data volume by using the `oc` command-line interface. +
 [NOTE]
 ====

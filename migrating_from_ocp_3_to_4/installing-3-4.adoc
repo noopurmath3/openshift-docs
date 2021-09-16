@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can install the {mtc-full} ({mtc-short}) on {product-title} 3 and 4.
 
 After you install the {mtc-full} Operator on {product-title} {product-version} by using the Operator Lifecycle Manager, you manually install the legacy {mtc-full} Operator on {product-title} 3.

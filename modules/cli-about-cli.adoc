@@ -5,6 +5,7 @@
 [id="cli-about-cli_{context}"]
 = About the OpenShift CLI
 
+[role="_abstract"]
 With the OpenShift command-line interface (CLI), the `oc` command, you can create applications and manage {product-title} projects from a terminal. The OpenShift CLI is ideal in the following situations:
 
 * Working directly with project source code

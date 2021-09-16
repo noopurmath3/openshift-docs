@@ -5,6 +5,7 @@
 [id="nodes-cluster-limit-viewing_{context}"]
 = Viewing a limit
 
+[role="_abstract"]
 You can view any limits defined in a project by navigating in the web
 console to the project's *Quota* page.
 

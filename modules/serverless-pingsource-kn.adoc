@@ -1,6 +1,7 @@
 [id="serverless-pingsource-kn_{context}"]
 = Creating a ping source by using the Knative CLI
 
+[role="_abstract"]
 The following procedure describes how to create a basic ping source by using the `kn` CLI.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="identity-provider-configuring-apache-request-header_{context}"]
 = Configuring Apache authentication using request header
 
+[role="_abstract"]
 This example uses the `mod_auth_gssapi` module to configure an Apache
 authentication proxy using the request header identity provider.
 

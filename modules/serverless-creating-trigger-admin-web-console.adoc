@@ -5,6 +5,7 @@
 [id="serverless-creating-trigger-admin-web-console_{context}"]
 = Creating a trigger by using the Administrator perspective
 
+[role="_abstract"]
 If you have cluster administrator permissions and have created a broker, you can create a trigger to connect your broker to a subscriber by using the Administrator perspective in the web console.
 
 .Prerequisites

@@ -6,6 +6,7 @@
 [id="custom-tuning-default-profiles-set_{context}"]
 = Default profiles set on a cluster
 
+[role="_abstract"]
 The following are the default profiles set on a cluster.
 
 [source,yaml]

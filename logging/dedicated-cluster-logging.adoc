@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster administrator, you can deploy OpenShift Logging
 to aggregate logs for a range of services.
 

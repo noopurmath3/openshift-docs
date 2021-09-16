@@ -6,6 +6,7 @@
 = Output image labels
 
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated[]
+[role="_abstract"]
 docker and
 endif::[]
 source-to-image (S2I)` builds set the following labels on output images:

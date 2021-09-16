@@ -7,6 +7,7 @@
 [id="virt-creating-local-block-pv_{context}"]
 = Creating a local block persistent volume
 
+[role="_abstract"]
 Create a local block persistent volume (PV) on a node by populating a file and
 mounting it as a loop device. You can then reference this loop device in a
 PV manifest as a `Block` volume and use it as a block device for a

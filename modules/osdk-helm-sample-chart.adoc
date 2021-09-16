@@ -5,6 +5,7 @@
 [id="osdk-helm-sample-chart_{context}"]
 = Sample Helm chart
 
+[role="_abstract"]
 When a Helm Operator project is created, the Operator SDK creates a sample Helm chart that contains a set of templates for a simple Nginx release.
 
 For this example, templates are available for deployment, service, and ingress resources, along with a `NOTES.txt` template, which Helm chart developers use to convey helpful information about a release.

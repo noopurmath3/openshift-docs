@@ -9,6 +9,7 @@ toc::[]
 include::modules/deprecated-feature.adoc[leveloffset=+1]
 
 == Resource requests and limits
+[role="_abstract"]
 You can adjust the CPU, memory, or storage resource requests and/or limits for pods and volumes. The `default-resource-limits.yaml` below provides an example of setting resource request and limits for each component.
 
 [source,yaml]

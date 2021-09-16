@@ -5,6 +5,7 @@
 [id="ztp-configuring-ipv6_{context}"]
 = Configuring IPv6 addresses for a disconnected environment
 
+[role="_abstract"]
 Optionally, when you are creating the `AgentClusterInstall` custom resource, you can configure IPV6 addresses for the managed clusters.
 
 .Procedure

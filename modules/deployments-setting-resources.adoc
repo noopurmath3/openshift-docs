@@ -5,6 +5,7 @@
 [id="deployments-setting-resources_{context}"]
 = Setting deployment resources
 
+[role="_abstract"]
 A deployment is completed by a pod that consumes resources (memory, CPU, and ephemeral storage) on a node. By default, pods consume unbounded node resources. However, if a project specifies default container limits, then pods consume resources up to those limits.
 
 [NOTE]

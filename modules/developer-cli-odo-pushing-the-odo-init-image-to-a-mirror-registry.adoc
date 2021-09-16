@@ -5,6 +5,7 @@
 [id="pushing-the-odo-init-image-to-a-mirror-registry_{context}"]
 = Pushing the `odo` init image to a mirror registry
 
+[role="_abstract"]
 Depending on your operating system, you can push the `odo` init image to a cluster with a mirror registry as follows:
 
 [id="pushing-the-init-image-to-a-mirror-registry-on-linux_{context}"]

@@ -6,6 +6,7 @@
 [id="images-triggering-updates-imagestream-changes-kubernetes-about_{context}"]
 = Triggering Kubernetes resources
 
+[role="_abstract"]
 Kubernetes resources do not have fields for triggering, unlike deployment and build configurations, which include as part of their API definition a set of fields for controlling triggers. Instead, you can use annotations in {product-title} to request triggering.
 
 The annotation is defined as follows:

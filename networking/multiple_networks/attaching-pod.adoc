@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster user you can attach a pod to an additional network.
 
 include::modules/nw-multus-add-pod.adoc[leveloffset=+1]

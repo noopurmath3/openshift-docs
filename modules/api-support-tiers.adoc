@@ -5,6 +5,7 @@
 [id="api-tiers_{context}"]
 = API tiers
 
+[role="_abstract"]
 All commercially supported APIs, components, and features are associated under one of the following support levels:
 
 [discrete]

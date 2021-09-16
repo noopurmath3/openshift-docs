@@ -6,6 +6,7 @@
 [id="machine-user-infra-machines-iso_{context}"]
 = Creating more {op-system} machines using an ISO image
 
+[role="_abstract"]
 You can create more {op-system-first} compute machines for your bare metal cluster by using an ISO image to create the machines.
 
 .Prerequisites

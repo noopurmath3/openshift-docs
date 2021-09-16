@@ -5,6 +5,7 @@
 [id="delete-function-kn_{context}"]
 = Deleting a function
 
+[role="_abstract"]
 You can delete a function from your cluster by using the `kn func delete` command.
 
 .Procedure

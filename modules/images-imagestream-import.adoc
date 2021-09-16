@@ -4,6 +4,7 @@
 [id="images-imagestream-import_{context}"]
 = Configuring periodic importing of image stream tags
 
+[role="_abstract"]
 When working with an external container image registry, to periodically re-import an image, for example to get latest security updates, you can use the `--scheduled` flag.
 
 .Procedure

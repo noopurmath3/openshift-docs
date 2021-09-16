@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} supports Fibre Channel, allowing you to provision your
 {product-title} cluster with persistent storage using Fibre channel volumes.
 Some familiarity with Kubernetes and Fibre Channel is assumed.
@@ -23,6 +24,7 @@ High availability of storage in the infrastructure is left to the underlying
 storage provider.
 ====
 
+[role="_additional-resources"]
 .Additional resources
 
 * link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/managing_storage_devices/using-fibre-channel-devices_managing-storage-devices[Using Fibre Channel devices]

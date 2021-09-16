@@ -6,6 +6,7 @@
 
 = Listing all data volumes
 
+[role="_abstract"]
 You can list the data volumes in your cluster by using the `oc` command-line interface.
 
 .Procedure

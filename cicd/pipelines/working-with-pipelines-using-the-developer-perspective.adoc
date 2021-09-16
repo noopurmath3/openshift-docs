@@ -8,6 +8,7 @@ include::modules/pipelines-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can use the *Developer* perspective of the {product-title} web console to create CI/CD pipelines for your software delivery process.
 
 

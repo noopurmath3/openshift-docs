@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The disaster recovery documentation provides information for administrators on
 how to recover from several disaster situations that might occur with their
 {product-title} cluster. As an administrator, you might need to follow one or

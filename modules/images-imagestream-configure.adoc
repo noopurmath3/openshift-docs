@@ -4,6 +4,7 @@
 [id="images-imagestream-configure_{context}"]
 = Configuring image streams
 
+[role="_abstract"]
 An `ImageStream` object file contains the following elements.
 
 [id="image-stream-object-definition_{context}"]

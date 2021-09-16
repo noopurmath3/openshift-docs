@@ -6,6 +6,7 @@
 [id="migration-about-migration-hooks_{context}"]
 = About migration hooks
 
+[role="_abstract"]
 You can add up to four migration hooks to a single migration plan, with each hook running at a different phase of the migration. Migration hooks perform tasks such as customizing application quiescence, manually migrating unsupported data types, and updating applications after migration.
 
 A migration hook runs on a source or a target cluster at one of the following migration steps:

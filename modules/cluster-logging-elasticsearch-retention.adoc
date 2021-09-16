@@ -5,6 +5,7 @@
 [id="cluster-logging-elasticsearch-retention_{context}"]
 = Configuring log retention time
 
+[role="_abstract"]
 You can specify how long the default Elasticsearch log store keeps indices using a separate _retention policy_ for each of the three log sources: infrastructure logs, application logs, and audit logs. The retention policy, which you configure using the `maxAge` parameter in the Cluster Logging custom resource (CR), is considered for the Elasticsearch roll over schedule and determines when Elasticsearch deletes the rolled-over indices.
 
 Elasticsearch rolls over an index, moving the current index and creating a new

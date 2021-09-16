@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The following sections outline how to trigger builds and modify builds using build hooks.
 
 include::modules/builds-triggers.adoc[leveloffset=+1]

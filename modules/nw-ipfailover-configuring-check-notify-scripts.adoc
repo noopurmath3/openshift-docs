@@ -5,6 +5,7 @@
 [id="nw-ipfailover-configuring-check-notify-scripts_{context}"]
 = Configuring check and notify scripts
 
+[role="_abstract"]
 Keepalived monitors the health of the application by periodically running an optional user supplied check script. For example, the script can test a web server by issuing a request and verifying the response.
 
 When a check script is not provided, a simple default script is run that tests the TCP connection. This default test is suppressed when the monitor port is `0`.

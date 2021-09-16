@@ -5,6 +5,7 @@
 [id="nodes-scheduler-pod-affinity-example_{context}"]
 = Sample pod affinity and anti-affinity rules
 
+[role="_abstract"]
 The following examples demonstrate pod affinity and pod anti-affinity.
 
 [id="nodes-scheduler-pod-affinity-example-affinity_{context}"]

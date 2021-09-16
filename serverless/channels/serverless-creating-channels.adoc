@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Developers can create channels by instantiating a supported `Channel` object.
 
 After you create a `Channel` object, a mutating admission webhook adds a set of `spec.channelTemplate` properties for the `Channel` object based on the default channel implementation.

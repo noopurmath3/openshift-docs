@@ -5,6 +5,7 @@
 [id="cluster-logging-collector-log-forwarding-about_{context}"]
 = About forwarding logs to third-party systems
 
+[role="_abstract"]
 Forwarding cluster logs to external third-party systems requires a combination of _outputs_ and _pipelines_ specified in a `ClusterLogForwarder` custom resource (CR) to send logs to specific endpoints inside and outside of your {product-title} cluster. You can also use _inputs_ to forward the application logs associated with a specific project to an endpoint.
 
 * An _output_ is the destination for log data that you define, or where you want the logs sent. An output can be one of the following types:

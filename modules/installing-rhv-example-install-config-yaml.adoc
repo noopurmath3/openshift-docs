@@ -6,6 +6,7 @@
 [id="installing-rhv-example-install-config-yaml_{context}"]
 = Example `install-config.yaml` files for {rh-virtualization-first}
 
+[role="_abstract"]
 You can customize the {product-title} cluster the installation program creates by changing the parameters and parameter values in the `install-config.yaml` file.
 
 The following examples are specific to installing {product-title} on {rh-virtualization}.

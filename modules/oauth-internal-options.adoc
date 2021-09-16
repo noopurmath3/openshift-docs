@@ -5,6 +5,7 @@
 [id="oauth-internal-options_{context}"]
 = Options for the internal OAuth server
 
+[role="_abstract"]
 Several configuration options are available for the internal OAuth server.
 
 [id="oauth-token-duration_{context}"]

@@ -5,6 +5,7 @@
 [id="images-custom_{context}"]
 = Using custom builder images
 
+[role="_abstract"]
 {product-title}'s custom build strategy enables you to define a specific builder image responsible for the entire build process. When you need a build to produce individual artifacts such as packages, JARs, WARs, installable ZIPs, or base images, use a custom builder image using the custom build strategy.
 
 A custom builder image is a plain container image embedded with build process logic, which is used for building artifacts such as RPMs or base container images.

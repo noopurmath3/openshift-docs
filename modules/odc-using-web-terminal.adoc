@@ -5,6 +5,7 @@
 [id="odc-using-web-terminal_{context}"]
 = Using the web terminal
 
+[role="_abstract"]
 After the Web Terminal Operator is installed, you can use the web terminal as follows:
 
 . To launch the web terminal, click the command line terminal icon (image:odc-wto-icon.png[title="wto icon"]) on the upper right of the console. A web terminal instance is displayed in the *Command line terminal* pane. This instance is automatically logged in with your credentials.

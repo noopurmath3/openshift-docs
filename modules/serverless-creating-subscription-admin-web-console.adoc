@@ -5,6 +5,7 @@
 [id="serverless-creating-subscription-admin-web-console_{context}"]
 = Creating a subscription by using the Administrator perspective
 
+[role="_abstract"]
 If you have cluster administrator permissions and have created a channel, you can create a subscription to connect your broker to a subscriber by using the Administrator perspective in the web console.
 
 .Prerequisites

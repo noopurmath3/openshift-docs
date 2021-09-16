@@ -4,6 +4,7 @@
 [id="dns-operator_{context}"]
 = DNS Operator
 
+[role="_abstract"]
 The DNS Operator implements the `dns` API from the `operator.openshift.io` API
 group. The Operator deploys CoreDNS using a daemon set, creates a service for
 the daemon set, and configures the kubelet to instruct pods to use the CoreDNS

@@ -5,6 +5,7 @@
 [id="osdk-helm-modify-cr_{context}"]
 = Modifying the custom resource spec
 
+[role="_abstract"]
 Helm uses a concept called link:https://helm.sh/docs/intro/using_helm/#customizing-the-chart-before-installing[values] to provide customizations to the defaults of a Helm chart, which are defined in the `values.yaml` file.
 
 You can override these defaults by setting the desired values in the custom resource (CR) spec. You can use the number of replicas as an example.

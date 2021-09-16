@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 After installing {product-title}, you can further expand and customize your
 cluster to your requirements through certain node tasks.
 
@@ -17,6 +18,7 @@ include::modules/rhel-compute-overview.adoc[leveloffset=+2]
 include::modules/rhel-compute-requirements.adoc[leveloffset=+2]
 
 [id="additional-resources_post-install-node-tasks"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../nodes/nodes/nodes-nodes-working.adoc#deleting-nodes_nodes-nodes-working[Deleting nodes]

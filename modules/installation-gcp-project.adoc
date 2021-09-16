@@ -7,6 +7,7 @@
 [id="installation-gcp-project_{context}"]
 = Creating a GCP project
 
+[role="_abstract"]
 To install {product-title}, you must create a project in your Google Cloud Platform (GCP) account to host the cluster.
 
 .Procedure

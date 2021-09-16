@@ -7,6 +7,7 @@ toc::[]
 
 == Purpose
 
+[role="_abstract"]
 The Ingress Operator uses certificates for:
 
 * Securing access to metrics for Prometheus.

@@ -5,6 +5,7 @@
 [id="ldap-syncing-nesting_{context}"]
 == LDAP nested membership sync example
 
+[role="_abstract"]
 Groups in {product-title} do not nest. The LDAP server must flatten group
 membership before the data can be consumed. Microsoft's Active Directory Server
 supports this feature via the

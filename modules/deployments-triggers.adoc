@@ -5,6 +5,7 @@
 [id="deployments-triggers_{context}"]
 = Deployment triggers
 
+[role="_abstract"]
 A `DeploymentConfig` object can contain triggers, which drive the creation of new deployment processes in response to events inside the cluster.
 
 [WARNING]

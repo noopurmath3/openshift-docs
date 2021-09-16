@@ -7,6 +7,7 @@
 [id="images-configuration-cas_{context}"]
 = Configuring additional trust stores for image registry access
 
+[role="_abstract"]
 The `image.config.openshift.io/cluster` custom resource can contain a reference to a config map that contains additional certificate authorities to be trusted during image registry access.
 
 .Prerequisites

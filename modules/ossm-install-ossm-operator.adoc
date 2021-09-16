@@ -6,6 +6,7 @@
 [id="ossm-install-ossm-operator_{context}"]
 = Installing the Operators
 
+[role="_abstract"]
 To install {ProductName}, install following Operators in this order. Repeat the procedure for each Operator.
 
 1. Optional: OpenShift Elasticsearch

@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} auditing provides a security-relevant chronological set of records documenting the sequence of activities that have affected the system by individual users, administrators, or other components of the system.
 
 // About the API audit log
@@ -17,6 +18,7 @@ include::modules/nodes-nodes-audit-log-basic-viewing.adoc[leveloffset=+1]
 include::modules/security-audit-log-filtering.adoc[leveloffset=+1]
 
 [id="viewing-audit-logs-additional-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * link:https://github.com/kubernetes/apiserver/blob/master/pkg/apis/audit/v1/types.go#L72[API audit log event structure]

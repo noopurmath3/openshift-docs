@@ -4,6 +4,7 @@
 // * post_installation_configuration/storage-configuration.adoc
 
 [id="ovirt-csi-driver-storage-class_{context}"]
+[role="_abstract"]
 ifeval::["{context}" == "post-install-storage-configuration"]
 = {rh-virtualization-first} object definition
 endif::[]

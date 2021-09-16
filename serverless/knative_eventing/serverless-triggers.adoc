@@ -6,6 +6,7 @@ include::modules/serverless-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Using triggers enables you to filter events from the broker for delivery to event sinks.
 
 [id="prerequisites_serverless-triggers"]

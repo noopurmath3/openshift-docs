@@ -5,6 +5,7 @@
 [id="ipi-install-creating-an-rhcos-images-cache_{context}"]
 = Creating an {op-system} images cache (optional)
 
+[role="_abstract"]
 To employ image caching, you must download two images: the {op-system-first} image used by the bootstrap VM and the {op-system} image used by the installer to provision the different nodes. Image caching is optional, but especially useful when running the installer on a network with limited bandwidth.
 
 If you are running the installer on a network with limited bandwidth and the {op-system} images download takes more than 15 to 20 minutes, the installer will timeout. Caching images on a web server will help in such scenarios.

@@ -5,6 +5,7 @@
 [id="using-the-node-feature-discovery-operator_{context}"]
 = Using the Node Feature Discovery Operator
 
+[role="_abstract"]
 The Node Feature Discovery (NFD) Operator orchestrates all resources needed to run the Node-Feature-Discovery daemon set by watching for a `NodeFeatureDiscovery` CR. Based on the `NodeFeatureDiscovery` CR, the Operator will create the operand (NFD) components in the desired namespace. You can edit the CR to choose another `namespace`, `image`, `imagePullPolicy`, and `nfd-worker-conf`, among other options.
 
 As a cluster administrator, you can create a `NodeFeatureDiscovery` instance using the {product-title} CLI or the web console.

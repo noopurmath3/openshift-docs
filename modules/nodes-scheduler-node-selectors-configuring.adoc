@@ -5,6 +5,7 @@
 [id="nodes-scheduler-node-selectors-configuring_{context}"]
 = Configuring the Pod Node Constraints admission controller to use node selectors
 
+[role="_abstract"]
 You can configure the Pod Node Constraints admission controller to ensure that pods are only placed onto nodes with specific labels.
 
 .Prerequisites

@@ -11,6 +11,7 @@ include::modules/cli-about-cli.adoc[leveloffset=+1]
 [id="installing-openshift-cli"]
 == Installing the OpenShift CLI
 
+[role="_abstract"]
 You can install the OpenShift CLI (`oc`) either by downloading the binary or by using an RPM.
 
 // Installing the CLI by downloading the binary

@@ -5,6 +5,7 @@
 [id="ldap-syncing-spec_{context}"]
 = LDAP sync configuration specification
 
+[role="_abstract"]
 The object specification for the configuration file is below.  Note that the different schema
 objects have different fields.  For example, v1.ActiveDirectoryConfig has no `groupsQuery`
 field whereas v1.RFC2307Config and v1.AugmentedActiveDirectoryConfig both do.

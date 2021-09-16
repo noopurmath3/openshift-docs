@@ -13,6 +13,7 @@
 
 //*RHEL 8 Based Images*
 
+[role="_abstract"]
 The RHEL 8 images are available through the Red Hat Registry.
 
 .Procedure

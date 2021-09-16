@@ -5,6 +5,7 @@
 [id="nodes-containers-events-viewing-cli_{context}"]
 = Viewing events using the CLI
 
+[role="_abstract"]
 You can get a list of events in a given project using the CLI.
 
 .Procedure

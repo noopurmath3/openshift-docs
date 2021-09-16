@@ -5,6 +5,7 @@
 [id="compliance-imagestreams_{context}"]
 = Using image streams
 
+[role="_abstract"]
 The `contentImage` reference points to a valid `ImageStreamTag`, and the Compliance Operator ensures that the content stays up to date automatically.
 
 [NOTE]

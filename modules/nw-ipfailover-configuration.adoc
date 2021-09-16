@@ -5,6 +5,7 @@
 [id="nw-ipfailover-configuration_{context}"]
 = Configuring IP failover
 
+[role="_abstract"]
 As a cluster administrator, you can configure IP failover on an entire cluster, or on a subset of nodes, as defined by the label selector. You can also configure multiple IP failover deployment configurations in your cluster, where each one is independent of the others.
 
 The IP failover deployment configuration ensures that a failover pod runs on each of the nodes matching the constraints or the label used.

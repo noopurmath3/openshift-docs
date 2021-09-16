@@ -6,6 +6,7 @@
 [id="nodes-cluster-resource-override_{context}"]
 = Cluster-level overcommit using the Cluster Resource Override Operator
 
+[role="_abstract"]
 The Cluster Resource Override Operator is an admission webhook that allows you to control the level of overcommit and manage
 container density across all the nodes in your cluster. The Operator controls how nodes in specific projects can exceed defined memory and CPU limits.
 

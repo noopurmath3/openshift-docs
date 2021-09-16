@@ -5,6 +5,7 @@
 [id="identity-provider-request-header-CR_{context}"]
 = Sample request header CR
 
+[role="_abstract"]
 The following custom resource (CR) shows the parameters and
 acceptable values for a request header identity provider.
 

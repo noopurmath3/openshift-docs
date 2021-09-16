@@ -6,6 +6,7 @@
 [id="installation-osp-fixing-subnet_{context}"]
 = Setting a custom subnet for machines
 
+[role="_abstract"]
 The IP range that the installation program uses by default might not match the Neutron subnet that you create when you install {product-title}. If necessary, update the CIDR value for new machines by editing the installation configuration file.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="idle-unidling-applications_{context}"]
 = Unidling applications
 
+[role="_abstract"]
 Application services become active again when they receive network traffic and
 are scaled back up their previous state. This includes both traffic to the
 services and traffic passing through routes.

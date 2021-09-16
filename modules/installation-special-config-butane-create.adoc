@@ -5,6 +5,7 @@
 [id="installation-special-config-butane-create_{context}"]
 = Creating a MachineConfig object by using Butane
 
+[role="_abstract"]
 You can use Butane to produce a `MachineConfig` object so that you can configure worker or control plane nodes at installation time or via the Machine Config Operator.
 
 .Prerequisites

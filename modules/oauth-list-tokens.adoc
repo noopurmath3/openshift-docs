@@ -5,6 +5,7 @@
 [id="oauth-list-tokens_{context}"]
 = Listing user-owned OAuth access tokens
 
+[role="_abstract"]
 You can list your user-owned OAuth access tokens. Token names are not sensitive and cannot be used to log in.
 
 .Procedure

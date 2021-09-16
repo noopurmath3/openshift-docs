@@ -5,6 +5,7 @@
 [id="templates-cli-generating-list-of-objects_{context}"]
 = Generating a list of objects
 
+[role="_abstract"]
 Using the CLI, you can process a file defining a template to return the list of objects to standard output.
 
 .Procedure

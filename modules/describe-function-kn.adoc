@@ -5,6 +5,7 @@
 [id="describe-function-kn_{context}"]
 = Describing a function
 
+[role="_abstract"]
 The `kn func describe` command prints information about a deployed function, such as the function name, image, namespace, information about the Knative service, route information, and event subscriptions.
 
 .Procedure

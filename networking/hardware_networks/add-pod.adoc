@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can add a pod to an existing Single Root I/O Virtualization (SR-IOV) network.
 
 include::modules/nw-sriov-runtime-config.adoc[leveloffset=+1]
@@ -14,6 +15,7 @@ include::modules/nw-multus-add-pod.adoc[leveloffset=+1]
 include::modules/nw-sriov-topology-manager.adoc[leveloffset=+1]
 
 [id="add-pod-additional-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 - xref:../../networking/hardware_networks/configuring-sriov-device.adoc#configuring-sriov-device[Configuring an SR-IOV Ethernet network attachment]

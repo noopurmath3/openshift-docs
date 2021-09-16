@@ -5,6 +5,7 @@
 [id="builds-create-imagestreamtag_{context}"]
 = Creating an image stream tag for the Red Hat Universal Base Image
 
+[role="_abstract"]
 To use Red Hat subscriptions within a build, you create an image stream tag to reference the Universal Base Image (UBI).
 
 To make the UBI available *in every project* in the cluster, you add the image stream tag to the `openshift` namespace. Otherwise, to make it available *in a specific project*, you add the image stream tag to that project.

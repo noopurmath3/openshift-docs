@@ -5,6 +5,7 @@
 [id="add-default-api-server_{context}"]
 = Add an API server default certificate
 
+[role="_abstract"]
 To allow clients outside the cluster to validate the API server's
 certificate, you can replace the default certificate
 with one that is issued by a public or organizational CA.

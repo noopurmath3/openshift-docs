@@ -8,6 +8,7 @@
 [id="quick-start-content-guidelines-card-copy_{context}"]
 == Card copy
 
+[role="_abstract"]
 You can customize the title and description on a quick start card, but you cannot customize the status.
 
 * Keep your description to one to two sentences.

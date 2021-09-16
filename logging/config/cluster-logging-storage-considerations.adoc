@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 Elasticsearch is a memory-intensive application. The default OpenShift Logging installation deploys 16G of memory for both memory requests and memory limits.
 The initial set of {product-title} nodes might not be large enough to support the Elasticsearch cluster. You must add additional nodes to the
 {product-title} cluster to run with the recommended or higher memory. Each Elasticsearch node can operate with a lower
@@ -20,6 +21,7 @@ memory setting, though this is not recommended for production environments.
 include::modules/cluster-logging-deploy-storage-considerations.adoc[leveloffset=+1]
 
 [id="cluster-logging-storage-considerations-addtl-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../logging/config/cluster-logging-log-store.adoc#cluster-logging-elasticsearch-storage_cluster-logging-store[Configuring persistent storage for the log store]

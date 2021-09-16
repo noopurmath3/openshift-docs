@@ -5,6 +5,7 @@
 [id="customizing-the-web-console-url_{context}"]
 = Customizing console routes
 
+[role="_abstract"]
 For `console` and `downloads` routes, custom routes functionality uses the `ingress` config route configuration API. If the `console` custom route is set up in both the `ingress` config and `console-operator` config, then the new `ingress` config custom route configuration takes precedent. The route configuration with the `console-operator` config is deprecated.
 
 [id="customizing-the-console-route_{context}"]

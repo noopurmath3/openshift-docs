@@ -6,6 +6,7 @@
 [id="update-upgrading-cli_{context}"]
 = Updating a cluster by using the CLI
 
+[role="_abstract"]
 If updates are available, you can update your cluster by using the
 OpenShift CLI (`oc`).
 

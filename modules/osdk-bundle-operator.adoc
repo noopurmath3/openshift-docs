@@ -5,6 +5,7 @@
 // * operators/operator_sdk/helm/osdk-helm-tutorial.adoc
 // * operators/operator_sdk/osdk-working-bundle-images.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "osdk-golang-tutorial"]
 :golang:
 endif::[]

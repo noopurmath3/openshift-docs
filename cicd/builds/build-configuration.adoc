@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Use the following procedure to configure build settings.
 
 include::modules/builds-configuration-parameters.adoc[leveloffset=+1]

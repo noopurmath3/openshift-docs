@@ -4,6 +4,7 @@
 [id="builds-strategy-docker-entitled-satellite_{context}"]
 = Docker builds using Red Hat Satellite subscriptions
 
+[role="_abstract"]
 Docker strategy builds can use Red Hat Satellite repositories to install subscription content.
 
 .Prerequisites

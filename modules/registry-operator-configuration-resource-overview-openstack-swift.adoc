@@ -5,6 +5,7 @@
 [id="registry-operator-configuration-resource-overview-openstack-swift_{context}"]
 = Image Registry Operator configuration parameters for {rh-openstack} Swift
 
+[role="_abstract"]
 The following configuration parameters are available for {rh-openstack-first} Swift
 registry storage.
 

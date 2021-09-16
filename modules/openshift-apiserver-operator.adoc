@@ -8,6 +8,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The OpenShift API Server Operator installs and maintains the `openshift-apiserver` on a cluster.
 
 [discrete]

@@ -3,6 +3,7 @@
 = API index
 ifdef::product-title[]
 include::modules/common-attributes.adoc[]
+[role="_abstract"]
 endif::[]
 
 [cols="1,1",options="header"]

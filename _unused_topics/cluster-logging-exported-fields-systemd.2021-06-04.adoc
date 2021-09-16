@@ -5,6 +5,7 @@
 [id="cluster-logging-exported-fields-systemd_{context}"]
 = systemd exported fields
 
+[role="_abstract"]
 These are the `systemd` fields exported by OpenShift Logging available for searching
 from Elasticsearch and Kibana.
 

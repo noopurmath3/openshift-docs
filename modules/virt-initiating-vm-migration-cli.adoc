@@ -5,6 +5,7 @@
 [id="virt-initiating-vm-migration-cli_{context}"]
 = Initiating live migration of a virtual machine instance in the CLI
 
+[role="_abstract"]
 Initiate a live migration of a running virtual machine instance by creating a `VirtualMachineInstanceMigration` object in the cluster and referencing the name of the virtual machine instance.
 
 .Procedure

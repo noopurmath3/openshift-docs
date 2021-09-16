@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-snapshots-provision_{context}"]
 = Volume snapshot provisioning
 
+[role="_abstract"]
 There are two ways to provision snapshots: dynamically and manually.
 
 [id="snapshots-dynamic-provisioning_{context}"]

@@ -5,6 +5,7 @@
 [id="builds-webhook-triggers_{context}"]
 = Webhook triggers
 
+[role="_abstract"]
 Webhook triggers allow you to trigger a new build by sending a request to the {product-title} API endpoint. You can define these triggers using GitHub, GitLab, Bitbucket, or Generic webhooks.
 
 Currently, {product-title} webhooks only support the analogous versions of the push event for each of the Git-based Source Code Management (SCM) systems. All other event types are ignored.

@@ -6,6 +6,7 @@
 
 = Installing FlexVolume drivers
 
+[role="_abstract"]
 FlexVolume drivers that are used to extend {product-title} are executed only on the node. To implement FlexVolumes, a list of operations to call and the installation path are all that is required.
 
 .Prerequisites

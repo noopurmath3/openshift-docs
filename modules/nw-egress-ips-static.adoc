@@ -5,6 +5,7 @@
 [id="nw-egress-ips-static_{context}"]
 = Configuring manually assigned egress IP addresses for a namespace
 
+[role="_abstract"]
 In {product-title} you can associate one or more egress IP addresses with a namespace.
 
 .Prerequisites

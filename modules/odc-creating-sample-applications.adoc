@@ -1,6 +1,7 @@
 [id="odc-creating-sample-applications_{context}"]
 = Creating Sample applications
 
+[role="_abstract"]
 You can use the basic sample applications in the *+Add* flow of the *Developer* perspective to create, build, and deploy applications quickly.
 
 The following procedure explains the *Samples* option in the *Developer* perspective to create a sample application.

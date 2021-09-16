@@ -5,6 +5,7 @@
 [id="local-create-cr-manual_{context}"]
 = Provisioning local volumes without the Local Storage Operator
 
+[role="_abstract"]
 Local volumes cannot be created by dynamic provisioning. Instead, persistent volumes can be created by defining the persistent volume (PV) in an object definition. The local volume provisioner looks for any file system or block volume devices at the paths specified in the defined resource.
 
 [IMPORTANT]

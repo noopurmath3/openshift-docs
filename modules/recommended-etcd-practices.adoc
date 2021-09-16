@@ -5,6 +5,7 @@
 [id="recommended-etcd-practices_{context}"]
 = Recommended etcd practices
 
+[role="_abstract"]
 For large and dense clusters, etcd can suffer from poor performance
 if the keyspace grows excessively large and exceeds the space quota.
 Periodic maintenance of etcd, including defragmentation, must be performed

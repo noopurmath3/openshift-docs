@@ -5,6 +5,7 @@ include::modules/ossm-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Before you can install {ProductName}, you must subscribe to {product-title} and install {product-title} in a supported configuration.
 
 == Prerequisites

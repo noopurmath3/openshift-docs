@@ -5,6 +5,7 @@
 [id="cluster-logging-collector-tuning_{context}"]
 = Advanced configuration for the log forwarder
 
+[role="_abstract"]
 OpenShift Logging includes multiple Fluentd parameters that you can use for tuning the performance of the Fluentd log forwarder. With these parameters, you can change the following Fluentd behaviors:
 
 * the size of Fluentd chunks and chunk buffer

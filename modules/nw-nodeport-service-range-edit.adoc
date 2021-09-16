@@ -5,6 +5,7 @@
 [id="nw-nodeport-service-range-edit_{context}"]
 = Expanding the node port range
 
+[role="_abstract"]
 You can expand the node port range for the cluster.
 
 .Prerequisites

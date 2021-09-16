@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Specify the nodes where you want to deploy {VirtProductName} Operators, workloads, and controllers by configuring node placement rules.
 
 [NOTE]

@@ -6,4 +6,5 @@
 
 = {op-system} extensions
 
+[role="_abstract"]
 The {sandboxed-containers-operator} is based on the {op-system-first} extensions concept. The sandboxed containers {op-system} extension contains RPMs for Kata, QEMU, and its dependencies. You can enable them by using the `MachineConfig` resources that the Machine Config Operator provides.

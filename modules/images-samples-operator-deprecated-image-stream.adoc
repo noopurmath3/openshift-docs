@@ -6,6 +6,7 @@
 [id="images-samples-operator-deprecated-image-stream_{context}"]
 = Removing deprecated image stream tags from the Cluster Samples Operator
 
+[role="_abstract"]
 The Cluster Samples Operator leaves deprecated image stream tags in an image stream because users can have deployments that use the deprecated image stream tags.
 
 You can remove deprecated image stream tags by editing the image stream with the  `oc tag` command.

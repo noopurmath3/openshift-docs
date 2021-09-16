@@ -5,6 +5,7 @@
 [id="osdk-monitoring-prometheus-servicemonitor-creating_{context}"]
 = Creating service monitors
 
+[role="_abstract"]
 Operator authors can add service target discovery of created monitoring services using the `metrics.CreateServiceMonitor()` helper function, which accepts the newly created service.
 
 .Prerequisites

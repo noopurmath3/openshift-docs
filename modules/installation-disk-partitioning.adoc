@@ -12,6 +12,7 @@
 [id="installation-disk-partitioning_{context}"]
 = Disk partitioning
 
+[role="_abstract"]
 In most cases, data partitions are originally created by installing {op-system}, rather than by installing another operating system. In such cases, the {product-title} installer should be allowed to configure your disk partitions.
 
 However, there are two cases where you might want to intervene to override the default partitioning when installing an

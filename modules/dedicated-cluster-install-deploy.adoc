@@ -6,6 +6,7 @@
 
 = Installing OpenShift Logging and OpenShift Elasticsearch Operators
 
+[role="_abstract"]
 You can use the {product-title} console to install OpenShift Logging by deploying instances of
 the OpenShift Logging and OpenShift Elasticsearch Operators. The Red Hat OpenShift Logging Operator
 creates and manages the components of the logging stack. The OpenShift Elasticsearch Operator

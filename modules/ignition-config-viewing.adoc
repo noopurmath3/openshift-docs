@@ -5,6 +5,7 @@
 [id="ignition-config-viewing_{context}"]
 = Viewing Ignition configuration files
 
+[role="_abstract"]
 To see the Ignition config file used to deploy the bootstrap machine, run the
 following command:
 

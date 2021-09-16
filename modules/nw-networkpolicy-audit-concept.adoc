@@ -1,6 +1,7 @@
 [id="nw-networkpolicy-audit-concept_{context}"]
 = Network policy audit logging
 
+[role="_abstract"]
 The OVN-Kubernetes cluster network provider uses Open Virtual Network (OVN) ACLs to manage network policy. Audit logging exposes allow and deny ACL events.
 
 You can configure the destination for network policy audit logs, such as a syslog server or a UNIX domain socket.

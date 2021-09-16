@@ -5,6 +5,7 @@
 [id="virt-cloning-local-volume-to-another-node_{context}"]
 = Cloning a local volume to another node
 
+[role="_abstract"]
 You can move a virtual machine disk so that it runs on a specific node by cloning the underlying persistent volume claim (PVC).
 
 To ensure the virtual machine disk is cloned to the correct node, you must either create a new persistent volume (PV) or identify one on the correct node.

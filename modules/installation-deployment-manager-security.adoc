@@ -6,6 +6,7 @@
 [id="installation-deployment-manager-security_{context}"]
 = Deployment Manager template for firewall rules and IAM roles
 
+[role="_abstract"]
 You can use the following Deployment Manager template to deploy the security
 objects that you need for your {product-title} cluster:
 

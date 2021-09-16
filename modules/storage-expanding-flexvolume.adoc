@@ -5,6 +5,7 @@
 [id="expanding-flexvolume_{context}"]
 = Expanding FlexVolume with a supported driver
 
+[role="_abstract"]
 When using FlexVolume to connect to your back-end storage system, you can expand persistent storage volumes after they have already been created. This is done by manually updating the persistent volume claim (PVC) in {product-title}.
 
 FlexVolume allows expansion if the driver is set with `RequiresFSResize` to `true`. The FlexVolume can be expanded on pod restart.

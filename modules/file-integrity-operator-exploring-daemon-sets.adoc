@@ -5,6 +5,7 @@
 [id="file-integrity-operator-exploring-daemon-sets_{context}"]
 = Exploring the daemon sets
 
+[role="_abstract"]
 Each `FileIntegrity` object represents a scan on a number of nodes. The scan
 itself is performed by pods managed by a daemon set.
 

@@ -5,6 +5,7 @@
 [id="creating-new-operator-sdk-v0-1-0-project_{context}"]
 = Creating a new Operator SDK v0.1.0 project
 
+[role="_abstract"]
 Rename your Operator SDK v0.0.x project and create a new v0.1.0 project in its
 place.
 

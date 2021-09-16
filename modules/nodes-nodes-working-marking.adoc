@@ -5,6 +5,7 @@
 [id="nodes-nodes-working-marking_{context}"]
 = Understanding how to mark nodes as unschedulable or schedulable
 
+[role="_abstract"]
 By default, healthy nodes with a `Ready` status are
 marked as schedulable, meaning that new pods are allowed for placement on the
 node. Manually marking a node as unschedulable blocks any new pods from being

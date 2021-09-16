@@ -6,6 +6,7 @@
 [id="migration-using-mig-log-reader_{context}"]
 = Using the migration log reader
 
+[role="_abstract"]
 You can use the migration log reader to display a single filtered view of all the migration logs.
 
 .Procedure

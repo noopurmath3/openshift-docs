@@ -5,6 +5,7 @@
 [id="sandboxed-containers-deleting-operator-web-console_{context}"]
 = Deleting {sandboxed-containers-operator}
 
+[role="_abstract"]
 You can delete the {sandboxed-containers-operator} by deleting the catalog subscription and revoking namespace access to the Operator.
 
 .Prerequisites

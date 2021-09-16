@@ -12,6 +12,7 @@
 // for the Macvlan CNI plug-in only. In the future other Multus plug-ins
 // might be managed the same way by the CNO.
 
+[role="_abstract"]
 ifeval::["{context}" == "configuring-macvlan-basic"]
 :yaml:
 endif::[]

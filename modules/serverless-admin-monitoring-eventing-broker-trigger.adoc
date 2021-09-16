@@ -5,6 +5,7 @@
 [id="serverless-admin-monitoring-eventing-broker-trigger_{context}"]
 = Monitoring Knative Eventing brokers and triggers
 
+[role="_abstract"]
 You can use the {product-title} monitoring dashboards to view metrics for brokers and triggers in your cluster.
 
 .Prerequisites

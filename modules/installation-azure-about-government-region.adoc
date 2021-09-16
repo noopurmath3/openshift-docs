@@ -5,6 +5,7 @@
 [id="installation-azure-about-government-region_{context}"]
 = Azure government regions
 
+[role="_abstract"]
 {product-title} supports deploying a cluster to
 link:https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-welcome[Microsoft Azure Government (MAG)]
 regions. MAG is specifically designed for US government agencies at the federal,

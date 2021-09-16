@@ -6,6 +6,7 @@
 [id="nodes-cluster-overcommit-resource-requests_{context}"]
 = Resource requests and overcommitment
 
+[role="_abstract"]
 For each compute resource, a container may specify a resource request and limit.
 Scheduling decisions are made based on the request to ensure that a node has
 enough capacity available to meet the requested value. If a container specifies

@@ -5,6 +5,7 @@
 [id="serverless-functions-quarkus-return-value-types_{context}"]
 = Permitted types
 
+[role="_abstract"]
 The input and output types of a function can be any of the following:
 
 * `void`

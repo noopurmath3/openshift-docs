@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The `virtctl` client is a command-line utility for managing {VirtProductName}
 resources. It is available for Linux, macOS, and Windows distributions.
 
@@ -17,5 +18,6 @@ include::modules/virt-enabling-virt-repos.adoc[leveloffset=+1]
 include::modules/virt-installing-virtctl-client.adoc[leveloffset=+1]
 
 [id="virt-installing-virtctl-addtl-resources"]
+[role="_additional-resources"]
 == Additional resources
 xref:../../virt/virt-using-the-cli-tools.adoc#virt-using-the-cli-tools[Using the CLI tools] for {VirtProductName}.

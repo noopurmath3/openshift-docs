@@ -5,6 +5,7 @@
 [id="installing-getting-debug-information_{context}"]
 = Getting debug information from the installation program
 
+[role="_abstract"]
 You can use any of the following actions to get debug information from the installation program.
 
 * Look at debug messages from a past installation in the hidden `.openshift_install.log` file. For example, enter:

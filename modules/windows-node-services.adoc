@@ -5,6 +5,7 @@
 [id="windows-node-services_{context}"]
 = Windows node services
 
+[role="_abstract"]
 The following Windows-specific services are installed on each Windows node:
 
 [cols="1,2",options="header"]

@@ -5,6 +5,7 @@
 [id="deleting-pingsource-yaml_{context}"]
 = Deleting a ping source that was created by using YAML
 
+[role="_abstract"]
 The following procedure describes how to delete a ping source that was created by using YAML.
 
 .Procedure

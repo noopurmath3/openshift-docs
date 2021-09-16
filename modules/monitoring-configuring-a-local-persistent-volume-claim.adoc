@@ -5,6 +5,7 @@
 [id="configuring-a-local-persistent-volume-claim_{context}"]
 = Configuring a local persistent volume claim
 
+[role="_abstract"]
 For monitoring components to use a persistent volume (PV), you must configure a persistent volume claim (PVC).
 
 .Prerequisites

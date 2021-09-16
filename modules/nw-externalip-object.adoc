@@ -5,6 +5,7 @@
 [id="nw-externalip-object_{context}"]
 = ExternalIP address block configuration
 
+[role="_abstract"]
 The configuration for ExternalIP address blocks is defined by a Network custom resource (CR) named `cluster`. The Network CR is part of the `config.openshift.io` API group.
 
 [IMPORTANT]

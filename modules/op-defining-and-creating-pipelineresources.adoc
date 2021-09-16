@@ -5,6 +5,7 @@
 [id="defining-and-creating-pipelineresources_{context}"]
 = Defining and creating PipelineResources
 
+[role="_abstract"]
 _PipelineResources_ are artifacts that are used as inputs or outputs of a Task.
 
 After you create Tasks, create PipelineResources that contain the specifics of the Git repository and the image registry to be used in the Pipeline during execution:

@@ -5,6 +5,7 @@
 [id=storage-ephemeral-storage-types_{context}]
 = Types of ephemeral storage
 
+[role="_abstract"]
 Ephemeral local storage is always made available in the primary
 partition. There are two basic ways of creating the primary
 partition: root and runtime.

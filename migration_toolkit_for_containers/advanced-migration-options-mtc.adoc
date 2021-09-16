@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This section describes advanced options for automating your migration and for modifying the migration plan.
 
 [discrete]

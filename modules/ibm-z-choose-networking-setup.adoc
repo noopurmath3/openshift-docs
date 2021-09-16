@@ -5,6 +5,7 @@
 [id="ibm-z-choose-networking-setup_{context}"]
 = Choose your networking setup
 
+[role="_abstract"]
 The networking stack is one of the most important components for a Kubernetes-based product like {product-title}. For IBM Z setups, the networking setup depends on the hypervisor of your choice. Depending on the workload and the application, the best fit usually changes with the use case and the traffic pattern. 
 
 Depending on your setup, consider these best practices:

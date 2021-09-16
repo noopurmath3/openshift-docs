@@ -1,6 +1,7 @@
 [id="serverless-kafka-source-kn_{context}"]
 = Creating a Kafka event source by using the Knative CLI
 
+[role="_abstract"]
 This section describes how to create a Kafka event source by using the `kn` command.
 
 .Prerequisites

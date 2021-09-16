@@ -1,6 +1,7 @@
 [id="cluster-logging-updating-logging-to-5-0_{context}"]
 = Updating from cluster logging in {product-title} 4.6 or earlier to OpenShift Logging 5.x
 
+[role="_abstract"]
 {product-title} 4.7 made the following name changes:
 
 * The _cluster logging_ feature became the _Red Hat OpenShift Logging_ 5.x product.

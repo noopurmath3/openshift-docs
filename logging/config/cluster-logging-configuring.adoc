@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 OpenShift Logging is configurable using a `ClusterLogging` custom resource (CR) deployed
 in the `openshift-logging` project.
 

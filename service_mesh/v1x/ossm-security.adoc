@@ -5,6 +5,7 @@ include::modules/ossm-document-attributes-1x.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 If your service mesh application is constructed with a complex array of microservices, you can use {ProductName} to customize the security of the communication between those services. The infrastructure of {product-title} along with the traffic management features of {ProductShortName} can help you manage the complexity of your applications and provide service and identity security for microservices.
 
 include::modules/ossm-security-mtls-1x.adoc[leveloffset=+1]

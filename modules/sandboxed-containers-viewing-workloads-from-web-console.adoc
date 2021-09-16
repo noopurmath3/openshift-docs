@@ -5,6 +5,7 @@
 [id="sandboxed-containers-viewing-workloads-from-web-console_{context}"]
 = Viewing {sandboxed-containers-first} workloads from the web console
 
+[role="_abstract"]
 {sandboxed-containers-first} based workloads look and feel the same as normal workloads when viewed in the web console. The only difference between the two is the `runtimeClassName`. `runtimeClassName` is what decides the runtime used for workloads. In this context, the runtime enabled by {sandboxed-containers-first}-based is `kata`. You can view the `runtimeClass` that the pods for your workloads use.
 
 .Prerequisites

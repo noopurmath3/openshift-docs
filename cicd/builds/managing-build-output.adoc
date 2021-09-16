@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 Use the following sections for an overview of and instructions for managing
 build output.
 

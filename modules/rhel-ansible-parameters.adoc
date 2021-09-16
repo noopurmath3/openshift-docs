@@ -7,6 +7,7 @@
 [id="rhel-ansible-parameters_{context}"]
 = Required parameters for the Ansible hosts file
 
+[role="_abstract"]
 You must define the following parameters in the Ansible hosts file before you add Red Hat Enterprise Linux (RHEL) compute machines to your cluster.
 
 [cols="1,2,2",options="header"]

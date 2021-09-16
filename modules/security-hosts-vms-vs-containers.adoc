@@ -5,6 +5,7 @@
 [id="security-hosts-vms-vs-containers_{context}"]
 = Comparing virtualization and containers
 
+[role="_abstract"]
 Traditional virtualization provides another way to keep application
 environments separate on the same physical host. However, virtual machines
 work in a different way than containers.

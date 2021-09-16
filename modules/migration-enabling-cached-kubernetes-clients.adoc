@@ -6,6 +6,7 @@
 [id="migration-enabling-cached-kubernetes-clients_{context}"]
 = Enabling cached Kubernetes clients
 
+[role="_abstract"]
 You can enable cached Kubernetes clients in the `MigrationController` custom resource (CR) for improved performance during migration. The greatest performance benefit is displayed when migrating between clusters in different regions or with significant network latency.
 
 [NOTE]

@@ -5,6 +5,7 @@
 [id="efs-authorization_{context}"]
 = Configuring authorization for EFS volumes
 
+[role="_abstract"]
 The EFS provisioner must be authorized to communicate to the AWS endpoints,
 along with observing and updating {product-title} storage resources. The
 following instructions create the necessary permissions for the EFS

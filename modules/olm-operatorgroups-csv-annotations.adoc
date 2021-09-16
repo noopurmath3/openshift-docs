@@ -5,6 +5,7 @@
 [id="olm-operatorgroups-csv-annotations_{context}"]
 = Operator group CSV annotations
 
+[role="_abstract"]
 Member CSVs of an Operator group have the following annotations:
 
 [cols="1,1",options="header"]

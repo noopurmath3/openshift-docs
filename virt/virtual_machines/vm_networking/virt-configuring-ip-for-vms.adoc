@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can configure either dynamically or statically provisioned IP addresses for virtual machines.
 
 .Prerequisites

@@ -7,6 +7,7 @@
 
 [id="new-features-1-0_{context}"]
 == New features
+[role="_abstract"]
 {pipelines-title} Technology Preview (TP) 1.0 is now available on {product-title} 4.4. {pipelines-title} TP 1.0 is updated to support:
 
 * Tekton Pipelines 0.11.3

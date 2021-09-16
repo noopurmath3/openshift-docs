@@ -5,6 +5,7 @@
 [id="virt-cli-reference-controlling-vms_{context}"]
 = CLI reference for controlling virtual machines
 
+[role="_abstract"]
 Use the following `virtctl` client utility and `oc` commands to change the state of the virtual
 machines and display lists of the virtual machines and the virtual machine instances
 that represent them.

@@ -6,6 +6,7 @@
 
 = Partitioning management workloads
 
+[role="_abstract"]
 You can isolate the {product-title} services, cluster management workloads, and infrastructure pods to run on a reserved
 set of CPUs. This is useful for resource-constrained environments,
 such as such as a single-node cluster, where you want to reserve most of

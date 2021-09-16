@@ -6,6 +6,7 @@
 [id="virt-installing-virtio-drivers-existing-windows_{context}"]
 = Installing VirtIO drivers on an existing Windows virtual machine
 
+[role="_abstract"]
 Install the VirtIO drivers from the attached SATA CD drive to an
 existing Windows virtual machine.
 

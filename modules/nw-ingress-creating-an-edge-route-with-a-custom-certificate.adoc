@@ -5,6 +5,7 @@
 [id="nw-ingress-creating-an-edge-route-with-a-custom-certificate_{context}"]
 = Creating an edge route with a custom certificate
 
+[role="_abstract"]
 You can configure a secure route using edge TLS termination with a custom
 certificate by using the `oc create route` command. With an edge route, the
 Ingress Controller terminates TLS encryption before forwarding traffic to the

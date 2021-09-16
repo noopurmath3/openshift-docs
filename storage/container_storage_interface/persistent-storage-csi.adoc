@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The Container Storage Interface (CSI) allows {product-title} to consume
 storage from storage back ends that implement the
 link:https://github.com/container-storage-interface/spec[CSI interface]

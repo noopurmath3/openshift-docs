@@ -5,6 +5,7 @@
 [id="builds-binary-source_{context}"]
 = Binary (local) source
 
+[role="_abstract"]
 Streaming content from a local file system to the builder is called a `Binary` type build. The corresponding value of `BuildConfig.spec.source.type` is `Binary` for these builds.
 
 This source type is unique in that it is leveraged solely based on your use of the `oc start-build`.

@@ -5,6 +5,7 @@
 [id="collecting-docker-logs-windows_{context}"]
 = Collecting Docker logs for Windows containers
 
+[role="_abstract"]
 The Windows Docker service does not stream its logs to stdout, but instead, logs to the event log for Windows. You can view the Docker event logs to investigate issues you think might be caused by the Windows Docker service.
 
 .Prerequisites

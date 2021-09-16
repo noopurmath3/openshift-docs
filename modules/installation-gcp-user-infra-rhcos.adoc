@@ -5,6 +5,7 @@
 [id="installation-gcp-user-infra-rhcos_{context}"]
 = Creating the {op-system} cluster image for the GCP infrastructure
 
+[role="_abstract"]
 You must use a valid {op-system-first} image for Google Cloud Platform (GCP) for
 your {product-title} nodes.
 

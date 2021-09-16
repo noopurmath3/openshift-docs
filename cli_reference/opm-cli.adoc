@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 include::modules/olm-about-opm.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../operators/understanding/olm-packaging-format.adoc#olm-bundle-format_olm-packaging-format[Operator Framework packaging formats] for more information about the bundle format.
@@ -15,6 +16,7 @@ xref:../operators/operator_sdk/osdk-working-bundle-images.adoc#osdk-working-bund
 include::modules/olm-installing-opm.adoc[leveloffset=+1]
 
 [id="opm-addtl-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * See xref:../operators/admin/olm-managing-custom-catalogs.adoc#olm-managing-custom-catalogs[Managing custom catalogs] for `opm` procedures including creating, updating, and pruning index images.

@@ -4,6 +4,7 @@
 // * operators/operator_sdk/ansible/osdk-ansible-quickstart.adoc
 // * operators/operator_sdk/helm/osdk-helm-quickstart.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "osdk-golang-quickstart"]
 :golang:
 :type: Go

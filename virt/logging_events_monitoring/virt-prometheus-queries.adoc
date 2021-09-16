@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {VirtProductName} provides metrics for monitoring how infrastructure resources are consumed in the cluster. The metrics cover the following resources:
 
 * vCPU
@@ -30,6 +31,7 @@ include::modules/monitoring-querying-metrics-for-user-defined-projects-as-a-deve
 include::modules/virt-querying-metrics.adoc[leveloffset=+1]
 
 [id="additional-resources_virt-prometheus-queries"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../monitoring/understanding-the-monitoring-stack.adoc#understanding-the-monitoring-stack[Understanding the {product-title} monitoring stack]

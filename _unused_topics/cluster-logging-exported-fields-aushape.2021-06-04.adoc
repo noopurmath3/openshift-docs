@@ -5,6 +5,7 @@
 [id="cluster-logging-exported-fields-aushape_{context}"]
 = Aushape exported fields
 
+[role="_abstract"]
 These are the Aushape fields exported by OpenShift Logging available for searching
 from Elasticsearch and Kibana.
 

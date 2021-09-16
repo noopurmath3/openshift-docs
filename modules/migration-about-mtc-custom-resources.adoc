@@ -6,6 +6,7 @@
 [id="migration-about-mtc-custom-resources_{context}"]
 = About {mtc-short} custom resources
 
+[role="_abstract"]
 The {mtc-full} ({mtc-short}) creates the following custom resources (CRs):
 
 image::migration-architecture.png[migration architecture diagram]

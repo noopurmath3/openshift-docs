@@ -5,6 +5,7 @@
 [id="virt-resuming-node-maintenance-cli_{context}"]
 = Resuming a node from maintenance mode in the CLI
 
+[role="_abstract"]
 Resume a node from maintenance mode by making it schedulable again.
 
 .Procedure

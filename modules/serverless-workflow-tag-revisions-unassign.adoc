@@ -5,6 +5,7 @@
 [id="unassigning-tag-revisions_{context}"]
 = Unassigning tag revisions
 
+[role="_abstract"]
 Tags assigned to revisions in a traffic block can be unassigned. Unassigning tags removes the custom URLs.
 
 [NOTE]

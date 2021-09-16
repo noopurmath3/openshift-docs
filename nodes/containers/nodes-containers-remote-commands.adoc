@@ -9,6 +9,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 You can use the CLI to execute remote commands in an {product-title} container. 
 
 // The following include statements pull in the module files that comprise

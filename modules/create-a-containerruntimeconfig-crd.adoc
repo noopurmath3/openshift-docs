@@ -5,6 +5,7 @@
 [id="create-a-containerruntimeconfig_{context}"]
 = Creating a ContainerRuntimeConfig CR to edit CRI-O parameters
 
+[role="_abstract"]
 You can change some of the settings associated with the {product-title} CRI-O runtime for the nodes associated with a specific machine config pool (MCP). Using a `ContainerRuntimeConfig` custom resource (CR), you set the configuration values and add a label to match the MCP. The MCO then rebuilds the `crio.conf` and `storage.conf` configuration files on the associated nodes with the updated values.
 
 [NOTE]

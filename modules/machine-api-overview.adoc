@@ -12,6 +12,7 @@
 [id="machine-api-overview_{context}"]
 = Machine API overview
 
+[role="_abstract"]
 The Machine API is a combination of primary resources that are based on the upstream Cluster API project and custom {product-title} resources.
 
 For {product-title} {product-version} clusters, the Machine API performs all node host provisioning management actions after the cluster installation finishes. Because of this system, {product-title} {product-version} offers an elastic, dynamic provisioning method on top of public or private cloud infrastructure.

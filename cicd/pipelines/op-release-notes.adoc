@@ -7,6 +7,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {pipelines-title} is a cloud-native CI/CD experience based on the Tekton project which provides:
 
 * Standard Kubernetes-native pipeline definitions (CRDs).

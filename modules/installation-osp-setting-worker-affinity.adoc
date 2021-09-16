@@ -11,6 +11,7 @@
 [id="installation-osp-setting-worker-affinity_{context}"]
 = Setting compute machine affinity
 
+[role="_abstract"]
 Optionally, you can set the affinity policy for compute machines during installation. The installer does not select an affinity policy for compute machines by default. 
 
 You can also create machine sets that use particular {rh-openstack} server groups after installation. 

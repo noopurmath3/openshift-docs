@@ -5,6 +5,7 @@
 [id="using-wildcard-routes_{context}"]
 = Using wildcard routes
 
+[role="_abstract"]
 The HAProxy Ingress Controller has support for wildcard routes. The Ingress Operator uses `wildcardPolicy` to configure the `ROUTER_ALLOW_WILDCARD_ROUTES` environment variable of the Ingress Controller.
 
 The default behavior of the Ingress Controller is to admit routes with a wildcard policy of `None`, which is backwards compatible with existing `IngressController` resources.

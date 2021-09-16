@@ -6,6 +6,7 @@
 [id="ossm-threescale-istio-adapter-verification_{context}"]
 = 3scale Istio adapter verification
 
+[role="_abstract"]
 You might want to check whether the 3scale Istio adapter is working as expected. If your adapter is not working, use the following steps to help troubleshoot the problem.
 
 .Procedure

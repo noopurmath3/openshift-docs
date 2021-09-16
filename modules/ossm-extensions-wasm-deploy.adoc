@@ -1,6 +1,7 @@
 [id="ossm-extensions-deploy_{context}"]
 = Deploying extensions
 
+[role="_abstract"]
 {ProductName} extensions can be enabled using the `ServiceMeshExtension` resource. In this example, `istio-system` is the name of the control plane project.
 
 .Procedure

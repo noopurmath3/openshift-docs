@@ -6,6 +6,7 @@
 [id="ztp-du-host-networking-requirements_{context}"]
 = Distributed unit host networking requirements
 
+[role="_abstract"]
 The following tables provide a high level overview of the networking information and custom resources required by {rh-rhacm-first} to provision a DU bare-metal host:
 
 .Required `AgentClusterInstall` networking fields

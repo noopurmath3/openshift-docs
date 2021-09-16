@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} provides three images that are suitable for use as Jenkins agents: the `Base`, `Maven`, and `Node.js` images.
 
 The first is a base image for Jenkins agents:

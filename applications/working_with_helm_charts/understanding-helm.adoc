@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Helm is a software package manager that simplifies deployment of applications and services to {product-title} clusters.
 
 Helm uses a packaging format called _charts_.
@@ -28,6 +29,7 @@ Helm provides the ability to:
 
 You can choose to verify and certify your Helm charts by Red Hat for all the components you will be deploying on the Red Hat {product-title}. Charts go through an automated Red Hat OpenShift certification workflow that guarantees security compliance as well as best integration and experience with the platform. Certification assures the integrity of the chart and ensures that the Helm chart works seamlessly on Red Hat OpenShift clusters.
 
+[role="_additional-resources"]
 == Additional resources
 
 * For more information on how to certify your Helm charts as a Red Hat partner, see link:https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/helm-chart-certification/overview[Red Hat Certification of Helm charts for OpenShift].

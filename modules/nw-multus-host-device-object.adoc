@@ -5,6 +5,7 @@
 [id="nw-multus-host-device-object_{context}"]
 = Configuration for host-device
 
+[role="_abstract"]
 The configuration for an additional network attachment that uses the host-device
 Container Network Interface (CNI) plug-in is provided in two parts:
 

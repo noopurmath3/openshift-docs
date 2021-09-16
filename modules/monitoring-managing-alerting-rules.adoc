@@ -5,6 +5,7 @@
 [id="managing-alerting-rules_{context}"]
 = Managing alerting rules
 
+[role="_abstract"]
 {product-title} monitoring ships with a set of default alerting rules. As a cluster administrator, you can view the default alerting rules.
 
 In {product-title} {product-version}, you can create, view, edit, and remove alerting rules in user-defined projects.

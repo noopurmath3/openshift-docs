@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can delete applications created in your project.
 
 include::modules/odc-deleting-applications-using-developer-perspective.adoc[leveloffset=+1]

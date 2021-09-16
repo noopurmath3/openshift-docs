@@ -15,6 +15,7 @@
 [id="identity-provider-create-CR_{context}"]
 = Creating the CR that describes an identity provider
 
+[role="_abstract"]
 Before you can add an identity provider to your cluster, create a Custom
 Resource (CR) that describes it.
 

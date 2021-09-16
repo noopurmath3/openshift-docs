@@ -6,6 +6,7 @@
 = TaskRun commands
 
 == taskrun
+[role="_abstract"]
 Manage TaskRuns.
 
 .Example: Display help

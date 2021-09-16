@@ -6,6 +6,7 @@
 [id="installation-rhv-creating-bootstrap-machine_{context}"]
 = Creating the bootstrap machine
 
+[role="_abstract"]
 You create a bootstrap machine by running the `bootstrap.yml` playbook. This playbook starts the bootstrap virtual machine, and passes it the `bootstrap.ign` Ignition file from the assets directory. The bootstrap node configures itself so it can serve Ignition files to the control plane nodes.
 
 To monitor the bootstrap process, you use the console in the {rh-virtualization} Administration Portal or connect to the virtual machine by using SSH.

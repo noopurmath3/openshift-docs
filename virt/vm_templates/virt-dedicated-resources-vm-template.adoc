@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Virtual machines can have resources of a node, such as CPU,
 dedicated to them to improve performance.
 

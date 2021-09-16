@@ -5,6 +5,7 @@
 [id="virt-about-red-hat-ansible-automation_{context}"]
 = About Red Hat Ansible Automation
 
+[role="_abstract"]
 link:https://docs.ansible.com/ansible/latest/index.html[Ansible] is an automation
 tool used to configure systems, deploy software, and perform rolling updates.
 Ansible includes support for {VirtProductName}, and Ansible modules enable you to

@@ -5,6 +5,7 @@
 [id="ztp-performance-addon-operator_{context}"]
 = Performance Addon Operator
 
+[role="_abstract"]
 The Performance Addon Operator provides the ability to enable advanced node performance tunings on a set of nodes.
 
 {product-title} provides a Performance Addon Operator to implement automatic tuning to achieve low latency

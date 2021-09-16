@@ -5,6 +5,7 @@
 [id="odc-installing-web-terminal_{context}"]
 = Installing the web terminal
 
+[role="_abstract"]
 You can install the web terminal using the Web Terminal Operator listed in the {product-title} OperatorHub. When you install the Web Terminal Operator, the custom resource definitions (CRDs) that are required for the command line configuration, such as the `DevWorkspace` CRD, are automatically installed. The web console creates the required resources when you open the web terminal.
 
 .Prerequisites

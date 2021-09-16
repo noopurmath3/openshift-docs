@@ -6,6 +6,7 @@
 [id="installation-aws-user-infra-bootstrap_{context}"]
 = Initializing the bootstrap sequence on AWS with user-provisioned infrastructure
 
+[role="_abstract"]
 After you create all of the required infrastructure in Amazon Web Services (AWS),
 you can start the bootstrap sequence that initializes the {product-title} control plane.
 

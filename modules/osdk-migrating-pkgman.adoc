@@ -5,6 +5,7 @@
 [id="osdk-migrating-pkgman_{context}"]
 = Migrating a package manifest project to bundle format
 
+[role="_abstract"]
 Operator authors can use the Operator SDK to migrate a package manifest format Operator project to a bundle format project.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="nodes-scheduler-pod-affinity-about_{context}"]
 = Understanding pod affinity
 
+[role="_abstract"]
 _Pod affinity_ and _pod anti-affinity_ allow you to constrain which nodes your pod is eligible to be scheduled on based on the key/value labels on other pods. 
 
 * Pod affinity can tell the scheduler to locate a new pod on the same node as other pods if the label selector on the new pod matches the label on the current pod.

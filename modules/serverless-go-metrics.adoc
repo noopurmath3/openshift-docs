@@ -1,6 +1,7 @@
 [id="serverless-go-metrics_{context}"]
 = Go runtime metrics
 
+[role="_abstract"]
 Each Knative Serving control plane process emits a number of Go runtime memory statistics (link:https://golang.org/pkg/runtime/#MemStats[MemStats]).
 
 [NOTE]

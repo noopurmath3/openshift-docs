@@ -5,6 +5,7 @@
 [id="builds-troubleshooting-service-certificate-generation_{context}"]
 = Service certificate generation failure
 
+[role="_abstract"]
 If your request for access to resources is denied:
 
 Issue::

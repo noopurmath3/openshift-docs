@@ -1,6 +1,7 @@
 [id="traffic-splitting-kn_{context}"]
 = Managing and splitting traffic by using the Knative CLI
 
+[role="_abstract"]
 `kn` provides commands that help you to control traffic mapping and how traffic is split between revisions.
 
 You can use the `kn service update` command with the `--traffic` flag to update the traffic. This flag uses the following syntax:

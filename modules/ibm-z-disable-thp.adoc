@@ -5,6 +5,7 @@
 [id="ibm-z-disable-thp_{context}"]
 = How to disable Transparent Huge Pages
 
+[role="_abstract"]
 Transparent Huge Pages (THP) attempt to automate most aspects of creating, managing, and using huge pages. Since THP automatically manages the huge pages, this is not always handled optimally for all types of workloads. THP can lead to performance regressions, since many applications handle huge pages on their own. Therefore, consider disabling THP. The following steps describe how to disable THP using a Node Tuning Operator (NTO) profile.
 
 [id="disable-thp-with-a-nto-profile_{context}"]

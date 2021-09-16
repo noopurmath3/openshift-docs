@@ -6,6 +6,7 @@
 [id="installation-creating-aws-dns_{context}"]
 = Creating networking and load balancing components in AWS
 
+[role="_abstract"]
 You must configure networking and classic or network load balancing in Amazon Web Services (AWS) that your {product-title} cluster can use.
 
 You can use the provided CloudFormation template and a custom parameter file to create a stack of AWS resources. The stack represents the networking and load balancing components that your {product-title} cluster requires. The template also creates a hosted zone and subnet tags.

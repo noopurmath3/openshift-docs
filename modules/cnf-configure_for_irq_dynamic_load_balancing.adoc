@@ -5,6 +5,7 @@
 [id="configuring_for_irq_dynamic_load_balancing_{context}"]
 = Configuring a node for IRQ dynamic load balancing
 
+[role="_abstract"]
 To configure a cluster node to handle IRQ dynamic load balancing, do the following:
 
 . Log in to the {product-title} cluster as a user with cluster-admin privileges.

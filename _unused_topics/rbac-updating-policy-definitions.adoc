@@ -6,6 +6,7 @@ ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
 [id="updating-policy-definitions_{context}"]
 = Updating policy definitions
 
+[role="_abstract"]
 During a cluster upgrade, and on every restart of any master, the
 default cluster roles are automatically reconciled to restore any missing permissions.
 

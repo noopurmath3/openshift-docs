@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Manual mode with STS is supported for Amazon Web Services (AWS).
 
 In manual mode with STS, the individual {product-title} cluster components use AWS Secure Token Service (STS) to assign components IAM roles that provide short-term, limited-privilege security credentials. These credentials are associated with IAM roles that are specific to each component that makes AWS API calls.

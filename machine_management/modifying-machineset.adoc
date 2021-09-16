@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 You can make changes to a machine set, such as adding labels, changing the instance type, or changing block storage.
 
 [NOTE]

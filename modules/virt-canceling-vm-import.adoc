@@ -3,6 +3,7 @@
 [id='virt-canceling-vm-import_{context}']
 = Canceling a virtual machine import
 
+[role="_abstract"]
 You can cancel a virtual machine import in progress by using the web console.
 
 .Procedure

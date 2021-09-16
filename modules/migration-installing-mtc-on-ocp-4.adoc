@@ -8,6 +8,7 @@
 [id="migration-installing-mtc-on-ocp-4_{context}"]
 = Installing the {mtc-full} Operator on {product-title} {product-version}
 
+[role="_abstract"]
 You install the {mtc-full} Operator on {product-title} {product-version} by using the Operator Lifecycle Manager.
 
 .Prerequisites

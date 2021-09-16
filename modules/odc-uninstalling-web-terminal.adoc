@@ -5,6 +5,7 @@
 [id="odc-uninstalling-web-terminal_{context}"]
 = Uninstalling the web terminal
 
+[role="_abstract"]
 Uninstalling the web terminal is a two-step process:
 
 . Uninstall the Web Terminal Operator and related custom resources (CRs) that were added when you installed the Operator.

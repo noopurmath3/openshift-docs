@@ -1,6 +1,7 @@
 [id="serverless-activator-metrics_{context}"]
 = Activator metrics
 
+[role="_abstract"]
 You can use the following metrics to understand how applications respond when traffic passes through the activator.
 
 [cols=5*,options="header"]

@@ -5,6 +5,7 @@
 [id="osdk-init-resource_{context}"]
 = Initializing required custom resources
 
+[role="_abstract"]
 An Operator might require the user to instantiate a custom resource before the Operator can be fully functional. However, it can be challenging for a user to determine what is required or how to define the resource.
 
 As an Operator developer, you can specify a single required custom resource that must be created at the time that the Operator is installed by adding the `operatorframework.io/initialization-resource` annotation to the cluster service version (CSV). The annotation must include a template that contains a complete YAML definition that is required to initialize the resource during installation.

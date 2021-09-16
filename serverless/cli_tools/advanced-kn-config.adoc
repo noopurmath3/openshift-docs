@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can customize and extend the `kn` CLI by using advanced features, such as configuring a `config.yaml` file for `kn` or using plug-ins.
 
 include::modules/serverless-kn-config.adoc[leveloffset=+1]

@@ -10,6 +10,7 @@ include::modules/identity-provider-parameters.adoc[leveloffset=+1]
 [id="supported-identity-providers"]
 == Supported identity providers
 
+[role="_abstract"]
 You can configure the following types of identity providers:
 
 [cols="2a,8a",options="header"]

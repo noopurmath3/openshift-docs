@@ -6,6 +6,7 @@
 
 = Required annotations for workload partitioning
 
+[role="_abstract"]
 Two annotations must be specified to isolate partitioned workloads from each other. Annotate the containing namespace with `workload.openshift.io/allowed` and the pod
 with `target.workload.openshift.io`.
 

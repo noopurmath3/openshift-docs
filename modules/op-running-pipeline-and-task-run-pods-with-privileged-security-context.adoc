@@ -2,6 +2,7 @@
 = Running pipeline run and task run pods with privileged security context
 :context: op-running-pipeline-and-task-run-pods-with-privileged-security-context
 
+[role="_abstract"]
 toc::[]
 
 .Procedure

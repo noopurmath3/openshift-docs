@@ -5,6 +5,7 @@
 [id="nw-service-external-ip_{context}"]
 = Using a service external IP to get traffic into the cluster
 
+[role="_abstract"]
 One method to expose a service is to assign an external IP address directly to
 the service you want to make accessible from outside the cluster.
 

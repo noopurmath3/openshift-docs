@@ -5,6 +5,7 @@
 [id="osdk-configuring-csv-composition_{context}"]
 = CSV composition configuration
 
+[role="_abstract"]
 Operator authors can configure CSV composition by populating several fields in the `deploy/olm-catalog/csv-config.yaml` file:
 
 [cols="2a,8a",options="header"]

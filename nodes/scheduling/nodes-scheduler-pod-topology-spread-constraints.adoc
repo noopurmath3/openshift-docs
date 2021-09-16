@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can use pod topology spread constraints to control the placement of your pods across nodes, zones, regions, or other user-defined topology domains.
 
 // About pod topology spread constraints
@@ -16,6 +17,7 @@ include::modules/nodes-scheduler-pod-topology-spread-constraints-configuring.ado
 // Sample pod topology spread constraints
 include::modules/nodes-scheduler-pod-topology-spread-constraints-examples.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../nodes/nodes/nodes-nodes-working.adoc#nodes-nodes-working-updating_nodes-nodes-working[Understanding how to update labels on nodes]

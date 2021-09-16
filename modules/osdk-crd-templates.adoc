@@ -5,6 +5,7 @@
 [id="osdk-crds-templates_{context}"]
 = CRD templates
 
+[role="_abstract"]
 Users of your Operator must be made aware of which options are required versus optional. You can provide templates for each of your custom resource definitions (CRDs) with a minimum set of configuration as an annotation named `alm-examples`. Compatible UIs will pre-fill this template for users to further customize.
 
 The annotation consists of a list of the kind, for example, the CRD name and the corresponding `metadata` and `spec` of the Kubernetes object.

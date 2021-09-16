@@ -5,6 +5,7 @@
 [id="images-other-jenkins-oauth-auth_{context}"]
 = {product-title} OAuth authentication
 
+[role="_abstract"]
 OAuth authentication is activated by configuring options on the *Configure Global Security* panel in the Jenkins UI, or by setting the `OPENSHIFT_ENABLE_OAUTH` environment variable on the Jenkins *Deployment configuration* to anything other than `false`. This activates the {product-title} Login plug-in, which retrieves the configuration information from pod data or by interacting with the {product-title} API server.
 
 Valid credentials are controlled by the {product-title} identity provider.

@@ -5,6 +5,7 @@
 [id="uninstalling-wmco_{context}"]
 = Uninstalling the Windows Machine Config Operator
 
+[role="_abstract"]
 You can uninstall the Windows Machine Config Operator (WMCO) from your cluster.
 
 .Prerequisites

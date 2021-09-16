@@ -5,6 +5,7 @@
 [id="builds-source-input-satellite-config_{context}"]
 = Adding Red Hat Satellite configurations to builds
 
+[role="_abstract"]
 Builds that use Red Hat Satellite to install content must provide appropriate configurations to obtain content from Satellite repositories.
 
 .Prerequisites

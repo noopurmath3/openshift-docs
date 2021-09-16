@@ -5,6 +5,7 @@
 [id="node-requirements_{context}"'"]
 = Node requirements
 
+[role="_abstract"]
 Installer-provisioned installation involves a number of hardware node requirements:
 
 * *CPU architecture:* All nodes must use `x86_64` CPU architecture.

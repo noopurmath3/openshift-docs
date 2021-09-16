@@ -4,6 +4,7 @@
 
 [id="provisioning-fibre_{context}"]
 = Provisioning
+[role="_abstract"]
 To provision Fibre Channel volumes using the `PersistentVolume` API
 the following must be available:
 

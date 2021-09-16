@@ -5,6 +5,7 @@
 [id="running-a-pipeline_{context}"]
 = Running a pipeline
 
+[role="_abstract"]
 A `PipelineRun` resource starts a pipeline and ties it to the Git and image resources that should be used for the specific invocation. It automatically creates and starts the `TaskRun` resources for each task in the pipeline.
 
 [discrete]

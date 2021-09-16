@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 :context: creating-a-java-application-with-a-database
 toc::[]
 
+[role="_abstract"]
 This example describes how to deploy a Java application by using devfile and connect it to a database service.
 
 .Prerequisites

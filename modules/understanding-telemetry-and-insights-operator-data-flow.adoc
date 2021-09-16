@@ -5,6 +5,7 @@
 [id="understanding-telemetry-and-insights-operator-data-flow_{context}"]
 = Understanding Telemetry and Insights Operator data flow
 
+[role="_abstract"]
 The Telemeter Client collects selected time series data from the Prometheus API. The time series data is uploaded to api.openshift.com every four minutes and thirty seconds for processing.
 
 The Insights Operator gathers selected data from the Kubernetes API and the Prometheus API into an archive. The archive is uploaded to link:https://console.redhat.com[console.redhat.com] every two hours for processing. The Insights Operator also downloads the latest Insights analysis from link:https://console.redhat.com[console.redhat.com]. This is used to populate the *Insights status* pop-up that is included in the *Overview* page in the {product-title} web console.

@@ -6,6 +6,7 @@
 [id="rhel-removing-rhcos_{context}"]
 = Optional: Removing RHCOS compute machines from a cluster
 
+[role="_abstract"]
 After you add the Red Hat Enterprise Linux (RHEL) compute machines to your cluster, you can optionally remove the {op-system-first} compute machines to free up resources.
 
 .Prerequisites

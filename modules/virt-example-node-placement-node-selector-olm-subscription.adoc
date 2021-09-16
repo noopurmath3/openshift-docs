@@ -5,6 +5,7 @@
 [id="virt-example-node-placement-node-selector-olm-subscription_{context}"]
 = Example: Node placement with nodeSelector in the OLM Subscription object
 
+[role="_abstract"]
 In this example, `nodeSelector` is configured so that OLM places the {VirtProductName} Operators on nodes that are labeled with `example.io/example-infra-key = example-infra-value`.
 
 [source,yaml,subs="attributes+"]

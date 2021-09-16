@@ -8,6 +8,7 @@
 [id="creating-a-project_{context}"]
 = Creating a project
 
+[role="_abstract"]
 Create a project to keep your source code, tests, and libraries organized in a separate single unit.
 
 .Procedure

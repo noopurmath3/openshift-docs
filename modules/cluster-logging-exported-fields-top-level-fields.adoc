@@ -7,6 +7,7 @@
 //The top-level fields can be present in every record. The descriptions for fields that are optional begin with "Optional."
 
 
+[role="_abstract"]
 The top level fields may be present in every record.
 
 == message

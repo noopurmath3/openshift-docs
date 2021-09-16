@@ -4,6 +4,7 @@
 [id="images-getting-info-about-imagestreams_{context}"]
 = Getting information about image streams
 
+[role="_abstract"]
 You can get general information about the image stream and detailed information about all the tags it is pointing to.
 
 .Procedure

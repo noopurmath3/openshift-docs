@@ -5,6 +5,7 @@
 [id="nodes-cluster-resource-configure-jdk_{context}"]
 = Understanding OpenJDK settings for {product-title}
 
+[role="_abstract"]
 The default OpenJDK settings do not work well with containerized
 environments. As a result, some additional Java memory
 settings must always be provided whenever running the OpenJDK in a container.

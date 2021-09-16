@@ -6,6 +6,7 @@
 [id="creating-infra-machines_{context}"]
 = Creating a machine config pool for infrastructure machines
 
+[role="_abstract"]
 If you need infrastructure machines to have dedicated configurations, you must create an infra pool.
 
 .Procedure

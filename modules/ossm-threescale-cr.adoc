@@ -6,6 +6,7 @@
 [id="ossm-threescale-cr_{context}"]
 = Generating 3scale custom resources
 
+[role="_abstract"]
 The adapter includes a tool that allows you to generate the `handler`, `instance`, and `rule` custom resources.
 
 .Usage

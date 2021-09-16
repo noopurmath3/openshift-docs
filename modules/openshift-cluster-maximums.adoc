@@ -5,6 +5,7 @@
 [id="cluster-maximums_{context}"]
 = {product-title} tested cluster maximums
 
+[role="_abstract"]
 The values in the following table were tested independently of each other and represent the maximum for that particular resource type. It might not be valid to consider these maximums in combinations. Appropriate capacity planning and testing should be performed for large environments. Other objects are created during the test runs, but are not close to the tested maximums. For example, when testing namespaces per cluster, deployments per namespace, or number of nodes, thousands of pods, services, deployments, secrets, config maps, and builds are created, but are not close to the cluster maximums.
 
 [options="header",cols="5*"]

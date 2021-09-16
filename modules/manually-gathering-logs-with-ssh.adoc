@@ -5,6 +5,7 @@
 [id="installation-manually-gathering-logs-with-SSH_{context}"]
 = Manually gathering logs with SSH access to your host(s)
 
+[role="_abstract"]
 Manually gather logs in situations where `must-gather` or automated collection
 methods do not work.
 

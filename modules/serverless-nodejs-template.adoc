@@ -5,6 +5,7 @@
 [id="serverless-nodejs-template_{context}"]
 = Node.js function template structure
 
+[role="_abstract"]
 When you create a Node.js function using the `kn` CLI, the project directory looks like a typical Node.js project, with the exception of an additional `func.yaml` configuration file.
 
 Both `http` and `event` trigger functions have the same template structure:

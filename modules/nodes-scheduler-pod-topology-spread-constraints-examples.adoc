@@ -5,6 +5,7 @@
 [id="nodes-scheduler-pod-topology-spread-constraints-examples_{context}"]
 = Example pod topology spread constraints
 
+[role="_abstract"]
 The following examples demonstrate pod topology spread constraint configurations.
 
 [id="nodes-scheduler-pod-topology-spread-constraints-example-single_{context}"]

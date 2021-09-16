@@ -7,6 +7,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 As a cluster administrator, you can help your clusters operate efficiently through
 managing application memory by:
 

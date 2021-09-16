@@ -5,6 +5,7 @@
 [id="dedicated-cluster-admin-enable"]
 = Enabling the cluster-admin role for your cluster
 
+[role="_abstract"]
 The cluster-admin role must be enabled at the cluster level before it can be assigned to a user.
 
 .Prerequisites

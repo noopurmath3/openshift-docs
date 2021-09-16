@@ -2,6 +2,7 @@
 //
 // * security/tls-profiles.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "tls-security-profiles"]
 :tls:
 endif::[]

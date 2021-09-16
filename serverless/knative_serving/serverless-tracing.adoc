@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Using Jaeger with {ServerlessProductName} allows you to enable _distributed tracing_ for your serverless applications on {product-title}.
 
 Distributed tracing records the path of a request through the various services that make up an application.

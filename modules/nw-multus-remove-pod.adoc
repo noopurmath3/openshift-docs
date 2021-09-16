@@ -5,6 +5,7 @@
 [id="nw-multus-remove-pod_{context}"]
 = Removing a pod from an additional network
 
+[role="_abstract"]
 You can remove a pod from an additional network only by deleting the pod.
 
 .Prerequisites

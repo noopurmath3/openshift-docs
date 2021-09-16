@@ -5,6 +5,7 @@
 [id="virt-about-hostpath-provisioner_{context}"]
 = About the hostpath provisioner
 
+[role="_abstract"]
 The hostpath provisioner is a local storage provisioner designed for
 {VirtProductName}. If you want to configure local storage for
 virtual machines, you must enable the hostpath provisioner first.

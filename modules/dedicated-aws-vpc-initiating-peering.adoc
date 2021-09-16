@@ -5,6 +5,7 @@
 [id="dedicated-aws-vpc-initiating-peering"]
 = Initiating the VPC peer request
 
+[role="_abstract"]
 You can send a VPC peering connection request from the OSD AWS Account to the
 Customer AWS Account.
 

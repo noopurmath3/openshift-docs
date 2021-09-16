@@ -5,6 +5,7 @@
 [id="dr-scenario-3-recovering-expired-certs_{context}"]
 = Recovering from expired control plane certificates
 
+[role="_abstract"]
 The cluster can automatically recover from expired control plane certificates.
 
 However, you must manually approve the pending `node-bootstrapper` certificate signing requests (CSRs) to recover kubelet certificates. For user-provisioned installations, you might also need to approve pending kubelet serving CSRs.

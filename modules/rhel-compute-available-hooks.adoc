@@ -5,6 +5,7 @@
 [id="rhel-compute-available-hooks_{context}"]
 = Available hooks for RHEL compute machines
 
+[role="_abstract"]
 You can use the following hooks when you update the Red Hat Enterprise Linux (RHEL)
 compute machines in your {product-title} cluster.
 

@@ -21,6 +21,7 @@ include::modules/rbac-creating-local-role.adoc[leveloffset=+1]
 
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
 include::modules/rbac-creating-cluster-role.adoc[leveloffset=+1]
+[role="_abstract"]
 endif::[]
 
 include::modules/rbac-local-role-binding-commands.adoc[leveloffset=+1]

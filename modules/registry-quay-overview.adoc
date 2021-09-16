@@ -5,6 +5,7 @@
 [id="registry-quay-overview_{context}"]
 = Red Hat Quay registries
 
+[role="_abstract"]
 If you need an enterprise-quality container image registry, Red Hat Quay is
 available both as a hosted service and as software you can install in your own
 data center or cloud environment. Advanced registry features in Red Hat Quay

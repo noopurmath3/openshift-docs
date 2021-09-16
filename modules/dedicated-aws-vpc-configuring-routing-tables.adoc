@@ -5,6 +5,7 @@
 [id="dedicated-aws-vpc-configuring-routing-tables"]
 = Configuring the routing tables
 
+[role="_abstract"]
 After you accept the VPC peering request, both VPCs must configure their routes
 to communicate across the peering connection.
 

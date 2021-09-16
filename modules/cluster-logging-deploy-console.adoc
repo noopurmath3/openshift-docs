@@ -5,6 +5,7 @@
 [id="cluster-logging-deploy-console_{context}"]
 = Installing OpenShift Logging using the web console
 
+[role="_abstract"]
 You can use the {product-title} web console to install the OpenShift Elasticsearch and Red Hat OpenShift Logging Operators.
 
 [NOTE]

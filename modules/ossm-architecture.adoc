@@ -5,6 +5,7 @@
 [id="ossm-architecture_{context}"]
 = Service Mesh architecture
 
+[role="_abstract"]
 Service mesh technology operates at the network communication level. That is, service mesh components capture or intercept traffic to and from microservices, either modifying requests, redirecting them, or creating new requests to other services.
 
 At a high level, {ProductName} consists of a data plane and a control plane:

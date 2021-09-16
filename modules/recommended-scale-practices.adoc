@@ -5,6 +5,7 @@
 [id="recommended-scale-practices_{context}"]
 = Recommended practices for scaling the cluster
 
+[role="_abstract"]
 When scaling up the cluster to higher node counts:
 
 * Spread nodes across all of the available zones for higher availability.

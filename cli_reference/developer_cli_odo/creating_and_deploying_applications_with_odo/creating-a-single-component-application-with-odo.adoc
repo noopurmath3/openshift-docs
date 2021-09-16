@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 With `{odo-title}`, you can create and deploy applications on  clusters.
 
 .Prerequisites

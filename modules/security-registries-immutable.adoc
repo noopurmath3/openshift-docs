@@ -5,6 +5,7 @@
 [id="security-registries-immutable_{context}"]
 = Immutable and certified containers
 
+[role="_abstract"]
 Consuming security updates is particularly important when managing _immutable
 containers_. Immutable containers are containers that will never be changed
 while running. When you deploy immutable containers, you do not step into the

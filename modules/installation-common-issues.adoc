@@ -5,6 +5,7 @@
 [id="installation-common-issues_{context}"]
 = Troubleshooting common issues with installing on {rh-virtualization-first}
 
+[role="_abstract"]
 Here are some common issues you might encounter, along with proposed causes and solutions.
 
 [id="cpu-load-increases-and-nodes-go-into-a-not-ready-state_{context}"]

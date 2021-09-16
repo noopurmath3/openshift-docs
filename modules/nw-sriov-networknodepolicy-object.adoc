@@ -5,6 +5,7 @@
 [id="nw-sriov-networknodepolicy-object_{context}"]
 = SR-IOV network node configuration object
 
+[role="_abstract"]
 You specify the SR-IOV network device configuration for a node by creating an SR-IOV network node policy. The API object for the policy is part of the `sriovnetwork.openshift.io` API group.
 
 The following YAML describes an SR-IOV network node policy:

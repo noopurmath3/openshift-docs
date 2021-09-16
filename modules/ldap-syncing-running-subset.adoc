@@ -5,6 +5,7 @@
 [id="ldap-syncing-running-subset_{context}"]
 = Syncing subgroups from the LDAP server with {product-title}
 
+[role="_abstract"]
 You can sync a subset of LDAP groups with {product-title} using whitelist files,
 blacklist files, or both.
 

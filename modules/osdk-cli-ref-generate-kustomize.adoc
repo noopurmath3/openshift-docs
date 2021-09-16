@@ -6,6 +6,7 @@
 [id="osdk-cli-ref-generate-kustomize_{context}"]
 = kustomize
 
+[role="_abstract"]
 The `generate kustomize` subcommand contains subcommands that generate link:https://kustomize.io/[Kustomize] data for the Operator.
 
 [id="osdk-cli-ref-generate-kustomize-manifests_{context}"]

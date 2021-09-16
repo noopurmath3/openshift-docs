@@ -22,6 +22,7 @@
 // * networking/configuring-a-custom-pki.adoc
 // * installing/installing-rhv-restricted-network.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-bare-metal"]
 :bare-metal:
 endif::[]

@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can create a different machine set to serve a specific purpose in your {product-title} cluster on {rh-openstack-first}. For example, you might create infrastructure machine sets and related machines so that you can move supporting workloads to the new machines.
 
 include::modules/machine-user-provisioned-limitations.adoc[leveloffset=+1]
@@ -15,6 +16,7 @@ include::modules/machineset-yaml-osp.adoc[leveloffset=+1]
 
 include::modules/machineset-yaml-osp-sr-iov.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../../installing/installing_openstack/installing-openstack-installer-sr-iov.adoc#installing-openstack-installer-sr-iov[Installing a cluster on OpenStack that supports SR-IOV-connected compute machines]

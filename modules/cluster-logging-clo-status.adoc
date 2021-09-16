@@ -5,6 +5,7 @@
 [id="cluster-logging-clo-status_{context}"]
 = Viewing the status of the Red Hat OpenShift Logging Operator
 
+[role="_abstract"]
 You can view the status of your Red Hat OpenShift Logging Operator.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="virt-creating-configmap_{context}"]
 = Creating a config map for importing a VM
 
+[role="_abstract"]
 You can create a config map to map the Red Hat Virtualization (RHV) virtual machine operating system to an {VirtProductName} template if you want to override the default `vm-import-controller` mapping or to add additional mappings.
 
 The default `vm-import-controller` config map contains the following RHV operating systems and their corresponding common {VirtProductName} templates.

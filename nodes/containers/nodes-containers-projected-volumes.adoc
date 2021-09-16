@@ -10,6 +10,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 A _projected volume_ maps several existing volume sources into the same directory.
 
 The following types of volume sources can be projected:

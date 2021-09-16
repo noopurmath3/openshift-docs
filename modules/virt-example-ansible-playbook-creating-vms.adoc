@@ -5,6 +5,7 @@
 [id="virt-example-ansible-playbook-creating-vms_{context}"]
 = Example: Ansible Playbook for creating virtual machines
 
+[role="_abstract"]
 You can use the `kubevirt_vm` Ansible Playbook to automate virtual machine
 creation.
 

@@ -4,6 +4,7 @@
 [id="images-imagestream-external-image-tags_{context}"]
 = Adding tags for an external image
 
+[role="_abstract"]
 You can add tags for external images.
 
 .Procedure

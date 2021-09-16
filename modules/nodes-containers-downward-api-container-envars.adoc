@@ -5,6 +5,7 @@
 [id="nodes-containers-downward-api-container-envars_{context}"]
 = Referencing environment variables
 
+[role="_abstract"]
 When creating pods, you can reference the value of a previously defined
 environment variable by using the `$()` syntax. If the environment variable
 reference can not be resolved, the value will be left as the provided

@@ -6,6 +6,7 @@
 
 = CRI-O configuration for workload partitioning
 
+[role="_abstract"]
 In support of workload partitioning, CRI-O supports new configuration settings. The configuration file is delivered to a host as part of a machine config.
 
 [source,terminal]

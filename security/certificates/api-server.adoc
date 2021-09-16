@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The default API server certificate is issued by an internal {product-title}
 cluster CA. Clients outside of the cluster will not be able to verify the
 API server's certificate by default. This certificate can be replaced

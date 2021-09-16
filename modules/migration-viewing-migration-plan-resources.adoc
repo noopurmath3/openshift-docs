@@ -6,6 +6,7 @@
 [id="migration-viewing-migration-plan-resources_{context}"]
 = Viewing migration plan resources
 
+[role="_abstract"]
 You can view migration plan resources to monitor a running migration or to troubleshoot a failed migration by using the {mtc-short} web console and the command line interface (CLI).
 
 .Procedure

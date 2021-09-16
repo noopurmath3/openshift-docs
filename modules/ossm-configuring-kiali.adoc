@@ -6,6 +6,7 @@
 [id="configuring-kiali_{context}"]
 = Configuring Kiali
 
+[role="_abstract"]
 When the {ProductShortName} Operator creates the `ServiceMeshControlPlane` it also processes the Kiali resource. The Kiali Operator then uses this object when creating Kiali instances.
 
 The default Kiali parameters specified in the `ServiceMeshControlPlane` are as follows:

@@ -5,6 +5,7 @@
 [id="security-build-inputs_{context}"]
 =  Securing inputs during builds
 
+[role="_abstract"]
 In some scenarios, build operations require credentials to access dependent
 resources, but it is undesirable for those credentials to be available in the
 final application image produced by the build. You can define input secrets for

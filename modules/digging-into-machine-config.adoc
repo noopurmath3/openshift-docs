@@ -5,6 +5,7 @@
 [id="digging-into-machine-config_{context}"]
 = Changing Ignition configs after installation
 
+[role="_abstract"]
 Machine config pools manage a cluster of nodes and their corresponding machine
 configs. Machine configs contain configuration information for a cluster.
 To list all machine config pools that are known:

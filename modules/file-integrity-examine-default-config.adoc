@@ -5,6 +5,7 @@
 [id="file-integrity-examine-default-config_{context}"]
 = Examine the default configuration
 
+[role="_abstract"]
 The default File Integrity Operator configuration is stored in a config map with
 the same name as the `FileIntegrity` CR.
 

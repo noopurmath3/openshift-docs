@@ -5,6 +5,7 @@
 [id="virt-creating-a-vm-from-a-template-with-an-attached-boot-source_{context}"]
 = Creating a virtual machine from a template with an attached boot source
 
+[role="_abstract"]
 After you add a boot source to a template, you can create a new virtual machine from the template.
 
 .Procedure

@@ -5,6 +5,7 @@
 [id="serverless-uninstalling-knative-serving_{context}"]
 = Uninstalling Knative Serving
 
+[role="_abstract"]
 To uninstall Knative Serving, you must remove its custom resource and delete the `knative-serving` namespace.
 
 .Procedure

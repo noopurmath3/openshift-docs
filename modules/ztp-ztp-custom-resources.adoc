@@ -5,6 +5,7 @@
 [id="ztp-ztp-custom-resources_{context}"]
 = ZTP custom resources
 
+[role="_abstract"]
 Zero touch provisioning (ZTP) uses custom resource objects to extend the Kubernetes API or introduce your own API into a project or a cluster. These custom resources contain the site-specific data required to install and configure a cluster for RAN applications.
 
 A custom resource definition (CRD) file defines your own object kinds. Deploying a CRD into the managed cluster causes the Kubernetes API server to begin serving the specified custom resource for the entire lifecycle.

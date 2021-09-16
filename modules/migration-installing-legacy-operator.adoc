@@ -9,6 +9,7 @@
 ifdef::installing-3-4,installing-restricted-3-4[]
 = Installing the legacy {mtc-full} Operator on {product-title} 3
 
+[role="_abstract"]
 You can install the legacy {mtc-full} Operator manually on {product-title} 3.
 endif::[]
 ifdef::installing-mtc,installing-mtc-restricted[]

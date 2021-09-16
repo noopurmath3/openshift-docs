@@ -6,6 +6,7 @@
 [id="installation-azure-limits_{context}"]
 = Azure account limits
 
+[role="_abstract"]
 The {product-title} cluster uses a number of Microsoft Azure
 components, and the default
 link:https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits[Azure subscription and service limits, quotas, and constraints]

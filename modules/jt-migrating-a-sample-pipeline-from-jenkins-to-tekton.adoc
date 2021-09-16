@@ -5,6 +5,7 @@
 [id="jt-migrating-a-sample-pipeline-from-jenkins-to-tekton_{context}"]
 = Migrating a sample pipeline from Jenkins to Tekton
 
+[role="_abstract"]
 toc::[]
 
 

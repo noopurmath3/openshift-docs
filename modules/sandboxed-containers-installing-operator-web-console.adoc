@@ -5,6 +5,7 @@
 [id="sandboxed-containers-installing-operator-web-console_{context}"]
 = Installing the {sandboxed-containers-operator} using the web console
 
+[role="_abstract"]
 You can install the {sandboxed-containers-operator} from the {product-title} web console.
 
 .Prerequisites

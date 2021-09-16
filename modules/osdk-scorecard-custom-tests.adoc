@@ -5,6 +5,7 @@
 [id="osdk-scorecard-custom-tests_{context}"]
 = Custom scorecard tests
 
+[role="_abstract"]
 The scorecard tool can run custom tests that follow these mandated conventions:
 
 * Tests are implemented within a container image

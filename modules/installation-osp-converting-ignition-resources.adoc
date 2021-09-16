@@ -5,6 +5,7 @@
 [id="installation-osp-converting-ignition-resources_{context}"]
 = Preparing the bootstrap Ignition files
 
+[role="_abstract"]
 The {product-title} installation process relies on bootstrap machines that are created from a bootstrap Ignition configuration file.
 
 Edit the file and upload it. Then, create a secondary bootstrap Ignition configuration file that

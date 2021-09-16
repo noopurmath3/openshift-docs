@@ -5,6 +5,7 @@
 [id="nfs-user-id_{context}"]
 = User IDs
 
+[role="_abstract"]
 User IDs can be defined in the container image or in the `Pod` definition.
 
 [NOTE]

@@ -5,6 +5,7 @@
 [id="deployments-creating-rolling-deployment_{context}"]
 = Creating a rolling deployment
 
+[role="_abstract"]
 Rolling deployments are the default type in {product-title}. You can create a rolling deployment using the CLI.
 
 .Procedure

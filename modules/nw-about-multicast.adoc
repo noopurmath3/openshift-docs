@@ -3,6 +3,7 @@
 // * networking/openshift_sdn/enabling-multicast.adoc
 // * networking/ovn_kubernetes_network_provider/enabling-multicast.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "openshift-sdn-enabling-multicast"]
 :openshift-sdn:
 :sdn: OpenShift SDN

@@ -5,6 +5,7 @@
 [id="ossm-cr-pilot-1x_{context}"]
 = Istio Pilot configuration
 
+[role="_abstract"]
 Here is an example that illustrates the Istio Pilot parameters for the `ServiceMeshControlPlane` and a description of the available parameters with appropriate values.
 
 .Example pilot parameters

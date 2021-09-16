@@ -5,6 +5,7 @@
 [id="listing-alerts-that-are-firing_{context}"]
 = Listing alerts that are firing
 
+[role="_abstract"]
 Alerts provide notifications when a set of defined conditions are true in an {product-title} cluster. You can review the alerts that are firing in your cluster by using the Alerting UI in the {product-title} web console.
 
 .Prerequisites

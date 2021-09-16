@@ -5,6 +5,7 @@
 [id="nodes-scheduler-default-predicates_{context}"]
 = Understanding the scheduler predicates
 
+[role="_abstract"]
 Predicates are rules that filter out unqualified nodes.
 
 There are several predicates provided by default in {product-title}. Some of

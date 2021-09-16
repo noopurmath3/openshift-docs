@@ -6,6 +6,7 @@
 
 = Deploying the back-end component
 
+[role="_abstract"]
 To create a Java component, import the Java builder image, download the Java application and push the source code to your cluster with `{odo-title}`.
 
 .Procedure

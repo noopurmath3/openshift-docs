@@ -6,6 +6,7 @@
 [id="installation-creating-aws-control-plane_{context}"]
 = Creating the control plane machines in AWS
 
+[role="_abstract"]
 You must create the control plane machines in Amazon Web Services (AWS) that your cluster will use.
 
 You can use the provided CloudFormation template and a custom parameter file to create a stack of AWS resources that represent the control plane nodes.

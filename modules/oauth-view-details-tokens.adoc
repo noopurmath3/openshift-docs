@@ -5,6 +5,7 @@
 [id="oauth-view-details-tokens_{context}"]
 = Viewing the details of a user-owned OAuth access token
 
+[role="_abstract"]
 You can view the details of a user-owned OAuth access token.
 
 .Procedure

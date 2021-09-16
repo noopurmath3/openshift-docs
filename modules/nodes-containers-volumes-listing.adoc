@@ -5,6 +5,7 @@
 [id="nodes-containers-volumes-listing_{context}"]
 = Listing volumes and volume mounts in a pod
 
+[role="_abstract"]
 You can list volumes and volume mounts in pods or pod templates:
 
 .Procedure

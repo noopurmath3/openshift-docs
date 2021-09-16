@@ -5,6 +5,7 @@
 [id="nw-multus-bridge-object_{context}"]
 = Configuration for bridge
 
+[role="_abstract"]
 The configuration for an additional network attachment that uses the bridge
 Container Network Interface (CNI) plug-in is provided in two parts:
 

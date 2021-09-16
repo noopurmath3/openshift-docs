@@ -5,6 +5,7 @@
 [id="virt-creating-blank-disk-datavolumes_{context}"]
 = Creating a blank disk image with data volumes
 
+[role="_abstract"]
 You can create a new blank disk image in a persistent volume claim by
 customizing and deploying a data volume configuration file.
 

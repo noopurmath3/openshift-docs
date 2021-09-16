@@ -5,6 +5,7 @@
 [id="identity-provider-apache-custom-proxy-configuration_{context}"]
 = Custom proxy configuration
 
+[role="_abstract"]
 Using the `mod_auth_gssapi` module is a popular way to configure the Apache
 authentication proxy using the request header identity provider; however, it is
 not required. Other proxies can easily be used if the following requirements are

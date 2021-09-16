@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can update the values for a boot order list by using the web console or the CLI.
 
 With *Boot Order* in the *Virtual Machine Overview* page, you can:

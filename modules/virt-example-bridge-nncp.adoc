@@ -6,6 +6,7 @@
 [id="virt-example-bridge-nncp_{context}"]
 = Example: Linux bridge interface node network configuration policy
 
+[role="_abstract"]
 Create a Linux bridge interface on nodes in the cluster by applying a `NodeNetworkConfigurationPolicy` manifest
 to the cluster.
 

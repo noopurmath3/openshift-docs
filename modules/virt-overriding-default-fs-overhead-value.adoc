@@ -5,6 +5,7 @@
 [id="virt-overriding-default-fs-overhead-value_{context}"]
 = Overriding the default file system overhead value
 
+[role="_abstract"]
 Change the amount of persistent volume claim (PVC) space that the Containerized Data Importer (CDI) reserves for file system overhead by editing the `spec.config.filesystemOverhead` attribute of the `CDI` object.
 
 .Prerequisites

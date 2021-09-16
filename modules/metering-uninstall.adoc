@@ -5,6 +5,7 @@
 [id="metering-uninstall_{context}"]
 = Uninstalling a metering namespace
 
+[role="_abstract"]
 Uninstall your metering namespace, for example the `openshift-metering` namespace, by removing the `MeteringConfig` resource and deleting the `openshift-metering` namespace.
 
 .Prerequisites

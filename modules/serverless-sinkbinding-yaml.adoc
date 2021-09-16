@@ -5,6 +5,7 @@
 [id="serverless-sinkbinding-yaml_{context}"]
 = Using sink binding with the YAML method
 
+[role="_abstract"]
 This guide describes the steps required to create a sink binding instance using YAML files.
 
 .Prerequisites

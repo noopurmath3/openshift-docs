@@ -5,6 +5,7 @@
 [id="dedicated-creating-your-cluster_{context}"]
 = Creating your cluster
 
+[role="_abstract"]
 To create your {product-title} cluster:
 
 . Log in to link:https://console.redhat.com/openshift[console.redhat.com/openshift].

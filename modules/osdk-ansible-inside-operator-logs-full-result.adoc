@@ -5,6 +5,7 @@
 [id="osdk-ansible-inside-operator-logs-full-result_{context}"]
 = Enabling full Ansible results in logs
 
+[role="_abstract"]
 You can set the environment variable `ANSIBLE_DEBUG_LOGS` to `True` to enable checking the full Ansible result in logs, which can be helpful when debugging.
 
 .Procedure

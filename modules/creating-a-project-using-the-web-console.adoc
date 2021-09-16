@@ -5,6 +5,7 @@
 [id="creating-a-project-using-the-web-console_{context}"]
 = Creating a project using the web console
 
+[role="_abstract"]
 If allowed by your cluster administrator, you can create a new project.
 
 [NOTE]

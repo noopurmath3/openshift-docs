@@ -6,6 +6,7 @@
 [id="installation-rhv-creating-worker-nodes-completing-installation_{context}"]
 = Creating the worker nodes and completing the installation
 
+[role="_abstract"]
 Creating worker nodes is similar to creating control plane nodes. However, worker nodes workers do not automatically join the cluster. To add them to the cluster, you review and approve the workers' pending CSRs (Certificate Signing Requests).
 
 After approving the first requests, you continue approving CSR until all of the worker nodes are approved. When you complete this process, the worker nodes become `Ready` and can have pods scheduled to run on them.

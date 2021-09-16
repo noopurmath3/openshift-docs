@@ -7,6 +7,7 @@ toc::[]
 
 include::modules/machine-user-provisioned-limitations.adoc[leveloffset=+1]
 
+[role="_abstract"]
 You can create a machine set to host only infrastructure components. You apply specific Kubernetes labels to these machines and then update the infrastructure components to run on only those machines. These infrastructure nodes are not counted toward the total number of subscriptions that are required to run the environment.
 
 [IMPORTANT]
@@ -52,6 +53,7 @@ include::modules/creating-an-infra-node.adoc[leveloffset=+2]
 
 include::modules/creating-infra-machines.adoc[leveloffset=+2]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../architecture/control-plane.adoc#architecture-machine-config-pools_control-plane[Node configuration management with machine config pools] for more information on grouping infra machines in a custom pool.
@@ -65,6 +67,7 @@ However, with an infra node being assigned as a worker, there is a chance user w
 
 include::modules/binding-infra-node-workloads-using-taints-tolerations.adoc[leveloffset=+2]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../nodes/scheduling/nodes-scheduler-about.adoc#nodes-scheduler-about[Controlling pod placement using the scheduler] for general information on scheduling a pod to a node.
@@ -83,6 +86,7 @@ include::modules/infrastructure-moving-monitoring.adoc[leveloffset=+2]
 
 include::modules/infrastructure-moving-logging.adoc[leveloffset=+2]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../monitoring/configuring-the-monitoring-stack.adoc#moving-monitoring-components-to-different-nodes_configuring-the-monitoring-stack[the monitoring documentation] for the general instructions on moving {product-title} components.

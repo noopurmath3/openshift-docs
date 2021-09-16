@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can automate {VirtProductName} management tasks by using Red Hat Ansible
 Automation Platform. Learn the basics by using an Ansible Playbook to create a new
 virtual machine.

@@ -1,6 +1,7 @@
 [id="ossm-routing-bookinfo-test_{context}"]
 = Testing the new route configuration
 
+[role="_abstract"]
 Test the new configuration by refreshing the `/productpage` of the Bookinfo application.
 
 .Procedure

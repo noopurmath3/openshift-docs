@@ -5,6 +5,7 @@
 [id="sandboxed-containers-deleting-operator_{context}"]
 = Deleting {sandboxed-containers-operator}
 
+[role="_abstract"]
 You can delete the {sandboxed-containers-operator} from your cluster.
 
 .Prerequisites

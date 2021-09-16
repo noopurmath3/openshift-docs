@@ -5,6 +5,7 @@
 [id="metering-store-data-in-s3_{context}"]
 = Storing data in Amazon S3
 
+[role="_abstract"]
 Metering can use an existing Amazon S3 bucket or create a bucket for storage.
 
 [NOTE]

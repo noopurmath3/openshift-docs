@@ -6,6 +6,7 @@
 [id="ossm-security-cipher_{context}"]
 = Configuring cipher suites and ECDH curves
 
+[role="_abstract"]
 Cipher suites and Elliptic-curve Diffie–Hellman (ECDH curves) can help you secure your service mesh. You can define a comma separated list of cipher suites using `spec.istio.global.tls.cipherSuites` and ECDH curves using `spec.istio.global.tls.ecdhCurves` in your `ServiceMeshControlPlane` resource. If either of these attributes are empty, then the default values are used.
 
 The `cipherSuites` setting is effective if your service mesh uses TLS 1.2 or earlier. It has no effect when negotiating with TLS 1.3.

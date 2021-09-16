@@ -1,6 +1,7 @@
 [id="persistent-storage-rhv_{context}"]
 = Creating a persistent volume on RHV
 
+[role="_abstract"]
 When you create a `PersistentVolumeClaim` (PVC) object, {product-title} provisions a new persistent volume (PV) and creates a `PersistentVolume` object.
 
 .Prerequisites

@@ -8,6 +8,7 @@
 // * installing/installing_vmc/uninstalling-cluster-vmc.adoc
 // * installing/installing_vsphere/uninstalling-cluster-vsphere-installer-provisioned.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "uninstalling-cluster-aws"]
 :aws:
 endif::[]

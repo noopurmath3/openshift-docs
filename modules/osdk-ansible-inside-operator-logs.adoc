@@ -5,4 +5,5 @@
 [id="osdk-ansible-inside-operator-logs_{context}"]
 = Ansible logs
 
+[role="_abstract"]
 Ansible-based Operators provide logs about the Ansible run, which can be useful for debugging your Ansible tasks. The logs can also contain detailed information about the internals of the Operator and its interactions with Kubernetes.

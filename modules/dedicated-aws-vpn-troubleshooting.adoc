@@ -9,6 +9,7 @@
 [id="dedicated-aws-vpn-tunnel-down"]
 == Tunnel does not connect
 
+[role="_abstract"]
 If the tunnel connection is still *Down*, there are several things you can verify:
 
 * The AWS tunnel will not initiate a VPN connection. The connection attempt must be initiated from the Customer Gateway.

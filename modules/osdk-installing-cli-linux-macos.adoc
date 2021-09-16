@@ -9,6 +9,7 @@
 [id="osdk-installing-cli-linux-macos_{context}"]
 = Installing the Operator SDK CLI
 
+[role="_abstract"]
 You can install the OpenShift SDK CLI tool on Linux.
 
 .Prerequisites

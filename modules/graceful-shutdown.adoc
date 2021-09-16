@@ -5,6 +5,7 @@
 [id="graceful-shutdown_{context}"]
 = Shutting down the cluster
 
+[role="_abstract"]
 You can shut down your cluster in a graceful manner so that it can be restarted at a later date.
 
 [NOTE]

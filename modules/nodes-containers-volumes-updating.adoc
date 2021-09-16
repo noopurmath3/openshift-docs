@@ -5,6 +5,7 @@
 [id="nodes-containers-volumes-updating_{context}"]
 = Updating volumes and volume mounts in a pod
 
+[role="_abstract"]
 You can modify the volumes and volume mounts in a pod.
 
 .Procedure

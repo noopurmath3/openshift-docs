@@ -5,6 +5,7 @@
 [id="nodes-scheduler-node-affinity-configuring_{context}"]
 = Configuring node affinity rules
 
+[role="_abstract"]
 You can configure two types of node affinity rules: required and preferred.
 
 ==  Configuring a required node affinity rule

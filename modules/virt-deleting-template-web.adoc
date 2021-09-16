@@ -5,6 +5,7 @@
 [id="virt-deleting-template-wizard-web_{context}"]
 = Deleting a virtual machine template in the web console
 
+[role="_abstract"]
 Deleting a virtual machine template permanently removes it from the cluster.
 
 [NOTE]

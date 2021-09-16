@@ -5,6 +5,7 @@
 [id="specifying-oc-log-levels_{context}"]
 = Specifying OpenShift CLI (`oc`) log levels
 
+[role="_abstract"]
 You can investigate OpenShift CLI (`oc`) issues by increasing the command's log level.
 
 .Prerequisites

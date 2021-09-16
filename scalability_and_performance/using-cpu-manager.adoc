@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 CPU Manager manages groups of CPUs and constrains workloads to specific CPUs.
 
 CPU Manager is useful for workloads that have some of these attributes:

@@ -5,6 +5,7 @@
 [id="csi-driver-daemonset_{context}"]
 = CSI driver daemon set
 
+[role="_abstract"]
 The CSI driver daemon set runs a pod on every node that allows
 {product-title} to mount storage provided by the CSI driver to the node
 and use it in user workloads (pods) as persistent volumes (PVs). The pod

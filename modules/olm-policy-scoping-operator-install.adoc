@@ -5,6 +5,7 @@
 [id="olm-policy-scoping-operator-install_{context}"]
 = Scoping Operator installations
 
+[role="_abstract"]
 To provide scoping rules to Operator installations and upgrades on Operator Lifecycle Manager (OLM), associate a service account with an Operator group.
 
 Using this example, a cluster administrator can confine a set of Operators to a designated namespace.

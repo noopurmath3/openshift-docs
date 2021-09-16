@@ -6,6 +6,7 @@
 [id="osdk-cli-ref-generate-bundle_{context}"]
 = bundle
 
+[role="_abstract"]
 The `generate bundle` subcommand generates a set of bundle manifests, metadata, and a `bundle.Dockerfile` file for your Operator project.
 
 [NOTE]

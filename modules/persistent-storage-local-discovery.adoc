@@ -5,6 +5,7 @@
 [id="local-storage-discovery_{context}"]
 = Automating discovery and provisioning for local storage devices
 
+[role="_abstract"]
 The Local Storage Operator automates local storage discovery and provisioning. With this feature, you can simplify installation when dynamic provisioning is not available during deployment, such as with bare metal, VMware, or AWS store instances with attached devices.
 
 [IMPORTANT]

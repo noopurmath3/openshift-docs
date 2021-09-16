@@ -11,6 +11,7 @@
 [id="machine-vsphere-machines_{context}"]
 = Adding more compute machines to a cluster in vSphere
 
+[role="_abstract"]
 You can add more compute machines to a user-provisioned {product-title} cluster on VMware vSphere.
 
 .Prerequisites

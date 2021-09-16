@@ -1,6 +1,7 @@
 [id="serverless-kn-func-emit-reference_{context}"]
 = kn func emit optional parameters
 
+[role="_abstract"]
 You can specify optional parameters for the emitted CloudEvent by using the `kn func emit` CLI command flags.
 
 .List of flags from --help command output

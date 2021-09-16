@@ -5,6 +5,7 @@
 [id="nw-ingress-controller-tls-profiles_{context}"]
 = Ingress controller TLS profiles
 
+[role="_abstract"]
 The `tlsSecurityProfile` parameter defines the schema for a TLS security profile. This object is used by operators to apply TLS security settings to operands.
 
 There are four TLS security profile types:

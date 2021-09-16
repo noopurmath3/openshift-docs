@@ -5,6 +5,7 @@
 [id="deployments-blue-green_{context}"]
 = Blue-green deployments
 
+[role="_abstract"]
 Blue-green deployments involve running two versions of an application at the same time and moving traffic from the in-production version (the blue version) to the newer version (the green version). You can use a rolling strategy or switch services in a route.
 
 Because many applications depend on persistent data, you must have an application that supports _N-1 compatibility_, which means it shares data and implements live migration between the database, store, or disk by creating two copies of the data layer.

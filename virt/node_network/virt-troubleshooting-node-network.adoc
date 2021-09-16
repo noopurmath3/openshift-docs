@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 If the node network configuration encounters an issue, the policy is automatically rolled back and the enactments report failure.
 This includes issues such as:
 

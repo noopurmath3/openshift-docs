@@ -4,6 +4,7 @@
 [id="nw-multitenant-isolation_{context}"]
 = Isolating a project
 
+[role="_abstract"]
 You can isolate a project so that pods and services in other projects cannot
 access its pods and services.
 

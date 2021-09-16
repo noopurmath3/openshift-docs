@@ -5,6 +5,7 @@
 [id="registry-configuring-storage-azure-gov-cloud_{context}"]
 = Configuring registry storage for Azure Government
 
+[role="_abstract"]
 During installation, your cloud credentials are sufficient to create Azure Blob
 Storage, and the Registry Operator automatically configures storage.
 

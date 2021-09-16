@@ -11,6 +11,7 @@ toc::[]
 [id="elasticsearch-cluster-health-is-red"]
 == Elasticsearch Cluster Health is Red
 
+[role="_abstract"]
 At least one primary shard and its replicas are not allocated to a node.
 
 .Troubleshooting
@@ -161,6 +162,7 @@ In the command output, review the `node_name.jvm.mem.heap_used_percent` field to
 
 .. Check for high CPU utilization.
 
+[role="_additional-resources"]
 .Additional resources
 
 * Search for "Free up or increase disk space" in the Elasticsearch topic, link:https://www.elastic.co/guide/en/elasticsearch/reference/7.13/fix-common-cluster-issues.html#fix-red-yellow-cluster-status[Fix a red or yellow cluster status].
@@ -174,6 +176,7 @@ Replica shards for at least one primary shard are not allocated to nodes.
 
 . Increase the node count by adjusting `nodeCount` in the `ClusterLogging` CR.
 
+[role="_additional-resources"]
 .Additional resources
 
 //* Search for "Elasticsearch Disk Usage" in xref:../../logging/cluster-logging-dashboards.adoc#cluster-logging-dashboards-logging_cluster-logging-dashboards[OpenShift Logging dashboards].
@@ -263,6 +266,7 @@ oc exec -n openshift-logging -c elasticsearch <elasticsearch_pod_name> -- es_uti
 ----
 
 
+[role="_additional-resources"]
 .Additional resources
 
 * Search for "redundancyPolicy" in the "Sample `ClusterLogging` custom resource (CR)" in xref:../../logging/config/cluster-logging-configuring-cr.adoc#cluster-logging-configuring-crd_cluster-logging-configuring-cr[About the Cluster Logging custom resource]
@@ -343,6 +347,7 @@ oc exec -n openshift-logging -c elasticsearch <elasticsearch_pod_name> -- es_uti
 ----
 
 
+[role="_additional-resources"]
 .Additional resources
 
 * Search for "redundancyPolicy" in the "Sample `ClusterLogging` custom resource (CR)" in xref:../../logging/config/cluster-logging-configuring-cr.adoc#cluster-logging-configuring-crd_cluster-logging-configuring-cr[About the Cluster Logging custom resource]
@@ -416,6 +421,7 @@ oc exec -n openshift-logging -c elasticsearch <elasticsearch_pod_name> -- es_uti
 oc exec -n openshift-logging -c elasticsearch <elasticsearch_pod_name> -- es_util --query=_all/_settings?pretty -X PUT -d '{"index.blocks.read_only_allow_delete": null}'
 ----
 
+[role="_additional-resources"]
 .Additional resources
 
 * Search for "redundancyPolicy" in the "Sample `ClusterLogging` custom resource (CR)" in xref:../../logging/config/cluster-logging-configuring-cr.adoc#cluster-logging-configuring-crd_cluster-logging-configuring-cr[About the Cluster Logging custom resource]
@@ -505,6 +511,7 @@ oc exec -n openshift-logging -c elasticsearch <elasticsearch_pod_name> -- es_uti
 ----
 
 
+[role="_additional-resources"]
 .Additional resources
 
 * Search for "redundancyPolicy" in the "Sample `ClusterLogging` custom resource (CR)" in xref:../../logging/config/cluster-logging-configuring-cr.adoc#cluster-logging-configuring-crd_cluster-logging-configuring-cr[About the Cluster Logging custom resource]
@@ -524,6 +531,7 @@ Based on current usage trends, the predicted number of file descriptors on the n
 
 Check and, if needed, configure the value of `max_file_descriptors` for each node, as described in the Elasticsearch link:https://www.elastic.co/guide/en/elasticsearch/reference/current/file-descriptors.html[File descriptors] topic.
 
+[role="_additional-resources"]
 .Additional resources
 
 * Search for "ElasticsearchHighFileDescriptorUsage" in xref:../../logging/troubleshooting/cluster-logging-alerts.adoc#cluster-logging-elasticsearch-rules_cluster-logging-alerts[About Elasticsearch alerting rules].

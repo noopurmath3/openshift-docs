@@ -5,6 +5,7 @@
 [id="nodes-containers-sysctls-setting_{context}"]
 = Setting sysctls for a pod
 
+[role="_abstract"]
 You can set sysctls on pods using the pod's `securityContext`. The `securityContext`
 applies to all containers in the same pod.
 

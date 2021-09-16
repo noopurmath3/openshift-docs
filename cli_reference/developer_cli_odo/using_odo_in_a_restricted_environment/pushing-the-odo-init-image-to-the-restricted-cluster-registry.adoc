@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Depending on the configuration of your cluster and your operating system you can either push the `odo` init image to a mirror registry or directly to an internal registry.
 
 == Prerequisites

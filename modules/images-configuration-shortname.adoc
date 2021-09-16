@@ -6,6 +6,7 @@
 [id="images-configuration-shortname_{context}"]
 = Adding registries that allow image short names
 
+[role="_abstract"]
 You can add registries to search for an image short name by editing the `image.config.openshift.io/cluster` custom resource (CR). {product-title} applies the changes to this CR to all nodes in the cluster.
 
 An image short name enables you to search for images without including the fully qualified domain name in the pull spec. For example, you could use `rhel7/etcd` instead of `registry.access.redhat.com/rhe7/etcd`. 

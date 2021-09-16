@@ -5,6 +5,7 @@
 [id="nodes-containers-events-about_{context}"]
 = Understanding events
 
+[role="_abstract"]
 Events allow {product-title} to record
 information about real-world events in a resource-agnostic manner. They also
 allow developers and administrators to consume information about system

@@ -5,6 +5,7 @@
 [id="osdk-golang-manager_{context}"]
 = About the Manager
 
+[role="_abstract"]
 The main program for the Operator is the `main.go` file, which initializes and runs the link:https://godoc.org/github.com/kubernetes-sigs/controller-runtime/pkg/manager#Manager[Manager]. The Manager automatically registers the Scheme for all custom resource (CR) API definitions and sets up and runs controllers and webhooks.
 
 The Manager can restrict the namespace that all controllers watch for resources:

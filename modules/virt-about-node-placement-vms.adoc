@@ -5,6 +5,7 @@
 [id="virt-about-node-placement-vms_{context}"]
 = About node placement for virtual machines
 
+[role="_abstract"]
 To ensure that virtual machines (VMs) run on appropriate nodes, you can configure node placement rules. You might want to do this if:
 
 * You have several VMs. To ensure fault tolerance, you want them to run on different nodes.

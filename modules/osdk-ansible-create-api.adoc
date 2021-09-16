@@ -5,6 +5,7 @@
 [id="osdk-ansible-create-api-controller_{context}"]
 = Creating an API
 
+[role="_abstract"]
 Use the Operator SDK CLI to create a Memcached API.
 
 .Procedure

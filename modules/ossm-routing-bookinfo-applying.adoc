@@ -1,6 +1,7 @@
 [id="ossm-routing-bookinfo-applying_{context}"]
 = Applying a virtual service
 
+[role="_abstract"]
 In the following procedure, the virtual service routes all traffic to `v1` of each micro-service by applying virtual services that set the default version for the micro-services.
 
 .Procedure

@@ -5,6 +5,7 @@
 [id="nw-multus-edit-network_{context}"]
 = Modifying an additional network attachment definition
 
+[role="_abstract"]
 As a cluster administrator, you can make changes to an existing additional
 network. Any existing pods attached to the additional network will not be updated.
 

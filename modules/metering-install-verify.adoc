@@ -5,6 +5,7 @@
 [id="metering-install-verify_{context}"]
 = Verifying the metering installation
 
+[role="_abstract"]
 You can verify the metering installation by performing any of the following checks:
 
 *  Check the Metering Operator `ClusterServiceVersion` (CSV) resource for the metering version. This can be done through either the web console or CLI.

@@ -8,6 +8,7 @@
 
 [WARNING]
 ====
+[role="_abstract"]
 This procedure is using external dependencies such as `nodejs-ex.git` application that are not maintained by Red Hat. These dependencies are not maintained with the documentation and their functionality cannot be guaranteed. 
 ====
 

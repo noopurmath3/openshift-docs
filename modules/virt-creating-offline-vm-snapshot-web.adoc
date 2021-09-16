@@ -5,6 +5,7 @@
 [id="virt-creating-offline-vm-snapshot-web_{context}"]
 = Creating an offline virtual machine snapshot in the web console
 
+[role="_abstract"]
 You can create a virtual machine (VM) snapshot by using the web console.
 
 [NOTE]

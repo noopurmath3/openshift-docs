@@ -9,6 +9,7 @@
 // * installing/installing_vmc/installing-vmc-network-customizations.adoc
 // * installing/installing_vsphere/installing-vsphere-installer-provisioned-network-customizations.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-bare-metal-network-customizations"]
 :ignition-config:
 endif::[]

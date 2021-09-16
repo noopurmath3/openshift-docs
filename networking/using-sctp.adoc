@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster administrator, you can use the Stream Control Transmission Protocol (SCTP) on a cluster.
 
 include::modules/nw-sctp-about.adoc[leveloffset=+1]

@@ -2,6 +2,7 @@
 = ClusterRole [rbac.authorization.k8s.io/v1]
 ifdef::product-title[]
 include::modules/common-attributes.adoc[]
+[role="_abstract"]
 endif::[]
 
 toc::[]

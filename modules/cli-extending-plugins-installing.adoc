@@ -5,6 +5,7 @@
 [id="cli-installing-plugins_{context}"]
 = Installing and using CLI plug-ins
 
+[role="_abstract"]
 After you write a custom plug-in for the {product-title} CLI, you must install
 it to use the functionality that it provides.
 

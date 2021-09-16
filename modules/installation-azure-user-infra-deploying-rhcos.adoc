@@ -5,6 +5,7 @@
 [id="installation-azure-user-infra-deploying-rhcos_{context}"]
 = Deploying the {op-system} cluster image for the Azure infrastructure
 
+[role="_abstract"]
 You must use a valid {op-system-first} image for Microsoft Azure for your
 {product-title} nodes.
 

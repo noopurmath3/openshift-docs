@@ -5,6 +5,7 @@
 [id="security-context-constraints-example_{context}"]
 = Example security context constraints
 
+[role="_abstract"]
 The following examples show the security context constraints (SCC) format and
 annotations:
 

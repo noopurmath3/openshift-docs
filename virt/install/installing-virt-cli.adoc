@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Install {VirtProductName} to add virtualization functionality to your {product-title}
 cluster. You can subscribe to and deploy the {VirtProductName} Operators by
 using the command line to apply manifests to your cluster.

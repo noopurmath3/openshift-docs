@@ -5,6 +5,7 @@
 [id="nodes-containers-remote-commands-about_{context}"]
 = Executing remote commands in containers
 
+[role="_abstract"]
 Support for remote container command execution is built into the CLI.
 
 .Procedure

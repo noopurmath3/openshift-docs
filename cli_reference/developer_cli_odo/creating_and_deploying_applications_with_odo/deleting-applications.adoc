@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can delete applications and all components associated with the application in your project.
 
 include::modules/developer-cli-odo-deleting-an-application.adoc[leveloffset=+1]

@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The `operator-sdk` CLI can generate, or _scaffold_, a number of packages and files for each Operator project.
 
 include::modules/osdk-golang-project-layout.adoc[leveloffset=+1]

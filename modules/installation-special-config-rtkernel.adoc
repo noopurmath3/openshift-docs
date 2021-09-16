@@ -6,6 +6,7 @@
 
 = Adding a real-time kernel to nodes (during installation)
 
+[role="_abstract"]
 Some {product-title} workloads require a high degree of determinism.
 While Linux is not a real-time operating system, the Linux real-time
 kernel includes a preemptive scheduler that provides the operating

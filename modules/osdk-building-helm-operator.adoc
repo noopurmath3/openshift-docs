@@ -5,6 +5,7 @@
 [id="osdk-building-helm-operator_{context}"]
 = Building a Helm-based Operator using the Operator SDK
 
+[role="_abstract"]
 This procedure walks through an example of building a simple Nginx Operator powered by a Helm chart using tools and libraries provided by the Operator SDK.
 
 [TIP]

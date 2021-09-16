@@ -5,6 +5,7 @@
 [id="configuring-egress-router-configmap_{context}"]
 = Configuring an egress router destination mappings with a config map
 
+[role="_abstract"]
 For a large or frequently-changing set of destination mappings, you can use a config map to externally maintain the list.
 An advantage of this approach is that permission to edit the config map can be delegated to users without `cluster-admin` privileges. Because the egress router pod requires a privileged container, it is not possible for users without `cluster-admin` privileges to edit the pod definition directly.
 

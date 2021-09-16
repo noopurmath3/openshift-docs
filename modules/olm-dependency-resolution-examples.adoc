@@ -5,6 +5,7 @@
 [id="olm-dependency-resolution-examples_{context}"]
 = Example dependency resolution scenarios
 
+[role="_abstract"]
 In the following examples, a _provider_ is an Operator which "owns" a CRD or API service.
 
 [discrete]

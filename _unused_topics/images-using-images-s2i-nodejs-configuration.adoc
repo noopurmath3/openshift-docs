@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-nodejs-configuration_{context}"]
 = Configuring source-to-image for Node.js
 
+[role="_abstract"]
 The Node.js image supports a number of environment variables, which can be set to control the configuration and behavior of the Node.js runtime.
 
 To set these environment variables as part of your image, you can place them into a `.s2i/environment` file inside your source code repository, or define them in the environment section of the build configuration's `sourceStrategy` definition.

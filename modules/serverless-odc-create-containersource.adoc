@@ -1,6 +1,7 @@
 [id="serverless-odc-create-containersource_{context}"]
 = Creating a container source by using the web console
 
+[role="_abstract"]
 You can create a container source by using the *Developer* perspective of the {product-title} web console.
 
 .Prerequisites

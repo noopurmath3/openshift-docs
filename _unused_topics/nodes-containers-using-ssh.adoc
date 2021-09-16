@@ -5,6 +5,7 @@
 [id="nodes-containers-using-ssh_{context}"]
 = Opening a Remote Shell to Containers
 
+[role="_abstract"]
 The `oc rsh` command allows you to locally access and manage tools that are on
 the system. The secure shell (SSH) is the underlying technology and industry
 standard that provides a secure connection to the application. Access to

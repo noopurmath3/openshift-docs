@@ -5,6 +5,7 @@
 [id="virt-about-kubevirtstorageclassdefaults_{context}"]
 = About storage settings for data volumes
 
+[role="_abstract"]
 Data volumes require a defined _access mode_ and _volume mode_ to be created in the web console.
 These storage settings are configured by default with a `ReadWriteOnce` access mode and `Filesystem` volume mode.
 

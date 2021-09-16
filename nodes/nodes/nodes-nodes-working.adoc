@@ -7,6 +7,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 As an administrator, you can perform a number of tasks to make your clusters more efficient.
 
 // The following include statements pull in the module files that comprise
@@ -32,6 +33,7 @@ include::modules/nodes-nodes-kernel-arguments.adoc[leveloffset=+1]
 ifdef::openshift-webscale[]
 include::modules/nodes-nodes-rtkernel-arguments.adoc[leveloffset=+1]
 endif::openshift-webscale[]
+[role="_additional-resources"]
 == Additional resources
 
 For more information on scaling your cluster using a MachineSet,

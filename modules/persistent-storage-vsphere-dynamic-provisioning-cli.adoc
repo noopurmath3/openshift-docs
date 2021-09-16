@@ -5,6 +5,7 @@
 [id="vsphere-dynamic-provisioning-cli_{context}"]
 = Dynamically provisioning VMware vSphere volumes using the CLI
 
+[role="_abstract"]
 {product-title} installs a default StorageClass, named `thin`, that uses the `thin` disk format for provisioning volumes.
 
 .Prerequisites

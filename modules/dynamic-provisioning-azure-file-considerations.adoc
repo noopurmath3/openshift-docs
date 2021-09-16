@@ -6,6 +6,7 @@
 [id="azure-file-considerations_{context}"]
 = Considerations when using Azure File
 
+[role="_abstract"]
 The following file system features are not supported by the default Azure File storage class:
 
 * Symlinks

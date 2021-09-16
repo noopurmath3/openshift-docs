@@ -5,6 +5,7 @@
 [id="registry-configuring-storage-azure-user-infra_{context}"]
 = Configuring registry storage for Azure
 
+[role="_abstract"]
 During installation, your cloud credentials are sufficient to create Azure Blob
 Storage, and the Registry Operator automatically configures storage.
 

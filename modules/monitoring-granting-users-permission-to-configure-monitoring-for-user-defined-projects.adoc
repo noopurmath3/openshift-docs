@@ -5,6 +5,7 @@
 [id="granting-users-permission-to-configure-monitoring-for-user-defined-projects_{context}"]
 = Granting users permission to configure monitoring for user-defined projects
 
+[role="_abstract"]
 You can grant users permission to configure monitoring for user-defined projects.
 
 .Prerequisites

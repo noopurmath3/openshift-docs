@@ -5,6 +5,7 @@
 [id="images-other-jenkins-env-var_{context}"]
 = Jenkins environment variables
 
+[role="_abstract"]
 The Jenkins server can be configured with the following environment variables:
 
 [options="header"]

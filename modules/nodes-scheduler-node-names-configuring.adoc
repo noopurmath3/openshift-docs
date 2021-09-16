@@ -5,6 +5,7 @@
 [id="nodes-scheduler-node-name-configuring_{context}"]
 = Configuring the Pod Node Constraints admission controller to use names
 
+[role="_abstract"]
 You can configure the Pod Node Constraints admission controller to ensure that pods are only placed onto nodes with a specific name.
 
 .Prerequisites

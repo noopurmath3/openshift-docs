@@ -5,6 +5,7 @@
 [id="builds-output-image-digest_{context}"]
 = Output image digest
 
+[role="_abstract"]
 Built images can be uniquely identified by their digest, which can
 later be used to pull the image by digest regardless of its current tag.
 
@@ -26,6 +27,7 @@ status:
       imageDigest: sha256:29f5d56d12684887bdfa50dcd29fc31eea4aaf4ad3bec43daf19026a7ce69912
 ----
 
+[role="_additional-resources"]
 .Additional resources
 
 * link:https://docs.docker.com/registry/spec/api/#/content-digests[Docker Registry HTTP API V2: digest]

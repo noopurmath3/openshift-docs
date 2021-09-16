@@ -5,6 +5,7 @@
 [id="update-configuring-image-signature"]
 = Creating an image signature config map manually
 
+[role="_abstract"]
 Create and apply the image signature config map to the cluster that you want to update.
 
 [NOTE]

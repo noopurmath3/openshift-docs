@@ -5,6 +5,7 @@
 [id="configuring-argo-cd-oidc_{context}"]
 = Configuring Argo CD OIDC
 
+[role="_abstract"]
 To configure Argo CD OpenID Connect (OIDC), you must generate your client secret, encode it, and add it to your custom resource.
 
 .Prerequisites

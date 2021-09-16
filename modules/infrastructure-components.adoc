@@ -6,6 +6,7 @@
 [id="infrastructure-components_{context}"]
 = {product-title} infrastructure components
 
+[role="_abstract"]
 The following infrastructure workloads do not incur {product-title} worker subscriptions:
 
 * Kubernetes and {product-title} control plane services that run on masters

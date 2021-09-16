@@ -6,6 +6,7 @@
 = Template: Virtual machine configuration file
 
 [source,yaml]
+[role="_abstract"]
 ----
 apiVersion: kubevirt.io/v1alpha3
 kind: VirtualMachine

@@ -1,4 +1,5 @@
 ////
+[role="_abstract"]
 Module included in the following assemblies:
 - rhbjaeger-release-notes.adoc
 ////

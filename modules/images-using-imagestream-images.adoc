@@ -4,6 +4,7 @@
 [id="images-using-imagestream-images_{context}"]
 = Image stream images
 
+[role="_abstract"]
 An image stream image points from within an image stream to a particular image ID.
 
 Image stream images allow you to retrieve metadata about an image from a particular image stream where it is tagged.

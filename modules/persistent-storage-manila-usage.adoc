@@ -5,6 +5,7 @@
 [id="persistent-storage-manila-usage_{context}"]
 = Provisioning an {rh-openstack} Manila persistent volume
 
+[role="_abstract"]
 {rh-openstack-first} Manila shares are dynamically provisioned as needed. When the
 PersistentVolumeClaim is deleted the provisioner will automatically 
 delete and unexport the {rh-openstack} Manila share.

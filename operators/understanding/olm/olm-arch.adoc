@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This guide outlines the component architecture of Operator Lifecycle Manager (OLM) in {product-title}.
 
 include::modules/olm-architecture.adoc[leveloffset=+1]

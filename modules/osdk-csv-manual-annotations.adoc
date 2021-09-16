@@ -5,6 +5,7 @@
 [id="osdk-csv-manual-annotations_{context}"]
 = Operator metadata annotations
 
+[role="_abstract"]
 Operator developers can manually define certain annotations in the metadata of a cluster service version (CSV) to enable features or highlight capabilities in user interfaces (UIs), such as OperatorHub.
 
 The following table lists Operator metadata annotations that can be manually defined using `metadata.annotations` fields.

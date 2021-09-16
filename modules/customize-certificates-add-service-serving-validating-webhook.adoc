@@ -5,6 +5,7 @@
 [id="add-service-certificate-validating-webhook_{context}"]
 = Add the service CA bundle to a validating webhook configuration
 
+[role="_abstract"]
 You can annotate a `ValidatingWebhookConfiguration` object with `service.beta.openshift.io/inject-cabundle=true` to have the `clientConfig.caBundle` field of each webhook populated with the service CA bundle. This allows the Kubernetes API server to validate the service CA certificate used to secure the targeted endpoint.
 
 [NOTE]

@@ -5,6 +5,7 @@
 [id="vsphere-dynamic-provisioning_{context}"]
 = Dynamically provisioning VMware vSphere volumes using the UI
 
+[role="_abstract"]
 {product-title} installs a default storage class, named `thin`, that uses the `thin` disk format for provisioning volumes.
 
 .Prerequisites

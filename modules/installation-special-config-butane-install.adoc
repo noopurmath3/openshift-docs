@@ -5,6 +5,7 @@
 [id="installation-special-config-butane-install_{context}"]
 = Installing Butane
 
+[role="_abstract"]
 You can install the Butane tool (`butane`) to create {product-title} machine configs from a command-line interface. You can install `butane` on Linux, Windows, or macOS by downloading the corresponding binary file.
 
 [TIP]

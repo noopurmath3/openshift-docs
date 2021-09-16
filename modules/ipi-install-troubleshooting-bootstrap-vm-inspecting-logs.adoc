@@ -4,6 +4,7 @@
 [id="ipi-install-troubleshooting-bootstrap-vm-inspecting-logs_{context}"]
 = Inspecting logs
 
+[role="_abstract"]
 When experiencing issues downloading or accessing the {op-system} images, first verify that the URL is correct in the `install-config.yaml` configuration file.
 
 .Example of internal webserver hosting {op-system} images

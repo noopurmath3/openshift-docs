@@ -7,6 +7,7 @@
 [id="rhel-attaching-instance-aws_{context}"]
 = Attaching the role permissions to {op-system-base} instance in AWS
 
+[role="_abstract"]
 Using the Amazon IAM console in your browser, you may select the needed roles and assign them to a worker node.
 
 .Procedure

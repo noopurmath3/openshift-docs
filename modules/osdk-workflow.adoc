@@ -5,6 +5,7 @@
 [id="osdk-workflow_{context}"]
 = Development workflow
 
+[role="_abstract"]
 The Operator SDK provides the following workflow to develop a new Operator:
 
 . Create an Operator project by using the Operator SDK command-line interface (CLI).

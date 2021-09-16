@@ -5,6 +5,7 @@
 [id="templates-create-from-existing-object_{context}"]
 = Creating a template from existing objects
 
+[role="_abstract"]
 Rather than writing an entire template from scratch, you can export existing objects from your project in YAML form, and then modify the YAML from there by adding parameters and other customizations as template form.
 
 .Procedure

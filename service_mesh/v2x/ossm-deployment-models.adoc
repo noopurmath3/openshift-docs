@@ -3,6 +3,7 @@
 include::modules/ossm-document-attributes.adoc[]
 :context: ossm-deployment-models
 
+[role="_abstract"]
 {ProductName} supports several different deployment models that can be combined in different ways to best suit your business requirements.
 
 include::modules/ossm-deploy-single-mesh.adoc[leveloffset=+1]

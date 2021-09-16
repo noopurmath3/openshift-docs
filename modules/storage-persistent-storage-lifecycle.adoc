@@ -5,6 +5,7 @@
 [id=lifecycle-volume-claim_{context}]
 = Lifecycle of a volume and claim
 
+[role="_abstract"]
 PVs are resources in the cluster. PVCs are requests for those resources
 and also act as claim checks to the resource. The interaction between PVs
 and PVCs have the following lifecycle.

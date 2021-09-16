@@ -5,6 +5,7 @@
 [id="identity-provider-github-CR_{context}"]
 = Sample GitHub CR
 
+[role="_abstract"]
 The following custom resource (CR) shows the parameters and acceptable values for a
 GitHub identity provider.
 

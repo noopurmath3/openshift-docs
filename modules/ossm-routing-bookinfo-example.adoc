@@ -6,6 +6,7 @@
 [id="ossm-routing-bookinfo_{context}"]
 = Routing tutorial
 
+[role="_abstract"]
 The {ProductShortName} Bookinfo sample application consists of four separate microservices, each with multiple versions. After installing the Bookinfo sample application, three different versions of the `reviews` microservice run concurrently.
 
 When you access the Bookinfo app `/product` page in a browser and refresh several times, sometimes the book review output contains star ratings and other times it does not. Without an explicit default service version to route to, {ProductShortName} routes requests to all available versions one after the other. 

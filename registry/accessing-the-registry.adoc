@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
+[role="_abstract"]
 Use the following sections for instructions on accessing the registry, including
 viewing logs and metrics, as well as securing and exposing the registry.
 endif::[]
@@ -53,6 +54,7 @@ include::modules/registry-viewing-logs.adoc[leveloffset=+1]
 include::modules/registry-accessing-metrics.adoc[leveloffset=+1]
 
 [id="accessing-the-registry-additional-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * For more information on allowing pods in a project to reference images in another project, see xref:../openshift_images/managing_images/using-image-pull-secrets.adoc#images-allow-pods-to-reference-images-across-projects_using-image-pull-secrets[Allowing pods to reference images across projects].

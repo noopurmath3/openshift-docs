@@ -5,6 +5,7 @@
 [id="osdk-ansible-cr-status-manual_{context}"]
 = Tracking custom resource status manually
 
+[role="_abstract"]
 You can use the `operator_sdk.util` collection to modify your Ansible-based Operator to track custom resource (CR) status manually from your application.
 
 .Prerequisites

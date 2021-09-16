@@ -1,6 +1,7 @@
 [id="serverless-containersource-custom-sources_{context}"]
 = Creating custom event sources by using a container source
 
+[role="_abstract"]
 You can use a container source to create and manage a container for your custom event source image.
 
 To implement a custom event source by using a container source, you must first create a container image of your event source, and then create a container source that specifies the correct configuration, including the container image URI.

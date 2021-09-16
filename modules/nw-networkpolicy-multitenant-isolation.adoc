@@ -3,6 +3,7 @@
 // * networking/network_policy/multitenant-network-policy.adoc
 // * post_installation_configuration/network-configuration.adoc
 
+[role="_abstract"]
 ifeval::[{product-version} >= 4.6]
 :ovn:
 endif::[]

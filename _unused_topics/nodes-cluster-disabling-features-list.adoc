@@ -5,6 +5,7 @@
 [id="nodes-cluster-disabling-features-list_{context}"]
 = List of feature gates
 
+[role="_abstract"]
 Use the following list to determine the name of the feature you want to disable:
 
 [options="header"]

@@ -12,6 +12,7 @@
 [id="storage-create-{StorageClass}-storage-class_{context}"]
 = Creating the {StorageClass} storage class
 
+[role="_abstract"]
 Storage classes are used to differentiate and delineate storage levels and
 usages. By defining a storage class, users can obtain dynamically provisioned
 persistent volumes.

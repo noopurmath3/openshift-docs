@@ -5,12 +5,14 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The `kubevirt-controller` and virt-launcher pods are granted some SELinux policies and Security Context Constraints privileges that are in addition to typical pod owners. These privileges enable virtual machines to use {VirtProductName} features.
 
 include::modules/virt-extended-selinux-policies-for-virt-launcher.adoc[leveloffset=+1]
 
 include::modules/virt-additional-scc-for-kubevirt-controller.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 == Additional resources
 
 * The Red Hat Enterprise Linux Virtualization Tuning and Optimization Guide has more information on link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_tuning_and_optimization_guide/sect-virtualization_tuning_optimization_guide-networking-techniques#mult[network multi-queue]

@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The `func.yaml` file contains the configuration for your function project.
 
 Generally, these values are used when you execute a `kn func` command. For example, when you run the `kn func build` command, the value in the `builder` field is used.
@@ -18,6 +19,7 @@ In many cases, you can override these values with command line flags or environm
 include::modules/serverless-functions-func-yaml-fields.adoc[leveloffset=+1]
 include::modules/serverless-functions-func-yaml-environment-variables.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * For information on overriding values in the `func.yaml` file, see xref:../../serverless/functions/serverless-functions-getting-started.adoc#serverless-functions-getting-started[Getting started with functions].

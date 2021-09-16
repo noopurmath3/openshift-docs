@@ -6,6 +6,7 @@
 [id="nw-ingress-sharding_{context}"]
 = Ingress Controller sharding
 
+[role="_abstract"]
 As the primary mechanism for traffic to enter the cluster, the demands on the Ingress Controller, or router, can be significant. As a cluster administrator, you can shard the routes to:
 
 * Balance Ingress Controllers, or routers, with several routes to speed up responses to changes.

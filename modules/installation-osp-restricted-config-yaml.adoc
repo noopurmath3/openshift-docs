@@ -5,6 +5,7 @@
 [id="installation-osp-restricted-config-yaml_{context}"]
 = Sample customized `install-config.yaml` file for restricted OpenStack installations
 
+[role="_abstract"]
 This sample `install-config.yaml` demonstrates all of the possible {rh-openstack-first}
 customization options.
 

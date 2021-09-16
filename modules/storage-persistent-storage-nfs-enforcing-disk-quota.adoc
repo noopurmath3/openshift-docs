@@ -5,6 +5,7 @@
 [id="nfs-enforcing-disk-quota_{context}"]
 = Enforcing disk quotas
 
+[role="_abstract"]
 You can use disk partitions to enforce disk quotas and size constraints.
 Each partition can be its own export. Each export is one PV.
 {product-title} enforces unique names for PVs, but the uniqueness of the

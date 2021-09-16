@@ -4,6 +4,7 @@
 // * operators/understanding/olm/olm-operatorconditions.adoc
 
 [id="olm-about-operatorconditions_{context}"]
+[role="_abstract"]
 ifeval::["{context}" == "olm-understanding-olm"]
 = Operator conditions
 endif::[]

@@ -5,6 +5,7 @@
 [id="file-integrity-operator-machine-config-integration_{context}"]
 = Machine config integration
 
+[role="_abstract"]
 In {product-title} 4, the cluster node configuration is delivered through
 `MachineConfig` objects. You can assume that the changes to files that are
 caused by a `MachineConfig` object are expected and should not cause the file

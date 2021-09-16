@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Knative Eventing on {product-title} enables developers to use an link:https://www.redhat.com/en/topics/integration/what-is-event-driven-architecture[event-driven architecture] with serverless applications.
 
 [id="serverless-understanding-eventing-event-driven-arch"]

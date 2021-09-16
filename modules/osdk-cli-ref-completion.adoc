@@ -6,6 +6,7 @@
 [id="osdk-cli-ref-completion_{context}"]
 = completion
 
+[role="_abstract"]
 The `operator-sdk completion` command generates shell completions to make issuing CLI commands quicker and easier.
 
 .`completion` subcommands

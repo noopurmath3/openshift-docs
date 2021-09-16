@@ -1,6 +1,7 @@
 [id="update-service-mirror-release_{context}"]
 = Mirroring the {product-title} image repository
 
+[role="_abstract"]
 The OpenShift Update Service requires a locally accessible registry containing update release payloads.
 
 [IMPORTANT]

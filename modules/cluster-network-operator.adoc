@@ -8,4 +8,5 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The Cluster Network Operator installs and upgrades the networking components on an {product-title} cluster.

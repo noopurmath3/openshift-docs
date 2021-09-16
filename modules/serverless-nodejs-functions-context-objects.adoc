@@ -5,6 +5,7 @@
 [id="serverless-nodejs-functions-context-objects_{context}"]
 = Node.js context objects
 
+[role="_abstract"]
 Functions are invoked by providing a `context` object as the first parameter.
 
 .Example context object

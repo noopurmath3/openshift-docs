@@ -5,6 +5,7 @@
 [id="olm-dependency-resolution-removing-crd-version_{context}"]
 = Deprecating or removing a CRD version
 
+[role="_abstract"]
 Operator Lifecycle Manager (OLM) does not allow a serving version of a custom resource definition (CRD) to be removed right away. Instead, a deprecated version of the CRD must be first disabled by setting the `served` field in the CRD to `false`. Then, the non-serving version can be removed on the subsequent CRD upgrade.
 
 .Procedure

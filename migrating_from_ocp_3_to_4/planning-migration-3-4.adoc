@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} {product-version} introduces architectural changes and enhancements. The procedures that you used to manage your {product-title} 3 cluster might not apply to {product-title} 4.
 
 ifndef::openshift-origin[]

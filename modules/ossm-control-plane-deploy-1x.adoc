@@ -6,6 +6,7 @@
 = Deploying the {ProductName} control plane
 
 ////
+[role="_abstract"]
 TODO - Flesh out how multitenancy affects this, link to control plate template topic.
 ////
 

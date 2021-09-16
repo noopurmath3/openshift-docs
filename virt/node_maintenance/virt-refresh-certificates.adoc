@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The TLS certificates for {VirtProductName} components are created at the time
 of installation and are valid for one year. You must manually refresh
 these certificates before they expire.

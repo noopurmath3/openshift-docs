@@ -5,6 +5,7 @@
 [id="sandboxed-containers-scheduling-workloads_{context}"]
 = Scheduling {sandboxed-containers-first} workloads
 
+[role="_abstract"]
 You can schedule your workloads to run on {sandboxed-containers-first}.
 
 .Prerequisites

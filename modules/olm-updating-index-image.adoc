@@ -5,6 +5,7 @@
 
 ifdef::openshift-origin[]
 :index-image: catalog
+[role="_abstract"]
 endif::[]
 ifndef::openshift-origin[]
 :index-image: redhat-operator-index

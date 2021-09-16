@@ -5,6 +5,7 @@
 [id="virt-understanding-logs_{context}"]
 = Understanding virtual machine logs
 
+[role="_abstract"]
 Logs are collected for {product-title} builds, deployments, and pods.
 In {VirtProductName}, virtual machine logs can be retrieved from the
 virtual machine launcher pod in either the web console or the CLI.

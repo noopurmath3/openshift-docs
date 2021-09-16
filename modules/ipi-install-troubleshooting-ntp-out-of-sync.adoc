@@ -5,6 +5,7 @@
 
 = NTP out of sync
 
+[role="_abstract"]
 The deployment of {product-title} clusters depends on NTP synchronized clocks among the cluster nodes. Without synchronized clocks, the deployment may fail due to clock drift if the time difference is greater than two seconds.
 
 .Procedure

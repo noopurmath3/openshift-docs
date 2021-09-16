@@ -6,6 +6,7 @@
 = Pipeline Resource management commands
 
 == resource
+[role="_abstract"]
 Manage Pipeline Resources.
 
 .Example: Display help

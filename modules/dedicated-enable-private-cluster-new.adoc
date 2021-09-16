@@ -5,6 +5,7 @@
 [id="dedicated-enable-private-cluster-new"]
 = Enabling private cluster on a new cluster
 
+[role="_abstract"]
 You can enable private cluster settings when creating a new cluster:
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="csi-example-usage_{context}"]
 = Example using the CSI driver
 
+[role="_abstract"]
 The following example installs a default MySQL template without any
 changes to the template.
 

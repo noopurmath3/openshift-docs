@@ -5,6 +5,7 @@
 [id="nw-egress-router-dns-mode_{context}"]
 = Deploying an egress router pod in DNS proxy mode
 
+[role="_abstract"]
 In _DNS proxy mode_, an egress router pod acts as a DNS proxy for TCP-based services from its own IP address to one or more destination IP addresses.
 
 .Prerequisites

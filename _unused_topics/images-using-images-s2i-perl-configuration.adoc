@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-perl-configuration_{context}"]
 = Configuring source-to-image for Perl
 
+[role="_abstract"]
 The Perl image supports a number of environment variables which can be set to control the configuration and behavior of the Perl runtime.
 
 To set these environment variables as part of your image, you can place them into

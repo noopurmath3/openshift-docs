@@ -5,6 +5,7 @@
 [id="op-editing-pipelines_{context}"]
 = Editing Pipelines
 
+[role="_abstract"]
 You can edit the Pipelines in your cluster using the *Developer* perspective of the web console:
 
 .Procedure

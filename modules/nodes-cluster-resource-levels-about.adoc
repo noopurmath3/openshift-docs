@@ -5,6 +5,7 @@
 [id="nodes-cluster-resource-levels-about_{context}"]
 = Understanding the {product-title} cluster capacity tool 
 
+[role="_abstract"]
 The cluster capacity tool simulates a sequence of scheduling decisions to
 determine how many instances of an input pod can be scheduled on the cluster
 before it is exhausted of resources to provide a more accurate estimation.

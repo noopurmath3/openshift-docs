@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Virtual machines that use local volume storage can be moved so that they run on a specific node.
 
 You might want to move the virtual machine to a specific node for the following reasons:

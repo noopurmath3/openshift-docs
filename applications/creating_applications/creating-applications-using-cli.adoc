@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can create an {product-title} application from components that include
 source or binary code, images, and templates by using the {product-title}
 CLI.

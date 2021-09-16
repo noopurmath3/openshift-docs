@@ -5,6 +5,7 @@
 = Accessing the Elastisearch and Openshift Logging dashboards
 
 
+[role="_abstract"]
 You can view the *Logging/Elasticsearch Nodes* and *Openshift Logging* dashboards in the {product-title} web console.
 
 .Procedure

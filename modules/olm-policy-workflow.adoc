@@ -5,6 +5,7 @@
 [id="olm-policy-workflow_{context}"]
 = Installation workflow
 
+[role="_abstract"]
 When an Operator group is tied to a service account and an Operator is installed or upgraded, Operator Lifecycle Manager (OLM) uses the following workflow:
 
 . The given `Subscription` object is picked up by OLM.

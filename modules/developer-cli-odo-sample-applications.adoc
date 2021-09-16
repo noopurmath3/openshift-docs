@@ -8,6 +8,7 @@
 
 == httpd
 
+[role="_abstract"]
 This example helps build and serve static content using httpd on CentOS 7. For more information about using this builder image, including {product-title} considerations, see the link:https://github.com/sclorg/httpd-container/blob/master/2.4/root/usr/share/container-scripts/httpd/README.md[Apache HTTP Server container image repository].
 
 [source,terminal]

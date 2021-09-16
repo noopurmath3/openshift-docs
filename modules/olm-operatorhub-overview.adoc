@@ -5,6 +5,7 @@
 [id="olm-operatorhub-overview_{context}"]
 = About OperatorHub
 
+[role="_abstract"]
 _OperatorHub_ is the web console interface in {product-title} that cluster administrators use to discover and install Operators. With one click, an Operator can be pulled from its off-cluster source, installed and subscribed on the cluster, and made ready for engineering teams to self-service manage the product across deployment environments using Operator Lifecycle Manager (OLM).
 
 ifndef::openshift-origin[]

@@ -5,6 +5,7 @@
 [id="summarizing-cluster-specifications-through-clusterversion_{context}"]
 = Summarizing cluster specifications through `clusterversion`
 
+[role="_abstract"]
 You can obtain a summary of {product-title} cluster specifications by querying the `clusterversion` resource.
 
 .Prerequisites

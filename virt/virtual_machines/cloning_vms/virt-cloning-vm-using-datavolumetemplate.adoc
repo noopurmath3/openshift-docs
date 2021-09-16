@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can create a new virtual machine by cloning the persistent volume claim (PVC) of
 an existing VM. By including a `dataVolumeTemplate` in your virtual machine
 configuration file, you create a new data volume from the original PVC.

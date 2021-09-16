@@ -5,6 +5,7 @@
 [id="osdk-helm-existing-chart_{context}"]
 = Existing Helm charts
 
+[role="_abstract"]
 Instead of creating your project with a boilerplate Helm chart, you can alternatively use an existing chart, either from your local file system or a remote chart repository, by using the following flags:
 
 * `--helm-chart`

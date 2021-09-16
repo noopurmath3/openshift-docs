@@ -5,6 +5,7 @@
 [id="virt-vm-serial-console-web_{context}"]
 = Connecting to the serial console
 
+[role="_abstract"]
 Connect to the *Serial Console* of a running virtual machine from the *Console*
 tab in the *Virtual Machine Overview* screen of the web console.
 

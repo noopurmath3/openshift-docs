@@ -18,6 +18,7 @@ include::modules/admission-webhook-types.adoc[leveloffset=+1]
 include::modules/configuring-dynamic-admission.adoc[leveloffset=+1]
 
 [id="admission-plug-ins-additional-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 ifdef::openshift-enterprise,openshift-webscale[]

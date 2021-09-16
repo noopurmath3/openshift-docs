@@ -5,6 +5,7 @@
 [id="security-context-constraints-about_{context}"]
 = About security context constraints
 
+[role="_abstract"]
 Similar to the way that RBAC resources control user access, administrators can
 use _security context constraints_ (SCCs) to control permissions for pods. These
 permissions include actions that a _pod_, a collection of containers, can

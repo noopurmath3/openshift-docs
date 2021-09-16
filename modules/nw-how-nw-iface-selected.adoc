@@ -1,6 +1,7 @@
 // Applies to 4.6 and newer.
 
 :ign-config-version: 3.1.0
+[role="_abstract"]
 ifeval::[{product-version} > 4.6]
 :ign-config-version: 3.2.0
 endif::[]

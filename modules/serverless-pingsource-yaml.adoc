@@ -5,6 +5,7 @@
 [id="serverless-pingsource-yaml_{context}"]
 = Using a ping source with YAML
 
+[role="_abstract"]
 The following sections describe how to create a basic ping source using YAML files.
 
 .Prerequisites

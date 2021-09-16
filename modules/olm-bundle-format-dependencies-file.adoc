@@ -6,6 +6,7 @@
 [id="olm-bundle-format-dependencies_{context}"]
 = Dependencies file
 
+[role="_abstract"]
 The dependencies of an Operator are listed in a `dependencies.yaml` file in the `metadata/` folder of a bundle. This file is optional and currently only used to specify explicit Operator-version dependencies.
 
 The dependency list contains a `type` field for each item to specify what kind of dependency this is. There are two supported types of Operator dependencies:

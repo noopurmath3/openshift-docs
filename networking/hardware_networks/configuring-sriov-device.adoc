@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can configure a Single Root I/O Virtualization (SR-IOV) device in your cluster.
 
 include::modules/nw-sriov-networknodepolicy-object.adoc[leveloffset=+1]

@@ -5,6 +5,7 @@
 [id="osdk-golang-controller-rbac-markers_{context}"]
 = Permissions and RBAC manifests
 
+[role="_abstract"]
 The controller requires certain RBAC permissions to interact with the resources it manages. These are specified using RBAC markers, such as the following:
 
 [source,go]

@@ -5,6 +5,7 @@
 [id="osdk-golang-controller-configs_{context}"]
 = Controller configurations
 
+[role="_abstract"]
 You can initialize a controller by using many other useful configurations. For example:
 
 * Set the maximum number of concurrent reconciles for the controller by using the `MaxConcurrentReconciles` option, which defaults to `1`:

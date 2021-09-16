@@ -5,6 +5,7 @@
 [id="virt-editing-template-yaml-web_{context}"]
 = Editing virtual machine template YAML configuration in the web console
 
+[role="_abstract"]
 You can edit the YAML configuration of a virtual machine template from the web console.
 
 Some parameters cannot be modified. If you click *Save* with an invalid configuration, an error message indicates the parameter that cannot be modified.

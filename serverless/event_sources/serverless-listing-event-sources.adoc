@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can use the `kn` CLI or the *Developer* perspective in the {product-title} web console to list and manage available event sources or event source types.
 
 Currently, {ServerlessProductName} supports the following event source types:

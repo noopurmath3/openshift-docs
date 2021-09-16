@@ -8,6 +8,7 @@
 
 [IMPORTANT]
 ====
+[role="_abstract"]
 Do not modify any YAML contained inside the `config` field. Some of the configuration values in this field are injected by the {ServerlessOperatorName}, and modifying them will cause your deployment to become unsupported.
 ====
 

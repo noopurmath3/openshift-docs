@@ -1,6 +1,7 @@
 [id="serverless-invoking-go-functions-http_{context}"]
 = Functions triggered by an HTTP request
 
+[role="_abstract"]
 When an incoming HTTP request is received, your function is invoked with a standard Golang link:https://golang.org/pkg/context/[Context] as the first parameter, followed by two more parameters:
 
 * link:https://golang.org/pkg/net/http/#ResponseWriter[`http.ResponseWriter`]

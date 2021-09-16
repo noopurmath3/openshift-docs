@@ -1,6 +1,7 @@
 [id="specifying-sink-flag-kn_{context}"]
 = Knative CLI --sink flag
 
+[role="_abstract"]
 When you create an event-producing custom resource by using the Knative (`kn`) CLI, you can specify a sink where events are sent to from that resource, by using the `--sink` flag.
 
 The following example creates a sink binding that uses a service, `http://event-display.svc.cluster.local`, as the sink:

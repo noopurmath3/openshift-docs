@@ -10,6 +10,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 You can use the CLI to copy local files to or from a remote directory in a container
 using the `rsync` command.
 

@@ -7,6 +7,7 @@
 [id="olm-rh-catalogs_{context}"]
 = About Red Hat-provided Operator catalogs
 
+[role="_abstract"]
 The following Operator catalogs are distributed by Red Hat:
 
 [cols="20%,55%,25%",options="header"]

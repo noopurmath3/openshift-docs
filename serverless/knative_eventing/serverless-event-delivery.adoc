@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can configure event delivery parameters for Knative Eventing that are applied in cases where an event fails to be delivered by a xref:../../serverless/channels/serverless-subs.adoc#serverless-subs[subscription]. Event delivery parameters are configured individually per subscription.
 // TODO: Update docs to add triggers once this is implemented.
 
@@ -27,6 +28,7 @@ Back off policy:: The `backoffPolicy` delivery parameter can be used to specify 
 include::modules/serverless-subscription-event-delivery-config.adoc[leveloffset=+1]
 
 [id="additional-resources_serverless-event-delivery"]
+[role="_additional-resources"]
 == Additional resources
 
 * See xref:../../serverless/channels/serverless-channels.adoc#serverless-channels[Knative Eventing workflows using channels] for more information about subscriptions.

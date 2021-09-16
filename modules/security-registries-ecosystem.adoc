@@ -5,6 +5,7 @@
 [id="security-registries-ecosystem_{context}"]
 = Getting containers from Red Hat Registry and Ecosystem Catalog
 
+[role="_abstract"]
 Red Hat lists certified container images for Red Hat products and partner offerings from the
 link:https://catalog.redhat.com/software/containers/explore[Container Images]
 section of the Red Hat Ecosystem Catalog. From that catalog,

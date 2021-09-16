@@ -6,6 +6,7 @@
 [id="installation-rhv-creating-install-config-file_{context}"]
 = Creating the install config file
 
+[role="_abstract"]
 You create an installation configuration file by running the installation program, `openshift-install`, and responding to its prompts with information you specified or gathered earlier.
 
 When you finish responding to the prompts, the installation program creates an initial version of the `install-config.yaml` file in the assets directory you specified earlier, for example, `./wrk/install-config.yaml`

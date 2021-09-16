@@ -5,6 +5,7 @@
 [id="olm-dependency-caveats_{context}"]
 = Dependency caveats
 
+[role="_abstract"]
 When specifying dependencies, there are caveats you should consider.
 
 No compound constraints (AND)::

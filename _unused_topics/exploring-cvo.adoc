@@ -5,6 +5,7 @@
 [id="exploring-cvo_{context}"]
 = Exploring the CVO
 
+[role="_abstract"]
 To see the current version that your cluster is on, type:
 
 ----

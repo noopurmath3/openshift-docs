@@ -3,6 +3,7 @@
 // persistent-storage-csi-vsphere.adoc
 // persistent-storage-csi-azure.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "persistent-storage-csi-vsphere"]
 :vsphere:
 endif::[]

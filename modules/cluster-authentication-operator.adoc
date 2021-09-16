@@ -8,6 +8,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The Cluster Authentication Operator installs and maintains the `Authentication` custom resource in a cluster and can be viewed with:
 
 [source,terminal]

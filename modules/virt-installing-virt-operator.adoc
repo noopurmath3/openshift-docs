@@ -5,6 +5,7 @@
 [id="virt-installing-virt-operator_{context}"]
 = Installing the {VirtProductName} Operator
 
+[role="_abstract"]
 You can install the {VirtProductName} Operator from the {product-title} web console.
 
 .Prerequisites

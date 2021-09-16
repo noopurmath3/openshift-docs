@@ -5,6 +5,7 @@
 [id="gitops-release-notes-1-1_{context}"]
 = Release notes for {gitops-title} 1.1
 
+[role="_abstract"]
 {gitops-title} 1.1 is now available on {product-title} 4.7.
 
 [id="support-matrix-1-1_{context}"]

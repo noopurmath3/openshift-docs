@@ -6,6 +6,7 @@
 
 = Deleting a virtual machine using the web console
 
+[role="_abstract"]
 Deleting a virtual machine permanently removes it from the cluster. +
 [NOTE]
 ====

@@ -6,6 +6,7 @@
 [id="ossm-member-roll-create_{context}"]
 = Creating the {ProductName} member roll
 
+[role="_abstract"]
 The `ServiceMeshMemberRoll` lists the projects that belong to the control plane. Only projects listed in the `ServiceMeshMemberRoll` are affected by the control plane. A project does not belong to a service mesh until you add it to the member roll for a particular control plane deployment.
 
 You must create a `ServiceMeshMemberRoll` resource named `default` in the same project as the `ServiceMeshControlPlane`, for example `istio-system`.

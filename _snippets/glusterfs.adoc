@@ -1,4 +1,5 @@
 ////
+[role="_abstract"]
 How to use this file:
 
 * Use `include::_snippets/glusterfs.adoc[]` to enable the variables on a given

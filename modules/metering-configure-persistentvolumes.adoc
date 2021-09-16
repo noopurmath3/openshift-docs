@@ -5,6 +5,7 @@
 [id="metering-configure-persistentvolumes_{context}"]
 = Configuring persistent volumes
 
+[role="_abstract"]
 By default, Hive requires one persistent volume to operate.
 
 `hive-metastore-db-data` is the main persistent volume claim (PVC) required by default. This PVC is used by the Hive metastore to store metadata about tables, such as table name, columns, and location. Hive metastore is used by Presto and the Hive server to look up table metadata when processing queries. You remove this requirement by using MySQL or PostgreSQL for the Hive metastore database.

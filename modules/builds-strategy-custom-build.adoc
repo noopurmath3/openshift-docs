@@ -5,6 +5,7 @@
 [id="builds-strategy-custom-build_{context}"]
 = Custom build
 
+[role="_abstract"]
 The custom build strategy allows developers to define a specific builder image responsible for the entire build process. Using your own builder image allows you to customize your build process.
 
 A custom builder image is a plain container image embedded with build process logic, for example for building RPMs or base images.

@@ -5,6 +5,7 @@
 [id="reviewing-cluster-status-from-the-openshift-cluster-manager_{context}"]
 = Reviewing the cluster status from the {cloud-redhat-com}
 
+[role="_abstract"]
 You can review detailed information about the status of your cluster in the {cloud-redhat-com}.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="templates-writing-labels_{context}"]
 = Writing template labels
 
+[role="_abstract"]
 Templates can include a set of labels. These labels are added to each object created when the template is instantiated. Defining a label in this way makes it easy for users to find and manage all the objects created from a particular template.
 
 The following is an example of template object labels:

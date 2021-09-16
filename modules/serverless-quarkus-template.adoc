@@ -5,6 +5,7 @@
 [id="serverless-quarkus-template_{context}"]
 = Quarkus function template structure
 
+[role="_abstract"]
 When you create a Quarkus function by using the `kn` CLI, the project directory looks similar to a typical Maven project.
 
 Both `http` and `event` trigger functions have the same template structure:

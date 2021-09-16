@@ -5,6 +5,7 @@
 [id="nodes-pods-about_{context}"]
 = About pods
 
+[role="_abstract"]
 {product-title} leverages the Kubernetes concept of a _pod_, which is one or more containers deployed
 together on one host, and the smallest compute unit that can be defined,
 deployed, and managed. Pods are the rough equivalent of a machine instance (physical or virtual) to a container.

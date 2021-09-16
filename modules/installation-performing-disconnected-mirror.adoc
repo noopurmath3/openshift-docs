@@ -5,6 +5,7 @@
 [id="installation-performing-disconnected-mirror"]
 = Mirroring the {product-title} image registry contents to disk for use in disconnected environments
 
+[role="_abstract"]
 When you mirror images to disk, you download images as files. Then, you move your
 mirror host, which can be a laptop or a removable media device, like a
 USB drive, into the restricted network and complete the mirror

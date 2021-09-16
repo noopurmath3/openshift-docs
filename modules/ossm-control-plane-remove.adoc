@@ -6,6 +6,7 @@
 [id="ossm-control-plane-remove_{context}"]
 = Removing the {ProductName} control plane
 
+[role="_abstract"]
 To uninstall {ProductShortName} from an existing {product-title} instance, you must first delete the control plane and the Operators. Then, you must run commands to manually remove residual resources.
 
 [id="ossm-control-plane-remove-operatorhub_{context}"]

@@ -5,6 +5,7 @@
 [id="enabling-persistent-storage_{context}"]
 = Enabling persistent storage
 
+[role="_abstract"]
 By default, persistent storage is disabled for both Prometheus time-series data and for Alertmanager notifications and silences. You can configure the cluster to persistently store any one of them or both.
 
 .Procedure

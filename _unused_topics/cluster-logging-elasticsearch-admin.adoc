@@ -5,6 +5,7 @@
 [id="cluster-logging-elasticsearch-admin_{context}"]
 = Performing administrative Elasticsearch operations
 
+[role="_abstract"]
 An administrator certificate, key, and CA that can be used to communicate with and perform administrative operations on Elasticsearch are provided within the *elasticsearch* secret in the `openshift-logging` project.
 
 [NOTE]

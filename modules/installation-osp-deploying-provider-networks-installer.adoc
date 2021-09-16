@@ -8,6 +8,7 @@
 [id="installation-osp-deploying-provider-networks-installer_{context}"]
 = Deploying a cluster that has a primary interface on a provider network
 
+[role="_abstract"]
 You can deploy an {product-title} cluster that has its primary network interface on an {rh-openstack-first} provider network.
 .Prerequisites
 

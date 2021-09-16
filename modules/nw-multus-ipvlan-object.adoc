@@ -5,6 +5,7 @@
 [id="nw-multus-ipvlan-object_{context}"]
 = Configuration for ipvlan
 
+[role="_abstract"]
 The configuration for an additional network attachment that uses the ipvlan
 Container Network Interface (CNI) plug-in is provided in two parts:
 

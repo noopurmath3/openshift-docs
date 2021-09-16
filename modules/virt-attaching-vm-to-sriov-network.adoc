@@ -5,6 +5,7 @@
 [id="virt-attaching-vm-to-sriov-network_{context}"]
 = Attaching a virtual machine to an SR-IOV network
 
+[role="_abstract"]
 You can attach the virtual machine to the SR-IOV network by including the network details in the virtual machine configuration. 
 
 .Procedure

@@ -5,6 +5,7 @@
 [id="installation-aws-about-government-region_{context}"]
 = AWS government and secret regions
 
+[role="_abstract"]
 {product-title} supports deploying a cluster to
 link:https://aws.amazon.com/govcloud-us[AWS GovCloud (US)] regions and the link:https://aws.amazon.com/federal/us-intelligence-community/[AWS Commercial Cloud Services (C2S) Secret Region]. These regions are specifically designed for US government agencies at the federal, state, and
 local level, as well as contractors, educational institutions, and other US

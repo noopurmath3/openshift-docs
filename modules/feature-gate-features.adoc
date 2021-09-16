@@ -5,6 +5,7 @@
 [id="feature-gate-features_{context}"]
 = Features that are affected by FeatureGates
 
+[role="_abstract"]
 The following Technology Preview features included in {product-title}:
 
 [options="header"]

@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Both containers and virtual machines provide ways of separating
 applications running on a host from the operating system itself.
 Understanding {op-system}, which is the operating system used by
@@ -14,6 +15,7 @@ systems protect containers and hosts from each other.
 
 // How containers are secured on {op-system}
 include::modules/security-hosts-vms-rhcos.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 * xref:../../nodes/nodes/nodes-nodes-resources-configuring.adoc#allocate-node-enforcement_nodes-nodes-resources-configuring[How nodes enforce resource constraints]
 * xref:../../authentication/managing-security-context-constraints.adoc#managing-pod-security-policies[Managing security context constraints]

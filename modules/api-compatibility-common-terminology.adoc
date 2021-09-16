@@ -8,6 +8,7 @@
 [id="api-compatibility-common-terminology-api_{context}"]
 == Application Programming Interface (API)
 
+[role="_abstract"]
 An API is a public interface implemented by a software program that enables it to interact with other software. In {product-title}, the API is served from a centralized API server and is used as the hub for all system interaction.
 
 [id="api-compatibility-common-terminology-aoe_{context}"]

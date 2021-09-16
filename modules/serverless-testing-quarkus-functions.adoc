@@ -5,6 +5,7 @@
 [id="serverless-testing-quarkus-functions_{context}"]
 = Testing Quarkus functions
 
+[role="_abstract"]
 You can test Quarkus functions locally on your computer by running the Maven tests that are included in the project template.
 
 .Procedure

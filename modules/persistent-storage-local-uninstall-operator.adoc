@@ -5,6 +5,7 @@
 [id="local-storage-uninstall_{context}"]
 = Uninstalling the Local Storage Operator
 
+[role="_abstract"]
 To uninstall the Local Storage Operator, you must remove the Operator and all created resources in the `openshift-local-storage` project.
 
 [WARNING]

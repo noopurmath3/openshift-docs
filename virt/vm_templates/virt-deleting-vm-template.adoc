@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Red Hat virtual machine templates cannot be deleted. You can use the web console to delete:
 
 * Virtual machine templates created from Red Hat templates

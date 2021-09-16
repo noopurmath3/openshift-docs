@@ -5,6 +5,7 @@
 [id="virt-vm-creating-nic-web_{context}"]
 = Creating a NIC for a virtual machine in the web console
 
+[role="_abstract"]
 Create and attach additional NICs to a virtual machine from the web console.
 
 .Procedure

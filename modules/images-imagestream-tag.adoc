@@ -4,4 +4,5 @@
 [id="images-imagestream-tag_{context}"]
 = Image stream tags
 
+[role="_abstract"]
 An image stream tag is a named pointer to an image in an image stream. An image stream tag is similar to a container image tag.

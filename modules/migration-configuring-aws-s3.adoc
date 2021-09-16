@@ -7,6 +7,7 @@
 [id="migration-configuring-aws-s3_{context}"]
 = Configuring Amazon Web Services S3
 
+[role="_abstract"]
 You can configure an Amazon Web Services (AWS) S3 storage bucket as a replication repository for the {mtc-full} ({mtc-short}).
 
 .Prerequisites

@@ -6,6 +6,7 @@
 [id="machine-user-infra-machines-pxe_{context}"]
 = Creating more {op-system} machines by PXE or iPXE booting
 
+[role="_abstract"]
 You can create more {op-system-first} compute machines for your bare metal cluster by using PXE or iPXE booting.
 
 .Prerequisites

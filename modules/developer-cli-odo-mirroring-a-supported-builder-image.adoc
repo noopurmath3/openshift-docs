@@ -5,6 +5,7 @@
 [id="mirroring-a-supported-builder-image_{context}"]
 = Mirroring a supported builder image
 
+[role="_abstract"]
 To use npm packages for Node.js dependencies and Maven packages for Java dependencies and configure a runtime environment for your application, you must mirror a respective builder image from the mirror registry.
 
 

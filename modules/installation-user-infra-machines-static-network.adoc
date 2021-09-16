@@ -10,6 +10,7 @@
 [id="installation-user-infra-machines-static-network_{context}"]
 = Advanced {op-system} installation reference
 
+[role="_abstract"]
 This section illustrates the networking configuration and other advanced options that allow you to modify the {op-system-first} manual installation process. The following tables describe the kernel arguments and command-line options you can use with the {op-system} live installer and the `coreos-installer` command.
 
 [id="installation-user-infra-machines-routing-bonding_{context}"]

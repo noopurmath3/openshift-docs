@@ -6,6 +6,7 @@
 [id="osdk-cli-ref-scorecard_{context}"]
 = scorecard
 
+[role="_abstract"]
 The `operator-sdk scorecard` command runs the scorecard tool to validate an Operator bundle and provide suggestions for improvements. The command takes one argument, either a bundle image or directory containing manifests and metadata. If the argument holds an image tag, the image must be present remotely.
 
 .`scorecard` flags

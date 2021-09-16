@@ -5,6 +5,7 @@
 [id="olm-why-use-operators_{context}"]
 = Why use Operators?
 
+[role="_abstract"]
 Operators provide:
 
 --

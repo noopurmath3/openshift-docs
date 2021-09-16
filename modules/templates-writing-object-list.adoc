@@ -5,6 +5,7 @@
 [id="templates-writing-object-list_{context}"]
 = Writing the template object list
 
+[role="_abstract"]
 The main portion of the template is the list of objects which is created when the template is instantiated. This can be any valid API object, such as a build configuration, deployment configuration, or service. The object is created exactly as defined here, with any parameter values substituted in prior to creation. The definition of these objects can reference parameters defined earlier.
 
 The following is an example of an object list:

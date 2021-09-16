@@ -1,6 +1,7 @@
 [id="cluster-logging-release-notes-5-0-5"]
 = OpenShift Logging 5.0.5
 
+[role="_abstract"]
 This release includes link:https://access.redhat.com/errata/RHSA-2021:2374[RHSA-2021:2374 - Security Advisory. Moderate: Openshift Logging Bug Fix Release (5.0.5)].
 
 [id="openshift-logging-5-0-5-security-fixes"]

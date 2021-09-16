@@ -5,6 +5,7 @@
 [id="cluster-logging-uninstall-ops_{context}"]
 = Uninstall the infra cluster
 
+[role="_abstract"]
 You can uninstall the infra cluster from OpenShift Logging. 
 After uninstalling, Fluentd no longer splits logs.
 

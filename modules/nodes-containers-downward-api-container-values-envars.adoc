@@ -5,6 +5,7 @@
 [id="nodes-containers-downward-api-container-values-envars_{context}"]
 = Consuming container values using environment variables
 
+[role="_abstract"]
 When using a container's environment variables, use the `EnvVar` type's `valueFrom` field (of type `EnvVarSource`)
 to specify that the variable's value should come from a `FieldRef`
 source instead of the literal value specified by the `value` field.

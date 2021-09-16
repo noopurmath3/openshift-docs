@@ -5,6 +5,7 @@
 [id="installation-arm-vnet_{context}"]
 = ARM template for the VNet
 
+[role="_abstract"]
 You can use the following Azure Resource Manager (ARM) template to deploy the
 VNet that you need for your {product-title} cluster:
 

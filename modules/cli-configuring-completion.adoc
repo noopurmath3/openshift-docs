@@ -5,6 +5,7 @@
 [id="cli-enabling-tab-completion_{context}"]
 = Enabling tab completion
 
+[role="_abstract"]
 After you install the `oc` CLI tool, you can enable tab completion to
 automatically complete `oc` commands or suggest options when you press Tab.
 

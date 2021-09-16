@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-snapshots-overview_{context}"]
 = Overview of CSI volume snapshots
 
+[role="_abstract"]
 A _snapshot_ represents the state of the storage volume in a cluster at a particular point in time. Volume snapshots can be used to provision a new volume.
 
 {product-title} supports CSI volume snapshots by default. However, a specific CSI driver is required.

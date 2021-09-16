@@ -5,6 +5,7 @@
 [id="installation-arm-image-storage_{context}"]
 = ARM template for image storage
 
+[role="_abstract"]
 You can use the following Azure Resource Manager (ARM) template to deploy the
 stored {op-system-first} image that you need for your {product-title} cluster:
 

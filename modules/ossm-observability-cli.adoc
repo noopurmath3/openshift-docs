@@ -6,6 +6,7 @@
 [id="ossm-observability-cli_{context}"]
 = Accessing metrics and tracing data from the CLI
 
+[role="_abstract"]
 Access the Jaeger, Prometheus, and Grafana consoles to view and manage your data. 
 
 .Procedure

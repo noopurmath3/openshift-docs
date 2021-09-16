@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Container sources create a container image that generates events and sends events to a sink. You can use a container source to create a custom event source.
 
 include::modules/serverless-containersource-custom-sources.adoc[leveloffset=+1]

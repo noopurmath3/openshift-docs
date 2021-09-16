@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster administrator, you can designate an IP address block that is external to the cluster that can send traffic to services in the cluster.
 
 This functionality is generally most useful for clusters installed on bare-metal hardware.

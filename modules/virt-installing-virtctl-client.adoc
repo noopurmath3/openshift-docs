@@ -5,6 +5,7 @@
 [id="virt-installing-virtctl-client_{context}"]
 = Installing the virtctl client
 
+[role="_abstract"]
 Install the `virtctl` client from the `kubevirt-virtctl` package.
 
 .Procedure

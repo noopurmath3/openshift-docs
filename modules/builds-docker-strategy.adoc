@@ -5,6 +5,7 @@
 [id="builds-docker-strategy_{context}"]
 = Docker strategy
 
+[role="_abstract"]
 When using a docker strategy, you can add all defined input secrets into your container image using the link:https://docs.docker.com/engine/reference/builder/#add[`ADD`] and link:https://docs.docker.com/engine/reference/builder/#copy[`COPY` instructions] in your Dockerfile.
 
 If you do not specify the `destinationDir` for a secret, then the files are copied into the same directory in which the Dockerfile is located. If you specify a relative path as `destinationDir`, then the secrets are copied into that directory, relative to your Dockerfile location. This makes the secret files available to the Docker build operation as part of the context directory used during the build.

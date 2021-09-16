@@ -5,6 +5,7 @@
 [id="cluster-logging-log-forwarding-disable_{context}"]
 = Disabling the Log Forwarding feature
 
+[role="_abstract"]
 To disable the Log Forwarding feature, remove the `clusterlogging.openshift.io/logforwardingtechpreview:enabled` parameter from the Cluster Logging custom resource (CR) and delete the `ClusterLogForwarder` CR. The container and node logs will be forwarded to the internal {product-title} Elasticsearch instance.
 
 [IMPORTANT]

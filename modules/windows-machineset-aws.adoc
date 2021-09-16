@@ -5,6 +5,7 @@
 [id="windows-machineset-aws_{context}"]
 = Sample YAML for a Windows MachineSet object on AWS
 
+[role="_abstract"]
 This sample YAML defines a Windows `MachineSet` object running on Amazon Web Services (AWS) that the Windows Machine Config Operator (WMCO) can react upon.
 
 [source,yaml]

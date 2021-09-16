@@ -6,6 +6,7 @@
 [id="rhel-images-aws_{context}"]
 = Listing latest available RHEL images on AWS
 
+[role="_abstract"]
 AMI IDs correspond to native boot images for AWS. Because an AMI must exist before the EC2 instance is provisioned, you will need to know the AMI ID before configuration. The link:https://aws.amazon.com/cli/[AWS Command Line Interface (CLI)] is used to list the available {op-system-base-full} image IDs.
 
 .Prerequisites

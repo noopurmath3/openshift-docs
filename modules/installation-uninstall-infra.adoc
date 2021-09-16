@@ -5,6 +5,7 @@
 [id="installation-uninstall-infra_{context}"]
 = Removing a cluster from {rh-openstack} that uses your own infrastructure
 
+[role="_abstract"]
 You can remove an {product-title} cluster on {rh-openstack-first} that uses your own infrastructure. To complete the removal process quickly, run several Ansible playbooks.
 
 .Prerequisites

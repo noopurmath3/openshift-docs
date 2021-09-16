@@ -6,6 +6,7 @@
 [id="prometheus-database-storage-requirements_{context}"]
 = Prometheus database storage requirements
 
+[role="_abstract"]
 Red Hat performed various tests for different scale sizes.
 
 [NOTE]

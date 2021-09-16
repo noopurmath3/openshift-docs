@@ -5,6 +5,7 @@
 [id="virt-installing-virtctl-client-web_{context}"]
 = Installing the virtctl client from the web console
 
+[role="_abstract"]
 You can download the `virtctl` client from the Red Hat Customer Portal, which is linked to in your {VirtProductName} web console in the *Command Line Tools* page.
 
 .Prerequisites

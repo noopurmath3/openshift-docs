@@ -5,6 +5,7 @@
 [id="registry-accessing-metrics_{context}"]
 = Accessing registry metrics
 
+[role="_abstract"]
 The OpenShift Container Registry provides an endpoint for
 link:https://prometheus.io/docs/introduction/overview/[Prometheus metrics].
 Prometheus is a stand-alone, open source systems monitoring and alerting

@@ -1,6 +1,7 @@
 [id="mounting-local-volumes_{context}"]
 = Mounting local volumes
 
+[role="_abstract"]
 This paragraph is the procedure module introduction: a short description of the procedure.
 
 .Prerequisites

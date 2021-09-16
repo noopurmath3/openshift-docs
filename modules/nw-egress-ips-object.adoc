@@ -5,6 +5,7 @@
 [id="nw-egress-ips-object_{context}"]
 = EgressIP object
 
+[role="_abstract"]
 The following YAML describes the API for the `EgressIP` object. The scope of the object is cluster-wide; it is not created in a namespace.
 
 [source,yaml]

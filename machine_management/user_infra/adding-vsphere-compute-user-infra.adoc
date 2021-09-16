@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can add more compute machines to your {product-title} cluster on VMware vSphere.
 
 == Prerequisites

@@ -5,6 +5,7 @@
 [id="installation-creating-worker-machineset_{context}"]
 = Creating worker nodes that the cluster manages
 
+[role="_abstract"]
 After your cluster initializes, you can create workers that are controlled by
 a MachineSet in your Amazon Web Services (AWS) user-provisioned Infrastructure
 cluster.

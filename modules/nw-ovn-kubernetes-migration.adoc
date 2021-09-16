@@ -5,6 +5,7 @@
 [id="nw-ovn-kubernetes-migration_{context}"]
 = Migrating to the OVN-Kubernetes default CNI network provider
 
+[role="_abstract"]
 As a cluster administrator, you can change the default Container Network Interface (CNI) network provider for your cluster to OVN-Kubernetes.
 During the migration, you must reboot every node in your cluster.
 

@@ -5,6 +5,7 @@
 [id="migrating-reconcile-code_{context}"]
 = Migrating reconcile code
 
+[role="_abstract"]
 Migrate your project's reconcile code to the update Operator SDK v0.1.0 usage.
 
 .Prerequisites

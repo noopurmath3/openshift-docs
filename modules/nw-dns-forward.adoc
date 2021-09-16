@@ -5,6 +5,7 @@
 [id="nw-dns-forward_{context}"]
 = Using DNS forwarding
 
+[role="_abstract"]
 You can use DNS forwarding to override the forwarding configuration identified in `/etc/resolv.conf` on a per-zone basis by specifying which name server should be used for a given zone. If the forwarded zone is the Ingress domain managed by {product-title}, then the upstream name server must be authorized for the domain.
 
 .Procedure
@@ -95,6 +96,7 @@ metadata:
 ----
 <1> Changes to the `forwardPlugin` triggers a rolling update of the CoreDNS daemon set.
 
+[role="_additional-resources"]
 .Additional resources
 
 * For more information on DNS forwarding, see the link:https://coredns.io/plugins/forward/[CoreDNS forward documentation].

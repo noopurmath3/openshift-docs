@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 When opening a support case, it is helpful to provide debugging information about your cluster to Red Hat Support.
 
 The xref:../../support/gathering-cluster-data.adoc#gathering-cluster-data[`must-gather` tool] enables you to collect diagnostic information for project-level resources, cluster-level resources, and each of the OpenShift Logging components.

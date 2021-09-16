@@ -6,6 +6,7 @@
 [id="virt-installing-virtio-drivers-installing-windows_{context}"]
 = Installing VirtIO drivers during Windows installation
 
+[role="_abstract"]
 Install the VirtIO drivers from the attached SATA CD driver during Windows installation.
 
 [NOTE]

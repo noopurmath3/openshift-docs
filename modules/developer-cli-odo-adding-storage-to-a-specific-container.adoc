@@ -5,6 +5,7 @@
 [id="adding-storage-to-a-specific-container_{context}"]
 = Adding storage to a specific container
 
+[role="_abstract"]
 If your devfile has multiple containers, you can use the `--container` flag to specify the container you want to attach storage to.
 
 .Procedure

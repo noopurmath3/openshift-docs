@@ -8,6 +8,7 @@
 
 
 == oc annotate
+[role="_abstract"]
 Update the annotations on a resource
 
 .Example usage

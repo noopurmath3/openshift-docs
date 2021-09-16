@@ -2,6 +2,7 @@
 //
 // * networking/hardware_networks/installing-sriov-operator.adoc
 
+[role="_abstract"]
 ifeval::["{product-version}" == "4.2"]
 :run-level:
 endif::[]

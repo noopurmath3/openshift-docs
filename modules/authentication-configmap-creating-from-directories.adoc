@@ -5,6 +5,7 @@
 [id="authentication-configmap-creating-from-directories_{context}"]
 = Creating a config map from a directory
 
+[role="_abstract"]
 You can create a config map from a directory. This method allows you to use multiple files within a directory to create a config map.
 
 .Procedure

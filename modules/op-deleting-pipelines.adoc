@@ -5,6 +5,7 @@
 [id="op-deleting-pipelines_{context}"]
 = Deleting Pipelines
 
+[role="_abstract"]
 You can delete the Pipelines in your cluster using the *Developer* perspective of the web console.
 
 .Procedure

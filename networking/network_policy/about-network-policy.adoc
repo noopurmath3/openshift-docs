@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster administrator, you can define network policies that restrict traffic to pods in your cluster.
 
 include::modules/nw-networkpolicy-about.adoc[leveloffset=+1]
@@ -18,6 +19,7 @@ include::modules/nw-networkpolicy-optimize.adoc[leveloffset=+1]
 * Optional: xref:../../networking/network_policy/default-network-policy.adoc#default-network-policy[Defining a default network policy]
 
 [id="about-network-policy-additional-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../authentication/using-rbac.adoc#rbac-projects-namespaces_using-rbac[Projects and namespaces]

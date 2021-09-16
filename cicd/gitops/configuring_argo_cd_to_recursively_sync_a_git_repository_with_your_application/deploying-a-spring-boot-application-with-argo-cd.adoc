@@ -6,6 +6,7 @@ include::modules/gitops-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 With Argo CD, you can deploy your applications to the OpenShift cluster either by using the Argo CD dashboard or by using the `oc` tool.
 
 .Prerequisites

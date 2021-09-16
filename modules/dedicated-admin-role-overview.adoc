@@ -6,6 +6,7 @@
 ifdef::openshift-dedicated[]
 = About the dedicated administrator role
 
+[role="_abstract"]
 The accounts for dedicated administrators of an {product-title} cluster,
 have increased
 permissions and access to all user-created projects.

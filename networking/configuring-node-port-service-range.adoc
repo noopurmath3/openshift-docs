@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster administrator, you can expand the available node port range. If your cluster uses of a large number of node ports, you might need to increase the number of available ports.
 
 The default port range is `30000-32767`. You can never reduce the port range, even if you first expand it beyond the default range.
@@ -17,6 +18,7 @@ The default port range is `30000-32767`. You can never reduce the port range, ev
 include::modules/nw-nodeport-service-range-edit.adoc[leveloffset=+1]
 
 [id="configuring-node-port-service-range-additional-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../networking/configuring_ingress_cluster_traffic/configuring-ingress-cluster-traffic-nodeport.adoc#configuring-ingress-cluster-traffic-nodeport[Configuring ingress cluster traffic using a NodePort]

@@ -16,6 +16,7 @@
 [id="installation-operators-config_{context}"]
 = Initial Operator configuration
 
+[role="_abstract"]
 After the control plane initializes, you must immediately configure some
 Operators so that they all become available.
 

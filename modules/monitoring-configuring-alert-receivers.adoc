@@ -6,6 +6,7 @@
 [id="configuring-alert-receivers_{context}"]
 = Configuring alert receivers
 
+[role="_abstract"]
 You can configure alert receivers to ensure that you learn about important issues with your cluster.
 
 .Prerequisites

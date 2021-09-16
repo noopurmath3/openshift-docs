@@ -6,6 +6,7 @@
 [id="installation-cloudformation-security_{context}"]
 = CloudFormation template for security objects
 
+[role="_abstract"]
 You can use the following CloudFormation template to deploy the security objects
 that you need for your {product-title} cluster.
 

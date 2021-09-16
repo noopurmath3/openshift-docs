@@ -5,6 +5,7 @@
 [id="serverless-pingsource-odc_{context}"]
 = Creating a ping source using the Developer perspective
 
+[role="_abstract"]
 You can create and verify a basic ping source from the {product-title} web console.
 
 .Prerequisites

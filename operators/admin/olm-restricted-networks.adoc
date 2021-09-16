@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 For {product-title} clusters that are installed on restricted networks, also known as _disconnected clusters_, Operator Lifecycle Manager (OLM) by default cannot access the Red Hat-provided OperatorHub sources hosted on remote registries because those remote sources require full internet connectivity.
 
 However, as a cluster administrator you can still enable your cluster to use OLM in a restricted network if you have a workstation that has full internet access. The workstation, which requires full internet access to pull the remote OperatorHub content, is used to prepare local mirrors of the remote sources, and push the content to a mirror registry.
@@ -31,6 +32,7 @@ See the following Red Hat Knowledgebase Article for a list of Red Hat Operators 
 link:https://access.redhat.com/articles/4740011[]
 ====
 
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../../operators/understanding/olm-rh-catalogs.adoc#olm-rh-catalogs[Red Hat-provided Operator catalogs]
@@ -50,6 +52,7 @@ If you are using OLM in a restricted network on IBM Z, you must have at least 12
 include::modules/olm-restricted-networks-configuring-operatorhub.adoc[leveloffset=+1]
 include::modules/olm-pruning-index-image.adoc[leveloffset=+1]
 include::modules/olm-mirroring-catalog.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../../installing/installing-mirroring-installation-images.adoc#installing-mirroring-installation-images[Mirroring images for a disconnected installation]
@@ -59,6 +62,7 @@ include::modules/olm-creating-catalog-from-index.adoc[leveloffset=+1]
 * If your index image is hosted on a private registry and requires authentication, see xref:../../operators/admin/olm-managing-custom-catalogs.adoc#olm-accessing-images-private-registries_olm-managing-custom-catalogs[Accessing images for Operators from private registries].
 
 include::modules/olm-updating-index-image.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../../operators/admin/olm-restricted-networks.adoc#olm-mirror-catalog_olm-restricted-networks[Mirroring an Operator catalog]

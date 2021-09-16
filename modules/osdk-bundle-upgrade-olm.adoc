@@ -5,6 +5,7 @@
 [id="osdk-bundle-upgrade-olm_{context}"]
 = Testing an Operator upgrade on Operator Lifecycle Manager
 
+[role="_abstract"]
 You can quickly test upgrading your Operator by using Operator Lifecycle Manager (OLM) integration in the Operator SDK, without requiring you to manually manage index images and catalog sources.
 
 The `run bundle-upgrade` subcommand automates triggering an installed Operator to upgrade to a later version by specifying a bundle image for the later version.

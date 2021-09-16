@@ -5,6 +5,7 @@
 [id="example-apache-httpd-configuration_{context}"]
 = Example Apache HTTPD configuration for basic identity providers
 
+[role="_abstract"]
 The basic identify provider (IDP) configuration in {product-title} 4 requires
 that the IDP server respond with JSON for success and failures. You can use CGI
 scripting in Apache HTTPD to accomplish this. This section provides examples.

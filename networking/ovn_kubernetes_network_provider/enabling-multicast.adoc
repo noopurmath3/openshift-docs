@@ -3,6 +3,7 @@
 include::modules/common-attributes.adoc[]
 :context: ovn-kubernetes-enabling-multicast
 
+[role="_abstract"]
 ifeval::["{product-version}" == "4.3"]
 :bz:
 endif::[]

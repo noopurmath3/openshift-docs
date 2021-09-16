@@ -5,6 +5,7 @@
 [id="apiserversource-yaml_context"]
 = Using the API server source with the YAML method
 
+[role="_abstract"]
 This guide describes the steps required to create an API server source using YAML files.
 
 .Prerequisites

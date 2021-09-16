@@ -5,6 +5,7 @@
 [id="installation-osp-emptying-worker-pools_{context}"]
 = Emptying compute machine pools
 
+[role="_abstract"]
 To proceed with an installation that uses your own infrastructure, set the number of compute machines in the installation configuration file to zero. Later, you create these machines manually.
 
 .Prerequisites

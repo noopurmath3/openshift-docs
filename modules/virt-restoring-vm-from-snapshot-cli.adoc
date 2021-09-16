@@ -5,6 +5,7 @@
 [id="virt-restoring-vm-from-snapshot-cli_{context}"]
 = Restoring a virtual machine from a snapshot in the CLI
 
+[role="_abstract"]
 You can restore an existing virtual machine (VM) to a previous configuration by using a VM snapshot .
 
 .Prerequisites

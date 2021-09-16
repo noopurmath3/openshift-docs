@@ -6,6 +6,7 @@
 [id="osdk-cli-ref-cleanup_{context}"]
 = cleanup
 
+[role="_abstract"]
 The `operator-sdk cleanup` command destroys and removes resources that were created for an Operator that was deployed with the `run` command.
 
 .`cleanup` flags

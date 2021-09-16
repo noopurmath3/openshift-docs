@@ -4,6 +4,7 @@
 [id="nw-multitenant-joining_{context}"]
 = Joining projects
 
+[role="_abstract"]
 You can join two or more projects to allow network traffic between pods and
 services in different projects.
 

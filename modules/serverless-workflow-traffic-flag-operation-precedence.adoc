@@ -5,6 +5,7 @@
 [id="traffic-flag-operation-precedence_{context}"]
 = Traffic flag operation precedence
 
+[role="_abstract"]
 All traffic-related flags can be specified using a single `kn service update` command. 
 `kn` defines the precedence of these flags. The order of the flags specified when using the command is not taken into account.
 

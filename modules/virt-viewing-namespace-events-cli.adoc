@@ -5,6 +5,7 @@
 [id="virt-viewing-namespace-events-cli_{context}"]
 = Viewing namespace events in the CLI
 
+[role="_abstract"]
 Use the {product-title} client to get the events for a namespace.
 
 .Procedure

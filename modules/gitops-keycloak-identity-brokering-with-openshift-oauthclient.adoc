@@ -5,6 +5,7 @@
 [id="keycloak-identity-brokering-with-openshift-oauthclient_{context}"]
 = Keycloak Identity Brokering with {product-title}
 
+[role="_abstract"]
 You can configure a Keycloak instance to use {product-title} for authentication through Identity Brokering. This allows for Single Sign-On (SSO) between the {product-title} cluster and the Keycloak instance.
 
 .Prerequisites

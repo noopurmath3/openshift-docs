@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 To re-use a statically provisioned persistent volume (PV), you must first reclaim the volume.
 This involves deleting the PV so that the storage configuration can be re-used.
 

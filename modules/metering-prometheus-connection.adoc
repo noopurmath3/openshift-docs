@@ -5,6 +5,7 @@
 [id="metering-prometheus-connection_{context}"]
 = Securing a Prometheus connection
 
+[role="_abstract"]
 When you install metering on {product-title}, Prometheus is available at https://prometheus-k8s.openshift-monitoring.svc:9091/.
 
 To secure the connection to Prometheus, the default metering installation uses the {product-title} certificate authority (CA). If your Prometheus instance uses a different CA, you can inject the CA through a config map. You can also configure the Reporting Operator to use a specified bearer token to authenticate with Prometheus.

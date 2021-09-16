@@ -18,6 +18,7 @@
 
 [id="installation-disk-partitioning-upi-templates_{context}"]
 = Optional: Creating a separate `/var` partition
+[role="_abstract"]
 It is recommended that disk partitioning for {product-title} be left to the installer. However, there are cases where you might want to create separate partitions in a part of the filesystem that you expect to grow.
 
 {product-title} supports the addition of a single partition to attach storage to either the `/var` partition or a subdirectory of `/var`. For example:

@@ -5,6 +5,7 @@
 [id="pruning-builds_{context}"]
 = Pruning builds
 
+[role="_abstract"]
 To prune builds that are no longer required by the system due to age and status, administrators can run the following command:
 
 [source,terminal]

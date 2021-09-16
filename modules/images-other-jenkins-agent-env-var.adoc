@@ -5,6 +5,7 @@
 [id="images-other-jenkins-agent-env-var_{context}"]
 = Jenkins agent environment variables
 
+[role="_abstract"]
 Each Jenkins agent container can be configured with the following environment variables.
 
 [options="header"]

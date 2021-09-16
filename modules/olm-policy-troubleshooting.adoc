@@ -5,6 +5,7 @@
 [id="olm-policy-troubleshooting_{context}"]
 = Troubleshooting permission failures
 
+[role="_abstract"]
 If an Operator installation fails due to lack of permissions, identify the errors using the following procedure.
 
 .Procedure

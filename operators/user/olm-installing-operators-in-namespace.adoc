@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 If a cluster administrator has delegated Operator installation permissions to your account, you can install and subscribe an Operator to your namespace in a self-service manner.
 
 [id="olm-installing-operators-in-namespace-prereqs"]
@@ -24,12 +25,14 @@ include::modules/olm-installing-operators-from-operatorhub.adoc[leveloffset=+1]
 include::modules/olm-installing-from-operatorhub-using-web-console.adoc[leveloffset=+1]
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
 include::modules/olm-installing-from-operatorhub-using-cli.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../../operators/understanding/olm/olm-understanding-olm.adoc#olm-operatorgroups-about_olm-understanding-olm[Operator groups]
 * xref:../../operators/understanding/olm/olm-understanding-olm.adoc#olm-subscription_olm-understanding-olm[Channel names]
 
 include::modules/olm-installing-specific-version-cli.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../../operators/admin/olm-upgrading-operators.adoc#olm-approving-pending-upgrade_olm-upgrading-operators[Manually approving a pending Operator upgrade]

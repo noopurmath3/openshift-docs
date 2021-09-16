@@ -5,6 +5,7 @@
 [id="ossm-jaeger-config-elasticsearch-v1x_{context}"]
 = Configuring Elasticsearch
 
+[role="_abstract"]
 The default Jaeger deployment strategy uses the `all-in-one` template so that the installation can be completed using minimal resources.  However, because the `all-in-one` template uses in-memory storage, it is only recommended for development, demo, or testing purposes and should NOT be used for production environments.
 
 If you are deploying {ProductShortName} and Jaeger in a production environment you must change the template to the `production-elasticsearch` template, which uses Elasticsearch for Jaeger's storage needs.

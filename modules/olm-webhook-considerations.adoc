@@ -5,6 +5,7 @@
 [id="olm-webhook-considerations_{context}"]
 = Webhook considerations for OLM
 
+[role="_abstract"]
 When deploying an Operator with webhooks using Operator Lifecycle Manager (OLM), you must define the following:
 
 * The `type` field must be set to either `ValidatingAdmissionWebhook`, `MutatingAdmissionWebhook`, or `ConversionWebhook`, or the CSV will be placed in a failed phase.

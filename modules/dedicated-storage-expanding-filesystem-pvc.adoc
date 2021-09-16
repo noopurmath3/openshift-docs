@@ -5,6 +5,7 @@
 [id="dedicated-storage-expanding-filesystem-pvc_{context}"]
 = Expanding {product-title} Persistent Volume Claims (PVCs)
 
+[role="_abstract"]
 Expanding PVCs based on volume types that need file system re-sizing,
 such as AWS EBS, is a two-step process.
 This process involves expanding volume objects in the cloud provider and

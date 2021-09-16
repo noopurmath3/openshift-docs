@@ -5,6 +5,7 @@
 [id="virt-using-supported-boot-source-names_{context}"]
 = Supported boot source names
 
+[role="_abstract"]
 When you add boot sources, you associate them with templates for specific operating systems.
 
 It is important that the boot source volume name matches the predefined name of the template. If the volume name does not match the name defined by the template, you will be unable to add the boot source and use it to create virtual machines.

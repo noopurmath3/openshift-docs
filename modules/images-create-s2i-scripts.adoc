@@ -6,6 +6,7 @@
 [id="images-create-s2i-scripts_{context}"]
 = How to write source-to-image scripts
 
+[role="_abstract"]
 You can write source-to-image (S2I) scripts in any programming language, as long as the scripts are executable inside the builder image. S2I supports multiple options providing `assemble`/`run`/`save-artifacts` scripts. All of these locations are checked on each build in the following order:
 
 . A script specified in the build configuration.
@@ -122,6 +123,7 @@ https://github.com/openshift/source-to-image
 EOF
 ----
 
+[role="_additional-resources"]
 .Additional resources
 * link:https://blog.openshift.com/create-s2i-builder-image/[S2I Image Creation Tutorial]
 

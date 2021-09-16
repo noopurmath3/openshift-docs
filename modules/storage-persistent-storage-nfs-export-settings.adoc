@@ -4,6 +4,7 @@
 
 = Export settings
 
+[role="_abstract"]
 To enable arbitrary container users to read and write the volume,
 each exported volume on the NFS server should conform to the following
 conditions:

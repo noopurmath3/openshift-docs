@@ -5,6 +5,7 @@
 [id="deployments-lifecycle-hooks_{context}"]
 = Lifecycle hooks
 
+[role="_abstract"]
 The rolling and recreate strategies support _lifecycle hooks_, or deployment hooks, which allow behavior to be injected into the deployment process at predefined points within the strategy:
 
 .Example `pre` lifecycle hook

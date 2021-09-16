@@ -5,6 +5,7 @@
 [id="serverless-channel-default_{context}"]
 = Configuring the default channel implementation
 
+[role="_abstract"]
 The `default-ch-webhook` config map can be used to specify the default channel implementation for the cluster or for one or more namespaces.
 
 You can make changes to the `knative-eventing` namespace config maps, including the `default-ch-webhook` config map, by using the {ServerlessOperatorName} to propagate changes.

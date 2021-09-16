@@ -5,6 +5,7 @@
 [id="reducing-latency-for-alerting-rules-that-do-not-query-platform-metrics_{context}"]
 = Reducing latency for alerting rules that do not query platform metrics
 
+[role="_abstract"]
 If an alerting rule for a user-defined project does not query default cluster metrics, you can deploy the rule directly on the Prometheus instance in the `openshift-user-workload-monitoring` project. This reduces latency for alerting rules by bypassing Thanos Ruler when it is not required. This also helps to minimize the overall load on monitoring components.
 
 [WARNING]

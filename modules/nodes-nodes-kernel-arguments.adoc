@@ -6,6 +6,7 @@
 [id="nodes-nodes-kernel-arguments_{context}"]
 = Adding kernel arguments to nodes
 
+[role="_abstract"]
 In some special cases, you might want to add kernel arguments
 to a set of nodes in your cluster.
 This should only be done with caution and clear understanding

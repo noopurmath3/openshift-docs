@@ -7,6 +7,7 @@
 [id="oauth-server-overview_{context}"]
 = {product-title} OAuth server
 
+[role="_abstract"]
 The {product-title} master includes a built-in OAuth server. Users obtain OAuth
 access tokens to authenticate themselves to the API.
 

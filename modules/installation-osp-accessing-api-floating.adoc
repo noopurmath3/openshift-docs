@@ -5,6 +5,7 @@
 // * installing/installing_openstack/installing-openstack-installer-kuryr.adoc
 // * installing/installing_openstack/installing-openstack-user.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-openstack-user"]
 :osp-user:
 endif::[]

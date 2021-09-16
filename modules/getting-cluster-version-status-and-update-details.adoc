@@ -5,6 +5,7 @@
 [id="getting-cluster-version-and-update-details_{context}"]
 = Getting cluster version, status, and update details
 
+[role="_abstract"]
 You can view the cluster version and status by running the `oc get clusterversion` command. If the status shows that the installation is still progressing, you can review the status of the Operators for more information.
 
 You can also list the current update channel and review the available cluster updates.

@@ -5,6 +5,7 @@
 [id="nw-ipfailover-virtual-ip-addresses-concept_{context}"]
 = About virtual IP addresses
 
+[role="_abstract"]
 Keepalived manages a set of virtual IP addresses (VIP). The administrator must make sure that all of these addresses:
 
 * Are accessible on the configured hosts from outside the cluster.

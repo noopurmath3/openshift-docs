@@ -6,6 +6,7 @@
 [id="storage-class-annotations_{context}"]
 = Storage class annotations
 
+[role="_abstract"]
 To set a storage class as the cluster-wide default, add
 the following annotation to your storage class metadata:
 

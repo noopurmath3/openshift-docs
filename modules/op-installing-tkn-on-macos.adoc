@@ -6,6 +6,7 @@
 
 = Installing {pipelines-title} CLI (tkn) on macOS
 
+[role="_abstract"]
 For macOS, the `tkn` CLI is provided as a `tar.gz` archive.
 
 .Procedure

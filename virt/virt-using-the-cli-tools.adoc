@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The two primary CLI tools used for managing resources in the cluster are:
 
 * The {VirtProductName} `virtctl` client

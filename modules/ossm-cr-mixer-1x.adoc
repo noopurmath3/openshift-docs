@@ -5,6 +5,7 @@
 [id="ossm-cr-mixer-1x_{context}"]
 = Istio Mixer configuration
 
+[role="_abstract"]
 Here is an example that illustrates the Mixer parameters for the `ServiceMeshControlPlane` and a description of the available parameters with appropriate values.
 
 .Example mixer parameters

@@ -5,6 +5,7 @@
 [id="tls-profiles-ingress-configuring_{context}"]
 = Configuring the TLS security profile for the Ingress Controller
 
+[role="_abstract"]
 To configure a TLS security profile for an Ingress Controller, edit the `IngressController` custom resource (CR) to specify a predefined or custom TLS security profile. If a TLS security profile is not configured, the default value is based on the TLS security profile set for the API server.
 
 .Sample `IngressController` CR that configures the `Old` TLS security profile

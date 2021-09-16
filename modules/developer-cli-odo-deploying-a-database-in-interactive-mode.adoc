@@ -5,6 +5,7 @@
 [id="deploying-a-database-in-interactive-mode_{context}"]
 = Deploying a database in interactive mode
 
+[role="_abstract"]
 {odo-title} provides a command-line interactive mode which simplifies deployment.
 
 .Procedure

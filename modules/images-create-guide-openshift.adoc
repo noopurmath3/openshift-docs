@@ -4,6 +4,7 @@
 [id="images-create-guide-openshift_{context}"]
 = {product-title}-specific guidelines
 
+[role="_abstract"]
 The following are guidelines that apply when creating container images specifically
 for use on {product-title}.
 ifdef::openshift-online[]
@@ -122,6 +123,7 @@ Document example liveness and readiness probes that can be used with your image.
 Consider providing an example template with your image. A template gives users an easy way to quickly get your image deployed with a working configuration. Your template must include the liveness and readiness probes you documented with the image, for completeness.
 
 ////
+[role="_additional-resources"]
 .Additional resources
 
 * link:https://docs.docker.com/engine/docker-overview/[Docker basics]

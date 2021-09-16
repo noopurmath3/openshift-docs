@@ -5,6 +5,7 @@
 [id="installation-azure-create-dns-zones_{context}"]
 = Example for creating DNS zones
 
+[role="_abstract"]
 DNS records are required for clusters that use user-provisioned infrastructure.
 You should choose the DNS strategy that fits your scenario.
 

@@ -5,6 +5,7 @@
 [id="metering-install-prerequisites_{context}"]
 = Prerequisites
 
+[role="_abstract"]
 Metering requires the following components:
 
 * A `StorageClass` resource for dynamic volume provisioning. Metering supports a number of different storage solutions.

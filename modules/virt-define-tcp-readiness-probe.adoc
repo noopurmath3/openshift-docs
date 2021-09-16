@@ -6,6 +6,7 @@
 
 = Defining a TCP readiness probe
 
+[role="_abstract"]
 Define a TCP readiness probe by setting the `spec.readinessProbe.tcpSocket` field of the virtual machine instance (VMI) configuration.
 
 

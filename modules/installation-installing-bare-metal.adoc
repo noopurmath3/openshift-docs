@@ -11,6 +11,7 @@
 // * installing/installing_vsphere/installing-vsphere-network-customizations.adoc
 // * installing/installing_ibm_z/installing-ibm-z.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-restricted-networks-ibm-z"]
 :restricted:
 endif::[]

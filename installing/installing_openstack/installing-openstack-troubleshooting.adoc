@@ -7,6 +7,7 @@ toc::[]
 
 //Very much a WIP. Chop up sections into mod docs as they're finalized.
 
+[role="_abstract"]
 In the event of a failure in {product-title} on OpenStack installation, you can recover by understanding the likely failure modes and then starting to troubleshoot the problem.
 
 == View OpenStack instance logs

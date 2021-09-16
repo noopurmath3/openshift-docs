@@ -5,6 +5,7 @@
 [id="pushing-the-odo-init-image-to-an-internal-registry-directly_{context}"]
 = Pushing the `odo` init image to an internal registry directly
 
+[role="_abstract"]
 If your cluster allows images to be pushed to the internal registry directly, push the `odo` init image to the registry as follows:
 
 [id="pushing-the-init-image-directly-on-linux_{context}"]

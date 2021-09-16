@@ -5,6 +5,7 @@
 [id="customizing-the-oauth-server-url_{context}"]
 = Customizing the internal OAuth server URL
 
+[role="_abstract"]
 You can customize the internal OAuth server URL by setting the custom hostname and TLS certificate in the `spec.componentRoutes` field of the cluster `Ingress` configuration.
 
 [WARNING]

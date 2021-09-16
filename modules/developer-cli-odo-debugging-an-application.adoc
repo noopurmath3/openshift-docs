@@ -6,6 +6,7 @@
 
 = Debugging an application
 
+[role="_abstract"]
 You can debug your application in `odo` with the `odo debug` command.
 
 .Procedure

@@ -5,6 +5,7 @@
 [id="osdk-ansible-installing-k8s-collection_{context}"]
 = Installing the Kubernetes Collection for Ansible
 
+[role="_abstract"]
 You can install the Kubernetes Collection for Ansible on your local workstation.
 
 .Procedure

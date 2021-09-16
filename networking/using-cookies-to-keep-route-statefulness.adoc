@@ -1,5 +1,6 @@
 [id="using-cookies-to-keep-route-statefulness"]
 = Using cookies to keep route statefulness
+[role="_abstract"]
 {product-author}
 {product-version}
 :data-uri:

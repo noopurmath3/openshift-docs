@@ -5,6 +5,7 @@
 [id="automatically-scaling-machines-to-available-bare-metal-hosts_{context}"]
 = Automatically scaling machines to the number of available bare metal hosts
 
+[role="_abstract"]
 To automatically create the number of `Machine` objects that matches the number of available `BareMetalHost` objects, add a `metal3.io/autoscale-to-hosts` annotation to the `MachineSet` object.
 
 .Prerequisites

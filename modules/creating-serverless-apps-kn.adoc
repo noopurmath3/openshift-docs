@@ -1,6 +1,7 @@
 [id="creating-serverless-apps-kn_{context}"]
 = Creating serverless applications by using the Knative CLI
 
+[role="_abstract"]
 The following procedure describes how you can create a basic serverless application using the `kn` CLI.
 
 .Prerequisites

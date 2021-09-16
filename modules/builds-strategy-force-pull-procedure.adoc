@@ -4,6 +4,7 @@
 [id="builds-strategy-force-pull-procedure_{context}"]
 = Using the force pull flag
 
+[role="_abstract"]
 By default, if the builder image specified in the build configuration is available locally on the node, that image will be used. However, you can use the `forcepull` flag to override the local image and refresh it from the registry.
 
 .Procedure

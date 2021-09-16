@@ -6,6 +6,7 @@
 = {product-title} overview
 
 ////
+[role="_abstract"]
 Red Hat was one of the early contributors of Kubernetes and quickly integrated
 it as the centerpiece of its {product-title} product line. Today, Red Hat
 continues as one of the largest contributors to Kubernetes across a wide range

@@ -5,6 +5,7 @@
 [id="serverless-build-func-kn_{context}"]
 = Building functions
 
+[role="_abstract"]
 Before you can run a function, you must build the function project by using the `kn func build` command. The build command reads the `func.yaml` file from the function project directory to determine the image name and registry.
 
 .Example `func.yaml`

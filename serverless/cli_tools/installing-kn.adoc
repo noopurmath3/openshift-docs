@@ -8,6 +8,7 @@ toc::[]
 
 [NOTE]
 ====
+[role="_abstract"]
 The Knative CLI (`kn`) does not have its own login mechanism. To log in to the cluster, you must install the `oc` CLI and use the `oc login` command.
 
 Installation options for the `oc` CLI will vary depending on your operating system.

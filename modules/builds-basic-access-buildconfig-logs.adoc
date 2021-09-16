@@ -4,6 +4,7 @@
 [id="builds-basic-access-buildconfig-logs_{context}"]
 = Accessing BuildConfig logs
 
+[role="_abstract"]
 You can access `BuildConfig` logs using the web console or the CLI.
 
 .Procedure

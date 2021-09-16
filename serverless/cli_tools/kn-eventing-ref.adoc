@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can use the following `kn` CLI commands to complete Knative Eventing tasks on the cluster.
 
 [id="kn-eventing-ref-kn-sources"]

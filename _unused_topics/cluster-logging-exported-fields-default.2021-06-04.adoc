@@ -5,6 +5,7 @@
 [id="cluster-logging-exported-fields-default_{context}"]
 = Default exported fields
 
+[role="_abstract"]
 These are the default fields exported by the logging system and available for searching
 from Elasticsearch and Kibana. The default fields are Top Level and `collectd*`
 

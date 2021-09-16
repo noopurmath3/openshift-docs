@@ -6,6 +6,7 @@
 = Trigger management commands
 
 == eventlistener
+[role="_abstract"]
 Manage EventListeners.
 
 .Example: Display help

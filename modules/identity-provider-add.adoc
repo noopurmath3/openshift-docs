@@ -13,6 +13,7 @@
 // * authentication/identity_providers/configuring-oidc-identity-provider.adoc
 
 // GitHub and Google IDPs do not support username/password login commands
+[role="_abstract"]
 ifeval::["{context}" == "configuring-github-identity-provider"]
 :no-username-password-login:
 endif::[]

@@ -8,6 +8,7 @@
 [id="migration-configuring-proxies_{context}"]
 = Configuring proxies
 
+[role="_abstract"]
 For {product-title} 4.1 and earlier versions, you must configure proxies in the `MigrationController` custom resource (CR) manifest after you install the {mtc-full} Operator because these versions do not support a cluster-wide `proxy` object.
 
 For {product-title} 4.2 to {product-version}, the {mtc-full} ({mtc-short}) inherits the cluster-wide proxy settings. You can change the proxy parameters if you want to override the cluster-wide proxy settings.

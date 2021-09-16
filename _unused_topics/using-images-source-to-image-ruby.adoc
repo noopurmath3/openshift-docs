@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 :context: using-images-source-to-image-ruby
 toc::[]
 
+[role="_abstract"]
 This topic includes information on the source-to-image (S2I) supported Ruby images available for {product-title} users.
 
 //Add link to Build -> S21 following updates

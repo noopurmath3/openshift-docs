@@ -5,6 +5,7 @@
 [id="nodes-edge-remote-workers-network_{context}"]
 = Network separation with remote worker nodes
 
+[role="_abstract"]
 All nodes send heartbeats to the Kubernetes Controller Manager Operator (kube controller) in the {product-title} cluster every 10 seconds. If the cluster does not receive heartbeats from a node, {product-title} responds using several default mechanisms.
  
 {product-title} is designed to be resilient to network partitions and other disruptions. You can mitigate some of the more common disruptions, such as interruptions from software upgrades, network splits, and routing issues. Mitigation strategies include ensuring that pods on remote worker nodes request the correct amount of CPU and memory resources, configuring an appropriate replication policy, using redundancy across zones, and using Pod Disruption Budgets on workloads. 

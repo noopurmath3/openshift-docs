@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can uninstall {VirtProductName} by using the {product-title}
 xref:../../cli_reference/openshift_cli/getting-started-cli.adoc#cli-getting-started[CLI].
 

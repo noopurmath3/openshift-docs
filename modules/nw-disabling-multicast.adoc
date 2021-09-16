@@ -3,6 +3,7 @@
 // * networking/openshift_sdn/disabling-multicast.adoc
 // * networking/ovn_kubernetes_network_provider/disabling-multicast.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "openshift-sdn-disabling-multicast"]
 :namespace: netnamespace
 :annotation: netnamespace.network.openshift.io/multicast-enabled-

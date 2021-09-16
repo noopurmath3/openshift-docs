@@ -5,6 +5,7 @@
 [id="nodes-cluster-resource-configure-about_{context}"]
 = Understanding managing application memory
 
+[role="_abstract"]
 It is recommended to fully read the overview of how {product-title} manages
 Compute Resources before proceeding.
 

@@ -5,6 +5,7 @@
 [id="metering-cluster-capacity-examples_{context}"]
 = Measure cluster capacity hourly and daily
 
+[role="_abstract"]
 The following report demonstrates how to measure cluster capacity both hourly and daily. The daily report works by aggregating the hourly report's results.
 
 The following report measures cluster CPU capacity every hour.

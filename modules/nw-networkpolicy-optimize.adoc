@@ -5,6 +5,7 @@
 [id="nw-networkpolicy-optimize_{context}"]
 = Optimizations for network policy
 
+[role="_abstract"]
 Use a network policy to isolate pods that are differentiated from one another by labels within a namespace.
 
 [NOTE]

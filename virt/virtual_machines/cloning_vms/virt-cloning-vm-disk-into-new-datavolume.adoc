@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can clone the persistent volume claim (PVC) of a virtual machine disk into
 a new data volume by referencing the source PVC in your data volume configuration
 file.

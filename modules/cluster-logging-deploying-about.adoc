@@ -5,6 +5,7 @@
 [id="cluster-logging-deploying-about_{context}"]
 = About deploying and configuring OpenShift Logging
 
+[role="_abstract"]
 OpenShift Logging is designed to be used with the default configuration, which is tuned for small to medium sized {product-title} clusters.
 
 The installation instructions that follow include a sample `ClusterLogging` custom resource (CR), which you can use to create a OpenShift Logging instance

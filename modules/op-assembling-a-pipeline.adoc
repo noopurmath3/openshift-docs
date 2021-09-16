@@ -5,6 +5,7 @@
 [id="assembling-a-pipeline_{context}"]
 = Assembling a pipeline
 
+[role="_abstract"]
 A pipeline represents a CI/CD flow and is defined by the tasks to be executed. It is designed to be generic and reusable in multiple applications and environments.
 
 A pipeline specifies how the tasks interact with each other and their order of execution using the `from` and `runAfter` parameters. It uses the `workspaces` field to specify one or more volumes that each task in the pipeline requires during execution.

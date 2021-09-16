@@ -5,6 +5,7 @@
 [id="builds-image-change-trigger-identification_{context}"]
 = Indentifying the image change trigger of a build
 
+[role="_abstract"]
 As a developer, if you have image change triggers, you can identify which image change initiated the last build. This can be useful for debugging or troubleshooting builds.
 
 .Example `BuildConfig`
@@ -91,6 +92,7 @@ The `ImageChangeTriggerStatus` that has the most recent `lastTriggerTime` trigge
 
 The `lastTriggerTime` with the most recent timestamp signifies the `ImageChangeTriggerStatus` of the last build. This `ImageChangeTriggerStatus` has the same `name` and `namespace` as the image change trigger in `buildConfig.spec.triggers` that triggered the build.
 
+[role="_additional-resources"]
 .Additional resources
 
 * link:http://docs.docker.com/v1.7/reference/api/hub_registry_spec/#docker-registry-1-0[v1 container registries]

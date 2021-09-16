@@ -5,6 +5,7 @@ include::modules/jaeger-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The Jaeger Operator uses a custom resource definition (CRD) file that defines the architecture and configuration settings to be used when creating and deploying the Jaeger resources. You can either install the default configuration or modify the file to better suit your business requirements.
 
 Jaeger has predefined deployment strategies. You specify a deployment strategy in the custom resource file. When you create a Jaeger instance the Operator uses this configuration file to create the objects necessary for the deployment.

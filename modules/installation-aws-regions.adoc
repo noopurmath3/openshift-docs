@@ -5,6 +5,7 @@
 [id="installation-aws-regions_{context}"]
 = Supported AWS regions
 
+[role="_abstract"]
 You can deploy an {product-title} cluster to the following public regions:
 
 * `af-south-1` (Cape Town)

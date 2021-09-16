@@ -5,6 +5,7 @@
 [id="expanding-csi-volumes_{context}"]
 = Expanding CSI volumes
 
+[role="_abstract"]
 You can use the Container Storage Interface (CSI) to expand storage volumes after they have already been created.
 
 {product-title} supports CSI volume expansion by default. However, a specific CSI driver is required.

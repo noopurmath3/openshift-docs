@@ -5,6 +5,7 @@
 [id="nodes-containers-downward-api-container-configmaps_{context}"]
 = Consuming configuration maps using the Downward API
 
+[role="_abstract"]
 When creating pods, you can use the Downward API to inject configuration map values
 so image and application authors can create an image for specific environments.
 

@@ -5,6 +5,7 @@
 [id="nw-cno-view_{context}"]
 = Viewing the cluster network configuration
 
+[role="_abstract"]
 Every new {product-title} installation has a `network.config` object named
 `cluster`.
 

@@ -6,6 +6,7 @@
 [id="configuration-resource-configure_{context}"]
 = Configure the Configuration Resource
 
+[role="_abstract"]
 To configure the Configuration Resource, you customize the Custom Resource Definition (CRD) that controls its Operator and deploy it to your cluster.
 
 .Prerequisites

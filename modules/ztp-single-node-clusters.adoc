@@ -6,6 +6,7 @@
 
 = Single node clusters
 
+[role="_abstract"]
 You use zero touch provisioning (ZTP) to deploy single node clusters to run distributed units (DUs) on small hardware footprints at disconnected
 far edge sites. A single node cluster runs {product-title} on top of one bare metal machine, hence the single node. Edge servers contain a single node with supervisor functions and worker functions on the same host that are deployed at low bandwidth or disconnected edge sites.
 

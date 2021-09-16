@@ -5,6 +5,7 @@
 [id="data-storage-management_{context}"]
 = Data storage management
 
+[role="_abstract"]
 The following table summarizes the main directories that {product-title} components write data to.
 
 .Main directories for storing {product-title} data

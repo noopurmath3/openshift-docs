@@ -6,6 +6,7 @@
 
 = Customizing the storage profile
 
+[role="_abstract"]
 You can specify default parameters by editing the `StorageProfile` object for the provisioner's storage class. These default parameters only apply to the persistent volume claim (PVC) if they are not configured in the `DataVolume` object.
 
 .Prerequisites

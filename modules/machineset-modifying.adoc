@@ -7,6 +7,7 @@
 [id="machineset-modifying_{context}"]
 = Modifying a machine set
 
+[role="_abstract"]
 To make changes to a machine set, edit the `MachineSet` YAML. Then, remove all machines associated with the machine set by deleting each machine or scaling down the machine set to `0` replicas. Then, scale the replicas back to the desired number. Changes you make to a machine set do not affect existing machines.
 
 If you need to scale a machine set without making other changes, you do not need to delete the machines.

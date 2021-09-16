@@ -5,6 +5,7 @@
 [id="op-starting-pipelines_{context}"]
 = Starting pipelines
 
+[role="_abstract"]
 After you create a pipeline, you need to start it to execute the included tasks in the defined sequence. You can start a pipeline from the *Pipelines* view, the *Pipeline Details* page, or the *Topology* view.
 
 .Procedure

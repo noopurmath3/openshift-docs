@@ -5,6 +5,7 @@
 [id="installation-registry-osp-creating-custom-pvc_{context}"]
 = Configuring an image registry with custom storage on clusters that run on {rh-openstack}
 
+[role="_abstract"]
 After you install a cluster on {rh-openstack-first}, you can use a Cinder volume that is in a specific availability zone for registry storage.
 
 .Procedure

@@ -6,6 +6,7 @@
 [id="installation-cloudformation-worker_{context}"]
 = CloudFormation template for worker machines
 
+[role="_abstract"]
 You can use the following CloudFormation template to deploy the worker machines
 that you need for your {product-title} cluster.
 

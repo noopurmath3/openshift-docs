@@ -1,6 +1,7 @@
 [id="serverless-create-channel-kn_{context}"]
 = Creating a channel by using the Knative CLI
 
+[role="_abstract"]
 You can create a channel with the cluster default configuration by using the `kn` CLI.
 
 .Prerequisites

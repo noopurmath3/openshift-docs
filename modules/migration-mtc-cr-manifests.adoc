@@ -6,6 +6,7 @@
 [id="migration-mtc-cr-manifests_{context}"]
 = {mtc-short} custom resource manifests
 
+[role="_abstract"]
 {mtc-full} ({mtc-short}) uses the following custom resource (CR) manifests for migrating applications.
 
 [id="directimagemigration_{context}"]

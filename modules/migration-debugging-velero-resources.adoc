@@ -6,6 +6,7 @@
 [id="migration-debugging-velero-resources_{context}"]
 = Using the Velero CLI to debug Backup and Restore CRs
 
+[role="_abstract"]
 You can debug the `Backup` and `Restore` custom resources (CRs) and partial migration failures with the Velero command line interface (CLI). The Velero CLI runs in the `velero` pod.
 
 [id="velero-command-syntax_{context}"]

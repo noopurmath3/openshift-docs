@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 In {product-title} version {product-version}, you can install a cluster on
 IBM Power Systems infrastructure that you provision in a restricted network.
 
@@ -42,6 +43,7 @@ include::modules/installation-requirements-user-infra.adoc[leveloffset=+1]
 
 include::modules/installation-network-user-infra.adoc[leveloffset=+2]
 
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../install_config/installing-customizing.adoc#installation-special-config-chrony_installing-customizing[Configuring chrony time service]
@@ -109,6 +111,7 @@ include::modules/installation-complete-user-infra.adoc[leveloffset=+1]
 
 include::modules/cluster-telemetry.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../../support/remote_health_monitoring/about-remote-health-monitoring.adoc#about-remote-health-monitoring[About remote health monitoring] for more information about the Telemetry service

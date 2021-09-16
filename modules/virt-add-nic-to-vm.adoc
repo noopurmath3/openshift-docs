@@ -3,6 +3,7 @@
 // * virt/virtual_machines/virt-edit-vms.adoc
 // * virt/vm_templates/virt-editing-vm-template.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "virt-edit-vms"]
 :virt-vm:
 :object: virtual machine

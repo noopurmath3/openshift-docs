@@ -5,6 +5,7 @@
 [id="serverless-quarkus-function-return-values_{context}"]
 = Quarkus function return values
 
+[role="_abstract"]
 Functions can return an instance of:
 
 * Any type from the list of permitted types.

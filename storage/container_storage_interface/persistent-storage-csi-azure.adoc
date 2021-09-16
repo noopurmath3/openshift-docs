@@ -7,6 +7,7 @@ toc::[]
 
 == Overview
 
+[role="_abstract"]
 {product-title} is capable of provisioning persistent volumes (PVs) using the Container Storage Interface (CSI) driver for Microsoft Azure Disk Storage.
 
 :FeatureName: Azure Disk CSI Driver Operator
@@ -34,6 +35,7 @@ After full migration, in-tree plug-ins will eventually be removed in later versi
 :FeatureName: Azure
 include::modules/persistent-storage-csi-tp-enable.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 * xref:../../storage/persistent_storage/persistent-storage-azure.adoc#persistent-storage-using-azure[Persistent storage using Azure Disk]
 * xref:../../storage/container_storage_interface/persistent-storage-csi.adoc#persistent-storage-csi[Configuring CSI volumes]

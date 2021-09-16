@@ -5,6 +5,7 @@
 [id="osdk-ansible-extra-variables_{context}"]
 = Extra variables sent to Ansible
 
+[role="_abstract"]
 Extra variables can be sent to Ansible, which are then managed by the Operator. The `spec` section of the custom resource (CR) passes along the key-value pairs as extra variables. This is equivalent to extra variables passed in to the `ansible-playbook` command.
 
 The Operator also passes along additional variables under the `meta` field for the name of the CR and the namespace of the CR.

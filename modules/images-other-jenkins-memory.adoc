@@ -5,6 +5,7 @@
 [id="images-other-jenkins-memory_{context}"]
 = Jenkins memory requirements
 
+[role="_abstract"]
 When deployed by the provided Jenkins Ephemeral or Jenkins Persistent templates, the default memory limit is `1 Gi`.
 
 By default, all other process that run in the Jenkins container cannot use more than a total of `512 MiB` of memory. If they require more memory, the container halts. It is therefore highly recommended that pipelines run external commands in an agent container wherever possible.

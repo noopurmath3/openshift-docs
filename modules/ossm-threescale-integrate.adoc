@@ -6,6 +6,7 @@
 [id="ossm-threescale-integrate_{context}"]
 = Integrate the 3scale adapter with {ProductName}
 
+[role="_abstract"]
 You can use these examples to configure requests to your services using the 3scale Istio Adapter.
 
 

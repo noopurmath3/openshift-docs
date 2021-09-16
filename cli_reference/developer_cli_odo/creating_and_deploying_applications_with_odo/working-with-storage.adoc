@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Persistent storage keeps data available between restarts of `{odo-title}`.
 
 include::modules/developer-cli-odo-adding-storage-to-the-application-components.adoc[leveloffset=+1]
@@ -14,6 +15,7 @@ include::modules/developer-cli-odo-adding-storage-to-a-specific-container.adoc[l
 
 include::modules/developer-cli-odo-switching-between-ephemeral-and-persistent-storage.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../../../storage/understanding-ephemeral-storage.adoc#storage-ephemeral-storage-overview_understanding-ephemeral-storage[Understanding ephemeral storage].

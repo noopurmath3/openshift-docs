@@ -5,6 +5,7 @@
 [id="deploying-a-java-application-using-a-devfile_{context}"]
 = Deploying a Java application using a devfile
 
+[role="_abstract"]
 In this section, you will learn how to deploy a sample Java project that uses Maven and Java 8 JDK using a devfile.
 
 .Procedure

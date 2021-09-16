@@ -6,6 +6,7 @@
 [id="installation-azure-permissions_{context}"]
 = Required Azure roles
 
+[role="_abstract"]
 Your Microsoft Azure account must have the following roles for the subscription
 that you use:
 

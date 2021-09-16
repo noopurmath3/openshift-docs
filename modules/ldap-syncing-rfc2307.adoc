@@ -5,6 +5,7 @@
 [id="ldap-syncing-rfc2307_{context}"]
 = Syncing groups using the RFC 2307 schema
 
+[role="_abstract"]
 For the RFC 2307 schema, the following examples synchronize a group named `admins` that has two
 members: `Jane` and `Jim`. The examples explain:
 

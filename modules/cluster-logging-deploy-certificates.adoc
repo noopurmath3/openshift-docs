@@ -5,6 +5,7 @@
 [id="cluster-logging-deploy-certificates_{context}"]
 = Deploying custom certificates
 
+[role="_abstract"]
 You can specify custom certificates using the following variables
 instead of relying on those generated during the deployment process. These
 certificates are used to encrypt and secure communication between a user's

@@ -5,6 +5,7 @@
 [id="installation-creating-azure-worker_{context}"]
 = Creating additional worker machines in Azure
 
+[role="_abstract"]
 You can create worker machines in Microsoft Azure for your cluster
 to use by launching individual instances discretely or by automated processes
 outside the cluster, such as auto scaling groups. You can also take advantage of

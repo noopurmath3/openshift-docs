@@ -14,5 +14,6 @@ include::modules/registry-operator-configuration-resource-overview-openstack-swi
 
 
 ////
+[role="_abstract"]
 This assembly is commented out for 4.2. When OpenStack UPI GAs, we can updated the associated modules and allow this assembly to build.
 ////

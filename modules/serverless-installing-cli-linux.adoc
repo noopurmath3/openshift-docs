@@ -1,6 +1,7 @@
 [id="installing-cli-linux_{context}"]
 = Installing the Knative CLI for Linux
 
+[role="_abstract"]
 For Linux distributions, you can download the Knative CLI (`kn`) directly as a `tar.gz` archive.
 
 .Procedure

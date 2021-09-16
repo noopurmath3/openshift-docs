@@ -4,6 +4,7 @@
 [id="sandboxed-containers-common-terms_{context}"]
 = {sandboxed-containers-first} common terms
 
+[role="_abstract"]
 The following terms are used throughout the documentation.
 
 Sandbox:: A sandbox is an isolated environment where programs can run. In a sandbox, you can run untested or untrusted programs without risking harm to the host machine or the operating system.

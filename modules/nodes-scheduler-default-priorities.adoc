@@ -5,6 +5,7 @@
 [id="nodes-scheduler-default-priorities_{context}"]
 = Understanding the scheduler priorities
 
+[role="_abstract"]
 Priorities are rules that rank nodes according to preferences.
 
 A custom set of priorities can be specified to configure the scheduler.

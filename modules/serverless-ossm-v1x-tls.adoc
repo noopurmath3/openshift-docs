@@ -1,6 +1,7 @@
 [id="serverless-ossm-v1x-tls_{context}"]
 = Configuring Transport Layer Security for a custom domain using {ProductName} 1.x
 
+[role="_abstract"]
 You can create a Transport Layer Security (TLS) key and certificates for a custom domain and subdomain using {ProductName}.
 
 .Procedure

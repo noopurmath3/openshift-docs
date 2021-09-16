@@ -5,6 +5,7 @@
 [id="dedicated-aws-vpc-accepting-peering"]
 = Accepting the VPC peer request
 
+[role="_abstract"]
 After you create the VPC peering connection, you must accept the request in the
 Customer AWS Account.
 

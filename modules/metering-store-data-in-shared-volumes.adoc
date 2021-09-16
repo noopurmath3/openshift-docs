@@ -5,6 +5,7 @@
 [id="metering-store-data-in-shared-volumes_{context}"]
 = Storing data in shared volumes
 
+[role="_abstract"]
 Metering does not configure storage by default. However, you can use any ReadWriteMany persistent volume (PV) or any storage class that provisions a ReadWriteMany PV for metering storage.
 
 [NOTE]

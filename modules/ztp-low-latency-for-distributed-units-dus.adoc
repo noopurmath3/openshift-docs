@@ -6,6 +6,7 @@
 
 = Low latency for distributed units (DUs)
 
+[role="_abstract"]
 Low latency is an integral part of the development of 5G networks. Telecommunications networks require as little signal delay as possible to ensure quality of service in a variety of critical use cases.
 
 Low latency processing is essential for any communication with timing constraints that affect functionality and

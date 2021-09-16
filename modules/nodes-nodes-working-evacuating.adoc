@@ -5,6 +5,7 @@
 [id="nodes-nodes-working-evacuating_{context}"]
 = Understanding how to evacuate pods on nodes
 
+[role="_abstract"]
 Evacuating pods allows you to migrate all or selected pods from a given node or
 nodes.
 

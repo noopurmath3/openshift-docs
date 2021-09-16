@@ -8,6 +8,7 @@
 [id="migration-compatibility-guidelines_{context}"]
 = Compatibility guidelines
 
+[role="_abstract"]
 You must install the {mtc-full} ({mtc-short}) version that is compatible with your {product-title} version.
 
 // You cannot install {mtc-short} 1.6.x on {product-title} versions 3.7 to 4.5 because the custom resource definition API versions are incompatible.

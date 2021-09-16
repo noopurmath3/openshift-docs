@@ -5,6 +5,7 @@
 [id="nodes-cluster-resource-configure-request-limit_{context}"]
 = Finding the memory request and limit from within a pod
 
+[role="_abstract"]
 An application wishing to dynamically discover its memory request and limit from
 within a pod should use the Downward API.
 

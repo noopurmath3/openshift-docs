@@ -7,6 +7,7 @@
 [id="installation-images-samples-disconnected-mirroring-assist_{context}"]
 = Cluster Samples Operator assistance for mirroring
 
+[role="_abstract"]
 During installation, {product-title} creates a config map named `imagestreamtag-to-image` in the `openshift-cluster-samples-operator` namespace. The `imagestreamtag-to-image` config map contains an entry, the populating image, for each image stream tag.
 
 The format of the key for each entry in the data field in the config map is `<image_stream_name>_<image_stream_tag_name>`.

@@ -9,6 +9,7 @@
 //This procedure can be executed as a day 1 or day 2 operation with minor differences.
 //The conditional text picks up the context and displays the appropriate alternate steps.
 
+[role="_abstract"]
 {product-title} installs the `chrony` Network Time Protocol (NTP) service on the cluster nodes.
 ifeval::["{context}" == "ipi-install-configuration-files"]
 Use the following procedure to configure NTP servers on the control plane nodes and configure worker nodes as NTP clients of the control plane nodes before deployment.

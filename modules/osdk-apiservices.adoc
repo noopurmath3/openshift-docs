@@ -5,6 +5,7 @@
 [id="osdk-apiservices_{context}"]
 = Understanding your API services
 
+[role="_abstract"]
 As with CRDs, there are two types of API services that your Operator may use: _owned_ and _required_.
 
 [id="osdk-apiservices-owned_{context}"]

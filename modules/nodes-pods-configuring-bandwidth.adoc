@@ -6,6 +6,7 @@
 [id="nodes-pods-configuring-bandwidth_{context}"]
 = Limiting the bandwidth available to pods
 
+[role="_abstract"]
 You can apply quality-of-service traffic shaping to a pod and effectively limit
 its available bandwidth. Egress traffic (from the pod) is handled by policing,
 which simply drops packets in excess of the configured rate. Ingress traffic (to

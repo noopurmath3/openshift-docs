@@ -14,6 +14,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Before you contribute to the OpenShift docs repo, review the following modular docs conventions.
 
 include::modules/mod-docs-ocp-conventions.adoc[leveloffset=+1]

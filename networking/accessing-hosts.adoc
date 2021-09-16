@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Learn how to create a bastion host to access {product-title} instances and
 access the control plane nodes (also known as the master nodes) with secure shell (SSH) access.
 

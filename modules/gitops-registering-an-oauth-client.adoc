@@ -5,6 +5,7 @@
 [id="registering-an-additional-oauth-client_{context}"]
 = Registering an additional an OAuth client
 
+[role="_abstract"]
 If you need an additional OAuth client to manage authentication for your {product-title} cluster, you can register one.
 
 .Procedure

@@ -15,6 +15,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This is the modular docs getting started guide for the OpenShift documentation
 team and anyone who might be contributing content to it.
 

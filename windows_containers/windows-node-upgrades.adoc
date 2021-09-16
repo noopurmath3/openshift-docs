@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can ensure your Windows nodes have the latest updates by upgrading the Windows Machine Config Operator (WMCO).
 
 include::modules/wmco-upgrades.adoc[leveloffset=+1]

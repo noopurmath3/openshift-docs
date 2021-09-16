@@ -7,6 +7,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 Use the Pod Node Constraints admission controller to ensure a pod
 is deployed onto only a specified node host by assigning it a label
 and specifying this in the `nodeName` setting in a pod configuration.
@@ -24,6 +25,7 @@ and prevents users without a specific role from using the
 include::modules/nodes-scheduler-node-names-configuring.adoc[leveloffset=+1]
 
 [id="nodes-scheduler-node-names-addtl-resources_{context}"]
+[role="_additional-resources"]
 == Additional resources
 
 For information about changing node labels, see xref:../../nodes/nodes/nodes-nodes-working.adoc#nodes-nodes-working-updating_nodes-nodes-working[Understanding how to update labels on nodes].

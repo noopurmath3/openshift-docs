@@ -6,6 +6,7 @@
 [id="installation-aws-user-infra-delete-bootstrap_{context}"]
 = Deleting the bootstrap resources
 
+[role="_abstract"]
 After you complete the initial Operator configuration for the cluster, remove the bootstrap resources from Amazon Web Services (AWS).
 
 .Prerequisites

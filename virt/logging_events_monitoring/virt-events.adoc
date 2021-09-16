@@ -7,6 +7,7 @@ toc::[]
 
 include::modules/virt-understanding-events.adoc[leveloffset=+1]
 
+[role="_abstract"]
 See also:
 xref:../../nodes/clusters/nodes-containers-events.adoc#nodes-containers-events[Viewing system event information in an {product-title} cluster].
 

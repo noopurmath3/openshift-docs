@@ -5,6 +5,7 @@
 [id="nodes-containers-remote-commands-protocol_{context}"]
 = Protocol for initiating a remote command from a client
 
+[role="_abstract"]
 Clients initiate the execution of a remote command in a container by issuing a
 request to the Kubernetes API server:
 

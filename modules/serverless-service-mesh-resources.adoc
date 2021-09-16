@@ -1,6 +1,7 @@
 [id="serverless-service-mesh-resources_{context}"]
 = Creating necessary {ProductShortName} resources
 
+[role="_abstract"]
 To use custom domains with {ProductShortName}, you must first create some necessary {ProductShortName} resources.
 
 .Procedure

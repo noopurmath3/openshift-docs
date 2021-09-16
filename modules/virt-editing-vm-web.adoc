@@ -11,6 +11,7 @@
 // and {object-gui} variables used throughout. We need two variables because
 // the object is lower case, but the gui elements are capitalized.
 
+[role="_abstract"]
 ifeval::["{context}" == "virt-editing-vm-template"]
 :virt-vm-template:
 :object: virtual machine template

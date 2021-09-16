@@ -5,6 +5,7 @@
 [id="sts-mode-installing-manual-config_{context}"]
 = Creating AWS resources manually
 
+[role="_abstract"]
 To install an {product-title} cluster that is configured to use the CCO in manual mode with STS, you must first manually create the required AWS resources.
 
 .Procedure

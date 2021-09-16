@@ -6,6 +6,7 @@
 = Template: Virtual machine instance configuration file for PXE booting
 
 [source,yaml]
+[role="_abstract"]
 ----
 apiVersion: kubevirt.io/v1alpha3
 kind: VirtualMachineInstance

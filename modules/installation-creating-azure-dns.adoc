@@ -5,6 +5,7 @@
 [id="installation-creating-azure-dns_{context}"]
 = Creating networking and load balancing components in Azure
 
+[role="_abstract"]
 You must configure networking and load balancing in Microsoft Azure for your
 {product-title} cluster to use. One way to create these components is
 to modify the provided Azure Resource Manager (ARM) template.

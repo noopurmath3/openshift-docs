@@ -5,6 +5,7 @@
 [id="user-agent-configuring_{context}"]
 = Configuring the user agent
 
+[role="_abstract"]
 As an administrator, you can prevent clients from accessing the
 API with the `userAgentMatching` configuration setting of a master
 configuration. 

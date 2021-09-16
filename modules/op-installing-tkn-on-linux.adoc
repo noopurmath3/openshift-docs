@@ -6,6 +6,7 @@
 
 = Installing {pipelines-title} CLI (tkn) on Linux
 
+[role="_abstract"]
 For Linux distributions, you can download the CLI directly as a `tar.gz` archive.
 
 .Procedure

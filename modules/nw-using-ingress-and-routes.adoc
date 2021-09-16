@@ -5,6 +5,7 @@
 [id="nw-using-ingress-and-routes_{context}"]
 = Using Ingress Controllers and routes
 
+[role="_abstract"]
 The Ingress Operator manages Ingress Controllers and wildcard DNS.
 
 Using an Ingress Controller is the most common way to allow external access to

@@ -8,6 +8,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 Sysctl settings are exposed via Kubernetes, allowing users to modify certain
 kernel parameters at runtime for namespaces within a container. Only sysctls
 that are namespaced can be set independently on pods. If a sysctl is not

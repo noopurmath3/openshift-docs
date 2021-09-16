@@ -8,6 +8,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The Marketplace Operator is a conduit to bring off-cluster Operators to your cluster.
 
 [discrete]

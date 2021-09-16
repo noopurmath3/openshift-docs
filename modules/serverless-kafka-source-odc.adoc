@@ -5,6 +5,7 @@
 [id="serverless-kafka-source-odc_{context}"]
 = Creating a Kafka event source by using the web console
 
+[role="_abstract"]
 You can create and verify a Kafka event source from the {product-title} web console.
 
 .Prerequisites

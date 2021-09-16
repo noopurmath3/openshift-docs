@@ -5,6 +5,7 @@
 [id="efs-storage-class_{context}"]
 = Create the EFS storage class
 
+[role="_abstract"]
 Before persistent volume claims can be created, a storage class
 must exist in the {product-title} cluster. The following instructions
 create the storage class for the EFS provisioner.

@@ -5,6 +5,7 @@
 [id="nodes-pods-using-example_{context}"]
 = Example pod configurations
 
+[role="_abstract"]
 {product-title} leverages the Kubernetes concept of a _pod_, which is one or more containers deployed together on one host, and the smallest compute unit that can be defined, deployed, and managed.
 
 The following is an example definition of a pod from a Rails application. It demonstrates many features of pods, most of which are discussed in other topics and thus only briefly mentioned here:

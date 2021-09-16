@@ -6,6 +6,7 @@
 [id="installation-rhv-editing-mantifests_{context}"]
 = Generate manifest files
 
+[role="_abstract"]
 Use the installation program to generate a set of manifest files in the assets directory.
 
 The command to generate the manifest files displays a warning message before it consumes the `install-config.yaml` file.

@@ -5,6 +5,7 @@
 [id="accessing-developer-perspective_{context}"]
 = Accessing the Developer perspective
 
+[role="_abstract"]
 The *Developer* perspective in the {product-title} web console provides workflows specific to developer use cases.
 
 You can access the *Developer* perspective from the web console as follows:

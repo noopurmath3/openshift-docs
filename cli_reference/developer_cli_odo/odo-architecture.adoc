@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This section describes `{odo-title}` architecture and how `{odo-title}` manages resources on a cluster. 
 
 include::modules/developer-cli-odo-developer-setup.adoc[leveloffset=+1]

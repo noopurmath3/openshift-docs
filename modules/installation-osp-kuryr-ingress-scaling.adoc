@@ -5,6 +5,7 @@
 [id="installation-osp-kuryr-octavia-scale_{context}"]
 = Scaling for ingress traffic by using {rh-openstack} Octavia
 
+[role="_abstract"]
 You can use Octavia load balancers to scale Ingress controllers on clusters that use Kuryr.
 
 .Prerequisites

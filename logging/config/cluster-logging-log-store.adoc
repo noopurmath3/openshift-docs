@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} uses Elasticsearch 6 (ES) to store and organize the log data.
 
 You can make modifications to your log store, including:
@@ -28,6 +29,7 @@ Each Elasticsearch node can operate with a lower memory setting, though this is 
 
 include::modules/cluster-logging-elasticsearch-audit.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 For more information on the Log Forwarding API, see xref:../../logging/cluster-logging-external.adoc#cluster-logging-external[Forwarding logs using the Log Forwarding API].

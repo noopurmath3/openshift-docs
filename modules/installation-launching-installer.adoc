@@ -33,6 +33,7 @@
 // If you use this module in any other assembly, you must update the ifeval
 // statements.
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-aws-customizations"]
 :custom-config:
 :aws:

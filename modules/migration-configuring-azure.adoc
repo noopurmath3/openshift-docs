@@ -7,6 +7,7 @@
 [id="migration-configuring-azure_{context}"]
 = Configuring Microsoft Azure Blob
 
+[role="_abstract"]
 You can configure a Microsoft Azure Blob storage container as a replication repository for the {mtc-full} ({mtc-short}).
 
 .Prerequisites

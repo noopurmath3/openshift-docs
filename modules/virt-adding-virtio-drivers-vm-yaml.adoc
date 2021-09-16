@@ -8,6 +8,7 @@
 [id="virt-adding-virtio-drivers-vm-yaml_{context}"]
 = Adding VirtIO drivers container disk to a virtual machine
 
+[role="_abstract"]
 {VirtProductName} distributes VirtIO drivers for Microsoft Windows as a
 container disk, which is available from the
 link:https://access.redhat.com/containers/#/registry.access.redhat.com/container-native-virtualization/virtio-win[Red Hat Ecosystem Catalog].

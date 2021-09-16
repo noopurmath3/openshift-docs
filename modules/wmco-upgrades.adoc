@@ -5,6 +5,7 @@
 [id="wmco-upgrades_{context}"]
 = Windows Machine Config Operator upgrades
 
+[role="_abstract"]
 When a new version of the Windows Machine Config Operator (WMCO) is released that is compatible with the current cluster version, the Operator is upgraded based on the upgrade channel and subscription approval strategy it was installed with when using the Operator Lifecycle Manager (OLM). The WMCO upgrade results in the Kubernetes components in the Windows machine being upgraded.
 
 [NOTE]

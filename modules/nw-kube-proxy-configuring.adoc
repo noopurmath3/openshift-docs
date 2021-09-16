@@ -5,6 +5,7 @@
 [id="nw-kube-proxy-configuring_{context}"]
 = Modifying the kube-proxy configuration
 
+[role="_abstract"]
 You can modify the Kubernetes network proxy configuration for your cluster.
 
 .Prerequisites

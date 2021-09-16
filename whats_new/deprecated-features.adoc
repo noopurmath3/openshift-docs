@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Large changes to the underlying architecture and installation process are
 applied in {product-title} v4, and many features from {product-title} v3 are
 now deprecated. 

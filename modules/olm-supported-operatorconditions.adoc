@@ -5,6 +5,7 @@
 [id="olm-supported-operatorconditions_{context}"]
 = Supported conditions
 
+[role="_abstract"]
 Operator Lifecycle Manager (OLM) supports the following Operator conditions.
 
 [id="olm-upgradeable-operatorcondition_{context}"]

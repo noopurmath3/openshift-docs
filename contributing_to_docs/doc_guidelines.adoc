@@ -3,6 +3,7 @@
 include::modules/common-attributes.adoc
 :toc: macro
 
+[role="_abstract"]
 The documentation guidelines for OpenShift 4 build on top of the
 link:https://redhat-documentation.github.io/modular-docs/[Red Hat modular docs reference guide].
 
@@ -211,6 +212,7 @@ The following examples include IDs that are unique to the "Configuring alert not
 
 ----
 [id="additional-resources_configuring-alert-notifications"]
+[role="_additional-resources"]
 == Additional resources
 ----
 

@@ -5,6 +5,7 @@
 [id="identity-provider-basic-authentication-troubleshooting_{context}"]
 = Basic authentication troubleshooting
 
+[role="_abstract"]
 The most common issue relates to network connectivity to the backend server. For
 simple debugging, run `curl` commands on the master. To test for a successful
 login, replace the `<user>` and `<password>` in the following example command

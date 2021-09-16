@@ -6,6 +6,7 @@
 [id="images-s2i-java-configuration_{context}"]
 = Configuring source-to-image for Java
 
+[role="_abstract"]
 By default, the Java source-to-image (S2I) builder image uses Maven to build the project with the following goals and options:
 
 [source,bash]

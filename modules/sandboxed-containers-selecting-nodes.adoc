@@ -5,6 +5,7 @@
 [id="sandboxed-containers-selecting-nodes_{context}"]
 = Selecting nodes for {sandboxed-containers-first}
 
+[role="_abstract"]
 You can selectively install the Kata runtime on specific workers.
 
 .Prerequisites

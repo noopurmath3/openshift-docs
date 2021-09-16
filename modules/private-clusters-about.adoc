@@ -5,6 +5,7 @@
 [id="private-clusters-about_{context}"]
 = About private clusters
 
+[role="_abstract"]
 By default, {product-title} is provisioned using publicly-accessible DNS and endpoints. You can set the DNS, Ingress Controller, and API server to private after you deploy your cluster.
 
 [discrete]

@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The Kubernetes network proxy (kube-proxy) runs on each node and is managed by
 the Cluster Network Operator (CNO). kube-proxy maintains network rules for
 forwarding connections for endpoints associated with services.

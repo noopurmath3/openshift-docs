@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The following describes how to delete Operators that were previously installed using Operator Lifecycle Manager (OLM) on your {product-title} cluster.
 
 include::modules/olm-deleting-operators-from-a-cluster-using-web-console.adoc[leveloffset=+1]

@@ -5,6 +5,7 @@
 [id="admission-webhook-types_{context}"]
 = Types of webhook admission plug-ins
 
+[role="_abstract"]
 Cluster administrators can call out to webhook servers through the mutating admission plug-in or the validating admission plug-in in the API server admission chain.
 
 [id="mutating-admission-plug-in_{context}"]

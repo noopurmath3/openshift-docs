@@ -5,6 +5,7 @@
 [id="cnf-cpu-infra-container_{context}"]
 = Restricting CPUs for infra and application containers
 
+[role="_abstract"]
 You can reserve cores (threads) from a single NUMA node for operating system housekeeping tasks and put your workloads on another NUMA node. Partitioning the CPUs this way can prevent the housekeeping processes from impacting latency-sensitive application processes. By default, CRI-O uses all online CPUs to run infra containers on nodes, which can result in context switches and spikes in latency. 
 
 You can ensure that housekeeping tasks and workloads run on separate NUMA nodes by specifying two groups of CPUs in the `spec` section of the performance profile. 

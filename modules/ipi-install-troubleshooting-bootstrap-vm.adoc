@@ -5,6 +5,7 @@
 
 = Bootstrap VM issues
 
+[role="_abstract"]
 The {product-title} installer spawns a bootstrap node virtual machine, which handles provisioning the {product-title} cluster nodes.
 
 .Procedure

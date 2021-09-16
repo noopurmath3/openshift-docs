@@ -5,6 +5,7 @@
 [id="virt-understanding-events_{context}"]
 = Understanding virtual machine events
 
+[role="_abstract"]
 {product-title} events are records of important life-cycle information in a
 namespace and are useful for monitoring and troubleshooting resource
 scheduling, creation, and deletion issues.

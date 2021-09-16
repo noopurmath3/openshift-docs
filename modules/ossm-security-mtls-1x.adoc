@@ -5,6 +5,7 @@
 [id="ossm-security-mtls_{context}"]
 = Enabling mutual Transport Layer Security (mTLS)
 
+[role="_abstract"]
 Mutual Transport Layer Security (mTLS) is a protocol where two parties authenticate each other. It is the default mode of authentication in some protocols (IKE, SSH) and optional in others (TLS).
 
 mTLS can be used without changes to the application or service code. The TLS is handled entirely by the service mesh infrastructure and between the two sidecar proxies.

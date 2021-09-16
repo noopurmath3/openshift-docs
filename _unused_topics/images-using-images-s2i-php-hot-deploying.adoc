@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-hot-deploying_{context}"]
 = Hot deploying for PHP
 
+[role="_abstract"]
 Hot deployment allows you to quickly make and deploy changes to your application without having to generate a new source-to-image (S2I) build. In order to immediately pick up changes made in your application source code, you must run your built image with the `OPCACHE_REVALIDATE_FREQ=0` environment variable.
 
 You can use the `oc env` command to update environment variables of existing objects.

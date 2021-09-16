@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The *Developer* perspective in the web console provides you the following options from the *+Add* view to create applications and associated services and deploy them on {product-title}:
 
 * *Getting started resources*: Use these resources to help you get started with Developer Console. You can choose to hide the header using the *Options* menu {kebab}.

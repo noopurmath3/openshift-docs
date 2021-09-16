@@ -5,6 +5,7 @@
 [id="sssd-generating-certificates_{context}"]
 = Generating and sharing certificates with the remote basic authentication server
 
+[role="_abstract"]
 Complete the following steps on the first control plane host (also known as the master host) listed in the Ansible host inventory file,
 by default `/etc/ansible/hosts`.
 

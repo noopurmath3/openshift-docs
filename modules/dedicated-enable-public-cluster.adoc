@@ -5,6 +5,7 @@
 [id="dedicated-enable-public-cluster"]
 = Enabling public cluster on a private cluster
 
+[role="_abstract"]
 You can set a private cluster to public facing: 
 
 .Procedure

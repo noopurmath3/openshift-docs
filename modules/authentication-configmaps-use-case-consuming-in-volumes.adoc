@@ -5,6 +5,7 @@
 [id="authentication-configmaps-use-case-consuming-in-volumes_{context}"]
 = Injecting content into a volume by using config maps
 
+[role="_abstract"]
 You can inject content into a volume by using config maps.
 
 .Example `ConfigMap`

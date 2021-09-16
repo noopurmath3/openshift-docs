@@ -6,6 +6,7 @@
 [id="machine-autoscaler-cr_{context}"]
 = MachineAutoscaler resource definition
 
+[role="_abstract"]
 This `MachineAutoscaler` resource definition shows the parameters and sample values for the machine autoscaler.
 
 

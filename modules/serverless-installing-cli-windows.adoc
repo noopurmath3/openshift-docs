@@ -1,6 +1,7 @@
 [id="installing-cli-windows_{context}"]
 = Installing the Knative CLI for Windows
 
+[role="_abstract"]
 The Knative CLI (`kn`) for Windows is provided as a zip archive.
 
 .Procedure

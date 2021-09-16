@@ -6,6 +6,7 @@
 [id="ossm-config-web-console_{context}"]
 = Configuring the control plane with the web console
 
+[role="_abstract"]
 You can configure the `ServiceMeshControlPlane` by using the {product-title} web console.
 
 .Procedure

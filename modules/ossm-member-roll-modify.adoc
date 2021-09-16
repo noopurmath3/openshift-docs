@@ -6,6 +6,7 @@
 [id="ossm-member-roll-modify_{context}"]
 = Adding or removing projects from the service mesh
 
+[role="_abstract"]
 You can add or remove projects from an existing {ProductShortName} `ServiceMeshMemberRoll` resource using the web console.
 
 * You can add any number of projects, but a project can only belong to *one* `ServiceMeshMemberRoll` resource.

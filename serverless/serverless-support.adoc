@@ -11,6 +11,7 @@ include::modules/serverless-getting-support.adoc[leveloffset=+1]
 [id="serverless-support-gather-info"]
 == Gathering diagnostic information for support
 
+[role="_abstract"]
 When opening a support case, it is helpful to provide debugging
 information about your cluster to Red Hat Support.
 

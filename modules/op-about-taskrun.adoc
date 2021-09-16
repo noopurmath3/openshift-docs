@@ -5,6 +5,7 @@
 [id="about-taskrun_{context}"]
 = TaskRun
 
+[role="_abstract"]
 A _TaskRun_ instantiates a Task for execution with specific inputs, outputs, and execution parameters on a cluster. It can be invoked on its own or as part of a PipelineRun for each Task in a pipeline.
 
 A Task consists of one or more Steps that execute container images, and each container image performs a specific piece of build work. A TaskRun executes the Steps in a Task in the specified order, until all Steps execute successfully or a failure occurs. A TaskRun is automatically created by a PipelineRun for each Task in a Pipeline.

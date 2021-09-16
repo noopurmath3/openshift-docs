@@ -5,6 +5,7 @@
 [id="ldap-syncing-config-rfc2307_{context}"]
 = About the RFC 2307 configuration file
 
+[role="_abstract"]
 The RFC 2307 schema requires you to provide an LDAP query definition for both user
 and group entries, as well as the attributes with which to represent them in the
 internal {product-title} records.

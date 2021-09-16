@@ -4,6 +4,7 @@
 // * virt/logging_events_monitoring/virt-openshift-cluster-monitoring.adoc
 
 
+[role="_abstract"]
 ifeval::["{context}" == "virt-openshift-cluster-monitoring"]
 :virt-logging:
 endif::[]

@@ -7,6 +7,7 @@
 [id="vsphere-problem-detector-storage-class-config-check_{context}"]
 = About the storage class configuration check
 
+[role="_abstract"]
 The names for persistent volumes that use vSphere storage are related to the datastore name and cluster ID.
 
 When a persistent volume is created, `systemd` creates a mount unit for the persistent volume. The `systemd` process has a 255 character limit for the length of the fully qualified path to the VDMK file that is used for the persistent volume.

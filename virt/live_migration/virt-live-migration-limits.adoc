@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Apply live migration limits and timeouts so that migration processes do
 not overwhelm the cluster. Configure these settings by editing the
 `HyperConverged` custom resource (CR).

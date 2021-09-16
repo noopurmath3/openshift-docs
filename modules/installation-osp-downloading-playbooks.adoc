@@ -5,6 +5,7 @@
 [id="installation-osp-downloading-playbooks_{context}"]
 = Downloading the installation playbooks
 
+[role="_abstract"]
 Download Ansible playbooks that you can use to install {product-title} on your own {rh-openstack-first} infrastructure.
 
 .Prerequisites

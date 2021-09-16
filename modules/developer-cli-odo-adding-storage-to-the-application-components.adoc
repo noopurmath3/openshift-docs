@@ -6,6 +6,7 @@
 [id="adding-storage-to-the-application-components_{context}"]
 = Adding storage to the application components
 
+[role="_abstract"]
 Use the `odo storage` command to add persistent data to your application. Examples of data that must persist include database files, dependencies, and build artifacts, such as a `.m2` Maven directory.
 
 .Procedure

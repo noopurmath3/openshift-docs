@@ -9,6 +9,7 @@ toc::[]
 :FeatureName: {FunctionsProductName}
 include::modules/technology-preview.adoc[leveloffset=+2]
 
+[role="_abstract"]
 After you have xref:../../serverless/functions/serverless-functions-getting-started.adoc#serverless-create-func-kn_serverless-functions-getting-started[created a Python function project], you can modify the template files provided to add business logic to your function.
 
 [id="prerequisites_serverless-developing-python-functions"]

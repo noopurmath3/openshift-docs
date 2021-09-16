@@ -5,6 +5,7 @@
 [id="dedicated-scaling-your-cluster_{context}"]
 = Scaling your cluster
 
+[role="_abstract"]
 To scale your {product-title} cluster:
 
 . From link:https://console.redhat.com/openshift[console.redhat.com/openshift], click

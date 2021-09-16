@@ -5,6 +5,7 @@
 [id="osdk-ansible-k8s-local_{context}"]
 = Testing the Kubernetes Collection locally
 
+[role="_abstract"]
 Operator developers can run the Ansible code from their local machine as opposed to running and rebuilding the Operator each time.
 
 .Prerequisites

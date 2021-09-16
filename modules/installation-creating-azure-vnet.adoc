@@ -5,6 +5,7 @@
 [id="installation-creating-azure-vnet_{context}"]
 = Creating a VNet in Azure
 
+[role="_abstract"]
 You must create a virtual network (VNet) in Microsoft Azure for your
 {product-title} cluster to use. You can customize the VNet to meet your
 requirements. One way to create the VNet is to modify the provided Azure

@@ -5,6 +5,7 @@
 [id="nodes-pods-autoscaling-about_{context}"]
 = Understanding horizontal pod autoscalers
 
+[role="_abstract"]
 You can create a horizontal pod autoscaler to specify the minimum and maximum number of pods
 you want to run, as well as the CPU utilization or memory utilization your pods should target.
 

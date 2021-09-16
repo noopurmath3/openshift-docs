@@ -4,6 +4,7 @@
 [id="images-create-metadata-define_{context}"]
 = Defining image metadata
 
+[role="_abstract"]
 You can use the `LABEL` instruction in a `Dockerfile` to define image
 metadata. Labels are similar to environment variables in that they are key value
 pairs attached to an image or a container. Labels are different from environment

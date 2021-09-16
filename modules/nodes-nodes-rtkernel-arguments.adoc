@@ -6,6 +6,7 @@
 [id="nodes-nodes-rtkernel-arguments_{context}"]
 = Adding a real-time kernel to nodes
 
+[role="_abstract"]
 Some {product-title} workloads require a high degree of determinism.While Linux is not a real-time operating system, the Linux real-time
 kernel includes a preemptive scheduler that provides the operating system with real-time characteristics.
 

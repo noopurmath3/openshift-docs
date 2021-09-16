@@ -5,6 +5,7 @@
 [id="local-pod_{context}"]
 = Attach the local claim
 
+[role="_abstract"]
 After a local volume has been mapped to a persistent volume claim
 it can be specified inside of a resource.
 

@@ -6,6 +6,7 @@
 [id="builds-create-custom-build-artifacts_{context}"]
 = Creating custom build artifacts
 
+[role="_abstract"]
 You must create the image you want to use as your custom build image.
 
 .Procedure

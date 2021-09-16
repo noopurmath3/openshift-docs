@@ -5,6 +5,7 @@
 [id="infrastructure-node-sizing_{context}"]
 =  Infrastructure node sizing
 
+[role="_abstract"]
 _Infrastructure nodes_ are nodes that are labeled to run pieces of the {product-title} environment. The infrastructure node resource requirements depend on the cluster age, nodes, and objects in the cluster, as these factors can lead to an increase in the number of metrics or time series in Prometheus. The following infrastructure node size recommendations are based on the results of cluster maximums and control plane density focused testing.
 
 [options="header",cols="3*"]

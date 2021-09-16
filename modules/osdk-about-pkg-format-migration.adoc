@@ -5,6 +5,7 @@
 [id="osdk-about-pkg-format-migration_{context}"]
 = About packaging format migration
 
+[role="_abstract"]
 The Operator SDK `pkgman-to-bundle` command helps in migrating Operator Lifecycle Manager (OLM) package manifests to bundles. The command takes an input package manifest directory and generates bundles for each of the versions of manifests present in the input directory. You can also then build bundle images for each of the generated bundles.
 
 For example, consider the following `packagemanifests/` directory for a project in the package manifest format:

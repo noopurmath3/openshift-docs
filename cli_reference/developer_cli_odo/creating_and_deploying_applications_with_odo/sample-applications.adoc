@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 `{odo-title}` offers partial compatibility with any language or runtime listed within the {product-title} catalog of component types. For example:
 
 [source,terminal]

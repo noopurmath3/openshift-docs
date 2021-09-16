@@ -5,6 +5,7 @@
 [id="dedicated-enable-private-cluster-existing"]
 = Enabling private cluster on an existing cluster
 
+[role="_abstract"]
 You can enable private clusters after a cluster has been created: 
 
 .Prerequisites

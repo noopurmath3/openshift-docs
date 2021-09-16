@@ -8,6 +8,7 @@
 [id="virt-removing-virtio-disk-from-vm_{context}"]
 = Removing the VirtIO container disk from a virtual machine
 
+[role="_abstract"]
 After installing all required VirtIO drivers to the virtual machine, the
  `container-native-virtualization/virtio-win` container disk no longer needs to be attached to the virtual machine.
 Remove the `container-native-virtualization/virtio-win` container disk from the virtual machine configuration file.

@@ -5,6 +5,7 @@
 [id="virt-importing-rhel-image-boot-source-web_{context}"]
 = Importing a Red Hat Enterprise Linux image as a boot source
 
+[role="_abstract"]
 You can import a Red Hat Enterprise Linux (RHEL) image as a boot source by specifying the URL address for the image.
 
 .Prerequisites

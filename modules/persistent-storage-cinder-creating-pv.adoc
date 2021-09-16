@@ -5,6 +5,7 @@
 [id="persistent-storage-cinder-creating-pv_{context}"]
 = Creating the persistent volume
 
+[role="_abstract"]
 You must define your persistent volume (PV) in an object definition before creating
 it in {product-title}:
 

@@ -5,6 +5,7 @@
 [id="ldap-syncing-config-augmented-activedir_{context}"]
 =  About the augmented Active Directory configuration file
 
+[role="_abstract"]
 The augmented Active Directory schema requires you to provide an LDAP query
 definition for both user entries and group entries, as well as the attributes
 with which to represent them in the internal {product-title} group records.

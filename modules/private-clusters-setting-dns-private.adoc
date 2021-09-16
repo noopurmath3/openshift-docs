@@ -6,6 +6,7 @@
 [id="private-clusters-setting-dns-private_{context}"]
 = Setting DNS to private
 
+[role="_abstract"]
 After you deploy a cluster, you can modify its DNS to use only a private zone.
 
 .Procedure

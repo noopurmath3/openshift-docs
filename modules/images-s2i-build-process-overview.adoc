@@ -5,6 +5,7 @@
 [id="images-s2i-build-process-overview_{context}"]
 = Source-to-image build process overview
 
+[role="_abstract"]
 Source-to-image (S2I) produces ready-to-run images by injecting source code into a container that prepares that source code to be run. It performs the following steps:
 
 . Runs the `FROM <builder image>` command

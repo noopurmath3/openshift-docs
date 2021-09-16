@@ -6,6 +6,7 @@
 [id="understanding-kubeadmin_{context}"]
 = The kubeadmin user
 
+[role="_abstract"]
 {product-title} creates a cluster administrator, `kubeadmin`, after the
 installation process completes.
 

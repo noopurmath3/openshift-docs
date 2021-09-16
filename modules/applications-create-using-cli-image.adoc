@@ -1,6 +1,7 @@
 [id="applications-create-using-cli-image_{context}"]
 = Creating an application from an image
 
+[role="_abstract"]
 You can deploy an application from an existing image. Images can come from image streams in the {product-title} server, images in a specific registry, or images in the local Docker server.
 
 The `new-app` command attempts to determine the type of image specified in the arguments passed to it. However, you can explicitly tell `new-app` whether the image is a container image using the `--docker-image` argument or an image stream using the `-i|--image-stream` argument.

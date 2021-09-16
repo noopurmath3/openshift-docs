@@ -5,6 +5,7 @@
 [id="rhel-compute-updating-minor_{context}"]
 = Updating {op-system-base} compute machines in your cluster
 
+[role="_abstract"]
 After you update your cluster, you must update the {op-system-base-full} compute machines in your cluster.
 
 [IMPORTANT]

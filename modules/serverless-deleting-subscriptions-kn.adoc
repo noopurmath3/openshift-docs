@@ -1,6 +1,7 @@
 [id="serverless-deleting-subscriptions-kn_{context}"]
 = Deleting subscriptions by using the Knative CLI
 
+[role="_abstract"]
 You can delete a subscription by using the `kn` CLI.
 
 .Procedure

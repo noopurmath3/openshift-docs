@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Container registries store container images to:
 
 * Make images accessible to others
@@ -40,6 +41,7 @@ include::modules/security-registries-ecosystem.adoc[leveloffset=+1]
 
 // OpenShift Container Registry
 include::modules/security-registries-openshift.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 * xref:../../registry/architecture-component-imageregistry.adoc#architecture-component-imageregistry[Integrated {product-title} registry]
 

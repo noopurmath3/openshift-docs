@@ -5,6 +5,7 @@
 [id="builds-chaining-builds_{context}"]
 = Chained builds
 
+[role="_abstract"]
 For compiled languages such as Go, C, C++, and Java, including the dependencies necessary for compilation in the application image might increase the size of the image or introduce vulnerabilities that can be exploited.
 
 To avoid these problems, two builds can be chained together. One build that produces the compiled artifact, and a second build that places that artifact in a separate image that runs the artifact.

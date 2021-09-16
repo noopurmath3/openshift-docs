@@ -5,6 +5,7 @@
 [id="ztp-discovery-iso_{context}"]
 = Automated Discovery image ISO process for provisioning clusters
 
+[role="_abstract"]
 After you create the custom resources, the following actions happen automatically:
 
 . A Discovery image ISO file is generated and booted on the target machine.

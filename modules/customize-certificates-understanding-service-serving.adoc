@@ -5,6 +5,7 @@
 [id="understanding-service-serving_{context}"]
 = Understanding service serving certificates
 
+[role="_abstract"]
 Service serving certificates are intended to support complex
 middleware applications that require encryption. These certificates are
 issued as TLS web server certificates.

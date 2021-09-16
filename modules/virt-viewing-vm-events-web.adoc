@@ -5,6 +5,7 @@
 [id="virt-viewing-vm-events-web_{context}"]
 = Viewing the events for a virtual machine in the web console
 
+[role="_abstract"]
 You can view the stream events for a running a virtual machine from the
 *Virtual Machine Overview* panel of the web console.
 

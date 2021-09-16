@@ -5,6 +5,7 @@
 [id="serverless-go-template_{context}"]
 = Golang function template structure
 
+[role="_abstract"]
 When you create a Golang function using the `kn` CLI, the project directory looks like a typical Go project, with the exception of an additional `func.yaml` configuration file.
 
 Golang functions have few restrictions. The only requirements are that your project must be defined in a `function` module, and must export the function `Handle()`.

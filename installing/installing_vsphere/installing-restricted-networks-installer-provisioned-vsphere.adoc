@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 In {product-title} {product-version}, you can install a cluster on VMware vSphere infrastructure in a restricted network by creating an internal mirror of the installation release content.
 
 [id="prerequisites_installing-restricted-networks-installer-provisioned-vsphere"]
@@ -69,6 +70,7 @@ include::modules/registry-configuring-storage-vsphere.adoc[leveloffset=+3]
 
 include::modules/cluster-telemetry.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../../support/remote_health_monitoring/about-remote-health-monitoring.adoc#about-remote-health-monitoring[About remote health monitoring] for more information about the Telemetry service

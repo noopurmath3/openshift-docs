@@ -5,6 +5,7 @@
 [id="nodes-nodes-resources-configuring-setting_{context}"]
 = Viewing Node Allocatable Resources and Capacity
 
+[role="_abstract"]
 As an administrator, you can view the current capacity and allocatable resources of a specific node.
 
 .Procedure

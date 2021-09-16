@@ -5,6 +5,7 @@
 [id="red-hat-marketplace-features_{context}"]
 = Red Hat Marketplace features
 
+[role="_abstract"]
 Cluster administrators can use link:https://marketplace.redhat.com/en-us/documentation/getting-started[the Red Hat Marketplace] to manage software on {product-title}, give developers self-service access to deploy application instances, and correlate application usage against a quota.
 
 [id="marketplace-clusters_{context}"]

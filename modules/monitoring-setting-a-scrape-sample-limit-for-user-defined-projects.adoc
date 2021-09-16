@@ -5,6 +5,7 @@
 [id="setting-a-scrape-sample-limit-for-user-defined-projects_{context}"]
 = Setting a scrape sample limit for user-defined projects
 
+[role="_abstract"]
 You can limit the number of samples that can be accepted per target scrape in user-defined projects.
 
 [WARNING]

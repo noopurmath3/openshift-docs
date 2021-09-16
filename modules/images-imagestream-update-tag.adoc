@@ -4,6 +4,7 @@
 [id="images-imagestream-update-tag_{context}"]
 = Updating image stream tags
 
+[role="_abstract"]
 You can update a tag to reflect another tag in an image stream.
 
 .Procedure

@@ -6,6 +6,7 @@
 
 = Creating a machine config manifest for workload partitioning
 
+[role="_abstract"]
 Part of configuring workload partitioning requires you to provide a `MachineConfig` manifest during installation to configure CRI-O and kubelet for the workload types.
 
 The manifest, without the encoded file content, looks like this:

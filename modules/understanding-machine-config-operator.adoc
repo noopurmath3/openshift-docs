@@ -4,6 +4,7 @@
 [id="understanding-machine-config-operator_{context}"]
 = Understanding the Machine Config Operator
 
+[role="_abstract"]
 {product-title} {product-version} integrates both
 operating system and cluster management. Because the cluster manages its own
 updates, including updates to {op-system-first} on cluster nodes,

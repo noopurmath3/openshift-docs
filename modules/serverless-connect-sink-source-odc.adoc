@@ -1,6 +1,7 @@
 [id="serverless-connect-sink-source-odc_{context}"]
 = Connect an event source to a sink using the Developer perspective
 
+[role="_abstract"]
 You can create multiple event source types in {product-title} that can be connected to sinks.
 
 .Prerequisites

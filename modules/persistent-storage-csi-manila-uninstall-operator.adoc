@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-manila-uninstall-operator_{context}"]
 = Uninstalling the Manila CSI Driver Operator
 
+[role="_abstract"]
 Before you uninstall the Manila Container Storage Interface (CSI) Driver Operator, you must delete all persistent volume claims (PVCs) that are in use by the Operator.
 
 .Prerequisites

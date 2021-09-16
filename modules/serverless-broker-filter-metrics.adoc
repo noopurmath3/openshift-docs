@@ -1,6 +1,7 @@
 [id="serverless-broker-filter-metrics_{context}"]
 = Broker filter metrics
 
+[role="_abstract"]
 You can use the following metrics to debug broker filters, see how they are performing, and see which events are being dispatched by the filters. You can also measure the latency of the filtering action on an event.
 
 [cols=5*,options="header"]

@@ -6,6 +6,7 @@
 [id="ossm-routing-gateways_{context}"]
 = Configuring ingress using a gateway
 
+[role="_abstract"]
 An ingress gateway is a load balancer operating at the edge of the mesh that receives incoming HTTP/TCP connections. It configures exposed ports and protocols but does not include any traffic routing configuration. Traffic routing for ingress traffic is instead configured with routing rules, the same way as for internal service requests.
 
 The following steps show how to create a gateway and configure a `VirtualService` to expose a service in the Bookinfo sample application to outside traffic for paths `/productpage` and `/login`.

@@ -5,6 +5,7 @@
 [id="metering-cluster-usage-examples_{context}"]
 = Measure cluster usage with a one-time report
 
+[role="_abstract"]
 The following report measures cluster usage from a specific starting date forward. The report only runs once, after you save it and apply it.
 
 .CPU usage by cluster example

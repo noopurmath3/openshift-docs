@@ -6,6 +6,7 @@
 [id="nodes-pods-configuring-restart_{context}"]
 = Configuring how pods behave after restart
 
+[role="_abstract"]
 A pod restart policy determines how {product-title} responds when Containers in that pod exit.
 The policy applies to all Containers in that pod.
 

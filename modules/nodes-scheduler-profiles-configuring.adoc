@@ -5,6 +5,7 @@
 [id="nodes-scheduler-profiles-configuring_{context}"]
 = Configuring a scheduler profile
 
+[role="_abstract"]
 You can configure the scheduler to use a scheduler profile.
 
 [NOTE]

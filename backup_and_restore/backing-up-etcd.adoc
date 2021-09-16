@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 etcd is the key-value store for {product-title}, which persists the state of all
 resource objects.
 

@@ -5,6 +5,7 @@
 [id="cluster-logging-kibana-tolerations_{context}"]
 = Using tolerations to control the log visualizer pod placement
 
+[role="_abstract"]
 You can control the node where the log visualizer pod runs and prevent
 other workloads from using those nodes by using tolerations on the pods.
 

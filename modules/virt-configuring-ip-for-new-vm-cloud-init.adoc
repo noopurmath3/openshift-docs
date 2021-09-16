@@ -5,6 +5,7 @@
 [id="virt-configuring-ip-for-new-vm-cloud-init_{context}"]
 = Configuring an IP address for a new virtual machine using cloud-init
 
+[role="_abstract"]
 You can use cloud-init to configure an IP address when you create a virtual machine. The IP address can be dynamically or statically provisioned.
 
 .Procedure

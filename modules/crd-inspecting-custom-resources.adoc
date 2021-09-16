@@ -8,6 +8,7 @@
 [id="crd-inspecting-custom-resources_{context}"]
 = Inspecting custom resources
 
+[role="_abstract"]
 You can inspect custom resource (CR) objects that exist in your cluster using the CLI.
 
 .Prerequisites

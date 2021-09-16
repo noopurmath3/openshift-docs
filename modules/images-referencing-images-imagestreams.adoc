@@ -4,6 +4,7 @@
 [id="images-referencing-images-imagestreams_{context}"]
 = Referencing images in imagestreams
 
+[role="_abstract"]
 You can use tags to reference images in image streams using the following reference types.
 
 .Imagestream reference types

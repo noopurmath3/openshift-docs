@@ -1,6 +1,7 @@
 [id="nw-networkpolicy-audit-configure_{context}"]
 = Configuring network policy auditing for a cluster
 
+[role="_abstract"]
 As a cluster administrator, you can customize network policy audit logging for your cluster.
 
 .Prerequisites

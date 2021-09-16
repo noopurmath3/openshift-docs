@@ -5,6 +5,7 @@
 [id="graceful-restart_{context}"]
 = Restarting the cluster
 
+[role="_abstract"]
 You can restart your cluster after it has been shut down gracefully.
 
 .Prerequisites

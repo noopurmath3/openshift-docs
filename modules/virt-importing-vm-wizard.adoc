@@ -6,6 +6,7 @@
 [id="virt-importing-vm-wizard_{context}"]
 = Importing a virtual machine with the VM Import wizard
 
+[role="_abstract"]
 You can import a single virtual machine with the VM Import wizard.
 
 ifdef::virt-importing-vmware-vm[]

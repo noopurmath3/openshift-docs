@@ -3,6 +3,7 @@
 // * networking/openshift_sdn/assigning-egress-ips.adoc
 // * networking/ovn_kubernetes_network_provider/assigning-egress-ips-ovn.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "egress-ips"]
 :openshift-sdn:
 endif::[]

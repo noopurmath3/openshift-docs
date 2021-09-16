@@ -5,6 +5,7 @@
 [id="virt-installing-a-watchdog_{context}"]
 = Installing a watchdog device
 
+[role="_abstract"]
 Install the `watchdog` package on your virtual machine and start the watchdog service.
 
 .Procedure

@@ -5,6 +5,7 @@
 [id="identity-provider-about-ldap_{context}"]
 = About LDAP authentication
 
+[role="_abstract"]
 During authentication, the LDAP directory is searched for an entry that matches
 the provided user name. If a single unique match is found, a simple bind is
 attempted using the distinguished name (DN) of the entry plus the provided

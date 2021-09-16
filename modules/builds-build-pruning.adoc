@@ -5,6 +5,7 @@
 [id="builds-build-pruning_{context}"]
 = Pruning builds
 
+[role="_abstract"]
 By default, builds that have completed their lifecycle are persisted indefinitely. You can limit the number of previous builds that are retained.
 
 .Procedure

@@ -6,6 +6,7 @@
 [id="installation-cloudformation-vpc_{context}"]
 = CloudFormation template for the VPC
 
+[role="_abstract"]
 You can use the following CloudFormation template to deploy the VPC that
 you need for your {product-title} cluster.
 

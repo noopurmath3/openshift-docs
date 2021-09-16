@@ -6,6 +6,7 @@
 [id="images-create-s2i-build_{context}"]
 = Understanding the source-to-image build process
 
+[role="_abstract"]
 The build process consists of the following three fundamental elements, which are combined into a final container image:
 
 * Sources

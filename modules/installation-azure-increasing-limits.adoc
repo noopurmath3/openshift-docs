@@ -6,6 +6,7 @@
 [id="installation-azure-increasing-limits_{context}"]
 = Increasing Azure account limits
 
+[role="_abstract"]
 To increase an account limit, file a support request on the Azure portal.
 [NOTE]
 ====

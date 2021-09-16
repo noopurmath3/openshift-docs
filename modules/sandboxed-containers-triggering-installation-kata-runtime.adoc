@@ -5,6 +5,7 @@
 [id="sandboxed-containers-triggering-installation-kata-runtime_{context}"]
 = Triggering the installation of the Kata runtime
 
+[role="_abstract"]
 You must create one `KataConfig` custom resource (CR) to trigger the {sandboxed-containers-operator} to do the following:
 
 * Install the needed {op-system} extensions, such as QEMU and `kata-containers`, on your {op-system} node.

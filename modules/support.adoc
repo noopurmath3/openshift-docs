@@ -7,6 +7,7 @@
 [id="support_{context}"]
 = Getting support
 
+[role="_abstract"]
 If you experience difficulty with a procedure described in this documentation, or with {product-title} in general, visit the link:http://access.redhat.com[Red Hat Customer Portal]. From the Customer Portal, you can:
 
 * Search or browse through the Red Hat Knowledgebase of articles and solutions relating to Red Hat products.

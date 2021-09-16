@@ -5,6 +5,7 @@
 [id="building-memcached-operator-using-osdk_{context}"]
 = Building a Go-based Operator using the Operator SDK
 
+[role="_abstract"]
 This procedure walks through an example of building a simple Memcached Operator using tools and libraries provided by the SDK.
 
 .Prerequisites
@@ -437,6 +438,7 @@ $ oc delete -f deploy/role_binding.yaml
 $ oc delete -f deploy/service_account.yaml
 ----
 
+[role="_additional-resources"]
 .Additional resources
 
 * For more information about OpenAPI v3.0 validation schemas in CRDs, refer to the link:https://kubernetes.io/docs/tasks/access-kubernetes-api/custom-resources/custom-resource-definitions/#specifying-a-structural-schema[Kubernetes documentation].

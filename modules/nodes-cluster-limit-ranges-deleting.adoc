@@ -6,6 +6,7 @@
 = Deleting a Limit Range
 
 
+[role="_abstract"]
 To remove any active `LimitRange` object to no longer enforce the limits in a project:
 
 . Run the following command:

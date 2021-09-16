@@ -4,6 +4,7 @@
 
 = Additional configuration and troubleshooting
 
+[role="_abstract"]
 Depending on what version of NFS is being used and how it is configured,
 there may be additional configuration steps needed for proper export and
 security mapping. The following are some that may apply:

@@ -5,6 +5,7 @@
 [id="virt-accessing-vmi-ssh_{context}"]
 = Accessing a virtual machine instance via SSH
 
+[role="_abstract"]
 You can use SSH to access a virtual machine (VM) after you expose port 22 on it.
 
 The `virtctl expose` command forwards a virtual machine instance (VMI) port to a node

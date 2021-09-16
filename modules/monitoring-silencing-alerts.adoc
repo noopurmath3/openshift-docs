@@ -5,6 +5,7 @@
 [id="silencing-alerts_{context}"]
 = Silencing alerts
 
+[role="_abstract"]
 You can either silence a specific alert or silence alerts that match a specification that you define.
 
 .Prerequisites

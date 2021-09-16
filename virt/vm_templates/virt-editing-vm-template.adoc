@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can update a virtual machine template in the web console, either by editing
 the full configuration in the YAML editor or by selecting a custom template in the *Templates* tab and modifying the editable items.
 

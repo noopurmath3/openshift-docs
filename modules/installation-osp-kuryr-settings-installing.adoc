@@ -6,6 +6,7 @@
 [id="installation-osp-kuryr-settings-installing_{context}"]
 = Adjusting Kuryr ports pools during installation
 
+[role="_abstract"]
 During installation, you can configure how Kuryr manages {rh-openstack-first} Neutron ports to control the speed and efficiency of pod creation.
 
 .Prerequisites

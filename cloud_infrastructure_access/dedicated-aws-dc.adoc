@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This process describes accepting an AWS Direct Connect virtual interface with
 {product-title}. For more information about AWS Direct Connect types and
 configuration, see the

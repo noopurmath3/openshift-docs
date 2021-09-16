@@ -1,6 +1,7 @@
 [id="serverless-nodejs-context-object-reference_{context}"]
 = Node.js context object reference
 
+[role="_abstract"]
 The `context` object has several properties that can be accessed by the function developer.
 
 [id="serverless-nodejs-context-object-reference-log_{context}"]

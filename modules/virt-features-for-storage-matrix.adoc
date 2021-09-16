@@ -8,6 +8,7 @@
 = {VirtProductName} storage feature matrix
 
 ifdef::virt-importing-rhv-vm,virt-importing-vmware-vm[]
+[role="_abstract"]
 The following table describes the {VirtProductName} storage types that support VM import.
 endif::[]
 

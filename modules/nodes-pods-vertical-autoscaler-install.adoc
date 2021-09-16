@@ -5,6 +5,7 @@
 [id="nodes-pods-vertical-autoscaler-install_{context}"]
 = Installing the Vertical Pod Autoscaler Operator
 
+[role="_abstract"]
 You can use the {product-title} web console to install the Vertical Pod Autoscaler Operator (VPA).
 
 ifdef::openshift-origin[]

@@ -5,6 +5,7 @@
 [id="installation-creating-azure-bootstrap_{context}"]
 = Creating the bootstrap machine in Azure
 
+[role="_abstract"]
 You must create the bootstrap machine in Microsoft Azure to use during
 {product-title} cluster initialization. One way to create this machine is to
 modify the provided Azure Resource Manager (ARM) template.

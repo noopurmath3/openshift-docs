@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can use {product-title} monitoring dashboards to view health checks and metrics for {ServerlessProductName} components.
 
 // General monitoring for Serverless

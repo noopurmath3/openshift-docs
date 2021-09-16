@@ -6,6 +6,7 @@
 [id="migration-upgrading-mtc-on-ocp-4_{context}"]
 = Upgrading the {mtc-full} on {product-title} {product-version}
 
+[role="_abstract"]
 You can upgrade the {mtc-full} ({mtc-short}) on {product-title} {product-version} by using the Operator Lifecycle Manager.
 
 .Prerequisites

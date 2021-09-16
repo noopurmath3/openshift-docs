@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-nodejs-hot-deploying_{context}"]
 = Hot deploying for Node.js
 
+[role="_abstract"]
 Hot deployment allows you to quickly make and deploy changes to your application without having to generate a new source-to-image (S2I) build. In order to immediately pick up changes made in your application source code, you must run your built image with the `DEV_MODE=true` environment variable.
 
 You can set new environment variables when creating new applications, or updating

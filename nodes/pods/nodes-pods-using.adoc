@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 A _pod_ is one or more containers deployed together on one host, and the smallest compute unit that can be defined,
 deployed, and managed.
 

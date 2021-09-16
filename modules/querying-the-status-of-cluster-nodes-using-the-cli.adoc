@@ -5,6 +5,7 @@
 [id="querying-the-status-of-cluster-nodes-using-the-cli_{context}"]
 = Querying the status of the cluster nodes by using the CLI
 
+[role="_abstract"]
 You can verify the status of the cluster nodes after an installation.
 
 .Prerequisites

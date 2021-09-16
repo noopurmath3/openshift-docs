@@ -5,6 +5,7 @@
 [id="security-context-constraints-restore-defaults_{context}"]
 = Restoring the default Security Context Constraints
 
+[role="_abstract"]
 If the default Security Context Constraints (SCCs)  are not present when the
 master restarts, they are created again. To reset SCCs to the default values or
 update existing SCCs to new default definitions after an upgrade you can either:

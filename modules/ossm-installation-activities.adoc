@@ -7,6 +7,7 @@
 [id="ossm-installation-activities_{context}"]
 = Operator overview
 
+[role="_abstract"]
 {ProductName} requires the following four Operators:
 
 * *OpenShift Elasticsearch* - (Optional) Provides database storage for tracing and logging with Jaeger. It is based on the open source link:https://www.elastic.co/[Elasticsearch] project.

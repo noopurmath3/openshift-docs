@@ -7,6 +7,7 @@
 [id="virt-about-collecting-virt-data_{context}"]
 = About collecting {VirtProductName} data
 
+[role="_abstract"]
 You can use the `oc adm must-gather` CLI command to collect information about your
 cluster, including features and objects associated with {VirtProductName}:
 

@@ -5,6 +5,7 @@
 
 :name: network
 :role: admin
+[role="_abstract"]
 ifeval::["{context}" == "configuring-multi-network-policy"]
 :multi:
 :name: multi-network

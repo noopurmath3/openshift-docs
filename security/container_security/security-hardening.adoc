@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {op-system} was created and tuned to be deployed in {product-title} with
 few if any changes needed to {op-system} nodes.
 Every organization adopting {product-title} has its own requirements for
@@ -30,6 +31,7 @@ include::modules/security-hardening-what.adoc[leveloffset=+1]
 
 // Choosing how to harden {op-system}
 include::modules/security-hardening-how.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 * link:https://access.redhat.com/articles/5059881[OpenShift Security Guide]
 * xref:../../architecture/architecture-rhcos.adoc#rhcos-deployed_architecture-rhcos[Choosing how to configure {op-system}]

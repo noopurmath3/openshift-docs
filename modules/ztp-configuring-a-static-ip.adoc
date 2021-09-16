@@ -5,6 +5,7 @@
 [id="ztp-configuring-a-static-ip_{context}"]
 = Configuring static IP addresses for managed clusters
 
+[role="_abstract"]
 Optionally, after creating the `AgentClusterInstall` custom resource, you can configure static IP addresses for the managed clusters.
 
 [NOTE]

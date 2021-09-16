@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can update, or upgrade, an {product-title} cluster within a minor version by using the OpenShift CLI (`oc`).
 
 == Prerequisites
@@ -27,6 +28,7 @@ If you are running cluster monitoring with an attached PVC for Prometheus, you m
 ====
 
 include::modules/update-service-overview.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../architecture/architecture-installation.adoc#unmanaged-operators_architecture-installation[Support policy for unmanaged Operators]

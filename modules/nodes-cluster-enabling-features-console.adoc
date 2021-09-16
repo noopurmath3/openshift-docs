@@ -5,6 +5,7 @@
 [id="nodes-cluster-enabling-features-console_{context}"]
 = Enabling feature sets using the web console
 
+[role="_abstract"]
 You can use the {product-title} web console to enable feature sets for all of the nodes in a cluster by editing the `FeatureGate` custom resource (CR).
 
 .Procedure

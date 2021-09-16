@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-architecture_{context}"]
 = CSI Architecture
 
+[role="_abstract"]
 CSI drivers are typically shipped as container images. These containers
 are not aware of {product-title} where they run. To use CSI-compatible
 storage back end in {product-title}, the cluster administrator must deploy

@@ -6,6 +6,7 @@
 = Template: Virtual machine instance configuration file for defining health checks
 
 [source,yaml]
+[role="_abstract"]
 ----
 apiVersion: kubevirt.io/v1alpha3
 kind: VirtualMachineInstance

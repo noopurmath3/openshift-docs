@@ -5,6 +5,7 @@
 [id="ossm-access-grafana_{context}"]
 = Accessing Grafana
 
+[role="_abstract"]
 Grafana is an analytics tool that you can use to view, query, and analyze your service mesh metrics. In this example, `istio-system` is the control plane namespace. To access Grafana, do the following:
 
 .Procedure

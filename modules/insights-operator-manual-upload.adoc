@@ -7,6 +7,7 @@
 [id="insights-operator-manual-upload_{context}"]
 = Uploading an Insights Operator archive
 
+[role="_abstract"]
 You can manually upload an Insights Operator archive to link:https://console.redhat.com[console.redhat.com] to diagnose potential issues.
 
 .Prerequisites

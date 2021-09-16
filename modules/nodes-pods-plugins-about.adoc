@@ -6,6 +6,7 @@
 [id="nodes-pods-plugins-about_{context}"]
 = Understanding device plug-ins
 
+[role="_abstract"]
 The device plug-in provides a consistent and portable solution to consume hardware
 devices across clusters. The device plug-in provides support for these devices
 through an extension mechanism, which makes these devices available to

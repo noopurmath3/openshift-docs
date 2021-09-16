@@ -5,6 +5,7 @@
 [id="identity-provider-about-basic-authentication_{context}"]
 = About basic authentication
 
+[role="_abstract"]
 Basic authentication is a generic back-end integration mechanism that allows
 users to log in to {product-title} with credentials validated against a remote
 identity provider.

@@ -5,6 +5,7 @@
 [id="registry-operator-configuration-resource-overview-gcp-gcs_{context}"]
 = Image Registry Operator configuration parameters for GCP GCS
 
+[role="_abstract"]
 The following configuration parameters are available for GCP GCS registry storage.
 
 [cols="3a,8a",options="header"]

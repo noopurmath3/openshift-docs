@@ -6,6 +6,7 @@
 [id="nodes-scheduler-taints-tolerations-adding-machineset_{context}"]
 = Adding taints and tolerations using a machine set
 
+[role="_abstract"]
 You can add taints to nodes using a machine set. All nodes associated with the `MachineSet` object are updated with the taint. Tolerations respond to taints added by a machine set in the same manner as taints added directly to the nodes.
 
 .Procedure

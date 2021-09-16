@@ -6,6 +6,7 @@
 [id="cnf-collecting-low-latency-tuning-debugging-data-for-red-hat-support_{context}"]
 = Collecting low latency tuning debugging data for Red Hat Support
 
+[role="_abstract"]
 When opening a support case, it is helpful to provide debugging information about your cluster to Red Hat Support.
 
 The `must-gather` tool enables you to collect diagnostic information about your {product-title} cluster, including node tuning, NUMA topology, and other information needed to debug issues with low latency setup.

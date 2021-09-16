@@ -5,6 +5,7 @@ include::modules/ossm-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 When you deploy an application into the {ProductShortName}, there are several differences between the behavior of applications in the upstream community version of Istio and the behavior of applications within a {ProductName} installation.
 
 == Prerequisites

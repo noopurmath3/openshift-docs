@@ -5,6 +5,7 @@
 [id="builds-troubleshooting-access-resources_{context}"]
 = Resolving denial for access to resources
 
+[role="_abstract"]
 If your request for access to resources is denied:
 
 Issue::

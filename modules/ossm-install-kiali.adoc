@@ -6,6 +6,7 @@
 [id="ossm-install-kiali_{context}"]
 = Installing the Kiali Operator
 
+[role="_abstract"]
 You must install the Kiali Operator for the {ProductName} Operator to install the control plane.
 
 [WARNING]

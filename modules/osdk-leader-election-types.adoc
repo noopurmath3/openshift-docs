@@ -5,6 +5,7 @@
 [id="osdk-leader-for-life-election_{context}"]
 = Using Leader-for-life election
 
+[role="_abstract"]
 With the Leader-for-life election implementation, a call to `leader.Become()` blocks the Operator as it retries until it can become the leader by creating the config map named `memcached-operator-lock`:
 
 [source,go]

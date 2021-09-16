@@ -5,6 +5,7 @@
 [id="architecture-container-application-benefits_{context}"]
 = The benefits of containerized applications
 
+[role="_abstract"]
 Using containerized applications offers many advantages over using traditional deployment methods. Where applications were once expected to be installed on operating systems that included all their dependencies, containers let an application carry their dependencies with them. Creating containerized applications offers many benefits.
 
 [id="operating-system-benefits_{context}"]

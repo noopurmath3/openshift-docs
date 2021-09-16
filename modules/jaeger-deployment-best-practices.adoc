@@ -1,4 +1,5 @@
 ////
+[role="_abstract"]
 This module included in the following assemblies:
 *  /jaeger/jaeger_install/rhbjaeger-deploying.adoc
 ////

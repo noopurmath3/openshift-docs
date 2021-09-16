@@ -5,6 +5,7 @@
 [id="nodes-pods-daemonsets-creating_{context}"]
 = Creating daemonsets
 
+[role="_abstract"]
 When creating daemon sets, the `nodeSelector` field is used to indicate the
 nodes on which the daemon set should deploy replicas.
 

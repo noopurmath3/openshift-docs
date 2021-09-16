@@ -5,6 +5,7 @@
 [id="images-other-jenkins-kubernetes-plugin_{context}"]
 = Using the Jenkins Kubernetes plug-in
 
+[role="_abstract"]
 In the following example, the `openshift-jee-sample` `BuildConfig` object causes a Jenkins Maven agent pod to be dynamically provisioned. The pod clones some Java source code, builds a WAR file, and causes a second `BuildConfig`, `openshift-jee-sample-docker` to run. The second `BuildConfig` layers the new WAR file into a container image.
 
 .Sample `BuildConfig` that uses the Jenkins Kubernetes plug-in

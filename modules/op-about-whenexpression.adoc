@@ -5,6 +5,7 @@
 [id="about-whenexpression_{context}"]
 = When expression
 
+[role="_abstract"]
 When expressions guard task execution by setting criteria for the execution of tasks within a pipeline. They contain a list of components that allows a task to run only when certain criteria are met. When expressions are also supported in the final set of tasks that are specified using the `finally` field in the pipeline YAML file.
 
 The key components of a when expression are as follows:

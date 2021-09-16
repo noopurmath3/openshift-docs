@@ -5,6 +5,7 @@
 [id="virt-automatic-certificates-renewal_{context}"]
 = TLS certificates automatic renewal schedules
 
+[role="_abstract"]
 TLS certificates are automatically deleted and replaced according to the following schedule:
 
 * KubeVirt certificates are renewed daily.

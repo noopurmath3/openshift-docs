@@ -6,6 +6,7 @@
 [id="virt-networking-glossary_{context}"]
 = {VirtProductName} networking glossary
 
+[role="_abstract"]
 {VirtProductName} provides advanced networking functionality by using custom resources and plug-ins.
 
 The following terms are used throughout {VirtProductName} documentation:

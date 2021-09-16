@@ -6,6 +6,7 @@
 [id="identity-provider-configuring-using-the-web-console_{context}"]
 = Configuring identity providers using the web console
 
+[role="_abstract"]
 Configure your identity provider (IDP) through the web console instead of the CLI.
 
 .Prerequisites

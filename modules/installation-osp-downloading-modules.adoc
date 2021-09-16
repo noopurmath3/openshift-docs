@@ -5,6 +5,7 @@
 //
 //YOU MUST SET AN IFEVAL FOR EACH NEW MODULE
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-openstack-user"]
 :osp-user:
 endif::[]

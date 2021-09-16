@@ -5,6 +5,7 @@
 [id="installation-aws-limits_{context}"]
 = AWS account limits
 
+[role="_abstract"]
 The {product-title} cluster uses a number of Amazon Web Services (AWS)
 components, and the default
 link:https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html[Service Limits]

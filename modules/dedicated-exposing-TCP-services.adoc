@@ -5,6 +5,7 @@
 [id="dedicated-exposing-TCP-services_{context}"]
 = Exposing TCP services
 
+[role="_abstract"]
 {product-title} routes expose applications by proxying traffic through
 HTTP/HTTPS(SNI)/TLS(SNI) to pods and services. A
 link:https://kubernetes.io/docs/concepts/services-networking/#loadbalancer[LoadBalancer]

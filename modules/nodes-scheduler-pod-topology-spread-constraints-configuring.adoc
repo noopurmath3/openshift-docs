@@ -5,6 +5,7 @@
 [id="nodes-scheduler-pod-topology-spread-constraints-configuring_{context}"]
 = Configuring pod topology spread constraints
 
+[role="_abstract"]
 The following steps demonstrate how to configure pod topology spread constraints to distribute pods that match the specified labels based on their zone.
 
 You can specify multiple pod topology spread constraints, but you must ensure that they do not conflict with each other. All pod topology spread constraints must be satisfied for a pod to be placed.

@@ -5,6 +5,7 @@
 [id="nw-egress-router-http-proxy-mode_{context}"]
 = Deploying an egress router pod in HTTP proxy mode
 
+[role="_abstract"]
 In _HTTP proxy mode_, an egress router pod runs as an HTTP proxy on port `8080`. This mode only works for clients that are connecting to HTTP-based or HTTPS-based services, but usually requires fewer changes to the client pods to get them to work. Many programs can be told to use an HTTP proxy by setting an environment variable.
 
 .Prerequisites

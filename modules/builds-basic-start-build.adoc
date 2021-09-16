@@ -4,6 +4,7 @@
 [id="builds-basic-start-build_{context}"]
 = Starting a build
 
+[role="_abstract"]
 You can manually start a new build from an existing build configuration in your current project.
 
 .Procedure

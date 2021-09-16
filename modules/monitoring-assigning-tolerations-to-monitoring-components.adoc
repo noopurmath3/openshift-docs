@@ -5,6 +5,7 @@
 [id="assigning-tolerations-to-monitoring-components_{context}"]
 = Assigning tolerations to monitoring components
 
+[role="_abstract"]
 You can assign tolerations to any of the monitoring stack components to enable moving them to tainted nodes.
 
 .Prerequisites

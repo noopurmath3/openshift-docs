@@ -6,6 +6,7 @@
 
 = Listing available services from the Operators installed on the cluster
 
+[role="_abstract"]
 With `{odo-title}`, you can display the list of the Operators installed on your cluster, and the services they provide.
 
 * To list the Operators installed in current project, run:

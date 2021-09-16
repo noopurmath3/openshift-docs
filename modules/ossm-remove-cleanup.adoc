@@ -6,6 +6,7 @@
 [id="ossm-remove-cleanup_{context}"]
 = Clean up Operator resources
 
+[role="_abstract"]
 You can manually remove resources left behind after removing the {ProductName} Operator using the {product-title} web console.
 
 .Prerequisites

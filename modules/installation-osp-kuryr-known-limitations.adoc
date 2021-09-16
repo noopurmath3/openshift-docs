@@ -5,6 +5,7 @@
 [id="installation-osp-kuryr-known-limitations_{context}"]
 = Known limitations of installing with Kuryr
 
+[role="_abstract"]
 Using {product-title} with Kuryr SDN has several known limitations.
 
 [discrete]

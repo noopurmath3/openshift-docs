@@ -5,6 +5,7 @@
 [id="installation-osp-creating-image_{context}"]
 = Creating the {op-system-first} image
 
+[role="_abstract"]
 The {product-title} installation program requires that a {op-system-first} image be present in the {rh-openstack-first} cluster. Retrieve the latest {op-system} image, then upload it using the {rh-openstack} CLI.
 
 .Prerequisites

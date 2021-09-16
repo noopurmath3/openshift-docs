@@ -4,6 +4,7 @@
 [id="metering-writing-reports_{context}"]
 = Writing Reports
 
+[role="_abstract"]
 Writing a report is the way to process and analyze data using metering.
 
 To write a report, you must define a `Report` resource in a YAML file, specify the required parameters, and create it in the `openshift-metering` namespace.

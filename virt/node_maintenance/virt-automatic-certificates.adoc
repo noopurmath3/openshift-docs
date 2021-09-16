@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 All TLS certificates for {VirtProductName} components are renewed and rotated automatically. You are not required to refresh them manually.
 
 include::modules/virt-automatic-certificates-renewal.adoc[leveloffset=+1]

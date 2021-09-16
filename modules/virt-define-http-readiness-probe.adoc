@@ -6,6 +6,7 @@
 
 = Defining an HTTP readiness probe
 
+[role="_abstract"]
 Define an HTTP readiness probe by setting the `spec.readinessProbe.httpGet` field of the virtual machine instance (VMI) configuration.
 
 

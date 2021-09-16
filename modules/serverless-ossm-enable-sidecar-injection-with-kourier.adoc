@@ -1,6 +1,7 @@
 [id="serverless-ossm-enable-sidecar-injection-with-kourier_{context}"]
 = Enabling sidecar injection for a Knative service
 
+[role="_abstract"]
 You can add the `sidecar.istio.io/inject="true"` annotation to a Knative service to enable sidecar injection for that service.
 
 [IMPORTANT]

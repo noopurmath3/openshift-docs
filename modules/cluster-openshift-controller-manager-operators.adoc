@@ -8,6 +8,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The OpenShift Controller Manager Operator installs and maintains the `OpenShiftControllerManager` custom resource in a cluster and can be viewed with:
 
 [source,terminal]

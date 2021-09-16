@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The *Topology* view in the *Developer* perspective of the web console provides a visual representation of all the applications within a project, their build status, and the components and services associated with them.
 
 == Prerequisites
@@ -32,6 +33,7 @@ include::modules/odc-connecting-components.adoc[leveloffset=+1]
 
 include::modules/odc-labels-and-annotations-used-for-topology-view.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../applications/creating_applications/odc-creating-applications-using-developer-perspective.adoc#odc-importing-codebase-from-git-to-create-application_odc-creating-applications-using-developer-perspective[Importing a codebase from Git to create an application] for more information on creating an application from Git.

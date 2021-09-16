@@ -5,6 +5,7 @@
 [id="virt-filtering-vm-templates_{context}"]
 = Filtering the list of virtual machine templates by providers
 
+[role="_abstract"]
 In the *Templates* tab, you can use the *Search by name* field to search for virtual machine templates by specifying either the name of the template or a label that identfies the template. You can also filter templates by the provider, and display only those templates that meet your filtering criteria.
 
 .Procedure

@@ -5,6 +5,7 @@
 [id="accessing-third-party-uis-using-the-web-console_{context}"]
 = Accessing third-party monitoring UIs by using the web console
 
+[role="_abstract"]
 You can access the Alertmanager, Grafana, Prometheus, and Thanos Querier web UIs through the {product-title} web console.
 
 .Prerequisites

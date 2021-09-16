@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster user you can remove a pod from an additional network.
 
 include::modules/nw-multus-remove-pod.adoc[leveloffset=+1]

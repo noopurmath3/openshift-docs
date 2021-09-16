@@ -6,6 +6,7 @@
 [id="networking-osp-enabling-metadata_{context}"]
 = Enabling the {rh-openstack} metadata service as a mountable drive
 
+[role="_abstract"]
 You can apply a machine config to your machine pool that makes the {rh-openstack-first} metadata service available as a mountable drive.
 
 [INFO]

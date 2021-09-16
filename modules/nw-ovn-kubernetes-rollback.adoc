@@ -5,6 +5,7 @@
 [id="nw-ovn-kubernetes-rollback_{context}"]
 = Rolling back the default CNI network provider to OpenShift SDN
 
+[role="_abstract"]
 As a cluster administrator, you can rollback your cluster to the OpenShift SDN Container Network Interface (CNI) cluster network provider.
 During the rollback, you must reboot every node in your cluster.
 

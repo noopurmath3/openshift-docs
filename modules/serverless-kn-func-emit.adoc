@@ -1,6 +1,7 @@
 [id="serverless-kn-func-emit_{context}"]
 = Emitting a test event to a deployed function
 
+[role="_abstract"]
 You can use the `kn func emit` CLI command to emit a CloudEvent to a function that is either deployed locally or deployed to your {product-title} cluster. This command can be used to test that a function is working and able to receive events correctly.
 
 .Example command

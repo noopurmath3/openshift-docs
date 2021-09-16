@@ -5,6 +5,7 @@
 [id="virt-deleting-vmis-web_{context}"]
 = Deleting a standalone virtual machine instance using the web console
 
+[role="_abstract"]
 Delete a standalone virtual machine instance (VMI) from the web console.
 
 .Procedure

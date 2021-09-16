@@ -5,6 +5,7 @@
 [id="odc-monitoring-health-checks"]
 = Monitoring health check failures using the Developer perspective
 
+[role="_abstract"]
 In case an application health check fails, you can use the *Topology* view to monitor these health check violations.
 
 .Prerequisites:

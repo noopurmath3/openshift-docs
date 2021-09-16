@@ -5,6 +5,7 @@
 [id="ipi-install-troubleshooting-cleaning-up-previous-installations_{context}"]
 = Cleaning up previous installations
 
+[role="_abstract"]
 In the event of a previous failed deployment, remove the artifacts from the failed attempt before attempting to deploy {product-title} again.
 
 .Procedure

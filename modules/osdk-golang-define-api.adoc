@@ -5,6 +5,7 @@
 [id="osdk-golang-define-api_{context}"]
 = Defining the API
 
+[role="_abstract"]
 Define the API for the `Memcached` custom resource (CR).
 
 .Procedure

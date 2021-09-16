@@ -5,6 +5,7 @@
 [id="nodes-cluster-resource-override-deploy-console_{context}"]
 = Installing the Cluster Resource Override Operator using the web console
 
+[role="_abstract"]
 You can use the {product-title} web console to install the Cluster Resource Override Operator to help control overcommit in your cluster.  
 
 .Prerequisites

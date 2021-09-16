@@ -5,6 +5,7 @@
 [id="jt-comparison-of-jenkins-and-tekton-concepts_{context}"]
 = Comparison of Jenkins and Tekton concepts
 
+[role="_abstract"]
 toc::[]
 
 

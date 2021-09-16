@@ -5,6 +5,7 @@
 [id="security-network-egress_{context}"]
 =  Securing egress traffic
 
+[role="_abstract"]
 {product-title} provides the ability to control egress traffic using either
 a router or firewall method. For example, you can use IP whitelisting to control
 database access.

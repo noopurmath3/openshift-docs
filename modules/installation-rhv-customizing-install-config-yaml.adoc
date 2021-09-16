@@ -6,6 +6,7 @@
 [id="installation-rhv-customizing-install-config-yaml_{context}"]
 = Customizing install-config.yaml
 
+[role="_abstract"]
 Here, you use three Python scripts to override some of the installation program's default behaviors:
 
 * By default, the installation program uses the machine API to create nodes. To override this default behavior, you set the number of compute nodes to zero replicas. Later, you use Ansible playbooks to create the compute nodes.

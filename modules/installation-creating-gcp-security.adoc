@@ -6,6 +6,7 @@
 [id="installation-creating-gcp-security_{context}"]
 = Creating firewall rules and IAM roles in GCP
 
+[role="_abstract"]
 You must create security groups and roles in Google Cloud Platform (GCP) for your
 {product-title} cluster to use. One way to create these components is
 to modify the provided Deployment Manager template.

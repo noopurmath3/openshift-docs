@@ -5,6 +5,7 @@
 [id="api-compatibility-exceptions_{context}"]
 = API compatibility exceptions
 
+[role="_abstract"]
 The following are exceptions to compatibility in {product-title}:
 
 [discrete]

@@ -31,6 +31,7 @@
 // Consider also adding the installation-configuration-parameters.adoc module.
 //YOU MUST SET AN IFEVAL FOR EACH NEW MODULE
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-aws-customizations"]
 :aws:
 endif::[]

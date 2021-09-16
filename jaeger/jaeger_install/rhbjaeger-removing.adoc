@@ -5,6 +5,7 @@ include::modules/jaeger-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The steps for removing Jaeger from an {product-title} cluster are as follows:
 
 . Shut down any Jaeger pods.

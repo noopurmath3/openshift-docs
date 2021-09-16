@@ -7,6 +7,7 @@
 [id="installation-aws-permissions_{context}"]
 = Required AWS permissions for the IAM user
 
+[role="_abstract"]
 When you attach the `AdministratorAccess` policy to the IAM user that you create in Amazon Web Services (AWS),
 you grant that user all of the required permissions. To deploy all components of an {product-title}
 cluster, the IAM user requires the following permissions:

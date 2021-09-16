@@ -7,6 +7,7 @@ ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
 [id="creating-local-role_{context}"]
 = Creating a local role
 
+[role="_abstract"]
 You can create a local role for a project and then bind it to a user.
 
 .Procedure

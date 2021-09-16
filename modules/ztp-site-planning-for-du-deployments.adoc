@@ -5,6 +5,7 @@
 [id="ztp-site-planning-for-du-deployments_{context}"]
 = Site planning considerations for distributed unit deployments
 
+[role="_abstract"]
 Site planning for distributed units (DU) deployments is complex. The following is an overview of the tasks that you complete before the DU hosts are brought online in the production environment.
 
 * Develop a network model. The network model depends on various factors such as the size of the area of coverage, number of hosts, projected traffic load, DNS, and DHCP requirements.

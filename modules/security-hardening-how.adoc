@@ -6,6 +6,7 @@
 
 = Choosing how to harden {op-system}
 
+[role="_abstract"]
 Direct modification of {op-system} systems in {product-title} is discouraged.
 Instead, you should think of modifying systems in pools of nodes, such
 as worker nodes and control plane nodes (also known as the master nodes). When a new node is needed, in

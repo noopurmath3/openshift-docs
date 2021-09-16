@@ -4,6 +4,7 @@
 include::modules/common-attributes.adoc[]
 
 [.lead]
+[role="_abstract"]
 Welcome to the official {product-title} {product-version} documentation, where you can learn about {product-title} and start exploring its features.
 
 To navigate the {product-title} {product-version} documentation, you can use one of the following methods:

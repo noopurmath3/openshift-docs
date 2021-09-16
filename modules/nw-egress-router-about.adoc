@@ -3,6 +3,7 @@
 // * networking/openshift_sdn/using-an-egress-router.adoc
 // * networking/ovn_kubernetes_network_provider/using-an-egress-router-ovn.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "using-an-egress-router-ovn"]
 :ovn:
 :egress-pod-image-name: registry.redhat.io/openshift3/ose-pod

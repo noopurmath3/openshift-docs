@@ -5,6 +5,7 @@
 [id="virt-enabling-virt-repos_{context}"]
 = Enabling {VirtProductName} repositories
 
+[role="_abstract"]
 Red Hat offers {VirtProductName} repositories for both Red Hat Enterprise Linux 8
 and Red Hat Enterprise Linux 7:
 

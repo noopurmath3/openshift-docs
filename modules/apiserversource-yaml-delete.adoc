@@ -5,6 +5,7 @@
 [id="delete-apiserversource-yaml_{context}"]
 = Deleting the API server source
 
+[role="_abstract"]
 This section describes how to delete the API server source, trigger, service account, cluster role, and cluster role binding by deleting their YAML files.
 
 .Procedure

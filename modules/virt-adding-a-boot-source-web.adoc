@@ -5,6 +5,7 @@
 [id="virt-adding-a-boot-source-web_{context}"]
 = Adding a boot source for a virtual machine template
 
+[role="_abstract"]
 A boot source can be configured for any virtual machine template that you want to use for creating virtual machines or custom templates. When virtual machine templates are configured with a boot source, they are labeled *Available* in the *Templates* tab. After you add a boot source to a template, you can create a new virtual machine from the template.
 
 There are four methods for selecting and adding a boot source in the web console:

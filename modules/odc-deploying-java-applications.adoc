@@ -1,6 +1,7 @@
 [id="odc-deploying-java-applications_{context}"]
 = Upload JAR files for easy deployment of Java applications
 
+[role="_abstract"]
 You can use the JAR files in the *Topology* view of the *Developer* perspective to deploy your Java applications. You can upload a JAR file using the following options:
 
 * Navigate to the *+Add* view of the *Developer* perspective, and click *Upload JAR file* in the *From Local Machine* tile. Browse and select your JAR file, or drag and drop a JAR file to deploy your application.

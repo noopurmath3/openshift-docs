@@ -6,6 +6,7 @@
 [id="images-using-images-s2i-ruby-configuration_{context}"]
 = Configuring source-to-image for Ruby
 
+[role="_abstract"]
 The Ruby image supports a number of environment variables which can be set to control the configuration and behavior of the Ruby runtime.
 
 To set these environment variables as part of your image, you can place them into a `_.s2i/environment` file inside your source code repository, or define them in the environment section of the build configuration's `sourceStrategy` definition.

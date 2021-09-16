@@ -8,6 +8,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 {product-title} provides _init containers_, which are specialized containers 
 that run before application containers and can contain utilities or setup scripts not present in an app image.
 

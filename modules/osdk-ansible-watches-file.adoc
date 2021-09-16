@@ -5,6 +5,7 @@
 [id="osdk-ansible-watches-file_{context}"]
 = watches.yaml file
 
+[role="_abstract"]
 A _group/version/kind (GVK)_ is a unique identifier for a Kubernetes API. The `watches.yaml` file contains a list of mappings from custom resources (CRs), identified by its GVK, to an Ansible role or playbook. The Operator expects this mapping file in a predefined location at `/opt/ansible/watches.yaml`.
 
 .`watches.yaml` file mappings

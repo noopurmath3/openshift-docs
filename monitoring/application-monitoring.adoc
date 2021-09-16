@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can configure custom metrics scraping for your applications. For that, you deploy the Prometheus Operator and a custom Prometheus instance and Alertmanager instance in the namespace where your application is.
 
 :FeatureName: Application monitoring

@@ -6,6 +6,7 @@
 
 = Reserving memory across quality of service tiers
 
+[role="_abstract"]
 You can use the `qos-reserved` parameter to specify a percentage of memory to be reserved
 by a pod in a particular QoS level. This feature attempts to reserve requested resources to exclude pods
 from lower OoS classes from using resources requested by pods in higher QoS classes.

@@ -8,6 +8,7 @@
 // So these values must be explicitly quoted in the YAML.
 // https://github.com/go-yaml/yaml/issues/214
 
+[role="_abstract"]
 ifeval::["{context}" == "configuring-sriov-net-attach"]
 :ocp-sriov-net:
 :object: pods

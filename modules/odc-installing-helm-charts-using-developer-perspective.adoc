@@ -1,6 +1,7 @@
 [id="odc-installing-helm-charts-using-developer-perspective_{context}"]
 = Installing Helm charts using the Developer perspective
 
+[role="_abstract"]
 You can use either the *Developer* perspective in the web console or the CLI to select and install a chart from the Helm charts listed in the *Developer Catalog*. You can create Helm releases by installing Helm charts and see them in the *Developer* perspective of the web console.
 
 .Prerequisites

@@ -3,6 +3,7 @@
 // * networking/hardware_networks/configuring-sriov-device.adoc
 // * virt/node_network/virt-configuring-sriov-device-for-vms.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "configuring-sriov-device"]
 :ocp-sriov:
 endif::[]

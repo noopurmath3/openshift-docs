@@ -1,6 +1,7 @@
 [id="kn-trigger-filtering_{context}"]
 = Filtering events with triggers by using the Knative CLI
 
+[role="_abstract"]
 In the following trigger example, only events with the attribute `type: dev.knative.samples.helloworld` will reach the event sink.
 
 [source,terminal]

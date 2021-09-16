@@ -5,6 +5,7 @@
 [id="virt-booting-vms-efi-mode_{context}"]
 = Booting virtual machines in EFI mode
 
+[role="_abstract"]
 You can configure a virtual machine to boot in EFI mode by editing the VM or VMI manifest.
 
 .Prerequisites

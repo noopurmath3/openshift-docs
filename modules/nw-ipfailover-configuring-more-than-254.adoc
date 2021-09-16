@@ -5,6 +5,7 @@
 [id="nw-ipfailover-configuring-more-than-254_{context}"]
 = Configuring IP failover for more than 254 addresses
 
+[role="_abstract"]
 IP failover management is limited to 254 groups of Virtual IP (VIP) addresses. By default {product-title} assigns one IP address to each group. You can use the `OPENSHIFT_HA_VIP_GROUPS` variable to change this so multiple IP addresses are in each group and define the number of VIP groups available for each Virtual Router Redundancy Protocol (VRRP) instance when configuring IP failover.
 
 Grouping VIPs creates a wider range of allocation of VIPs per VRRP in the case of VRRP failover events, and is useful when all hosts in the cluster have access to a service locally. For example, when a service is being exposed with an `ExternalIP`.

@@ -5,6 +5,7 @@
 [id="operators-overview_{context}"]
 = Operators in {product-title}
 
+[role="_abstract"]
 In {product-title}, Operators are the preferred method of packaging, deploying,
 and managing services on the control plane. They also provide advantages to
 applications that users run. Operators integrate with

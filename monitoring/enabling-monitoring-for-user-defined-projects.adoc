@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 In {product-title} {product-version}, you can enable monitoring for user-defined projects in addition to the default platform monitoring. You can now monitor your own projects in {product-title} without the need for an additional monitoring solution. Using this new feature centralizes monitoring for core platform components and user-defined projects.
 
 [NOTE]
@@ -15,6 +16,7 @@ Custom Prometheus instances and the Prometheus Operator installed through Operat
 // Enabling monitoring for user-defined projects
 include::modules/monitoring-enabling-monitoring-for-user-defined-projects.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../monitoring/configuring-the-monitoring-stack.adoc#creating-cluster-monitoring-configmap_configuring-the-monitoring-stack[Creating a cluster monitoring config map]

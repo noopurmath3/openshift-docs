@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As a cluster administrator, you can deploy an egress router pod that is configured to redirect traffic to specified destination IP addresses.
 
 include::modules/nw-egress-router-pod.adoc[leveloffset=+1]
@@ -14,6 +15,7 @@ include::modules/nw-egress-router-dest-var.adoc[leveloffset=+1]
 include::modules/nw-egress-router-redirect-mode.adoc[leveloffset=+1]
 
 [id="deploying-egress-router-layer3-redirection-additional-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../networking/openshift_sdn/configuring-egress-router-configmap.adoc#configuring-egress-router-configmap[Configuring an egress router destination mappings with a ConfigMap]

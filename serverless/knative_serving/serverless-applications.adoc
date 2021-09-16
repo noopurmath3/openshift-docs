@@ -11,6 +11,7 @@ include::modules/serverless-apps-intro.adoc[leveloffset=+1]
 [id="serverless-applications-create"]
 == Creating serverless applications
 
+[role="_abstract"]
 You can create a serverless application by using one of the following methods:
 
 * Create a Knative service from the {product-title} web console.

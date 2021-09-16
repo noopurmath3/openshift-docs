@@ -5,6 +5,7 @@
 [id="security-platform-admission_{context}"]
 = Protecting control plane with admission plug-ins
 
+[role="_abstract"]
 While RBAC controls access rules between users and groups and available projects,
 _admission plug-ins_ define access to the {product-title} master API.
 Admission plug-ins form a chain of rules that consist of:

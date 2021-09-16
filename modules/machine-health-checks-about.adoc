@@ -6,6 +6,7 @@
 [id="machine-health-checks-about_{context}"]
 = About machine health checks
 
+[role="_abstract"]
 Machine health checks automatically repair unhealthy machines in a particular machine pool.
 
 To monitor machine health, create a resource to define the configuration for a controller. Set a condition to check, such as staying in the `NotReady` status for five minutes or displaying a permanent condition in the node-problem-detector, and a label for the set of machines to monitor.

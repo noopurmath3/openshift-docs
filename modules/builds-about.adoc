@@ -6,6 +6,7 @@
 [id="builds-about_{context}"]
 = Builds
 
+[role="_abstract"]
 A build is the process of transforming input parameters into a resulting object. Most often, the process is used to transform input parameters or source code into a runnable image. A `BuildConfig` object is the definition of the entire build process.
 
 {product-title} uses Kubernetes by creating containers from build images and pushing them to a container image registry.

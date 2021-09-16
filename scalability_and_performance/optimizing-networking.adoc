@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The xref:../networking/openshift_sdn/about-openshift-sdn.adoc#about-openshift-sdn[OpenShift SDN] uses OpenvSwitch, virtual extensible LAN (VXLAN) tunnels, OpenFlow rules, and iptables. This network can be tuned by using jumbo frames, network interface cards (NIC) offloads, multi-queue, and ethtool settings.
 
 xref:../networking/ovn_kubernetes_network_provider/about-ovn-kubernetes.adoc#about-ovn-kubernetes[OVN-Kubernetes] uses Geneve (Generic Network Virtualization Encapsulation) instead of VXLAN as the tunnel protocol.
@@ -30,6 +31,7 @@ include::modules/recommended-install-practices.adoc[leveloffset=+1]
 
 include::modules/ipsec-impact-networking.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * xref:../installing/installing_aws/installing-aws-network-customizations.adoc#modifying-nwoperator-config-startup_installing-aws-network-customizations[Modifying advanced network configuration parameters]

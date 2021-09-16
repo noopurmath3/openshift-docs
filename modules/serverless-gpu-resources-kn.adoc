@@ -5,6 +5,7 @@
 [id="serverless-gpu-resources-kn_{context}"]
 = Specifying GPU requirements for a service
 
+[role="_abstract"]
 After GPU resources are enabled for your {product-title} cluster, you can specify GPU requirements for a Knative service using the `kn` CLI.
 
 [NOTE]

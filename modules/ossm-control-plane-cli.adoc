@@ -5,6 +5,7 @@
 [id="ossm-control-plane-deploy-cli_{context}"]
 = Deploying the control plane from the CLI
 
+[role="_abstract"]
 You can deploy a basic `ServiceMeshControlPlane` from the command line.
 
 .Prerequisites

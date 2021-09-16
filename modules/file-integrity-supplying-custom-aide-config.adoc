@@ -5,6 +5,7 @@
 [id="file-integrity-operator-supplying-custom-aide-config_{context}"]
 = Supplying a custom AIDE configuration
 
+[role="_abstract"]
 Any entries that configure AIDE internal behavior such as `DBDIR`, `LOGDIR`,
 `database`, and `database_out` are overwritten by the Operator. The Operator
 would add a prefix to `/hostroot/` before all paths to be watched for integrity

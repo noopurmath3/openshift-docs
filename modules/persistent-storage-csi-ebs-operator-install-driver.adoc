@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-ebs-operator-install-driver_{context}"]
 = Installing the AWS Elastic Block Store CSI driver
 
+[role="_abstract"]
 The AWS Elastic Block Store (EBS) Container Storage Interface (CSI) driver is a custom resource (CR) that enables you to create and mount AWS EBS persistent volumes.
 
 The driver is not installed in {product-title} by default, and must be installed after the AWS EBS CSI Driver Operator has been installed.

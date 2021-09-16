@@ -6,6 +6,7 @@
 [id="installation-aws-user-infra-requirements_{context}"]
 = Required AWS infrastructure components
 
+[role="_abstract"]
 To install {product-title} on user-provisioned infrastructure in Amazon Web Services (AWS), you must manually create both the machines and their supporting infrastructure.
 
 For more information about the integration testing for different platforms, see the link:https://access.redhat.com/articles/4128421[OpenShift Container Platform 4.x Tested Integrations] page.

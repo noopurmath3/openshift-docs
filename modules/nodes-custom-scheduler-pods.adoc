@@ -5,6 +5,7 @@
 [id="nodes-custom-scheduler-deploying-pods_{context}"]
 = Deploying pods using a custom scheduler
 
+[role="_abstract"]
 After the custom scheduler is deployed in your cluster, you can configure pods to use that scheduler instead of the default scheduler.
 
 [NOTE]

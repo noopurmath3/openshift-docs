@@ -3,6 +3,7 @@
 // * virt/virtual_machines/virt-edit-vms.adoc
 //Establishing conditional expressions
 //
+[role="_abstract"]
 ifeval::["{context}" == "virt-edit-vms"]
 :object: virtual machine
 endif::[]

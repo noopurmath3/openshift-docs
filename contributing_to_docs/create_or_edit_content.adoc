@@ -6,6 +6,7 @@
 :toclevels: 1
 :description: Create working branch to contribute new content or updates
 
+[role="_abstract"]
 toc::[]
 
 == Before you begin

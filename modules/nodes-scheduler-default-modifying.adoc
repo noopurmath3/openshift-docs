@@ -7,6 +7,7 @@
 
 //Made changes to this file to match https://github.com/openshift/openshift-docs/pull/13626/files#diff-ba6ab177a3e2867eaefe07f48bd6e158
 
+[role="_abstract"]
 You change scheduling behavior by creating or editing your scheduler policy config map in the `openshift-config` project.
 Add and remove predicates and priorities to the config map to create a _scheduler policy_.
 

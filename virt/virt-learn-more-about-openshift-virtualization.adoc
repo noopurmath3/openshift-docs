@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Use the following tables to find content to help you learn about and use {VirtProductName}.
 
 [id="virt-learn-more-cluster-administrator"]

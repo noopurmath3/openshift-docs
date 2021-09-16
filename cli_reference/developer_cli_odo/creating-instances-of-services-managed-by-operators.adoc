@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Operators are a method of packaging, deploying, and managing Kubernetes services. With `{odo-title}`, you can create instances of services from the custom resource definitions (CRDs) provided by the Operators. You can then use these instances in your projects and link them to your components.
 
 To create services from an Operator, you must ensure that the Operator has valid values defined in its `metadata` to start the requested service. `{odo-title}` uses the `metadata.annotations.alm-examples` YAML file of an Operator to start

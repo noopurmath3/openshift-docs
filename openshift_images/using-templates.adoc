@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The following sections provide an overview of templates, as well as how to use and create them.
 
 include::modules/templates-overview.adoc[leveloffset=+1]

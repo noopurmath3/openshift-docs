@@ -6,6 +6,7 @@
 [id="images-configuration-registry-mirror_{context}"]
 = Configuring image registry repository mirroring
 
+[role="_abstract"]
 Setting up container registry repository mirroring enables you to do the following:
 
 * Configure your {product-title} cluster to redirect requests to pull images from a repository on a source image registry and have it resolved by a repository on a mirrored image registry.

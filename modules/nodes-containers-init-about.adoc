@@ -5,6 +5,7 @@
 [id="nodes-containers-init-about_{context}"]
 = Understanding Init Containers
 
+[role="_abstract"]
 You can use an Init Container resource to perform tasks before the rest of a pod is deployed.
 
 A pod can have Init Containers in addition to application containers. Init

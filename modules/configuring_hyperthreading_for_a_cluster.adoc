@@ -5,6 +5,7 @@
 [id="configuring_hyperthreading_for_a_cluster_{context}"]
 = Configuring hyperthreading for a cluster
 
+[role="_abstract"]
 To configure hyperthreading for an {product-title} cluster, set the CPU threads in the performance profile to the same cores that are configured for the reserved or isolated CPU pools.
 
 [NOTE]

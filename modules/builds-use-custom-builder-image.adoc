@@ -6,6 +6,7 @@
 [id="builds-use-custom-builder-image_{context}"]
 = Use custom builder image
 
+[role="_abstract"]
 You can define a `BuildConfig` object that uses the custom strategy in conjunction with your custom builder image to execute your custom build logic.
 
 .Prerequisites

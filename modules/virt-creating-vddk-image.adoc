@@ -5,6 +5,7 @@
 [id="virt-creating-vddk-image_{context}"]
 = Creating and using a VDDK image
 
+[role="_abstract"]
 You can download the VMware Virtual Disk Development Kit (VDDK), build a VDDK image, and push the VDDK image to your image registry. You then add the VDDK image to the `spec.vddkInitImage` field of the `HyperConverged` custom resource (CR).
 
 .Prerequisites

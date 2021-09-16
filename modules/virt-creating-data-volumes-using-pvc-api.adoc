@@ -6,6 +6,7 @@
 
 = Creating data volumes using the PVC API
 
+[role="_abstract"]
 When you create a data volume using the PVC API, the Containerized Data Interface (CDI) creates the data volume based on what you specify for the following fields:
 
 * `accessModes` (`ReadWriteOnce`, `ReadWriteMany`, or `ReadOnlyMany`)

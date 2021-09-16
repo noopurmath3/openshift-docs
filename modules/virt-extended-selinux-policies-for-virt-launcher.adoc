@@ -5,6 +5,7 @@
 [id="virt-extended-selinux-policies-for-virt-launcher_{context}"]
 = Extended SELinux policies for virt-launcher pods
 
+[role="_abstract"]
 The `container_t` SELinux policy for virt-launcher pods is extended with the following rules:
 
 * `allow process self (tun_socket (relabelfrom relabelto attach_queue))`

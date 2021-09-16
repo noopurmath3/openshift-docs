@@ -5,6 +5,7 @@
 [id="oauth-token-request-flows_{context}"]
 = OAuth token request flows and responses
 
+[role="_abstract"]
 The OAuth server supports standard
 link:https://tools.ietf.org/html/rfc6749#section-4.1[authorization code grant]
 and the link:https://tools.ietf.org/html/rfc6749#section-4.2[implicit grant]

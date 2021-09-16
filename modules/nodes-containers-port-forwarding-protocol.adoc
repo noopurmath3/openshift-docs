@@ -5,6 +5,7 @@
 [id="nodes-containers-port-forwarding-protocol_{context}"]
 = Protocol for initiating port forwarding from a client 
 
+[role="_abstract"]
 Clients initiate port forwarding to a pod by issuing a request to the
 Kubernetes API server:
 

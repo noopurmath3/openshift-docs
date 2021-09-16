@@ -5,6 +5,7 @@
 [id="builds-basic-access-build-verbosity_{context}"]
 = Enabling log verbosity
 
+[role="_abstract"]
 You can enable a more verbose output by passing the `BUILD_LOGLEVEL` environment variable as part of the `sourceStrategy`
 ifdef::openshift-origin,openshift-enterprise,openshift-dedicated[]
 or `dockerStrategy`

@@ -5,6 +5,7 @@
 [id="serverless-admin-monitoring-eventing-cpu-memory_{context}"]
 = Monitoring Knative Eventing source CPU and memory usage
 
+[role="_abstract"]
 You can use the {product-title} monitoring dashboards to view source CPU and memory usage metrics for Knative Eventing components.
 
 .Prerequisites

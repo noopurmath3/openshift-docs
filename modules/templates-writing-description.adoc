@@ -5,6 +5,7 @@
 [id="templates-writing-description_{context}"]
 = Writing the template description
 
+[role="_abstract"]
 The template description informs you what the template does and helps you find it when searching in the web console. Additional metadata beyond the template name is optional, but useful to have. In addition to general descriptive information, the metadata also includes a set of tags. Useful tags include the name of the language the template is related to for example, Java, PHP, Ruby, and so on.
 
 The following is an example of template description metadata:

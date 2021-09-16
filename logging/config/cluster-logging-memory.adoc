@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 You can configure both the CPU and memory limits for each of the OpenShift Logging components as needed. 
 
 

@@ -5,6 +5,7 @@
 [id="osdk-helm-logic_{context}"]
 = Understanding the Operator logic
 
+[role="_abstract"]
 For this example, the `nginx-operator` project executes the following reconciliation logic for each `Nginx` custom resource (CR):
 
 * Create an Nginx deployment if it does not exist.

@@ -5,6 +5,7 @@
 [id="virt-creating-template-wizard-web_{context}"]
 = Creating a virtual machine template with the wizard in the web console
 
+[role="_abstract"]
 The web console features the *Create Virtual Machine Template* wizard that guides you through the *General*, *Networking*, *Storage*, *Advanced*, and *Review* steps to simplify the process of creating virtual machine templates. All required fields are marked with a ++*++. The *Create Virtual Machine Template* wizard prevents you from moving to the next step until you provide values in the required fields.
 
 [NOTE]

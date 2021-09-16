@@ -5,6 +5,7 @@
 [id="olm-operatorgroups-target-namespace_{context}"]
 = Target namespace selection
 
+[role="_abstract"]
 You can explicitly name the target namespace for an Operator group using the `spec.targetNamespaces` parameter:
 
 [source,yaml]

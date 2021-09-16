@@ -2,6 +2,7 @@
 = IPPool [whereabouts.cni.cncf.io/v1alpha1]
 ifdef::product-title[]
 include::modules/common-attributes.adoc[]
+[role="_abstract"]
 endif::[]
 
 toc::[]

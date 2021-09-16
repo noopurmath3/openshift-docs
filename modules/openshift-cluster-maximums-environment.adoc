@@ -5,6 +5,7 @@
 [id="cluster-maximums-environment_{context}"]
 = {product-title} environment and configuration on which the cluster maximums are tested
 
+[role="_abstract"]
 AWS cloud platform:
 
 [options="header",cols="8*"]

@@ -5,6 +5,7 @@
 [id="nodes-nodes-resources-configuring-about_{context}"]
 = Understanding how to allocate resources for nodes
 
+[role="_abstract"]
 CPU and memory resources reserved for node components in {product-title} are based on two node settings:
 
 [options="header",cols="1,2"]

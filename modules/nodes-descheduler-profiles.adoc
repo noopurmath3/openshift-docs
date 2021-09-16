@@ -5,6 +5,7 @@
 [id="nodes-descheduler-profiles_{context}"]
 = Descheduler profiles
 
+[role="_abstract"]
 The following descheduler profiles are available:
 
 `AffinityAndTaints`:: This profile evicts pods that violate inter-pod anti-affinity, node affinity, and node taints.

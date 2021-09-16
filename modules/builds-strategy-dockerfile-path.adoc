@@ -4,6 +4,7 @@
 [id="builds-strategy-dockerfile-path_{context}"]
 = Using Dockerfile path
 
+[role="_abstract"]
 By default, docker builds use a Dockerfile located at the root of the context specified in the `BuildConfig.spec.source.contextDir` field.
 
 The `dockerfilePath` field allows the build to use a different path to locate your Dockerfile, relative to the `BuildConfig.spec.source.contextDir` field. It can be a different file name than the default Dockerfile, such as `MyDockerfile`, or a path to a Dockerfile in a subdirectory, such as `dockerfiles/app1/Dockerfile`.

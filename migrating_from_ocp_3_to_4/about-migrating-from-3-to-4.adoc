@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} 4 contains new technologies and functionality that result in a cluster that is self-managing, flexible, and automated. {product-title} 4 clusters are deployed and managed very differently from {product-title} 3.
 
 The most effective way to migrate from {product-title} 3 to 4 is by using a CI/CD pipeline to automate deployments in an link:https://www.redhat.com/en/topics/devops/what-is-application-lifecycle-management-alm[application lifecycle management] framework.

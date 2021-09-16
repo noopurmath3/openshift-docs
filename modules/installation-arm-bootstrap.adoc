@@ -5,6 +5,7 @@
 [id="installation-arm-bootstrap_{context}"]
 = ARM template for the bootstrap machine
 
+[role="_abstract"]
 You can use the following Azure Resource Manager (ARM) template to deploy the
 bootstrap machine that you need for your {product-title} cluster:
 

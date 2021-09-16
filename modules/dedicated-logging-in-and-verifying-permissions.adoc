@@ -5,6 +5,7 @@
 [id="dedicated-admin-logging-in-verifying-permissions_{context}"]
 = Logging in and verifying permissions
 
+[role="_abstract"]
 You can log in as an {product-title} cluster administration via the web console
 or CLI, just as you would if you were an application developer.
 

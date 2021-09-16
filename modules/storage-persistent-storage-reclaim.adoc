@@ -5,6 +5,7 @@
 [id="reclaim-policy_{context}"]
 = Changing the reclaim policy of a persistent volume
 
+[role="_abstract"]
 To change the reclaim policy of a persistent volume:
 
 . List the persistent volumes in your cluster:

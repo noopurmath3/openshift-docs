@@ -5,6 +5,7 @@
 [id="installation-arm-worker_{context}"]
 = ARM template for worker machines
 
+[role="_abstract"]
 You can use the following Azure Resource Manager (ARM) template to deploy the
 worker machines that you need for your {product-title} cluster:
 

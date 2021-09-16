@@ -5,6 +5,7 @@
 [id="rhel-adding-more-nodes_{context}"]
 = Adding more RHEL compute machines to your cluster
 
+[role="_abstract"]
 You can add more compute machines that use Red Hat Enterprise Linux (RHEL) as the operating system to an {product-title} {product-version} cluster.
 
 .Prerequisites

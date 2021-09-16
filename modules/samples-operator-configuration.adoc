@@ -6,6 +6,7 @@
 [id="samples-operator-configuration_{context}"]
 = Cluster Samples Operator configuration parameters
 
+[role="_abstract"]
 The samples resource offers the following configuration fields:
 
 [cols="3a,8a",options="header"]

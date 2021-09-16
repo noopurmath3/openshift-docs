@@ -4,6 +4,7 @@
 // * virt/virtual_machines/advanced_vm_management/virt-using-huge-pages-with-vms.adoc
 // * post_installation_configuration/node-tasks.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "huge-pages"]
 :ocp-hugepages:
 endif::[]

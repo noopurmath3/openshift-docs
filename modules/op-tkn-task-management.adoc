@@ -6,6 +6,7 @@
 = Task management commands
 
 == task
+[role="_abstract"]
 Manage Tasks.
 
 .Example: Display help

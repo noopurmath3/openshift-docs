@@ -5,6 +5,7 @@
 [id="nw-ingress-creating-a-passthrough-route_{context}"]
 = Creating a passthrough route
 
+[role="_abstract"]
 You can configure a secure route using passthrough termination by using the `oc create route` command. With passthrough termination, encrypted traffic is sent straight to the destination without the router providing TLS termination. Therefore no key or certificate is required on the route.
 
 .Prerequisites

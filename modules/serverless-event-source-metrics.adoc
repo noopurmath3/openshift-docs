@@ -1,6 +1,7 @@
 [id="serverless-event-source-metrics_{context}"]
 = Event source metrics
 
+[role="_abstract"]
 You can use the following metrics to verify that events have been delivered from the event source to the connected event sink.
 
 [cols=5*,options="header"]

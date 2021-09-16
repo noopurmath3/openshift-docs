@@ -6,6 +6,7 @@
 [id="machineset-delete-policy_{context}"]
 = The machine set deletion policy
 
+[role="_abstract"]
 `Random`, `Newest`, and `Oldest` are the three supported deletion options. The default is `Random`, meaning that random machines are chosen and deleted when scaling machine sets down. The deletion policy can be set according to the use case by modifying the particular machine set:
 
 [source,yaml]

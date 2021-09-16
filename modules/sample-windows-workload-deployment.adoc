@@ -5,6 +5,7 @@
 [id="sample-windows-workload-deployment_{context}"]
 = Sample Windows container workload deployment
 
+[role="_abstract"]
 You can deploy Windows container workloads to your cluster once you have a Windows compute node available.
 
 [NOTE]

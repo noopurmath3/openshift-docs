@@ -4,6 +4,7 @@
 [id="builds-strategy-s2i-force-pull-example_{context}"]
 = Source-to-Image (S2I) force pull flag example
 
+[role="_abstract"]
 Set the following to use the `forcePull` flag with S2I:
 
 [source,yaml]

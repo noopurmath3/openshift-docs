@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can configure local storage for your virtual machines by using the hostpath
 provisioner feature.
 

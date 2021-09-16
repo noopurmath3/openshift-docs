@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} supports Microsoft Azure Disk volumes. You can
 provision your {product-title} cluster with persistent storage using Azure.
 Some familiarity with Kubernetes and Azure is assumed.
@@ -32,6 +33,7 @@ High availability of storage in the infrastructure is left to the underlying
 storage provider.
 ====
 
+[role="_additional-resources"]
 .Additional resources
 
 * link:https://azure.microsoft.com/en-us/services/storage/disks[Microsoft Azure Disk]

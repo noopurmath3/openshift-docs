@@ -5,6 +5,7 @@
 [id="nodes-cluster-limit-creating_{context}"]
 = Creating a Limit Range
 
+[role="_abstract"]
 To apply a limit range to a project: 
 
 . Create a `LimitRange` object with your required specifications: 

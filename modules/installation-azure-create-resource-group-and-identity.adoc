@@ -5,6 +5,7 @@
 [id="installation-azure-create-resource-group-and-identity_{context}"]
 = Creating the Azure resource group and identity
 
+[role="_abstract"]
 You must create a Microsoft Azure link:https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview#resource-groups[resource group] and an identity for that resource group.
 These are both used during the installation of your {product-title} cluster on
 Azure.

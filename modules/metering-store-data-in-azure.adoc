@@ -5,6 +5,7 @@
 [id="metering-store-data-in-azure_{context}"]
 = Storing data in Microsoft Azure
 
+[role="_abstract"]
 To store data in Azure blob storage, you must use an existing container.
 
 .Procedure

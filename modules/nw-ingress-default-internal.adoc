@@ -5,6 +5,7 @@
 [id="nw-ingress-default-internal_{context}"]
 = Configuring the default Ingress Controller for your cluster to be internal
 
+[role="_abstract"]
 You can configure the `default` Ingress Controller for your cluster to be internal by deleting and recreating it.
 
 [WARNING]

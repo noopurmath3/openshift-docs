@@ -5,6 +5,7 @@
 [id="rbac-groups_{context}"]
 = Groups
 
+[role="_abstract"]
 A user can be assigned to one or more _groups_, each of which represent a
 certain set of users. Groups are useful when managing authorization policies
 to grant permissions to multiple users at once, for example allowing

@@ -5,6 +5,7 @@
 [id="oauth-troubleshooting-api-events_{context}"]
 = Troubleshooting OAuth API events
 
+[role="_abstract"]
 In some cases the API server returns an `unexpected condition` error message
 that is difficult to debug without direct access to the API master log.
 The underlying reason for the error is purposely obscured in order

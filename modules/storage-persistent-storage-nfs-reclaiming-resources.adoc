@@ -4,6 +4,7 @@
 
 [id="nfs-reclaiming-resources_{context}"]
 = Reclaiming resources
+[role="_abstract"]
 NFS implements the {product-title} `Recyclable` plug-in interface. Automatic
 processes handle reclamation tasks based on policies set on each persistent
 volume.

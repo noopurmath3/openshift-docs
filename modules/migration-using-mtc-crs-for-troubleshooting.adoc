@@ -6,6 +6,7 @@
 [id="migration-using-mtc-crs-for-troubleshooting_{context}"]
 = Using {mtc-short} custom resources for troubleshooting
 
+[role="_abstract"]
 You can check the following {mtc-full} ({mtc-short}) custom resources (CRs) to troubleshoot a failed migration:
 
 * `MigCluster`

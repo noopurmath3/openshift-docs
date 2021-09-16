@@ -5,6 +5,7 @@
 [id="quota-viewing-quotas_{context}"]
 = Viewing a quota
 
+[role="_abstract"]
 You can view usage statistics related to any hard limits defined in a project's
 quota by navigating in the web console to the project's *Quota* page.
 

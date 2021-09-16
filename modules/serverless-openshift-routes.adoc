@@ -1,6 +1,7 @@
 [id="serverless-openshift-routes_{context}"]
 = Configuring {product-title} routes for Knative services
 
+[role="_abstract"]
 If you want to configure a Knative service to use your TLS certificate on {product-title}, you must disable the automatic creation of a route for the service by the {ServerlessOperatorName} and instead manually create a route for the service.
 
 [NOTE]

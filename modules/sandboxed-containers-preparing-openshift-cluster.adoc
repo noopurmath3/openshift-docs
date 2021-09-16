@@ -5,6 +5,7 @@
 [id="sandboxed-containers-preparing-openshift-cluster_{context}"]
 = Preparing your cluster for {sandboxed-containers-first}
 
+[role="_abstract"]
 Before you install {sandboxed-containers-first}, ensure that your {product-title} cluster meets the following requirements:
 
 * Your cluster must be installed on bare metal infrastructure with {op-system-first} workers. Your cluster must use installer-provisioned infrastructure.

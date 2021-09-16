@@ -5,6 +5,7 @@
 [id="overwriting-the-mirror-registry_{context}"]
 = Overwriting the mirror registry
 
+[role="_abstract"]
 To download npm packages for Node.js dependencies and Maven packages for Java dependencies from a private mirror registry, you must create and configure a mirror npm or Maven registry on the cluster. You can then overwrite the mirror registry on an existing component or when you create a new component.
 
 .Procedure

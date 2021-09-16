@@ -5,6 +5,7 @@
 [id="osdk-scorecard-tests_{context}"]
 = Built-in scorecard tests
 
+[role="_abstract"]
 The scorecard ships with pre-defined tests that are arranged into suites: the basic test suite and the Operator Lifecycle Manager (OLM) suite.
 
 [id="osdk-scorecard-basic-tests_{context}"]

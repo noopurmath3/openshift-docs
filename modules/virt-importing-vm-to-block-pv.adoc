@@ -5,6 +5,7 @@
 [id="virt-importing-vm-to-block-pv_{context}"]
 = Importing a virtual machine image to a block persistent volume using data volumes
 
+[role="_abstract"]
 You can import an existing virtual machine image into your {product-title} cluster. {VirtProductName} uses data volumes to automate the importing data and the creation of an underlying persistent volume claim (PVC). You can then reference the data volume in a virtual machine manifest.
 
 .Prerequisites

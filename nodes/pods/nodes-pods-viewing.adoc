@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 As an administrator, you can view the pods in your cluster and to determine the health of those pods and the cluster as a whole.
 
 include::modules/nodes-pods-about.adoc[leveloffset=+1]

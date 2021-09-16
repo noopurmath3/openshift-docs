@@ -4,6 +4,7 @@
 [id="architecture-platform-introduction_{context}"]
 = Introduction to {product-title}
 
+[role="_abstract"]
 {product-title} is a platform for developing and running containerized
 applications. It is designed to allow applications and the data centers
 that support them to expand from just a few machines and applications to

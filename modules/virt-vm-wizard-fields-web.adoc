@@ -11,6 +11,7 @@
 [id="virt-vm-wizard-fields-web_{context}"]
 ifdef::virtualmachine[]
 = Virtual machine wizard fields
+[role="_abstract"]
 endif::[]
 ifdef::vmtemplate[]
 = Virtual machine template wizard fields

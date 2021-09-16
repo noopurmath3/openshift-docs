@@ -5,6 +5,7 @@
 [id="virt-creating-a-custom-disk-image-boot-source-web_{context}"]
 = Creating a custom boot source
 
+[role="_abstract"]
 You can prepare a custom disk image, based on an existing disk image, for use as a boot source.
 
 Use this procedure to complete the following tasks:

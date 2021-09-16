@@ -6,6 +6,7 @@
 [id="migration-updating-deprecated-internal-images_{context}"]
 = Updating deprecated internal images
 
+[role="_abstract"]
 If your application uses images from the `openshift` namespace, the required versions of the images must be present on the target cluster.
 
 If an {product-title} 3 image is deprecated in {product-title} {product-version}, you can manually update the image stream tag by using `podman`.

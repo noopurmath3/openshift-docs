@@ -5,6 +5,7 @@
 [id="local-storage-install_{context}"]
 = Installing the Local Storage Operator
 
+[role="_abstract"]
 The Local Storage Operator is not installed in {product-title} by default. Use the following procedure to install and configure this Operator to enable local volumes in your cluster.
 
 .Prerequisites

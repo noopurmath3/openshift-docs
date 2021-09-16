@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can boot a virtual machine (VM) in Extensible Firmware Interface (EFI) mode.
 
 include::modules/virt-about-efi-mode-for-vms.adoc[leveloffset=+1]

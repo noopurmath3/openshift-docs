@@ -5,6 +5,7 @@
 [id="insights-operator-what-information-is-collected_{context}"]
 = Information collected by the Insights Operator
 
+[role="_abstract"]
 The following information is collected by the Insights Operator:
 
 * General information about your cluster and its components to identify issues that are specific to your {product-title} version and environment

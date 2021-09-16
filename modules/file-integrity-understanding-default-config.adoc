@@ -5,6 +5,7 @@
 [id="file-integrity-understanding-default-config_{context}"]
 = Understanding the default File Integrity Operator configuration
 
+[role="_abstract"]
 Below is an excerpt from the `aide.conf` key of the config map:
 
 [source,bash]

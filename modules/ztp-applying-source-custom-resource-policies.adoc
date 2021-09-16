@@ -5,6 +5,7 @@
 [id="ztp-applying-source-custom-resource-policies_{context}"]
 = Applying source custom resource policies
 
+[role="_abstract"]
 Source custom resource policies include the following:
 
 * SR-IOV policies

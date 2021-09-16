@@ -5,6 +5,7 @@
 [id="ztp-sriov-operator_{context}"]
 = SR-IOV Operator
 
+[role="_abstract"]
 The Single Root I/O Virtualization (SR-IOV) Network Operator manages the SR-IOV network devices and network attachments in your cluster.
 
 The SR-IOV Operator allows network interfaces to be virtual and shared at a device level with networking functions running within the cluster.

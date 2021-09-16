@@ -6,6 +6,7 @@
 = Condition management commands
 
 == condition
+[role="_abstract"]
 Manage Conditions.
 
 .Example: Display help

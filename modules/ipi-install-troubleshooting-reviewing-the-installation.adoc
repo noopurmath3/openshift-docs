@@ -5,6 +5,7 @@
 
 = Reviewing the installation
 
+[role="_abstract"]
 After installation, ensure the installer deployed the nodes and pods successfully.
 
 .Procedure

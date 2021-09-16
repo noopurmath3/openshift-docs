@@ -4,6 +4,7 @@
 [id="templates-rails-creating-frontend-service_{context}"]
 = Creating the frontend service
 
+[role="_abstract"]
 To bring your application to {product-title}, you must specify a repository in which your application lives.
 
 .Procedure

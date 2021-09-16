@@ -5,6 +5,7 @@
 [id="configuring-dynamic-admission_{context}"]
 = Configuring dynamic admission
 
+[role="_abstract"]
 This procedure outlines high-level steps to configure dynamic admission. The functionality of the admission chain is extended by configuring a webhook admission plug-in to call out to a webhook server.
 
 The webhook server is also configured as an aggregated API server. This allows other {product-title} components to communicate with the webhook using internal credentials and facilitates testing using the `oc` command. Additionally, this enables role based access control (RBAC) into the webhook and prevents token information from other API servers from being disclosed to the webhook.

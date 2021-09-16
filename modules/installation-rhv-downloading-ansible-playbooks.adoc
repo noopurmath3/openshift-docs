@@ -5,6 +5,7 @@
 [id="installation-rhv-downloading-ansible-playbooks_{context}"]
 = Downloading the Ansible playbooks
 
+[role="_abstract"]
 Download the Ansible playbooks for installing {product-title} version {product-version} on {rh-virtualization}.
 
 .Procedure

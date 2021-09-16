@@ -5,6 +5,7 @@
 [id="oauth-token-inactivity-timeout_{context}"]
 = Configuring token inactivity timeout for the internal OAuth server
 
+[role="_abstract"]
 You can configure OAuth tokens to expire after a set period of inactivity. By default, no token inactivity timeout is set.
 
 [NOTE]

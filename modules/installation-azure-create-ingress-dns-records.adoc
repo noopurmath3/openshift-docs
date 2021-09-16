@@ -5,6 +5,7 @@
 [id="installation-azure-create-ingress-dns-records_{context}"]
 = Adding the Ingress DNS records
 
+[role="_abstract"]
 If you removed the DNS Zone configuration when creating Kubernetes manifests and
 generating Ignition configs, you must manually create DNS records that point at
 the Ingress load balancer. You can create either a wildcard

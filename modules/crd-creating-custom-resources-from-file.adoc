@@ -8,6 +8,7 @@
 [id="crd-creating-custom-resources-from-file_{context}"]
 = Creating custom resources from a file
 
+[role="_abstract"]
 After a custom resource definitions (CRD) has been added to the cluster, custom resources (CRs) can be created with the CLI from a file using the CR specification.
 
 .Prerequisites

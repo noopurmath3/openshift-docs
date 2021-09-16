@@ -5,6 +5,7 @@
 [id="virt-about-kubemacpool_{context}"]
 = About KubeMacPool
 
+[role="_abstract"]
 KubeMacPool provides a MAC address pool per namespace and allocates MAC addresses for virtual machine NICs from the pool.
 This ensures that the NIC is assigned a unique MAC address that does not conflict with the MAC address of another virtual machine.
 

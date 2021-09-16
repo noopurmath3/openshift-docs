@@ -6,6 +6,7 @@
 [id="images-s2i-java-build-deploy-applications_{context}"]
 = Building and deploying Java applications
 
+[role="_abstract"]
 The same source-to-image (S2I) builder image can be used to build a Java application from source or from binary artifacts.
 
 [id="images-s2i-java-build-deploy-applications-source_{context}"]

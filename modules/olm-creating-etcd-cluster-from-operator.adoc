@@ -1,6 +1,7 @@
 [id="olm-creating-etcd-cluster-from-operator_{context}"]
 = Creating an etcd cluster using an Operator
 
+[role="_abstract"]
 This procedure walks through creating a new etcd cluster using the etcd Operator, managed by Operator Lifecycle Manager (OLM).
 
 .Prerequisites

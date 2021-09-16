@@ -5,6 +5,7 @@
 [id="nw-ne-openshift-dns_{context}"]
 = {product-title} DNS
 
+[role="_abstract"]
 If you are running multiple services, such as front-end and back-end services for
 use with multiple pods, environment variables are created for user names,
 service IPs, and more so the front-end pods can communicate with the back-end

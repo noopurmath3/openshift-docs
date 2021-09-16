@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The {mtc-full} ({mtc-short}) enables you to migrate stateful application workloads from {product-title} 3 to {product-version} at the granularity of a namespace.
 
 [IMPORTANT]

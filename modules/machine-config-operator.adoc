@@ -9,6 +9,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The Machine Config Operator manages and applies configuration and updates of the base operating system and container runtime, including everything between the kernel and kubelet.
 
 There are four components:

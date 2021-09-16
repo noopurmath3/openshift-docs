@@ -7,6 +7,7 @@ toc::[]
 
 include::modules/wmco-does-not-install.adoc[leveloffset=+1]
 
+[role="_abstract"]
 For more information, see xref:../../networking/ovn_kubernetes_network_provider/configuring-hybrid-networking.adoc#configuring-hybrid-ovnkubernetes[Configuring hybrid networking].
 
 include::modules/investigating-why-windows-machine-compute-node.adoc[leveloffset=+1]
@@ -23,6 +24,7 @@ include::modules/collecting-kube-node-logs-windows.adoc[leveloffset=+1]
 include::modules/collecting-windows-application-event-logs.adoc[leveloffset=+1]
 include::modules/collecting-docker-logs-windows.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 == Additional resources
 
 * link:https://docs.microsoft.com/en-us/virtualization/windowscontainers/troubleshooting[Containers on Windows troubleshooting]

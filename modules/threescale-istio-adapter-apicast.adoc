@@ -6,6 +6,7 @@
 [id="threescale-istio-adapter-apicast_{context}"]
 = 3scale Istio Adapter APIcast emulation
 
+[role="_abstract"]
 The 3scale Istio Adapter performs as APIcast would when the following conditions occur:
 
 * When a request cannot match any mapping rule defined, the returned HTTP code is 404 Not Found. This was previously 403 Forbidden.

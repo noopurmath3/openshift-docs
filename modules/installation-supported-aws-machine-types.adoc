@@ -11,6 +11,7 @@
 [id="installation-supported-aws-machine-types_{context}"]
 = Supported AWS machine types
 
+[role="_abstract"]
 The following Amazon Web Services (AWS) instance types are supported with {product-title}.
 
 .Instance types for machines

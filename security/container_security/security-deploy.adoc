@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can use a variety of techniques to make sure that the containers you
 deploy hold the latest production-quality content and that they have not
 been tampered with. These techniques include setting up build triggers to
@@ -25,5 +26,6 @@ include::modules/security-deploy-secrets.adoc[leveloffset=+1]
 
 // Continuous deployment tooling
 include::modules/security-deploy-continuous.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 * xref:../../cicd/builds/creating-build-inputs.adoc#builds-input-secrets-configmaps_creating-build-inputs[Input secrets and config maps]

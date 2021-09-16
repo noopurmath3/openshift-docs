@@ -6,6 +6,7 @@
 
 = Modifying the `install-config.yaml` file for dual-stack network (optional)
 
+[role="_abstract"]
 To deploy an {product-title} cluster with dual-stack networking, make the following changes to the `install-config.yaml` file.
 
 [source,yaml]

@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This example describes how to deploy and connect a database to a front-end application.
 
 .Prerequisites

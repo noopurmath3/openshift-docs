@@ -5,6 +5,7 @@
 [id="nodes-containers-events-list_{context}"]
 = List of events
 
+[role="_abstract"]
 This section describes the events of {product-title}.
 
 .Configuration events

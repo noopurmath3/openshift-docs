@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The following sections provide instructions for advanced build operations including
 setting build resources and maximum duration, assigning builds to nodes, chaining
 builds, build pruning, and build run policies.

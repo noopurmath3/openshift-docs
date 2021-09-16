@@ -5,6 +5,7 @@
 [id="metering-debugging_{context}"]
 = Debugging metering
 
+[role="_abstract"]
 Debugging metering is much easier when you interact directly with the various components. The sections below detail how you can connect and query Presto and Hive as well as view the dashboards of the Presto and HDFS components.
 
 [NOTE]

@@ -5,6 +5,7 @@
 [id="olm-policy-fine-grained-permissions_{context}"]
 = Fine-grained permissions
 
+[role="_abstract"]
 Operator Lifecycle Manager (OLM) uses the service account specified in an Operator group to create or update the following resources related to the Operator being installed:
 
 * `ClusterServiceVersion`

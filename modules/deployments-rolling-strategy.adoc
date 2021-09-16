@@ -5,6 +5,7 @@
 [id="deployments-rolling-strategy_{context}"]
 = Rolling strategy
 
+[role="_abstract"]
 A rolling deployment slowly replaces instances of the previous version of an application with instances of the new version of the application. The rolling strategy is the default deployment strategy used if no strategy is specified on a `DeploymentConfig` object.
 
 A rolling deployment typically waits for new pods to become `ready` via a readiness check before scaling down the old components. If a significant issue occurs, the rolling deployment can be aborted.

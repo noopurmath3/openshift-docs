@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can add Kubernetes annotations to a deployed Serverless function by adding them to the `annotations` section in the `func.yaml` configuration file.
 
 [IMPORTANT]

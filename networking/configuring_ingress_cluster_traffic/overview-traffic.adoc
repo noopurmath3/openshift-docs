@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 {product-title} provides the following methods for communicating from
 outside the cluster with services running in the cluster.
 

@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 A ping source is used to periodically send ping events with a constant payload to an event consumer.
 
 A ping source can be used to schedule sending events, similar to a timer.

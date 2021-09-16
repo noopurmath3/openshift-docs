@@ -6,6 +6,7 @@
 
 = Workload partitioning and pod mutation
 
+[role="_abstract"]
 The workload partitioning feature modifies pods that are annotated with `target.workload.openshift.io/<workload-type>`
 that are in a namespace that contains the `workload.openshift.io/allowed: <workload-type>` annotation.
 

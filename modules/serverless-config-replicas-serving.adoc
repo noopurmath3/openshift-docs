@@ -1,6 +1,7 @@
 [id="serverless-config-replicas-serving_{context}"]
 = Configuring high availability replicas for Serving
 
+[role="_abstract"]
 You can scale Knative Serving components by modifying the `spec.high-availability.replicas` value in the KnativeServing custom resource.
 
 .Prerequisites

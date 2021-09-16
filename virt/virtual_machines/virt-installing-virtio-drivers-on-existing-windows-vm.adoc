@@ -7,6 +7,7 @@ toc::[]
 
 include::modules/virt-understanding-virtio-drivers.adoc[leveloffset=+1]
 
+[role="_abstract"]
 See also: xref:../../virt/virtual_machines/virt-installing-virtio-drivers-on-new-windows-vm.adoc#virt-installing-virtio-drivers-on-new-windows-vm[Installing Virtio drivers on a new Windows virtual machine].
 
 include::modules/virt-supported-virtio-drivers.adoc[leveloffset=+1]

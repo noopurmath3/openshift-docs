@@ -5,6 +5,7 @@
 [id="virt-viewing-resource-events-cli_{context}"]
 = Viewing resource events in the CLI
 
+[role="_abstract"]
 Events are included in the resource description, which you can get using the 
 {product-title} client.
 

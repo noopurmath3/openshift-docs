@@ -5,6 +5,7 @@
 [id="olm-operatorhub-arch_{context}"]
 = OperatorHub architecture
 
+[role="_abstract"]
 The OperatorHub UI component is driven by the Marketplace Operator by default on {product-title} in the `openshift-marketplace` namespace.
 
 [id="olm-operatorhub-arch-operatorhub_crd_{context}"]

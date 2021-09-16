@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 This sample process configures an Amazon Web Services (AWS) {product-title}
 cluster to use a customer's on-site hardware VPN device.
 

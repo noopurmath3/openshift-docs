@@ -5,6 +5,7 @@
 [id="security-understanding-containers_{context}"]
 = What are containers?
 
+[role="_abstract"]
 Containers package an application and all its dependencies into a single image
 that can be promoted from development, to test, to production, without change.
 A container might be part of a larger application that works closely with other

@@ -12,6 +12,7 @@
 // * installing/installing_platform_agnostic/installing-platform-agnostic.adoc
 // * installing/installing-rhv-restricted-network.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-restricted-networks-bare-metal"]
 :restricted:
 endif::[]

@@ -8,6 +8,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 `service-ca` is an Operator that creates a self-signed CA when an
 {product-title} cluster is deployed.
 

@@ -5,6 +5,7 @@
 [id="virt-setting-node-to-maintenance-mode-with-cr_{context}"]
 = Setting a node to maintenance mode with a NodeMaintenance custom resource
 
+[role="_abstract"]
 You can put a node into maintenance mode with a `NodeMaintenance` custom resource (CR). When you apply a `NodeMaintenance` CR, all allowed pods are evicted and the node is shut down. Evicted pods are queued to be moved to another node in the cluster.
 
 .Prerequisites

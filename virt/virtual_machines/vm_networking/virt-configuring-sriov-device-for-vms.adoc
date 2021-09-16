@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can configure a Single Root I/O Virtualization (SR-IOV) device for virtual machines in your cluster.
 This process is similar but not identical to configuring an SR-IOV device for {product-title}.
 

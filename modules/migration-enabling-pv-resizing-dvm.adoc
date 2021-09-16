@@ -6,6 +6,7 @@
 [id="migration-enabling-pv-resizing-dvm_{context}"]
 = Enabling persistent volume resizing for direct volume migration
 
+[role="_abstract"]
 You can enable persistent volume (PV) resizing for direct volume migration to avoid running out of disk space on the destination cluster.
 
 When the disk usage of a PV reaches a configured level, the `MigrationController` custom resource (CR) compares the requested storage capacity of a persistent volume claim (PVC) to its actual provisioned capacity. Then, it calculates the space required on the destination cluster.

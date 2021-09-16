@@ -10,6 +10,7 @@
 [id="mod-docs-ocp-conventions_{context}"]
 = Modular docs OpenShift conventions
 
+[role="_abstract"]
 These Modular Docs conventions for OpenShift docs build on top of the CCS
 modular docs guidelines.
 

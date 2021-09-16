@@ -6,6 +6,7 @@
 [id="registry-operator-default-crd_{context}"]
 = Enable the Image Registry default route with the Custom Resource Definition
 
+[role="_abstract"]
 In {product-title}, the `Registry` Operator controls the registry feature. The
 Operator is defined by the `configs.imageregistry.operator.openshift.io` Custom
 Resource Definition (CRD).

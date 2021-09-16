@@ -1,6 +1,7 @@
 [id="nw-networkpolicy-audit-enable_{context}"]
 = Enabling network policy audit logging for a namespace
 
+[role="_abstract"]
 As a cluster administrator, you can enable network policy audit logging for a namespace.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-snapshots-restore_{context}"]
 = Restoring a volume snapshot
 
+[role="_abstract"]
 The `VolumeSnapshot` CRD content can be used to restore the existing volume to a previous state.
 
 After your `VolumeSnapshot` CRD is bound and the `readyToUse` value is set to `true`, you can use that resource to provision a new volume that is pre-populated with data from the snapshot.

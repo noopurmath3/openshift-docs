@@ -5,6 +5,7 @@
 [id="dr-scenario-2-restoring-cluster-state-about_{context}"]
 = About restoring cluster state
 
+[role="_abstract"]
 You can use an etcd backup to restore your cluster to a previous state. This can be used to recover from the following situations:
 
 * The cluster has lost the majority of control plane hosts (quorum loss).

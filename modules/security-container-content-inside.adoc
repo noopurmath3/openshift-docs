@@ -5,6 +5,7 @@
 [id="security-container-content-inside_{context}"]
 = Securing inside the container
 
+[role="_abstract"]
 Applications and infrastructures are composed of readily available components,
 many of which are open source packages such as, the Linux operating system,
 JBoss Web Server, PostgreSQL, and Node.js.

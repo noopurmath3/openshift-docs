@@ -6,6 +6,7 @@
 [id="virt-example-vlan-nncp_{context}"]
 = Example: VLAN interface node network configuration policy
 
+[role="_abstract"]
 Create a VLAN interface on nodes in the cluster by applying a `NodeNetworkConfigurationPolicy` manifest
 to the cluster.
 

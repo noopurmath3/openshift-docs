@@ -5,6 +5,7 @@
 [id="ossm-access-prometheus_{context}"]
 = Accessing Prometheus
 
+[role="_abstract"]
 Prometheus is a monitoring and alerting tool that you can use to collect multi-dimensional data about your microservices. In this example, `istio-system` is the control plane namespace.
 
 .Procedure

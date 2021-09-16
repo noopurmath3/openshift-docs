@@ -1,5 +1,6 @@
 [[about_oce]]
 = About {oce}
+[role="_abstract"]
 {product-author}
 {product-version}
 :oce: OpenShift Container Engine

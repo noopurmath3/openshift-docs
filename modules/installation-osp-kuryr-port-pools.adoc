@@ -7,6 +7,7 @@
 [id="installation-osp-kuryr-port-pools_{context}"]
 = Kuryr ports pools
 
+[role="_abstract"]
 A Kuryr ports pool maintains a number of ports on standby for pod creation.
 
 Keeping ports on standby minimizes pod creation time. Without ports pools, Kuryr must explicitly request port creation or deletion whenever a pod is created or deleted.

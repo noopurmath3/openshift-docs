@@ -5,6 +5,7 @@
 [id="cco-ccoctl-creating-at-once_{context}"]
 = Creating AWS resources with a single command
 
+[role="_abstract"]
 If you do not need to review the JSON files that the `ccoctl` tool creates before modifying AWS resources, and if the process the `ccoctl` tool uses to create AWS resources automatically meets the requirements of your organization, you can use the `ccoctl aws create-all` command to automate the creation of AWS resources.
 
 Otherwise, you can create the AWS resources individually.

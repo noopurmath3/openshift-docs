@@ -11,6 +11,7 @@
 [id="{FeatureResourceName}-deploying_{context}"]
 = Deploying the {FeatureName}
 
+[role="_abstract"]
 To deploy the {FeatureName}, you create an instance of the `{FeatureResourceName}` resource.
 
 .Procedure

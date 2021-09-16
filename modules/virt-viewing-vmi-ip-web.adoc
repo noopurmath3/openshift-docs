@@ -5,6 +5,7 @@
 [id="virt-viewing-vmi-ip-web_{context}"]
 = Viewing the IP address of a virtual machine interface in the web console
 
+[role="_abstract"]
 The IP information displays in the *Virtual Machine Overview* screen for the virtual machine.
 
 .Procedure

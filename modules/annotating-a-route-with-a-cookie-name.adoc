@@ -5,6 +5,7 @@
 [id="annotating-a-route-with-a-cookie_{context}"]
 = Annotating a route with a cookie
 
+[role="_abstract"]
 You can set a cookie name to overwrite the default, auto-generated one for the
 route. This allows the application receiving route traffic to know the cookie
 name. By deleting the cookie it can force the next request to re-choose an

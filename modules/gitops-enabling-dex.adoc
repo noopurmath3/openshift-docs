@@ -5,6 +5,7 @@
 [id="enabling-dex_{context}"]
 = Enabling Dex
 
+[role="_abstract"]
 Argo CD embeds and bundles Dex as part of its installation. Dex is an identity service that uses OpenID Connect to drive authentication for other apps.
 
 .Procedure

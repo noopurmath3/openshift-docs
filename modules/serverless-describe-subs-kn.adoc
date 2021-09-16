@@ -1,6 +1,7 @@
 [id="serverless-describe-subs-kn_{context}"]
 = Describing subscriptions by using the Knative CLI
 
+[role="_abstract"]
 You can print information about a subscription in the terminal by using the `kn` CLI.
 
 .Prerequisites

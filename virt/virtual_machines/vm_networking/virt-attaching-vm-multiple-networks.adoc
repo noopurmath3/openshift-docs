@@ -5,6 +5,7 @@ include::modules/virt-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 You can attach virtual machines to multiple networks by using Linux bridges.
 You can also import virtual machines with existing workloads that depend on access to multiple interfaces.
 
@@ -45,6 +46,7 @@ include::modules/virt-networking-wizard-fields-web.adoc[leveloffset=+2]
 include::modules/virt-attaching-vm-secondary-network-cli.adoc[leveloffset=+2]
 
 [id="{context}_additional-resources"]
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../../virt/virtual_machines/vm_networking/virt-configuring-ip-for-vms.adoc#virt-configuring-ip-for-vms[Configuring IP addresses for virtual machines]

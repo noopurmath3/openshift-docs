@@ -6,6 +6,7 @@
 [id="ossm-cert-manage_{context}"]
 = Adding an external certificate authority key and certificate
 
+[role="_abstract"]
 By default, {ProductName} generates self-signed root certificate and key, and uses them to sign the workload certificates. You can also use the user-defined certificate and key to sign workload certificates, with user-defined root certificate. This task demonstrates an example to plug certificates and key into {ProductShortName}.
 
 .Prerequisites

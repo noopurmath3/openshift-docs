@@ -7,6 +7,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 Affinity is a property of pods that controls the nodes on which they prefer to be scheduled.
 
 In {product-title} node affinity is a set of rules used by the scheduler to determine where a pod can be placed.
@@ -26,6 +27,7 @@ include::modules/nodes-scheduler-node-affinity-configuring-preferred.adoc[levelo
 include::modules/nodes-scheduler-node-affinity-example.adoc[leveloffset=+1]
 
 [id="nodes-scheduler-node-affinity-addtl-resources_{context}"]
+[role="_additional-resources"]
 == Additional resources
 
 For information about changing node labels, see

@@ -5,6 +5,7 @@
 [id="builds-strategy-docker-entitled-subman_{context}"]
 = Docker builds using Subscription Manager
 
+[role="_abstract"]
 Docker strategy builds can use the Subscription Manager to install subscription content.
 
 .Prerequisites

@@ -6,6 +6,7 @@
 [id="installation-rhv-about-inventory-yml_{context}"]
 = The inventory.yml file
 
+[role="_abstract"]
 You use the `inventory.yml` file to define and create elements of the {product-title} cluster you are installing. This includes elements such as the {op-system-first} image, virtual machine templates, bootstrap machine, control plane nodes, and worker nodes. You also use `inventory.yml` to destroy the cluster.
 
 The following `inventory.yml` example shows you the parameters and their default values. The quantities and numbers in these default values meet the requirements for running a production {product-title} cluster in a {rh-virtualization} environment.

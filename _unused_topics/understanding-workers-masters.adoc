@@ -5,6 +5,7 @@
 [id="understanding-workers-masters_{context}"]
 = Understanding {product-title} workers and masters
 
+[role="_abstract"]
 With installation complete, the cluster is now fully in charge of managing itself. Management of worker (compute) and master (control plane) nodes is done from within the cluster. So, before moving on to what the {product-title} cluster does to help you develop and deploy applications, you should explore how an {product-title} cluster manages itself. For that, we focus on three things; workers, masters (the control plane) and Operators.
 
 To see which workers and masters are running on your cluster, type:

@@ -26,6 +26,7 @@
 // * installing/installing_ibm_z/installing-restricted-networks-ibm-power.adoc
 
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-ibm-z"]
 :ibm-z:
 endif::[]

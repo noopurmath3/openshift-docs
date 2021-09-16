@@ -5,6 +5,7 @@
 [id="serverless-delete-trigger-odc_{context}"]
 = Deleting a trigger using the Developer perspective
 
+[role="_abstract"]
 You can delete triggers in the web console *Developer* perspective.
 
 .Prerequisites

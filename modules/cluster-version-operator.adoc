@@ -11,4 +11,5 @@
 [discrete]
 == Project
 
+[role="_abstract"]
 link:https://github.com/openshift/cluster-version-operator[cluster-version-operator]

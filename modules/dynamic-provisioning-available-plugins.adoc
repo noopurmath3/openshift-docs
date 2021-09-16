@@ -6,6 +6,7 @@
 [id="available-plug-ins_{context}"]
 = Available dynamic provisioning plug-ins
 
+[role="_abstract"]
 {product-title} provides the following provisioner plug-ins, which have
 generic implementations for dynamic provisioning that use the cluster's
 configured provider's API to create new storage resources:

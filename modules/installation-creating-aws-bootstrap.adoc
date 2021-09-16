@@ -6,6 +6,7 @@
 [id="installation-creating-aws-bootstrap_{context}"]
 = Creating the bootstrap node in AWS
 
+[role="_abstract"]
 You must create the bootstrap node in Amazon Web Services (AWS) to use during {product-title} cluster initialization.
 
 You can use the provided CloudFormation template and a custom parameter file to create a stack of AWS resources. The stack represents the bootstrap node that your {product-title} installation requires.

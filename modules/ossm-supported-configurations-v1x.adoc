@@ -7,6 +7,7 @@
 [id="ossm-supported-configurations-v1x_{context}"]
 = {ProductName} supported configurations
 
+[role="_abstract"]
 The following are the only supported configurations for the {ProductName}:
 
 * Red Hat {product-title} version 4.x.

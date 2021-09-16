@@ -5,6 +5,7 @@
 [id="nodes-pods-viewing-project_{context}"]
 = Viewing pods in a project
 
+[role="_abstract"]
 You can view a list of pods associated with the current project, including the number of replica, the current status, number or restarts and the age of the pod.
 
 .Procedure

@@ -5,6 +5,7 @@
 [id="dedicated-aws-vpn-creating"]
 = Creating a VPN connection
 
+[role="_abstract"]
 You can configure an Amazon Web Services (AWS) {product-title} cluster to use a
 customer's on-site hardware VPN device using the following procedures.
 

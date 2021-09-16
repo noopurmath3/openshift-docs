@@ -5,6 +5,7 @@
 [id="dedicated-aws-vpc-verifying-troubleshooting"]
 = Verifying and troubleshooting VPC peering
 
+[role="_abstract"]
 After you set up a VPC peering connection, it is best to confirm it has been
 configured and is working correctly.
 

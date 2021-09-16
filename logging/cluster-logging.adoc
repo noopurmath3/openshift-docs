@@ -8,6 +8,7 @@ toc::[]
 
 
 ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
+[role="_abstract"]
 As a cluster administrator, you can deploy OpenShift Logging to
 aggregate all the logs from your {product-title} cluster, such as node system audit logs, application container logs, and infrastructure logs.
 OpenShift Logging aggregates these logs from throughout your cluster and stores them in a default log store. You can xref:../logging/cluster-logging-visualizer.adoc#cluster-logging-visualizer[use the Kibana web console to visualize log data].

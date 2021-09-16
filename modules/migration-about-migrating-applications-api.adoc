@@ -6,6 +6,7 @@
 [id="migration-about-migrating-applications-api_{context}"]
 = About migrating applications
 
+[role="_abstract"]
 You can migrate applications from a local cluster to a remote cluster, from a remote cluster to a local cluster, and between remote clusters.
 
 [id="terminology_{context}"]

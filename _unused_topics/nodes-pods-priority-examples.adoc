@@ -5,6 +5,7 @@
 [id="nodes-pods-priority-examples_{context}"]
 = Pod priority example scenarios
 
+[role="_abstract"]
 Pod priority and preemption assigns a priority to pods for scheduling. The scheduler will preempt (evict) lower-priority pods to schedule higher-priority pods.
 
 Typical preemption scenario::

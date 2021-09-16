@@ -6,6 +6,7 @@
 [id="infrastructure-moving-logging_{context}"]
 = Moving OpenShift Logging resources
 
+[role="_abstract"]
 You can configure the Cluster Logging Operator to deploy the pods for OpenShift Logging components, such as Elasticsearch and Kibana, to different nodes. You cannot move the Cluster Logging Operator pod from its installed location.
 
 For example, you can move the Elasticsearch pods to a separate node because of high CPU, memory, and disk requirements.

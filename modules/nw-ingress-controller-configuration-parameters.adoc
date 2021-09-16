@@ -5,6 +5,7 @@
 [id="nw-ingress-controller-configuration-parameters_{context}"]
 = Ingress Controller configuration parameters
 
+[role="_abstract"]
 The `ingresscontrollers.operator.openshift.io` resource offers the following
 configuration parameters.
 

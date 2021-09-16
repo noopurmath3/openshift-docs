@@ -5,6 +5,7 @@
 [id="deleting-a-project-using-the-web-console_{context}"]
 = Deleting a project using the web console
 
+[role="_abstract"]
 You can delete a project by using the {product-title} web console.
 
 [NOTE]

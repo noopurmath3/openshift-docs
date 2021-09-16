@@ -5,6 +5,7 @@
 [id="virt-attaching-vm-secondary-network-cli_{context}"]
 = Attaching a virtual machine to a secondary network in the CLI
 
+[role="_abstract"]
 Attach a virtual machine to a secondary network by adding a bridge interface and specifying a network attachment definition in the virtual machine configuration.
 
 This procedure uses a YAML file to demonstrate editing the configuration and applying the updated file to the cluster. You can alternatively use the `oc edit <object> <name>` command to edit an existing virtual machine.

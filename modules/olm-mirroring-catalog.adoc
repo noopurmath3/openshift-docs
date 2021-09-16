@@ -6,6 +6,7 @@ ifdef::openshift-origin[]
 :index-image-pullspec: quay.io/operatorhubio/catalog:latest
 :index-image: catalog
 :example-registry: example.com
+[role="_abstract"]
 endif::[]
 ifndef::openshift-origin[]
 :index-image-pullspec: registry.redhat.io/redhat/redhat-operator-index:v{product-version}

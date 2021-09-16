@@ -4,6 +4,7 @@
 [id="builds-strategy-docker-squash-layers_{context}"]
 = Squash layers with docker builds
 
+[role="_abstract"]
 Docker builds normally create a layer representing each instruction in a Dockerfile. Setting the `imageOptimizationPolicy` to `SkipLayers` merges all instructions into a single layer on top of the base image.
 
 .Procedure

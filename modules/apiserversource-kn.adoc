@@ -1,6 +1,7 @@
 [id="apiserversource-kn_{context}"]
 = Creating an API server source by using the Knative CLI
 
+[role="_abstract"]
 This section describes the steps required to create an API server source using `kn` commands.
 
 .Prerequisites

@@ -5,6 +5,7 @@
 [id="ossm-architecture-1x_{context}"]
 = {ProductName} Architecture
 
+[role="_abstract"]
 {ProductName} is logically split into a data plane and a control plane:
 
 The *data plane* is a set of intelligent proxies deployed as sidecars. These proxies intercept and control all inbound and outbound network communication between microservices in the service mesh. Sidecar proxies also communicate with Mixer, the general-purpose policy and telemetry hub.

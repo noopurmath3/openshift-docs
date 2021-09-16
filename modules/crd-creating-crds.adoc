@@ -5,6 +5,7 @@
 [id="crd-creating-custom-resources-definition_{context}"]
 = Creating a custom resource definition
 
+[role="_abstract"]
 To create custom resource (CR) objects, cluster administrators must first create a custom resource definition (CRD).
 
 .Prerequisites

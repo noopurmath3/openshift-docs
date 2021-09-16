@@ -5,6 +5,7 @@
 [id="odc-starting-recreate-deployment_{context}"]
 = Starting a recreate deployment using the Developer perspective
 
+[role="_abstract"]
 You can switch the deployment strategy from the default rolling update to a recreate update using the *Developer* perspective in the web console.
 
 .Prerequisites

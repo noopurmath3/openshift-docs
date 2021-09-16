@@ -6,6 +6,7 @@
 
 = Creating a service from a virtual machine
 
+[role="_abstract"]
 Create a service from a running virtual machine by first creating a `Service` object to expose the virtual machine.
 
 [NOTE]

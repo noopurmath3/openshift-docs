@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Ruby on Rails is a web framework written in Ruby. This guide covers using Rails 4 on {product-title}.
 
 [WARNING]

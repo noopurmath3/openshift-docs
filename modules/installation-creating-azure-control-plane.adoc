@@ -5,6 +5,7 @@
 [id="installation-creating-azure-control-plane_{context}"]
 = Creating the control plane machines in Azure
 
+[role="_abstract"]
 You must create the control plane machines in Microsoft Azure for your cluster
 to use. One way to create these machines is to modify the provided Azure
 Resource Manager (ARM) template.

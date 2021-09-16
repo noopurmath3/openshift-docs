@@ -5,6 +5,7 @@
 [id="flexvolume-driver-example_{context}"]
 = FlexVolume driver example
 
+[role="_abstract"]
 The first command-line argument of the FlexVolume driver is always an operation name. Other parameters are specific to each operation. Most of the operations take a JavaScript Object Notation (JSON) string as a parameter. This parameter is a complete JSON string, and not the name of a file with the JSON data.
 
 The FlexVolume driver contains:

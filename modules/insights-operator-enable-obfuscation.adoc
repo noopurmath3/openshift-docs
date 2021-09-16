@@ -7,6 +7,7 @@
 [id="insights-operator-enable-obfuscation_{context}"]
 = Enabling Insights Operator data obfuscation
 
+[role="_abstract"]
 You can enable obfuscation to mask sensitive and identifiable IPv4 addresses and cluster base domains that the Insights Operator sends to link:https://console.redhat.com[console.redhat.com].
 
 [WARNING]

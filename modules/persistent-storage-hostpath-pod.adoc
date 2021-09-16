@@ -5,6 +5,7 @@
 [id="persistent-storage-hostpath-pod_{context}"]
 = Mounting the hostPath share in a privileged pod
 
+[role="_abstract"]
 After the persistent volume claim has been created, it can be used inside by an application. The following example demonstrates mounting this share inside of a pod.
 
 .Prerequisites

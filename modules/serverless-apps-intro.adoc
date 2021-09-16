@@ -6,6 +6,7 @@
 [id="serverless-about-services_{context}"]
 = Serverless applications using Knative services
 
+[role="_abstract"]
 To deploy a serverless application using {ServerlessProductName}, you must create a _Knative service_.
 Knative services are Kubernetes services, defined by a route and a configuration, and contained in a YAML file.
 

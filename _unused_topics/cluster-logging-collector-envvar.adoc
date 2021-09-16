@@ -5,6 +5,7 @@
 [id="cluster-logging-collector-envvar_{context}"]
 = Configuring the logging collector using environment variables
 
+[role="_abstract"]
 You can use environment variables to modify the configuration of the Fluentd log
 collector.
 

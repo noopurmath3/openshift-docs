@@ -5,6 +5,7 @@
 [id="odc-splitting-traffic-between-revisions-using-developer-perspective_{context}"]
 = Splitting traffic between revisions using the Developer perspective
 
+[role="_abstract"]
 After you create a serverless application, the serverless application is displayed in the *Topology* view of the *Developer* perspective. The application revision is represented by the node and the serverless resource service is indicated by a quadrilateral around the node.
 
 Any new change in the code or the service configuration triggers a revision, a snapshot of the code at a given time. For a service, you can manage the traffic between the revisions of the service by splitting and routing it to the different revisions as required.

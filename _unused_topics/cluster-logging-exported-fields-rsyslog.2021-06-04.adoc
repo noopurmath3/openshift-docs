@@ -5,6 +5,7 @@
 [id="cluster-logging-exported-fields-rsyslog_{context}"]
 = `rsyslog` exported fields
 
+[role="_abstract"]
 These are the `rsyslog` fields exported by the logging system and available for searching
 from Elasticsearch and Kibana.
 

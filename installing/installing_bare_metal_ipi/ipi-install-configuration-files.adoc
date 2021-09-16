@@ -8,6 +8,7 @@ include::modules/ipi-install-setting-proxy-settings-within-install-config.adoc[l
 
 include::modules/ipi-install-modifying-install-config-for-no-provisioning-network.adoc[leveloffset=+1]
 
+[role="_abstract"]
 ifeval::[{product-version} > 4.7]
 include::modules/ipi-install-modifying-install-config-for-dual-stack-network.adoc[leveloffset=+1]
 endif::[]

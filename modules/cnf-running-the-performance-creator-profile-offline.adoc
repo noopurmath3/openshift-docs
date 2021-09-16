@@ -5,6 +5,7 @@
 [id="running-the-performance-profile-creator-wrapper-script_{context}"]
 = Running the Performance Profile Creator wrapper script
 
+[role="_abstract"]
 The performance profile wrapper script simplifies the running of the Performance Profile Creator (PPC) tool. It hides the complexities associated with running `podman` and specifying the mapping directories and it enables the creation of the performance profile.
 
 .Prerequisites

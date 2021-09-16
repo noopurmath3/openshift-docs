@@ -5,6 +5,7 @@
 [id="security-context-constraints-creating_{context}"]
 = Creating security context constraints
 
+[role="_abstract"]
 You can create security context constraints (SCCs) by using the OpenShift CLI (`oc`).
 
 .Prerequisites

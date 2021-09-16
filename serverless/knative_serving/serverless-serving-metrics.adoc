@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Metrics enable developers to monitor how Knative services are performing.
 
 [id="prerequisites_serverless-metrics"]

@@ -5,6 +5,7 @@
 [id="installation-osp-kuryr-config-yaml_{context}"]
 = Sample customized `install-config.yaml` file for {rh-openstack} with Kuryr
 
+[role="_abstract"]
 To deploy with Kuryr SDN instead of the default OpenShift SDN, you must
 modify the `install-config.yaml` file to include `Kuryr` as the desired
 `networking.networkType` and proceed with the default {product-title} SDN installation steps.

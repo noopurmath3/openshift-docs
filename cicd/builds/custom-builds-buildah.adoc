@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 With {product-title} {product-version}, a docker socket will not be present on the host
 nodes. This means the _mount docker socket_ option of a custom build is not
 guaranteed to provide an accessible docker socket for use within a custom build

@@ -5,6 +5,7 @@
 [id="serverless-creating-broker-annotation_{context}"]
 = Creating a broker by annotating a trigger
 
+[role="_abstract"]
 You can create a broker by adding the `eventing.knative.dev/injection: enabled` annotation to a `Trigger` object.
 
 [IMPORTANT]

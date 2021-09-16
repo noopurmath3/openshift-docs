@@ -5,6 +5,7 @@
 [id="olm-overriding-proxy-settings_{context}"]
 = Overriding proxy settings of an Operator
 
+[role="_abstract"]
 If a cluster-wide egress proxy is configured, Operators running with Operator Lifecycle Manager (OLM) inherit the cluster-wide proxy settings on their deployments. Cluster administrators can also override these proxy settings by configuring the subscription of an Operator.
 
 [IMPORTANT]

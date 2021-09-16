@@ -8,6 +8,7 @@
 [id="virt-cloning-pvc-of-vm-disk-into-new-datavolume_{context}"]
 = Cloning the persistent volume claim of a virtual machine disk into a new data volume
 
+[role="_abstract"]
 You can clone a persistent volume claim (PVC) of an existing virtual machine disk
 into a new data volume. The new data volume can then be used for a new virtual
 machine.

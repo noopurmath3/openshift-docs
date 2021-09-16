@@ -5,6 +5,7 @@
 [id="configuring-firewall_{context}"]
 = Configuring your firewall for {product-title}
 
+[role="_abstract"]
 Before you install {product-title}, you must configure your firewall to grant access to the sites that {product-title} requires.
 
 There are no special configuration considerations for services running on only controller nodes versus worker nodes.

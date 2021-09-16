@@ -5,6 +5,7 @@
 [id="nw-controlling-dns-pod-placement_{context}"]
 = Controlling DNS pod placement
 
+[role="_abstract"]
 The DNS Operator has two daemon sets: one for CoreDNS and one for managing the `/etc/hosts` file. The daemon set for `/etc/hosts` must run on every node host to add an entry for the cluster image registry to support pulling images. Security policies can prohibit communication between pairs of nodes, which prevents the daemon set for CoreDNS from running on every node.
 
 As a cluster administrator, you can use a custom node selector to configure the daemon set for CoreDNS to run or not run on certain nodes.

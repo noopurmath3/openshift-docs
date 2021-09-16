@@ -5,6 +5,7 @@
 [id="nodes-pods-priority-configuring_{context}"]
 = Configuring priority and preemption
 
+[role="_abstract"]
 You apply pod priority and preemption by creating a priority class object and associating pods to the priority using the
 `priorityClassName` in your `Pod` specs.
 

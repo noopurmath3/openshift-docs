@@ -5,6 +5,7 @@
 [id="metering-store-data-in-gcp_{context}"]
 = Storing data in Google Cloud Storage
 
+[role="_abstract"]
 To store your data in Google Cloud Storage, you must use an existing bucket.
 
 .Procedure

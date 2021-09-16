@@ -5,6 +5,7 @@
 [id="persistent-storage-csi-snapshots-delete_{context}"]
 = Deleting a volume snapshot
 
+[role="_abstract"]
 You can configure how {product-title} deletes volume snapshots.
 
 .Procedure

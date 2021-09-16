@@ -7,6 +7,7 @@
 [id="virt-deleting-deployment-custom-resource_{context}"]
 = Deleting the {VirtProductName} Operator Deployment custom resource
 
+[role="_abstract"]
 To uninstall {VirtProductName}, you must first delete the *{VirtProductName} Operator Deployment* custom resource.
 
 .Prerequisites

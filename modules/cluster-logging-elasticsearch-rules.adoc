@@ -1,6 +1,7 @@
 [id="cluster-logging-elasticsearch-rules_{context}"]
 = About Elasticsearch alerting rules
 
+[role="_abstract"]
 You can view these alerting rules in Prometheus.
 
 .Alerting rules

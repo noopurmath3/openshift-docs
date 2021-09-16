@@ -5,6 +5,7 @@
 [id="virt-cancelling-vm-migration-cli_{context}"]
 = Cancelling live migration of a virtual machine instance in the CLI
 
+[role="_abstract"]
 Cancel the live migration of a virtual machine instance by deleting the
 `VirtualMachineInstanceMigration` object associated with the migration.
 

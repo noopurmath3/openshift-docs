@@ -6,6 +6,7 @@
 [id="master-node-sizing_{context}"]
 =  Control plane node sizing
 
+[role="_abstract"]
 The control plane node resource requirements depend on the number of nodes in the cluster. The following control plane node size recommendations are based on the results of control plane density focused testing. The control plane tests create the following objects across the cluster in each of the namespaces depending on the node counts:
 
 - 12 image streams

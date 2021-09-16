@@ -7,6 +7,7 @@
 [id="osdk-scorecard-output_{context}"]
 = Scorecard output
 
+[role="_abstract"]
 The `--output` flag for the `scorecard` command specifies the scorecard results output format: either `text` or `json`.
 
 .Example JSON output snippet

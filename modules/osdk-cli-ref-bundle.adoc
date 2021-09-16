@@ -6,6 +6,7 @@
 [id="osdk-cli-ref-bundle_{context}"]
 = bundle
 
+[role="_abstract"]
 The `operator-sdk bundle` command manages Operator bundle metadata.
 
 [id="osdk-cli-ref-bundle-validate_{context}"]

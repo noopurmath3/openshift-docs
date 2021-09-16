@@ -5,6 +5,7 @@
 [id="security-hosts-vms-rhcos_{context}"]
 = Securing containers on {op-system-first}
 
+[role="_abstract"]
 Containers simplify the act of deploying many applications to run on the same host,
 using the same kernel and container runtime to spin up each container.
 The applications can be owned by many users and, because they are kept

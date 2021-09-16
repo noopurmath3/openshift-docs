@@ -5,6 +5,7 @@
 [id="create-local-pvc_{context}"]
 = Creating the local volume persistent volume claim
 
+[role="_abstract"]
 Local volumes must be statically created as a persistent volume claim (PVC)
 to be accessed by the pod.
 

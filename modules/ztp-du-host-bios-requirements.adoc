@@ -6,6 +6,7 @@
 [id="configuring_bios_for_du_hosts_{context}"]
 = Configuring BIOS for distributed unit bare-metal hosts
 
+[role="_abstract"]
 Distributed unit (DU) hosts require the BIOS to be configured before the host can be provisioned. The BIOS configuration is dependent on the specific hardware that runs your DUs and the particular requirements of your installation.
 
 [IMPORTANT]

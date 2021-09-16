@@ -5,6 +5,7 @@
 [id="ossm-configuring-jaeger_{context}"]
 = Configuring Jaeger
 
+[role="_abstract"]
 When the {ProductShortName} Operator creates the `ServiceMeshControlPlane` resource it can also create the resources for distributed tracing. {ProductShortName} uses Jaeger for distributed tracing.
 
 You can specify your Jaeger configuration in either of two ways:

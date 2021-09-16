@@ -6,6 +6,7 @@
 
 = Creating a horizontal pod autoscaler object for memory utilization by using the CLI
 
+[role="_abstract"]
 You can create a horizontal pod autoscaler (HPA) for an existing `DeploymentConfig` object or `ReplicationController` object
 that automatically scales the pods associated with that object to maintain the average memory utilization you specify,
 either a direct value or a percentage of requested memory.

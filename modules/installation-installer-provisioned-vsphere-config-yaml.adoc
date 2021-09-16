@@ -7,6 +7,7 @@
 // * installing/installing_vsphere/installing-vsphere-installer-provisioned-network-customizations.adoc
 // * installing/installing_vsphere/installing-restricted-networks-installer-provisioned-vsphere.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-vsphere-installer-provisioned-network-customizations"]
 :network:
 endif::[]

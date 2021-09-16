@@ -5,6 +5,7 @@
 [id="jt-comparison-of-jenkins-tekton-execution-models_{context}"]
 = Comparison of Jenkins and Tekton execution models
 
+[role="_abstract"]
 Jenkins and Tekton offer similar functions but are different in architecture and execution. This section outlines a brief comparison of the two execution models.
 
 .Comparison of execution models in Jenkins and Tekton

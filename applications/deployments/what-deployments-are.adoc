@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The `Deployment` and `DeploymentConfig` API objects in {product-title} provide two similar but different methods for fine-grained management over common user applications. They are composed of the following separate API objects:
 
 * A `DeploymentConfig` or `Deployment` object, either of which describes the desired state of a particular component of the application as a pod template.
@@ -14,6 +15,7 @@ The `Deployment` and `DeploymentConfig` API objects in {product-title} provide t
 ////
 Update when converted:
 
+[role="_additional-resources"]
 .Additional resources
 
 xref:../../applications/deployments/advanced_deployment_strategies.adoc#graceful-termination[graceful shutdown]
@@ -48,6 +50,7 @@ include::modules/deployments-comparing-deploymentconfigs.adoc[leveloffset=+1]
 ////
 Update when converted:
 
+[role="_additional-resources"]
 .Additional resources
 
 - xref:../../dev_guide/managing_images.adoc#dev-guide-managing-images[Imagestreams]

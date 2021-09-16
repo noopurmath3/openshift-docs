@@ -5,6 +5,7 @@
 [id="nw-ovn-kubernetes-matrix_{context}"]
 = Supported default CNI network provider feature matrix
 
+[role="_abstract"]
 {product-title} offers two supported choices, OpenShift SDN and OVN-Kubernetes, for the default Container Network Interface (CNI) network provider. The following table summarizes the current feature support for both network providers:
 
 .Default CNI network provider feature comparison

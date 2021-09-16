@@ -5,6 +5,7 @@
 [id="virt-example-node-placement-node-selector-hpp_{context}"]
 = Example: Node placement with nodeSelector in the HostPathProvisioner object
 
+[role="_abstract"]
 In this example, `nodeSelector` is configured so that workloads are placed on nodes labeled with `example.io/example-workloads-key = example-workloads-value`.
 
 [source,yaml]

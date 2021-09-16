@@ -4,6 +4,7 @@
 [id="images-remove-tag-imagestream_{context}"]
 = Removing tags from image streams
 
+[role="_abstract"]
 You can remove tags from an image stream.
 
 .Procedure

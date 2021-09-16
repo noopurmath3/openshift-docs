@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Passthrough mode is supported for Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), {rh-openstack-first}, {rh-virtualization-first}, and VMware vSphere.
 
 In passthrough mode, the Cloud Credential Operator (CCO) passes the provided cloud credential to the components that request cloud credentials. The credential must have permissions to perform the installation and complete the operations that are required by components in the cluster, but does not need to be able to create new credentials. The CCO does not attempt to create additional limited-scoped credentials in passthrough mode.
@@ -98,6 +99,7 @@ After installation, you can reduce the permissions on your credential to only th
 
 To locate the `CredentialsRequest` CRs that are required for AWS, Azure, or GCP and learn how to change the permissions the CCO uses, see _Manually creating IAM_ for xref:../../installing/installing_aws/manually-creating-iam.adoc#manually-creating-iam-aws[AWS], xref:../../installing/installing_azure/manually-creating-iam-azure.adoc#manually-creating-iam-azure[Azure], or xref:../../installing/installing_gcp/manually-creating-iam-gcp.adoc#manually-creating-iam-gcp[GCP].
 
+[role="_additional-resources"]
 == Additional resources
 
 * xref:../../installing/installing_aws/manually-creating-iam.adoc#manually-creating-iam-aws[Manually creating IAM for AWS]

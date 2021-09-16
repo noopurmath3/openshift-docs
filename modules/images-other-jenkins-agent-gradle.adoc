@@ -5,6 +5,7 @@
 [id="images-other-jenkins-agent-gradle_{context}"]
 = Jenkins agent Gradle builds
 
+[role="_abstract"]
 Hosting Gradle builds in the Jenkins agent on {product-title} presents additional complications because in addition to the Jenkins JNLP agent and Gradle JVMs, Gradle spawns a third JVM to run tests if they are specified.
 
 

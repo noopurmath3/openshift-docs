@@ -6,6 +6,7 @@
 [id="installation-bootstrap-gather_{context}"]
 = Gathering logs from a failed installation
 
+[role="_abstract"]
 If you gave an SSH key to your installation program, you can gather data about
 your failed installation.
 

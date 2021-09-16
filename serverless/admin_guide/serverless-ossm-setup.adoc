@@ -7,6 +7,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Using {ProductShortName} with {ServerlessProductName} enables developers to configure additional networking and routing options.
 
 The {ServerlessOperatorName} provides Kourier as the default ingress for Knative. However, you can use {ProductShortName} with {ServerlessProductName} whether Kourier is enabled or not. Integrating with Kourier disabled allows you to configure additional networking and routing options that the Kourier ingress does not support.

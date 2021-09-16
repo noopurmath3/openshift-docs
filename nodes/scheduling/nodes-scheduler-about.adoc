@@ -7,6 +7,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 Pod scheduling is an internal process that determines placement of new
 pods onto nodes within the cluster.
 

@@ -5,6 +5,7 @@
 [id="installation-arm-control-plane_{context}"]
 = ARM template for control plane machines
 
+[role="_abstract"]
 You can use the following Azure Resource Manager (ARM) template to deploy the
 control plane machines that you need for your {product-title} cluster:
 

@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The following sections define the concept of a build, build configuration, and outline the primary build strategies available.
 
 include::modules/builds-buildconfig.adoc[leveloffset=+1]

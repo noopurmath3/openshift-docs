@@ -7,6 +7,7 @@ toc::[]
 
 == Overview
 
+[role="_abstract"]
 {product-title} can provision persistent volumes (PVs) using the Container Storage Interface (CSI) VMware vSphere driver for Virtual Machine Disk (VMDK) volumes.
 
 :FeatureName: vSphere CSI Driver Operator
@@ -30,11 +31,13 @@ After full migration, in-tree plug-ins will eventually be removed in future vers
 ====
 
 include::modules/persistent-storage-csi-about.adoc[leveloffset=+1]
+[role="_additional-resources"]
 .Additional resources
 * xref:../../storage/container_storage_interface/persistent-storage-csi.adoc#persistent-storage-csi[Configuring CSI volumes]
 
 :FeatureName: vSphere
 include::modules/persistent-storage-csi-tp-enable.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 == Additional resources
 * xref:../../nodes/clusters/nodes-cluster-enabling-features.adoc#[Enabling features using feature gates]

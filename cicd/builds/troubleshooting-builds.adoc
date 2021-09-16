@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Use the following to troubleshoot build issues.
 
 include::modules/builds-troubleshooting-access-resources.adoc[leveloffset=+1]

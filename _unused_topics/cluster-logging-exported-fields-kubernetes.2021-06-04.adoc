@@ -1,6 +1,7 @@
 [id="cluster-logging-exported-fields-kubernetes_{context}"]
 = Kubernetes
 
+[role="_abstract"]
 The following fields can be present in the namespace for kubernetes-specific metadata.
 
 == kubernetes.pod_name

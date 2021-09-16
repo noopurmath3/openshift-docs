@@ -7,6 +7,7 @@
 [id="registry-configuring-storage-aws-user-infra_{context}"]
 = Configuring registry storage for AWS with user-provisioned infrastructure
 
+[role="_abstract"]
 During installation, your cloud credentials are sufficient to create an Amazon S3 bucket
 and the Registry Operator will automatically configure storage.
 

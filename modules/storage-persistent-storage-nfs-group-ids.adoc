@@ -6,6 +6,7 @@
 [id=storage-persistent-storage-nfs-group-ids_{context}]
 = Group IDs
 
+[role="_abstract"]
 The recommended way to handle NFS access, assuming it is not an option to
 change permissions on the NFS export, is to use supplemental groups.
 Supplemental groups in {product-title} are used for shared storage, of

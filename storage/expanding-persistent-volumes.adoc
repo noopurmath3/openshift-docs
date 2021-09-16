@@ -19,6 +19,7 @@ include::modules/storage-expanding-flexvolume.adoc[leveloffset=+1]
 include::modules/storage-expanding-filesystem-pvc.adoc[leveloffset=+1]
 
 include::modules/storage-expanding-recovering-failure.adoc[leveloffset=+1]
+[role="_abstract"]
 endif::openshift-enterprise,openshift-webscale,openshift-origin[]
 
 ifdef::openshift-dedicated[]

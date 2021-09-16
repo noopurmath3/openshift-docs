@@ -3,6 +3,7 @@
 // * networking/openshift-sdn/removing-egress-firewall.adoc
 // * networking/ovn_kubernetes_network_provider/removing-egress-firewall-ovn.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "openshift-sdn-egress-firewall"]
 :kind: EgressNetworkPolicy
 :res: egressnetworkpolicy

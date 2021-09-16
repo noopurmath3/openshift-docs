@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Installer-provisioned installation of {product-title} requires:
 
 ifdef::openshift-origin[. One provisioner node with {op-system-first} installed.]

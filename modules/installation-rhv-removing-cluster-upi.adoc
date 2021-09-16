@@ -5,6 +5,7 @@
 [id="installation-rhv-removing-cluster-upi_{context}"]
 = Removing a cluster that uses user-provisioned infrastructure
 
+[role="_abstract"]
 When you are finished using the cluster, you can remove a cluster that uses user-provisioned infrastructure from your cloud.
 
 .Prerequisites

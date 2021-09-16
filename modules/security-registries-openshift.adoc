@@ -5,6 +5,7 @@
 [id="security-registries-openshift_{context}"]
 = OpenShift Container Registry
 
+[role="_abstract"]
 {product-title} includes the _OpenShift Container Registry_, a private registry
 running as an integrated component of the platform that you can use to manage your container
 images. The OpenShift Container Registry provides role-based access controls

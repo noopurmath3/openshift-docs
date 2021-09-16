@@ -5,6 +5,7 @@
 [id="olm-arch-os-support_{context}"]
 = Architecture and operating system support for Operators
 
+[role="_abstract"]
 The following strings are supported in Operator Lifecycle Manager (OLM) on {product-title} when labeling or filtering Operators that support multiple architectures and operating systems:
 
 .Architectures supported on {product-title}

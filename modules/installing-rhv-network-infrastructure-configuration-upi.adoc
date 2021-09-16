@@ -5,6 +5,7 @@
 [id="installing-rhv-network-infrastructure-configuration-upi_{context}"]
 = Network infrastructure configuration for installing {product-title} on {rh-virtualization-first}
 
+[role="_abstract"]
 Before installing {product-title}, configure your network environment to meet the following requirements.
 
 When they boot, virtual machines must have IP addresses get the Ignition config files. Consider configuring DHCP to provide persistent IP addresses and hostnames to the cluster machines.

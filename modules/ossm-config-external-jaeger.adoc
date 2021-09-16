@@ -5,6 +5,7 @@
 [id="ossm-config-external-jaeger_{context}"]
 = Connecting standalone Jaeger
 
+[role="_abstract"]
 If you already use standalone Jaeger for distributed tracing in {product-title}, configure your `ServiceMeshControlPlane` resource to use that standalone Jaeger instance rather than the one installed with {ProductName}.
 
 .Prerequisites

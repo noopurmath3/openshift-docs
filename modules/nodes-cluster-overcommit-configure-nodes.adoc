@@ -6,6 +6,7 @@
 [id="nodes-cluster-overcommit-configure-nodes_{context}"]
 = Understanding nodes overcommitment
 
+[role="_abstract"]
 In an overcommitted environment, it is important to properly configure your node to provide best system behavior.
 
 When the node starts, it ensures that the kernel tunable flags for memory

@@ -5,6 +5,7 @@
 [id="creating-a-project-using-the-CLI_{context}"]
 = Creating a project using the CLI
 
+[role="_abstract"]
 If allowed by your cluster administrator, you can create a new project.
 
 [NOTE]

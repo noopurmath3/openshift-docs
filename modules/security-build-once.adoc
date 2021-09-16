@@ -5,6 +5,7 @@
 [id="security-build-once_{context}"]
 = Building once, deploying everywhere
 
+[role="_abstract"]
 Using {product-title} as the standard platform for container builds enables you
 to guarantee the security of the build environment. Adhering to a "build once,
 deploy everywhere" philosophy ensures that the product of the build process is

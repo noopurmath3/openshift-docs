@@ -4,6 +4,7 @@
 [id="templates-rails-creating-welcome-page_{context}"]
 = Creating a welcome page
 
+[role="_abstract"]
 Since Rails 4 no longer serves a static `public/index.html` page in production, you must create a new root page.
 
 To have a custom welcome page must do following steps:

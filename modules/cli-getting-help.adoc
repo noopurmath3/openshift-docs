@@ -5,6 +5,7 @@
 [id="cli-getting-help_{context}"]
 = Getting help
 
+[role="_abstract"]
 You can get help with CLI commands and {product-title} resources in the
 following ways.
 

@@ -6,6 +6,7 @@
 [id="cluster-autoscaler-cr_{context}"]
 = ClusterAutoscaler resource definition
 
+[role="_abstract"]
 This `ClusterAutoscaler` resource definition shows the parameters and sample values for the cluster autoscaler.
 
 

@@ -5,6 +5,7 @@
 [id="configuring-the-groups-claim_{context}"]
 = Configuring the groups claim
 
+[role="_abstract"]
 To manage users in Argo CD, you must configure a groups claim that can be included in the authentication token. 
 
 .Procedure

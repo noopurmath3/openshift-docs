@@ -6,6 +6,7 @@
 [id="querying-metrics_{context}"]
 = Querying metrics
 
+[role="_abstract"]
 The {product-title} monitoring dashboard enables you to run Prometheus Query Language (PromQL) queries to examine metrics visualized on a plot. This functionality provides information about the state of a cluster and any user-defined workloads that you are monitoring.
 
 As a *cluster administrator*, you can query metrics for all core {product-title} and user-defined projects.

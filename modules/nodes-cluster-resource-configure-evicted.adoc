@@ -5,6 +5,7 @@
 [id="nodes-cluster-resource-configure-evicted_{context}"]
 = Understanding pod eviction
 
+[role="_abstract"]
 {product-title} may evict a pod from its node when the node's memory is
 exhausted. Depending on the extent of memory exhaustion, the eviction may or
 may not be graceful. Graceful eviction implies the main process (PID 1) of each

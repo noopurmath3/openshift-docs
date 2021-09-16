@@ -7,6 +7,7 @@
 [id="understandin-fluentd-buffering_{context}"]
 = Understanding Buffer Chunk Limiting for Fluentd
 
+[role="_abstract"]
 If the Fluentd logger is unable to keep up with a high number of logs, it will need
 to switch to file buffering to reduce memory usage and prevent data loss.
 

@@ -5,6 +5,7 @@
 [id="verifying-serverless-app-deployment_{context}"]
 = Verifying your serverless application deployment
 
+[role="_abstract"]
 To verify that your serverless application has been deployed successfully, you must get the application URL created by Knative, and then send a request to that URL and observe the output.
 
 [NOTE]

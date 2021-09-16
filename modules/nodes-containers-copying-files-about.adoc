@@ -5,6 +5,7 @@
 [id="nodes-containers-copying-files-about_{context}"]
 = Understanding how to copy files
 
+[role="_abstract"]
 The `oc rsync` command, or remote sync, is a useful tool for copying database archives to and from your pods for backup and restore purposes.
 You can also use `oc rsync` to copy source code changes into a running pod for development debugging, when the running pod supports hot reload of source files.
 

@@ -2,6 +2,7 @@
 //
 // * scalability_and_performance/psap-node-feature-discovery-operator.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "red-hat-operators"]
 :operators:
 endif::[]

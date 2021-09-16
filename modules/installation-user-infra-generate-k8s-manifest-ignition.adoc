@@ -16,6 +16,7 @@
 // * installing/installing_openstack/installing-openstack-user.adoc
 
 
+[role="_abstract"]
 ifeval::["{context}" == "installing-aws-user-infra"]
 :aws:
 endif::[]

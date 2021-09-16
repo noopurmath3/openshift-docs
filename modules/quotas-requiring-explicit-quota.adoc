@@ -7,6 +7,7 @@
 [id="configuring-explicit-resource-quotas_{context}"]
 = Configuring explicit resource quotas
 
+[role="_abstract"]
 Configure explicit resource quotas in a project request template to apply specific resource quotas in new projects.
 
 .Prerequisites

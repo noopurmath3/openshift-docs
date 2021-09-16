@@ -5,6 +5,7 @@
 [id="impersonation-project-creation_{context}"]
 = Impersonating a user when you create a project
 
+[role="_abstract"]
 You can impersonate a different user when you create a project request. Because
 `system:authenticated:oauth` is the only bootstrap group that can
 create project requests, you must impersonate that group.

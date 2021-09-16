@@ -5,6 +5,7 @@
 [id="nw-multus-advanced-annotations_{context}"]
 = Specifying pod-specific addressing and routing options
 
+[role="_abstract"]
 When attaching a pod to an additional network, you may want to specify further properties
 about that network in a particular pod. This allows you to change some aspects of routing, as well
 as specify static IP addresses and MAC addresses. To accomplish this, you can use the JSON formatted annotations.

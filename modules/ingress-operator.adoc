@@ -8,6 +8,7 @@
 [discrete]
 == Purpose
 
+[role="_abstract"]
 The Ingress Operator configures and manages the {product-title} router.
 
 [discrete]

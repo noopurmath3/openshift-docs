@@ -5,6 +5,7 @@
 [id="accessing-metrics-from-outside-cluster_{context}"]
 = Accessing metrics from outside the cluster for custom applications
 
+[role="_abstract"]
 Learn how to query Prometheus statistics from the command line when monitoring your own services. You can access monitoring data from outside the cluster with the `thanos-querier` route.
 
 .Prerequisites

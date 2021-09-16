@@ -5,6 +5,7 @@
 [id="nw-sriov-ibnetwork-object_{context}"]
 = InfiniBand device configuration object
 
+[role="_abstract"]
 You can configure an InfiniBand (IB) network device by defining an `SriovIBNetwork` object.
 
 The following YAML describes an `SriovIBNetwork` object:

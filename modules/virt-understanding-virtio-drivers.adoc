@@ -8,6 +8,7 @@
 [id="virt-understanding-virtio-drivers_{context}"]
 = Understanding VirtIO drivers
 
+[role="_abstract"]
 VirtIO drivers are paravirtualized device drivers required for Microsoft Windows
  virtual machines to run in {VirtProductName}. The supported drivers are
 available in the `container-native-virtualization/virtio-win` container disk of the

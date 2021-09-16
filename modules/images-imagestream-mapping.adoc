@@ -4,6 +4,7 @@
 [id="images-imagestream-mapping_{context}"]
 = Image stream mapping
 
+[role="_abstract"]
 When the integrated registry receives a new image, it creates and sends an image stream mapping to {product-title}, providing the image's project, name, tag, and image metadata.
 
 [NOTE]

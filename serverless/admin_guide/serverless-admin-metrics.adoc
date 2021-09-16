@@ -6,6 +6,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Metrics enable cluster administrators to monitor how {ServerlessProductName} cluster components and workloads are performing.
 
 [id="prerequisites_serverless-admin-metrics"]

@@ -6,6 +6,7 @@
 [id="images-s2i-java-pulling-images_{context}"]
 = Pulling images for Java
 
+[role="_abstract"]
 The Red Hat Enterprise Linux (RHEL) 8 image is available through the Red Hat Registry.
 
 .Procedure

@@ -4,6 +4,7 @@
 
 = Creating a database with `odo`
 
+[role="_abstract"]
 To create a database, you must have an access to the database Operator. For this example, Dev4Devs PostgreSQL Operator is used.
 
 .Procedure

@@ -5,6 +5,7 @@
 [id="oauth-configuring-internal-oauth_{context}"]
 = Configuring the internal OAuth server's token duration
 
+[role="_abstract"]
 You can configure default options for the internal OAuth server's
 token duration.
 

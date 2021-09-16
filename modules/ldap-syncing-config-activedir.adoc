@@ -5,6 +5,7 @@
 [id="ldap-syncing-config-activedir_{context}"]
 = About the Active Directory configuration file
 
+[role="_abstract"]
 The Active Directory schema requires you to provide an LDAP query definition for
 user entries, as well as the attributes to represent them with in the internal
 {product-title} group records.

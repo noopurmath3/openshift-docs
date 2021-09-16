@@ -5,6 +5,7 @@
 [id="creating-the-vsphere-windows-vm-golden-image_{context}"]
 = Creating the vSphere Windows VM golden image
 
+[role="_abstract"]
 Create a vSphere Windows virtual machine (VM) golden image.
 
 .Prerequisites

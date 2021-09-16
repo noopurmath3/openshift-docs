@@ -5,6 +5,7 @@
 [id="nw-egress-ips-assign_{context}"]
 = Assigning an egress IP address to a namespace
 
+[role="_abstract"]
 You can assign one or more egress IP addresses to a namespace or to specific pods in a namespace.
 
 .Prerequisites

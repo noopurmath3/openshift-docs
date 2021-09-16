@@ -9,6 +9,7 @@ toc::[]
 
 
 
+[role="_abstract"]
 You can use node selectors to deploy the Elasticsearch and Kibana pods to different nodes.
 
 // The following include statements pull in the module files that comprise

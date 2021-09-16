@@ -5,6 +5,7 @@
 [id="persistent-storage-cinder-volume-security_{context}"]
 = Cinder volume security
 
+[role="_abstract"]
 If you use Cinder PVs in your application, configure security for their
 deployment configurations.
 

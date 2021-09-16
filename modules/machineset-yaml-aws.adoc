@@ -4,6 +4,7 @@
 // * machine_management/creating_machinesets/creating-machineset-aws.adoc
 // * post_installation_configuration/cluster-tasks.adoc
 
+[role="_abstract"]
 ifeval::["{context}" == "creating-infrastructure-machinesets"]
 :infra:
 endif::[]

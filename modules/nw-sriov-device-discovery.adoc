@@ -6,6 +6,7 @@
 [id="discover-sr-iov-devices_{context}"]
 = Automated discovery of SR-IOV network devices
 
+[role="_abstract"]
 The SR-IOV Network Operator searches your cluster for SR-IOV capable network devices on worker nodes.
 The Operator creates and updates a SriovNetworkNodeState custom resource (CR) for each worker node that provides a compatible SR-IOV network device.
 

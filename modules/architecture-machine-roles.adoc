@@ -4,6 +4,7 @@
 [id="architecture-machine-roles_{context}"]
 = Machine roles in {product-title}
 
+[role="_abstract"]
 {product-title} assigns hosts different roles. These roles define the function of the machine within the cluster. The cluster contains definitions for the standard master and worker role types.
 
 [NOTE]

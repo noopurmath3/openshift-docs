@@ -5,6 +5,7 @@
 [id="viewing-the-image-pull-source_{context}"]
 = Viewing the image pull source
 
+[role="_abstract"]
 For clusters with unrestricted network connectivity, you can view the source of your pulled images by using a command on a node, such as `crictl images`.
 
 However, for disconnected installations, to view the source of pulled images, you must review the CRI-O logs to locate the `Trying to access` log entry, as shown in the following procedure. Other methods to view the image pull source, such as the `crictl images` command, show the non-mirrored image name, even though the image is pulled from the mirrored location. 

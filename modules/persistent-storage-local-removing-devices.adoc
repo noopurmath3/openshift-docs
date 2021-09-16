@@ -5,6 +5,7 @@
 [id="local-removing-device_{context}"]
 = Removing a local volume or local volume set
 
+[role="_abstract"]
 Occasionally, local volumes and local volume sets must be deleted. While removing the entry in the resource and deleting the persistent volume is typically enough, if you want to reuse the same device path or have it managed by a different storage class, then additional steps are needed.
 
 [NOTE]

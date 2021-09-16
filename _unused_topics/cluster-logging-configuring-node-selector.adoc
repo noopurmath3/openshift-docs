@@ -5,6 +5,7 @@
 [id="cluster-logging-configuring-node-selector_{context}"]
 = Specifying a node for OpenShift Logging components using node selectors
 
+[role="_abstract"]
 Each component specification allows the component to target a specific node.
 
 .Procedure

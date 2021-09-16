@@ -6,6 +6,7 @@
 
 = Installing odo on VS Code
 
+[role="_abstract"]
 The https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector[OpenShift VS Code extension] uses both `odo` and the `oc` binary to interact with your {product-title} cluster. To work with these features, install the OpenShift VS Code extension on VS Code.
 
 .Prerequisites

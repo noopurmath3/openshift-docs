@@ -5,6 +5,7 @@ include::modules/ossm-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 When the {ProductShortName} Operator deploys the `ServiceMeshControlPlane` resource, it can also create the resources for distributed tracing. {ProductShortName} uses Jaeger for distributed tracing.
 
 include::modules/ossm-enabling-jaeger.adoc[leveloffset=+1]

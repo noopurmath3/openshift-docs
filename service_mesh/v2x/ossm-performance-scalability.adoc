@@ -5,6 +5,7 @@ include::modules/ossm-document-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The default `ServiceMeshControlPlane` settings are not intended for production use; they are designed to install successfully on a default {product-title} installation, which is a resource-limited environment. After you have verified a successful SMCP installation, you should modify the settings defined within the SMCP to suit your environment.
 
 // The following include statements pull in the module files that comprise the assembly.

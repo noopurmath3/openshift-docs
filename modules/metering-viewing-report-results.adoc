@@ -4,6 +4,7 @@
 [id="metering-viewing-report-results_{context}"]
 = Viewing report results
 
+[role="_abstract"]
 Viewing a report's results involves querying the reporting API route and authenticating to the API using your {product-title} credentials.
 Reports can be retrieved as `JSON`, `CSV`, or `Tabular` formats.
 

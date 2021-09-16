@@ -5,6 +5,7 @@
 [id="security-container-content-scanning_{context}"]
 = Security scanning in {op-system-base}
 
+[role="_abstract"]
 For {op-system-base-full} systems, OpenSCAP scanning is available
 from the `openscap-utils` package. In {op-system-base}, you can use the `openscap-podman`
 command to scan images for vulnerabilities. See

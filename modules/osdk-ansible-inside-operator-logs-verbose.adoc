@@ -5,6 +5,7 @@
 [id="osdk-ansible-inside-operator-logs-verbose_{context}"]
 = Enabling verbose debugging in logs
 
+[role="_abstract"]
 While developing an Ansible-based Operator, it can be helpful to enable additional debugging in logs.
 
 .Procedure

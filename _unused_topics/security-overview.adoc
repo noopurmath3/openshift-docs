@@ -5,6 +5,7 @@
 [id="security-overview_{context}"]
 = Security in {product-title}
 
+[role="_abstract"]
 The {product-title} and Kubernetes APIs authenticate users who present
 credentials and then authorizes them based on their role. Both developers and
 administrators can be authenticated through a number of means, primarily

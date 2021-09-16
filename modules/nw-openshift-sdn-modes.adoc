@@ -5,6 +5,7 @@
 [id="nw-openshift-sdn-modes_{context}"]
 = OpenShift SDN network isolation modes
 
+[role="_abstract"]
 OpenShift SDN provides three SDN modes for configuring the pod network:
 
 * _Network policy_ mode allows project administrators to configure their own

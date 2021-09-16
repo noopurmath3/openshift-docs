@@ -5,6 +5,7 @@
 [id="requirements-for-installing-on-a-single-node_{context}"]
 = Requirements for installing on a single node
 
+[role="_abstract"]
 Installing {product-title} on a single node alleviates some of the requirements of high availability and large scale clusters. However, you must address the following requirements:
 
 * *Administration node:* You must have an administration node or laptop to access link:https://console.redhat.com/openshift/assisted-installer/clusters[Install OpenShift with the Assisted Installer], to specify the cluster name, to create the USB boot drive, and to monitor the installation.

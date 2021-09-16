@@ -7,6 +7,7 @@ include::modules/common-attributes.adoc[]
 toc::[]
 
 
+[role="_abstract"]
 As an administrator, you can use the node group configuration map or through the use of labels on the nodes. 
 
 // The following include statements pull in the module files that comprise

@@ -6,6 +6,7 @@
 [id="machine-health-checks-creating_{context}"]
 = Creating a MachineHealthCheck resource
 
+[role="_abstract"]
 You can create a `MachineHealthCheck` resource for all `MachineSets` in your cluster.
 You should not create a `MachineHealthCheck` resource that targets control plane machines.
 

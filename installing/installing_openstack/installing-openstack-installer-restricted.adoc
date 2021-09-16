@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 In {product-title} {product-version}, you can install a cluster on
 {rh-openstack-first} in a restricted network by creating an internal mirror of the installation release content.
 
@@ -41,6 +42,7 @@ include::modules/installation-launching-installer.adoc[leveloffset=+1]
 include::modules/installation-osp-verifying-cluster-status.adoc[leveloffset=+1]
 include::modules/cli-logging-in-kubeadmin.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../../web_console/web-console.adoc#web-console[Accessing the web console] for more details about accessing and understanding the {product-title} web console.
@@ -49,6 +51,7 @@ include::modules/olm-restricted-networks-configuring-operatorhub.adoc[leveloffse
 
 include::modules/cluster-telemetry.adoc[leveloffset=+1]
 
+[role="_additional-resources"]
 .Additional resources
 
 * See xref:../../support/remote_health_monitoring/about-remote-health-monitoring.adoc#about-remote-health-monitoring[About remote health monitoring] for more information about the Telemetry service

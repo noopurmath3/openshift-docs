@@ -5,6 +5,7 @@
 [id="virt-troubleshooting-cert-rotation-parameters_{context}"]
 = Troubleshooting certificate rotation parameters
 
+[role="_abstract"]
 Deleting one or more `certConfig` values causes them to revert to the default values, unless the default values conflict with one of the following conditions:
 
 * The value of `ca.renewBefore` must be less than or equal to the value of `ca.duration`.

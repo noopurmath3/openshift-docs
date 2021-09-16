@@ -6,6 +6,7 @@
 [id="registry-operator-configuration-resource-overview_{context}"]
 = Image Registry Operator configuration parameters
 
+[role="_abstract"]
 The `configs.imageregistry.operator.openshift.io` resource offers the following
 configuration parameters.
 

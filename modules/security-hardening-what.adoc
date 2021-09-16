@@ -6,6 +6,7 @@
 
 = Choosing what to harden in {op-system}
 ifdef::openshift-origin[]
+[role="_abstract"]
 The link:https://docs.fedoraproject.org/en-US/Fedora/19/html/Security_Guide/chap-Security_Guide-Basic_Hardening.html[{op-system-base} Security Hardening] guide describes how you should approach security for any
 {op-system-base} system.
 endif::[]

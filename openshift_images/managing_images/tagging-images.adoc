@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 The following sections provide an overview and instructions for using image tags in the context of container images for working with {product-title} image streams and their tags.
 
 include::modules/images-tag.adoc[leveloffset=+1]

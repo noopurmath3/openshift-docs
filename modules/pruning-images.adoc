@@ -5,6 +5,7 @@
 [id="pruning-images_{context}"]
 = Automatically pruning images
 
+[role="_abstract"]
 Images that are no longer required by the system due to age,
 status, or exceed limits are automatically pruned. Cluster administrators can configure the Pruning Custom Resource, or suspend it.
 

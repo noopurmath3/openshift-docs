@@ -5,6 +5,7 @@ include::modules/common-attributes.adoc[]
 
 toc::[]
 
+[role="_abstract"]
 Use the following sections for an overview of build inputs, instructions on how
 to use inputs to provide source content for builds to operate on, and how to use
 build environments and create secrets.
