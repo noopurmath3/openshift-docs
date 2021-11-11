@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 
 [id="installing-gcp-default"]
 = Installing a cluster quickly on GCP

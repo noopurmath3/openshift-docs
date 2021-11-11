@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 :context: oke-about
 :oke: OpenShift Kubernetes Engine
 [id="oke-about"]
