@@ -1,6 +1,6 @@
 :_content-type: ASSEMBLY
-[id="ocp-4-10-release-notes"]
-= {product-title} {product-version} release notes
+[id="ocp-4-2-versioning-policy"]
+= {product-title} Versioning Policy
 include::modules/common-attributes.adoc[]
 :context: release-notes
 
