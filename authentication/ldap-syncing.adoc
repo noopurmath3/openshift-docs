@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [[ldap-syncing]]
 = Syncing LDAP groups
 include::modules/common-attributes.adoc[]

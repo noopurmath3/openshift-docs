@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="job-batch-v1"]
 = Job [batch/v1]
 ifdef::product-title[]

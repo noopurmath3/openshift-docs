@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="serviceca-operator-openshift-io-v1"]
 = ServiceCA [operator.openshift.io/v1]
 ifdef::product-title[]

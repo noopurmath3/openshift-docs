@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="apirequestcount-apiserver-openshift-io-v1"]
 = APIRequestCount [apiserver.openshift.io/v1]
 ifdef::product-title[]

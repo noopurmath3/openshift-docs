@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 // WARNING - DO NOT ALTER THE URL PATH OF THIS CONTENT, OR YOU WILL BREAK LINKS FROM ALERT MESSAGES THAT LINK TO THIS CONTENT.
 // However, if you must make such changes, consult with the logging team beforehand.
 [id="cluster-logging-troubleshooting-for-critical-alerts"]

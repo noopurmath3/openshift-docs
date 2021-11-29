@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="egressrouter-network-operator-openshift-io-v1"]
 = EgressRouter [network.operator.openshift.io/v1]
 ifdef::product-title[]

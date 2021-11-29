@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="consolenotification-console-openshift-io-v1"]
 = ConsoleNotification [console.openshift.io/v1]
 ifdef::product-title[]

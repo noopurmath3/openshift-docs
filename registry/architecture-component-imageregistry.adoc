@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="architecture-component-imageregistry"]
 = Image Registry
 include::modules/common-attributes.adoc[]

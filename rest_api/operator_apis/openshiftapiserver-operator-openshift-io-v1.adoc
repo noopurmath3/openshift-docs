@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="openshiftapiserver-operator-openshift-io-v1"]
 = OpenShiftAPIServer [operator.openshift.io/v1]
 ifdef::product-title[]

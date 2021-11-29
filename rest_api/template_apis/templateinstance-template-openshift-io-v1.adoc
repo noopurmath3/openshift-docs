@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="templateinstance-template-openshift-io-v1"]
 = TemplateInstance [template.openshift.io/v1]
 ifdef::product-title[]

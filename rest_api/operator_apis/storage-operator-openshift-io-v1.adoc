@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="storage-operator-openshift-io-v1"]
 = Storage [operator.openshift.io/v1]
 ifdef::product-title[]

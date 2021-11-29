@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="registry-options"]
 = Registry options
 include::modules/common-attributes.adoc[]

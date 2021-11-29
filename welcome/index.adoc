@@ -1,4 +1,5 @@
 :_content-type: ASSEMBLY
+:_content-type: ASSEMBLY
 :context: welcome-index
 [id="welcome-index"]
 = {product-title} {product-version} Documentation

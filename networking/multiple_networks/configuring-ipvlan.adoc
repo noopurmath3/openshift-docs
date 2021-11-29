@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="configuring-ipvlan"]
 = Configuring an ipvlan network
 include::modules/common-attributes.adoc[]

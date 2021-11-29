@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="configuring-bridge"]
 = Configuring a bridge network
 include::modules/common-attributes.adoc[]

@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="network-operator-openshift-io-v1"]
 = Network [operator.openshift.io/v1]
 ifdef::product-title[]

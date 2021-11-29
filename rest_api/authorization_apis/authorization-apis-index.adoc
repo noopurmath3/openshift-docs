@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="authorization-apis"]
 = Authorization APIs
 ifdef::product-title[]

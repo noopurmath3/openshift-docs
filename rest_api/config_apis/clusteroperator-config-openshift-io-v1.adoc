@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="clusteroperator-config-openshift-io-v1"]
 = ClusterOperator [config.openshift.io/v1]
 ifdef::product-title[]

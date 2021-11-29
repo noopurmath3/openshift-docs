@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="imagesignature-image-openshift-io-v1"]
 = ImageSignature [image.openshift.io/v1]
 ifdef::product-title[]

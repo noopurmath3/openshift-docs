@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="autoscale-apis"]
 = Autoscale APIs
 ifdef::product-title[]

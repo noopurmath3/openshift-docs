@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="localsubjectaccessreview-authorization-openshift-io-v1"]
 = LocalSubjectAccessReview [authorization.openshift.io/v1]
 ifdef::product-title[]

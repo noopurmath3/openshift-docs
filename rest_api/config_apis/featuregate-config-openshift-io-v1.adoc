@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="featuregate-config-openshift-io-v1"]
 = FeatureGate [config.openshift.io/v1]
 ifdef::product-title[]

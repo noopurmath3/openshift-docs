@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 :context: nodes-nodes-jobs
 [id="nodes-nodes-managing-max-pods"]
 = Managing the maximum number of pods per node

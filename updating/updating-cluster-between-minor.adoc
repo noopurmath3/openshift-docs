@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="updating-cluster-between-minor"]
 = Updating a cluster between minor versions
 include::modules/common-attributes.adoc[]

@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="configuring-macvlan"]
 = Configuring a macvlan network
 include::modules/common-attributes.adoc[]

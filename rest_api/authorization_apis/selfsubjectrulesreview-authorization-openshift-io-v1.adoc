@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="selfsubjectrulesreview-authorization-openshift-io-v1"]
 = SelfSubjectRulesReview [authorization.openshift.io/v1]
 ifdef::product-title[]

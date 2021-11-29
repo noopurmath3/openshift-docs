@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="rolebindingrestriction-authorization-openshift-io-v1"]
 = RoleBindingRestriction [authorization.openshift.io/v1]
 ifdef::product-title[]

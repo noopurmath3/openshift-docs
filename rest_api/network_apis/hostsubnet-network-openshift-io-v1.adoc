@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="hostsubnet-network-openshift-io-v1"]
 = HostSubnet [network.openshift.io/v1]
 ifdef::product-title[]

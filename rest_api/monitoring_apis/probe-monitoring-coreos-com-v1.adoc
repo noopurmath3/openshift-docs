@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="probe-monitoring-coreos-com-v1"]
 = Probe [monitoring.coreos.com/v1]
 ifdef::product-title[]

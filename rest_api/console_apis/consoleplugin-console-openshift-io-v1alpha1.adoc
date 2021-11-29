@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="consoleplugin-console-openshift-io-v1alpha1"]
 = ConsolePlugin [console.openshift.io/v1alpha1]
 ifdef::product-title[]

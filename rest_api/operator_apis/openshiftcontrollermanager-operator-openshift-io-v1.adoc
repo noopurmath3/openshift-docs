@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="openshiftcontrollermanager-operator-openshift-io-v1"]
 = OpenShiftControllerManager [operator.openshift.io/v1]
 ifdef::product-title[]

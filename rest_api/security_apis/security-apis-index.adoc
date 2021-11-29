@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="security-apis"]
 = Security APIs
 ifdef::product-title[]

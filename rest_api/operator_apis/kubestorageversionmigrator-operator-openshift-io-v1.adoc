@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="kubestorageversionmigrator-operator-openshift-io-v1"]
 = KubeStorageVersionMigrator [operator.openshift.io/v1]
 ifdef::product-title[]

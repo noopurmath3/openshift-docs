@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="clustercsidriver-operator-openshift-io-v1"]
 = ClusterCSIDriver [operator.openshift.io/v1]
 ifdef::product-title[]

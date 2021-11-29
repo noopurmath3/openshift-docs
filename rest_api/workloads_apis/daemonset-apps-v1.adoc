@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="daemonset-apps-v1"]
 = DaemonSet [apps/v1]
 ifdef::product-title[]

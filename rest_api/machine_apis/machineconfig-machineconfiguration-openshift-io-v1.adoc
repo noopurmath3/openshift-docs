@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="machineconfig-machineconfiguration-openshift-io-v1"]
 = MachineConfig [machineconfiguration.openshift.io/v1]
 ifdef::product-title[]

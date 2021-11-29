@@ -1,3 +1,5 @@
+:_content-type: ASSEMBLY
+:_content-type: ASSEMBLY
 [id="provisioning-apis"]
 = Provisioning APIs
 ifdef::product-title[]

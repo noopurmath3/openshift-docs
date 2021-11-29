@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="metadata-apis"]
 = Metadata APIs
 ifdef::product-title[]

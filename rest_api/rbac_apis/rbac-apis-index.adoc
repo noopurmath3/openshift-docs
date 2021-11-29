@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="rbac-apis"]
 = RBAC APIs
 ifdef::product-title[]

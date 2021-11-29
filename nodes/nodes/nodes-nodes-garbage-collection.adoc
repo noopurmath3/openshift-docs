@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 
 :context: nodes-nodes-configuring
 [id="nodes-nodes-garbage-collection"]

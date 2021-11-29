@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="about-contour-operator"]
 = About the Contour Operator
 include::modules/common-attributes.adoc[]

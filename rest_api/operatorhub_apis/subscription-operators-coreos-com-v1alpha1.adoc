@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="subscription-operators-coreos-com-v1alpha1"]
 = Subscription [operators.coreos.com/v1alpha1]
 ifdef::product-title[]

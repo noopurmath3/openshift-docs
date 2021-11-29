@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="controllerrevision-apps-v1"]
 = ControllerRevision [apps/v1]
 ifdef::product-title[]

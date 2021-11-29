@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="ingress-config-openshift-io-v1"]
 = Ingress [config.openshift.io/v1]
 ifdef::product-title[]

@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="helmchartrepository-helm-openshift-io-v1beta1"]
 = HelmChartRepository [helm.openshift.io/v1beta1]
 ifdef::product-title[]

@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="poddisruptionbudget-policy-v1"]
 = PodDisruptionBudget [policy/v1]
 ifdef::product-title[]

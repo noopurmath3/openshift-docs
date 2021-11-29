@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="authentication-operator-openshift-io-v1"]
 = Authentication [operator.openshift.io/v1]
 ifdef::product-title[]

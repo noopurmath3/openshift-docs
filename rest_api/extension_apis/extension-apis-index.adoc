@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="extension-apis"]
 = Extension APIs
 ifdef::product-title[]

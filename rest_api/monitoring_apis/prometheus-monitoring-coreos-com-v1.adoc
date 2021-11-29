@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="prometheus-monitoring-coreos-com-v1"]
 = Prometheus [monitoring.coreos.com/v1]
 ifdef::product-title[]

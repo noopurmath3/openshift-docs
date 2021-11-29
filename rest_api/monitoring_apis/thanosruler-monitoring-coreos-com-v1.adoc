@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="thanosruler-monitoring-coreos-com-v1"]
 = ThanosRuler [monitoring.coreos.com/v1]
 ifdef::product-title[]

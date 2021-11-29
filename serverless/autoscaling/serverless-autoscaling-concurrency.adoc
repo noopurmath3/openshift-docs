@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="serverless-autoscaling-concurrency"]
 = Concurrency
 include::modules/common-attributes.adoc[]

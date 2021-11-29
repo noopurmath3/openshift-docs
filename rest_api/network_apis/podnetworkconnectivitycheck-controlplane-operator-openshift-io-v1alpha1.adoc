@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="podnetworkconnectivitycheck-controlplane-operator-openshift-io-v1alpha1"]
 = PodNetworkConnectivityCheck [controlplane.operator.openshift.io/v1alpha1]
 ifdef::product-title[]

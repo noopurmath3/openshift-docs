@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="packagemanifest-packages-operators-coreos-com-v1"]
 = PackageManifest [packages.operators.coreos.com/v1]
 ifdef::product-title[]

@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="podmonitor-monitoring-coreos-com-v1"]
 = PodMonitor [monitoring.coreos.com/v1]
 ifdef::product-title[]

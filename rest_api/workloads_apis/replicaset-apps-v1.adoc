@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="replicaset-apps-v1"]
 = ReplicaSet [apps/v1]
 ifdef::product-title[]

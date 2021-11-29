@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="configuring-host-device"]
 = Configuring a host-device network
 include::modules/common-attributes.adoc[]

@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="image-config-openshift-io-v1"]
 = Image [config.openshift.io/v1]
 ifdef::product-title[]

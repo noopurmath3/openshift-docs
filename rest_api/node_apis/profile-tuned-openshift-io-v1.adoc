@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="profile-tuned-openshift-io-v1"]
 = Profile [tuned.openshift.io/v1]
 ifdef::product-title[]

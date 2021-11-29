@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="role-authorization-openshift-io-v1"]
 = Role [authorization.openshift.io/v1]
 ifdef::product-title[]
