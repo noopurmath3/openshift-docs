@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="consoleyamlsample-console-openshift-io-v1"]
 = ConsoleYAMLSample [console.openshift.io/v1]
 ifdef::product-title[]

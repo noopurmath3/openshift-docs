@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="volumeattachment-storage-k8s-io-v1"]
 = VolumeAttachment [storage.k8s.io/v1]
 ifdef::product-title[]

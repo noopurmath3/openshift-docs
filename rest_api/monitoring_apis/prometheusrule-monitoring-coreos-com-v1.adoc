@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="prometheusrule-monitoring-coreos-com-v1"]
 = PrometheusRule [monitoring.coreos.com/v1]
 ifdef::product-title[]

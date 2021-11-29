@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="deploying-applications-ossm-v1x"]
 = Deploying applications on {ProductName}
 include::modules/ossm-document-attributes.adoc[]

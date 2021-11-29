@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="user-user-openshift-io-v1"]
 = User [user.openshift.io/v1]
 ifdef::product-title[]

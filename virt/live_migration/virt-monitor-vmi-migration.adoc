@@ -1,3 +1,5 @@
+:_content-type: ASSEMBLY
+:_content-type: ASSEMBLY
 [id="virt-monitor-vmi-migration"]
 = Monitoring live migration of a virtual machine instance
 include::modules/virt-document-attributes.adoc[]

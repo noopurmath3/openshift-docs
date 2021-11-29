@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="horizontalpodautoscaler-autoscaling-v1"]
 = HorizontalPodAutoscaler [autoscaling/v1]
 ifdef::product-title[]

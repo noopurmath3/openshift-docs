@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="oauth-apis"]
 = OAuth APIs
 ifdef::product-title[]

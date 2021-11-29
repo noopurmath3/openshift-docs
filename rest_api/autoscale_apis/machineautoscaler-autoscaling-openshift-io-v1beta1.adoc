@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="machineautoscaler-autoscaling-openshift-io-v1beta1"]
 = MachineAutoscaler [autoscaling.openshift.io/v1beta1]
 ifdef::product-title[]

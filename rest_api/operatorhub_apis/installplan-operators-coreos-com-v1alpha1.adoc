@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="installplan-operators-coreos-com-v1alpha1"]
 = InstallPlan [operators.coreos.com/v1alpha1]
 ifdef::product-title[]

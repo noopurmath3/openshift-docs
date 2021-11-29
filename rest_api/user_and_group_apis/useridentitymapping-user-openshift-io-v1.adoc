@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="useridentitymapping-user-openshift-io-v1"]
 = UserIdentityMapping [user.openshift.io/v1]
 ifdef::product-title[]

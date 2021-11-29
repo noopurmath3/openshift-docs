@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="removing-ossm"]
 = Uninstalling {ProductName}
 include::modules/ossm-document-attributes.adoc[]

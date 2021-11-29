@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="infrastructure-config-openshift-io-v1"]
 = Infrastructure [config.openshift.io/v1]
 ifdef::product-title[]

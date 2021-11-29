@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="clusterrolebinding-authorization-openshift-io-v1"]
 = ClusterRoleBinding [authorization.openshift.io/v1]
 ifdef::product-title[]

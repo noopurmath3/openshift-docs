@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="kubeletconfig-machineconfiguration-openshift-io-v1"]
 = KubeletConfig [machineconfiguration.openshift.io/v1]
 ifdef::product-title[]

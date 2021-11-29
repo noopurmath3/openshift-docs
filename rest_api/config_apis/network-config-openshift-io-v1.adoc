@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="network-config-openshift-io-v1"]
 = Network [config.openshift.io/v1]
 ifdef::product-title[]

@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="imagestream-image-openshift-io-v1"]
 = ImageStream [image.openshift.io/v1]
 ifdef::product-title[]

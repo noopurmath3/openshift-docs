@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="imagecontentsourcepolicy-operator-openshift-io-v1alpha1"]
 = ImageContentSourcePolicy [operator.openshift.io/v1alpha1]
 ifdef::product-title[]

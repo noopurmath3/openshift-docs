@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="servicemonitor-monitoring-coreos-com-v1"]
 = ServiceMonitor [monitoring.coreos.com/v1]
 ifdef::product-title[]

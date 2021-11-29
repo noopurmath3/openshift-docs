@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="oauthclientauthorization-oauth-openshift-io-v1"]
 = OAuthClientAuthorization [oauth.openshift.io/v1]
 ifdef::product-title[]

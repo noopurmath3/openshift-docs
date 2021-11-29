@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="binding-core-v1"]
 = Binding [core/v1]
 ifdef::product-title[]

@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="workloads-apis"]
 = Workloads APIs
 ifdef::product-title[]

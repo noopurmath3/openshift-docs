@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="image-apis"]
 = Image APIs
 ifdef::product-title[]

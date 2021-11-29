@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="tuned-tuned-openshift-io-v1"]
 = Tuned [tuned.openshift.io/v1]
 ifdef::product-title[]

@@ -1,3 +1,5 @@
+:_content-type: ASSEMBLY
+:_content-type: ASSEMBLY
 [id="provisioning-metal3-io-v1alpha1"]
 = Provisioning [metal3.io/v1alpha1]
 ifdef::product-title[]

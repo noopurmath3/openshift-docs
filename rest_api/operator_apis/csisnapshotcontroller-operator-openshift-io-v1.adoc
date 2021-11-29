@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="csisnapshotcontroller-operator-openshift-io-v1"]
 = CSISnapshotController [operator.openshift.io/v1]
 ifdef::product-title[]

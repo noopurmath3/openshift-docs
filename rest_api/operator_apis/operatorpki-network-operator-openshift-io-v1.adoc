@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="operatorpki-network-operator-openshift-io-v1"]
 = OperatorPKI [network.operator.openshift.io/v1]
 ifdef::product-title[]

@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="alertmanager-monitoring-coreos-com-v1"]
 = Alertmanager [monitoring.coreos.com/v1]
 ifdef::product-title[]

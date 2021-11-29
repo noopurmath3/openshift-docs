@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="machine-apis"]
 = Machine APIs
 ifdef::product-title[]

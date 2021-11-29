@@ -1,3 +1,5 @@
+:_content-type: ASSEMBLY
+:_content-type: ASSEMBLY
 [id="project-project-openshift-io-v1"]
 = Project [project.openshift.io/v1]
 ifdef::product-title[]

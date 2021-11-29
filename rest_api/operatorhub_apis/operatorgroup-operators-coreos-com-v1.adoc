@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="operatorgroup-operators-coreos-com-v1"]
 = OperatorGroup [operators.coreos.com/v1]
 ifdef::product-title[]

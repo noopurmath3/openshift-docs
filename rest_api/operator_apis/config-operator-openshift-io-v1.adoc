@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="config-operator-openshift-io-v1"]
 = Config [operator.openshift.io/v1]
 ifdef::product-title[]

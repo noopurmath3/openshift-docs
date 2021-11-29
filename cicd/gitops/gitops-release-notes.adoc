@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 //OpenShift GitOps Release Notes
 include::modules/gitops-document-attributes.adoc[]
 [id="gitops-release-notes"]

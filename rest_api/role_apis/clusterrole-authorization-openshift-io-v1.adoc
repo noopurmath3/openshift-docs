@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="clusterrole-authorization-openshift-io-v1"]
 = ClusterRole [authorization.openshift.io/v1]
 ifdef::product-title[]

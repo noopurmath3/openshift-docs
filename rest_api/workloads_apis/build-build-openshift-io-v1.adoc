@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="build-build-openshift-io-v1"]
 = Build [build.openshift.io/v1]
 ifdef::product-title[]

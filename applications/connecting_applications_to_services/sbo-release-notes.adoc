@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 //OpenShift Service Binding Release Notes
 include::modules/servicebinding-document-attributes.adoc[]
 [id="servicebinding-release-notes"]

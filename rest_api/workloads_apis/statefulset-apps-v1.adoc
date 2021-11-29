@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="statefulset-apps-v1"]
 = StatefulSet [apps/v1]
 ifdef::product-title[]

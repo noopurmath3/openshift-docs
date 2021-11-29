@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 
 :context: nodes-nodes-viewing
 [id="nodes-nodes-viewing"]

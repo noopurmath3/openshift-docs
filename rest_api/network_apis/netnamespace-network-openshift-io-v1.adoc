@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="netnamespace-network-openshift-io-v1"]
 = NetNamespace [network.openshift.io/v1]
 ifdef::product-title[]

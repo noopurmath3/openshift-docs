@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="etcd-operator-openshift-io-v1"]
 = Etcd [operator.openshift.io/v1]
 ifdef::product-title[]

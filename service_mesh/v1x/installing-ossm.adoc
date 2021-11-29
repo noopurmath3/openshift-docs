@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="installing-ossm-v1x"]
 = Installing {ProductName}
 include::modules/ossm-document-attributes-1x.adoc[]

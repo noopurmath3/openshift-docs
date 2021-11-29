@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="apiserver-config-openshift-io-v1"]
 = APIServer [config.openshift.io/v1]
 ifdef::product-title[]

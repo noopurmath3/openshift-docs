@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="appliedclusterresourcequota-quota-openshift-io-v1"]
 = AppliedClusterResourceQuota [quota.openshift.io/v1]
 ifdef::product-title[]

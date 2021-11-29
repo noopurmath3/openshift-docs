@@ -1,3 +1,5 @@
+:_content-type: ASSEMBLY
+:_content-type: ASSEMBLY
 [id="project-apis"]
 = Project APIs
 ifdef::product-title[]

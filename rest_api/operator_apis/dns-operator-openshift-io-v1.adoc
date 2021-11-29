@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="dns-operator-openshift-io-v1"]
 = DNS [operator.openshift.io/v1]
 ifdef::product-title[]

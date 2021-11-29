@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="proxy-config-openshift-io-v1"]
 = Proxy [config.openshift.io/v1]
 ifdef::product-title[]

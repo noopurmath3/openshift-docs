@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="kubescheduler-operator-openshift-io-v1"]
 = KubeScheduler [operator.openshift.io/v1]
 ifdef::product-title[]

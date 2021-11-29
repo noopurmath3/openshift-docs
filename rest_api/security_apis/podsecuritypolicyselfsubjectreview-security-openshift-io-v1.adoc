@@ -1,3 +1,4 @@
+:_content-type: ASSEMBLY
 [id="podsecuritypolicyselfsubjectreview-security-openshift-io-v1"]
 = PodSecurityPolicySelfSubjectReview [security.openshift.io/v1]
 ifdef::product-title[]
