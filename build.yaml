@@ -1,0 +1,67 @@
+repository: ocp
+variants:
+ - name: openshift-container-platform
+   attributes:
+    - _artifacts/ocp-attributes.adoc
+   build: true
+   files:
+     included:
+       - welcome/**/*.adoc
+       - release_notes/**/*.adoc
+       - architecture/**/*.adoc
+       - installing/**/*.adoc
+       - post_installation_configuration/**/*.adoc
+       - updating/**/*.adoc
+       - support/**/*.adoc
+       - web_console/**/*.adoc
+       - cli_reference/**/*.adoc
+       - security/**/*.adoc
+       - authentication/**/*.adoc
+       - networking/**/*.adoc
+       - storage/**/*.adoc
+       - registry/**/*.adoc
+       - operators/**/*.adoc
+       - cicd/**/*.adoc
+       - openshift_images/**/*.adoc
+       - applications/**/*.adoc
+       - machine_management/**/*.adoc
+       - nodes/**/*.adoc
+       - windows_containers/**/*.adoc
+       - sandboxed_containers/**/*.adoc
+       - logging/**/*.adoc
+       - monitoring/**/*.adoc
+       - scalability_and_performance/**/*.adoc
+       - hardware_enablement/**/*.adoc
+       - backup_and_restore/**/*.adoc
+       - migrating_from_ocp_3_to_4/**/*.adoc
+       - migration_toolkit_for_containers/**/*.adoc
+       - rest_api/**/*.adoc
+       - service_mesh/**/*.adoc
+       - jaeger/**/*.adoc
+       - virt/**/*.adoc
+       - serverless/**/*.adoc
+       - modules/**/*.adoc
+- name: openshift-dedicated
+  attributes:
+   - _artifacts/osd-attributes.adoc
+  build: true
+  files:
+    included:
+      - osd_architecture/**/*.adoc
+      - welcome/**/*.adoc
+      - osd_planning/**/*.adoc
+      - osd_quickstart/**/*.adoc
+      - osd_cluster_create/**/*.adoc
+      - identity_providers/**/*.adoc
+      - administering_a_cluster/**/*.adoc
+      - upgrading/**/*.adoc
+      - osd_notifications/**/*.adoc
+      - adding_service/**/*.adoc
+      - osd_private_connections/**/*.adoc
+      - networking/openshift_sdn/**/*.adoc
+      - nodes/**/*.adoc
+      - monitoring/**/*.adoc
+      - applications/deployments/**/*.adoc
+      - osd_policy/**/*.adoc
+      - support/**/*.adoc
+      - modules/**/*.adoc
