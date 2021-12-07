@@ -2,7 +2,7 @@ repository: ocp
 variants:
  - name: openshift-container-platform
    attributes:
-    - _artifacts/ocp-attributes.adoc
+    - _attributes/ocp-attributes.adoc
    build: true
    files:
      included:
@@ -43,7 +43,7 @@ variants:
        - modules/**/*.adoc
 - name: openshift-dedicated
   attributes:
-   - _artifacts/osd-attributes.adoc
+   - _attributes/osd-attributes.adoc
   build: true
   files:
     included:
