@@ -41,10 +41,12 @@ variants:
        - virt/**/*.adoc
        - serverless/**/*.adoc
        - modules/**/*.adoc
+       - images/*.png
+       - images/*.svg
 - name: openshift-dedicated
   attributes:
    - _attributes/osd-attributes.adoc
-  build: true
+  build: false
   files:
     included:
       - osd_architecture/**/*.adoc

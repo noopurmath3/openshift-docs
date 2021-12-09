@@ -1,3 +1,4 @@
 :distro: openshift-enterprise
-:product-name: OpenShift Container Platform
-:product-version: adoc-test
+:product-title: OpenShift Container Platform
+:product-version: 4.9
+:openshift-enterprise: true
