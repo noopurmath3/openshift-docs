@@ -1,8 +1,8 @@
-repository: ocp
+repository: ocp-tests
 variants:
  - name: openshift-container-platform
    attributes:
-    - _attributes/ocp-attributes.adoc
+    - _artifacts/ocp-attributes.adoc
    build: true
    files:
      included:
@@ -43,27 +43,53 @@ variants:
        - modules/**/*.adoc
        - images/*.png
        - images/*.svg
-- name: openshift-dedicated
-  attributes:
-   - _attributes/osd-attributes.adoc
-  build: false
-  files:
-    included:
-      - osd_architecture/**/*.adoc
-      - welcome/**/*.adoc
-      - osd_planning/**/*.adoc
-      - osd_quickstart/**/*.adoc
-      - osd_cluster_create/**/*.adoc
-      - identity_providers/**/*.adoc
-      - administering_a_cluster/**/*.adoc
-      - upgrading/**/*.adoc
-      - osd_notifications/**/*.adoc
-      - adding_service/**/*.adoc
-      - osd_private_connections/**/*.adoc
-      - networking/openshift_sdn/**/*.adoc
-      - nodes/**/*.adoc
-      - monitoring/**/*.adoc
-      - applications/deployments/**/*.adoc
-      - osd_policy/**/*.adoc
-      - support/**/*.adoc
-      - modules/**/*.adoc
+     excluded:
+       - _unused_topics
+       - _package
+       - _stylesheets
+       - scripts
+       - whats_new
+       - getting_started
+       - cloud_infrastructure_access
+       - administering_a_cluster
+       - _images
+       - _javascript
+       - _preview
+       - _snippets
+       - _templates
+ - name: openshift-dedicated
+   attributes:
+    - _artifacts/osd-attributes.adoc
+   build: false
+   files:
+     included:
+       - osd_architecture/**/*.adoc
+       - welcome/**/*.adoc
+       - osd_planning/**/*.adoc
+       - osd_quickstart/**/*.adoc
+       - osd_cluster_create/**/*.adoc
+       - identity_providers/**/*.adoc
+       - administering_a_cluster/**/*.adoc
+       - upgrading/**/*.adoc
+       - osd_notifications/**/*.adoc
+       - adding_service/**/*.adoc
+       - osd_private_connections/**/*.adoc
+       - networking/openshift_sdn/**/*.adoc
+       - nodes/**/*.adoc
+       - monitoring/**/*.adoc
+       - applications/deployments/**/*.adoc
+       - osd_policy/**/*.adoc
+       - support/**/*.adoc
+       - modules/**/*.adoc
+     excluded:
+       - _unused_topics
+       - _package
+       - _stylesheets
+       - scripts
+       - installing
+       - whats_new
+       - _images
+       - _javascript
+       - _preview
+       - _snippets
+       - _templates
