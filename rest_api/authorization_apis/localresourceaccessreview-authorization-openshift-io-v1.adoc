@@ -128,7 +128,7 @@ Description::
 | Parameter | Type | Description
 | `body`
 | xref:../authorization_apis/localresourceaccessreview-authorization-openshift-io-v1.adoc#localresourceaccessreview-authorization-openshift-io-v1[`LocalResourceAccessReview authorization.openshift.io/v1`]
-| 
+|
 |===
 
 .HTTP responses
@@ -138,5 +138,3 @@ Description::
 | 200 - OK
 | xref:../authorization_apis/localresourceaccessreview-authorization-openshift-io-v1.adoc#localresourceaccessreview-authorization-openshift-io-v1[`LocalResourceAccessReview authorization.openshift.io/v1`]
 |===
-
-
