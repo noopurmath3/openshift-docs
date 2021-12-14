@@ -6,41 +6,7 @@ variants:
    build: true
    files:
      included:
-       - welcome/**/*.adoc
-       - release_notes/**/*.adoc
-       - architecture/**/*.adoc
-       - installing/**/*.adoc
-       - post_installation_configuration/**/*.adoc
-       - updating/**/*.adoc
-       - support/**/*.adoc
-       - web_console/**/*.adoc
-       - cli_reference/**/*.adoc
-       - security/**/*.adoc
-       - authentication/**/*.adoc
-       - networking/**/*.adoc
-       - storage/**/*.adoc
-       - registry/**/*.adoc
-       - operators/**/*.adoc
-       - cicd/**/*.adoc
        - openshift_images/**/*.adoc
-       - applications/**/*.adoc
-       - machine_management/**/*.adoc
-       - nodes/**/*.adoc
-       - windows_containers/**/*.adoc
-       - sandboxed_containers/**/*.adoc
-       - logging/**/*.adoc
-       - monitoring/**/*.adoc
-       - scalability_and_performance/**/*.adoc
-       - hardware_enablement/**/*.adoc
-       - backup_and_restore/**/*.adoc
-       - migrating_from_ocp_3_to_4/**/*.adoc
-       - migration_toolkit_for_containers/**/*.adoc
-       - rest_api/**/*.adoc
-       - service_mesh/**/*.adoc
-       - jaeger/**/*.adoc
-       - virt/**/*.adoc
-       - serverless/**/*.adoc
-       - modules/**/*.adoc
        - images/*.png
        - images/*.svg
      excluded:
