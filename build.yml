@@ -1,0 +1,78 @@
+repository: ocp-tests
+variants:
+ - name: openshift-container-platform
+   attributes:
+    - _attributes/ocp-attributes.adoc
+   build: true
+   files:
+     included:
+       - welcome/**/*.adoc
+       - release_notes/**/*.adoc
+       - architecture/**/*.adoc
+       - installing/**/*.adoc
+       - post_installation_configuration/**/*.adoc
+       - updating/**/*.adoc
+       - support/**/*.adoc
+       - web_console/**/*.adoc
+       - cli_reference/**/*.adoc
+       - security/**/*.adoc
+       - authentication/**/*.adoc
+       - networking/**/*.adoc
+       - storage/**/*.adoc
+       - registry/**/*.adoc
+       - operators/**/*.adoc
+       - cicd/**/*.adoc
+       - openshift_images/**/*.adoc
+       - applications/**/*.adoc
+       - machine_management/**/*.adoc
+       - nodes/**/*.adoc
+       - windows_containers/**/*.adoc
+       - sandboxed_containers/**/*.adoc
+       - logging/**/*.adoc
+       - monitoring/**/*.adoc
+       - scalability_and_performance/**/*.adoc
+       - hardware_enablement/**/*.adoc
+       - backup_and_restore/**/*.adoc
+       - migrating_from_ocp_3_to_4/**/*.adoc
+       - migration_toolkit_for_containers/**/*.adoc
+       - rest_api/**/*.adoc
+       - service_mesh/**/*.adoc
+       - jaeger/**/*.adoc
+       - virt/**/*.adoc
+       - serverless/**/*.adoc
+       - modules/**/*.adoc
+       - images/*.png
+       - images/*.svg
+     excluded:
+       - contributing_to_docs/**/*.adoc
+       - mod_docs_guide/**/*.adoc
+       - rosa_architecture/**/*.adoc
+       - rosa_planning/**/*.adoc
+       - rosa_getting_started_sts/**/*.adoc
+       - rosa_getting_started/**/*.adoc
+       - adding_service_cluster/**/*.adoc
+       - rosa_cli/**/*.adoc
+       - cloud_infrastructure_access/**/*.adoc
+       - rosa_policy/**/*.adoc
+       - rosa_support/**/*.adoc
+       - osd_architecture/**/*.adoc
+       - osd_planning/**/*.adoc
+       - osd_quickstart/**/*.adoc
+       - administering_a_cluster/**/*.adoc
+       - osd_cluster_create/**/*.adoc
+       - upgrading/**/*.adoc
+       - osd_notifications/**/*.adoc
+       - osd_policy/**/*.adoc
+       - _unused_topics/**/*.adoc
+       - _package/**/*
+       - _stylesheets/**/*
+       - scripts/**/*
+       - _images/**/*
+       - _javascript/**/*
+       - _preview/**/*
+       - _snippets/**/*
+       - _templates/**/*
+       - _topic_maps/**/*
+       - .github/**/*
+       - .git/**/*
+       - .s2i/**/*
