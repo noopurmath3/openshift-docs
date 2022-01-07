@@ -10,19 +10,5 @@ variants:
        - images/*.png
        - images/*.svg
        - modules/**/*.adoc
-     excluded:
-       - _unused_topics
-       - _package
-       - _stylesheets
-       - scripts
-       - whats_new
-       - getting_started
-       - cloud_infrastructure_access
-       - administering_a_cluster
-       - _images
-       - _javascript
-       - _preview
-       - _snippets
-       - _templates
 
 
