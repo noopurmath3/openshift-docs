@@ -1,0 +1,50 @@
+---
+# nav.yml template with 4 nested levels
+# main-menu
+#   Some String1
+#     Some String1 child1
+#       Some String1 child1 grandchild1
+#         Some String1 child1 grandchild1 great-grandchild1
+#          
+# In this example, the main-menu list is nested 4 levels deep. Please note there is a cap on the number of levels as it affects the user experience on the UI. 
+# the cap on the nesting levels will be decided by the UX designer. 
+main-menu:
+  # name is the link-title
+  - name: Some String1
+    # When users click on "Some String1" on the left nav, it goes no where. If "Some String1" is an expandable, it toggles the expandable.
+    items:  
+      # name is the link-title
+      - name: Some String1 child1  
+        # path to the assemlby/module. when users click on "Some String1 child1" on the left nav, it will displays the html content of the following adoc
+        path: subdir/my.adoc
+        items:
+          - name: Some String1 child1 grandchild1
+          - path: path_to_adoc
+            items:
+              - name: Some String1 child1 grandchild1 great-grandchild1
+              - path: path_to_adoc
+
+  - name: Some String2
+    items:  
+      - name: Some String2 child1
+        # path to the assembly. when users click on "Some String2 child1" on the left nav, it will displays the html content of the following adoc
+        path: assemblies/subdir/myassembly1.adoc 
+        items:
+          - name: Some String2 child1 grandchild1
+          - path: path_to_adoc
+          - name: Some String2 child2 grandchild2
+          - path: path_to_adoc
+      - name: Some String2 child2
+        # path to the assembly. when users click on "Some String2 child2" on the left nav, it will displays the html content of the following adoc
+        path: assemblies/subdir/myassembly2.adoc
+        items:
+          - name: Some String2 child2 grandchild2
+          - path: path_to_adoc
+            
+# resources maintains a list of links that are outside of the current repository
+resources:
+  - name: External Title1
+    path: https://www.exampe.com/page1
+  - name: External Title2
+    path: https://www.exampe.com/page2
+    

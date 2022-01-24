@@ -3,12 +3,74 @@ variants:
  - name: openshift-container-platform
    attributes:
     - _attributes/ocp-attributes.adoc
+   nav: nav_temlate_4_levels_nested.yml
    build: true
    files:
      included:
-       - openshift_images/**/*.adoc
+       - release_notes/**/*.adoc
+       - installing/**/*.adoc
+       - modules/**/*.adoc
        - images/*.png
        - images/*.svg
+     excluded:
+       - contributing_to_docs/**/*.adoc
+       - mod_docs_guide/**/*.adoc
+       - rosa_architecture/**/*.adoc
+       - rosa_planning/**/*.adoc
+       - rosa_getting_started_sts/**/*.adoc
+       - rosa_getting_started/**/*.adoc
+       - adding_service_cluster/**/*.adoc
+       - rosa_cli/**/*.adoc
+       - cloud_infrastructure_access/**/*.adoc
+       - rosa_policy/**/*.adoc
+       - rosa_support/**/*.adoc
+       - osd_architecture/**/*.adoc
+       - osd_planning/**/*.adoc
+       - osd_quickstart/**/*.adoc
+       - administering_a_cluster/**/*.adoc
+       - osd_cluster_create/**/*.adoc
+       - upgrading/**/*.adoc
+       - osd_notifications/**/*.adoc
+       - osd_policy/**/*.adoc
+       - _unused_topics/**/*.adoc
+       - _package/**/*.*
+       - _stylesheets/**/*.*
+       - scripts/**/*.*
+       - _images/**/*.*
+       - _javascript/**/*.*
+       - _preview/**/*.*
+       - _snippets/**/*.*
+       - _templates/**/*.*
+       - _topic_maps/**/*.*
+       - .github/**/*.*
+       - .git/**/*.*
+       - .s2i/**/*.*
+ - name: openshift-dedicated
+   attributes:
+    - _attributes/osd-attributes.adoc
+   nav: nav_temlate_2_levels_nested.yml
+   build: false
+   files:
+     included:
+       - osd_architecture/**/*.adoc
+       - welcome/**/*.adoc
        - modules/**/*.adoc
+     excluded:
+       - _unused_topics/*.adoc
+       - _stylesheets/*.css
+       - _stylesheets/**/*.scss
+       - scripts
+       - installing
+       - whats_new
+       - _images
+       - _javascript
+       - _preview
+       - _snippets
+       - _templates
+       - _topic_maps
+       - .github
+       - .git
+       - .s2i
+
 
 
