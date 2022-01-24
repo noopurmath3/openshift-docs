@@ -3,7 +3,7 @@ variants:
  - name: openshift-container-platform
    attributes:
     - _attributes/ocp-attributes.adoc
-   nav: nav_temlate_4_levels_nested.yml
+   nav: _attributes/nav_temlate_4_levels_nested.yml
    build: true
    files:
      included:
@@ -48,7 +48,7 @@ variants:
  - name: openshift-dedicated
    attributes:
     - _attributes/osd-attributes.adoc
-   nav: nav_temlate_2_levels_nested.yml
+   nav: _attributes/nav_temlate_2_levels_nested.yml
    build: false
    files:
      included:
