@@ -4,7 +4,7 @@ variants:
    attributes:
     - _attributes/ocp-attributes.adoc
    nav: _attributes/nav_temlate_4_levels_nested.yml
-   build: true
+   build: false
    files:
      included:
        - welcome/**/*.adoc
@@ -81,7 +81,7 @@ variants:
    attributes:
     - _attributes/osd-attributes.adoc
    nav: _attributes/nav_temlate_2_levels_nested.yml
-   build: false
+   build: true
    files:
      included:
        - osd_architecture/**/*.adoc
